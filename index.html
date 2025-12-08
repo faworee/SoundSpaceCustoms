@@ -1,17 +1,3185 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="refresh" content="0; url=https://faworee.com/soundspacecustoms">
-    <title>Redirecting...</title>
-    <script>
-        window.location.replace("https://faworee.com/soundspacecustoms");
-    </script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sound Space Custom Maps</title>
+<style>
+body {
+    background-color: #0f0f0f;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+}
+
+.deprecation-notice {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(135deg, #ff6b6b, #ee5a6f);
+    color: white;
+    padding: 15px 40px 15px 20px;
+    text-align: center;
+    z-index: 10001;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+    font-size: 1.1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.deprecation-notice a {
+    color: white;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.deprecation-notice button {
+    position: absolute;
+    right: 15px;
+    background: rgba(255,255,255,0.2);
+    border: none;
+    color: white;
+    font-size: 1.5em;
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background 0.2s;
+}
+
+.deprecation-notice button:hover {
+    background: rgba(255,255,255,0.3);
+}
+
+.deprecation-notice.hidden {
+    display: none;
+}
+
+body.notice-visible {
+    padding-top: 80px;
+}
+
+-dropdown-toggle:hover {
+    background-color: #555;
+    transform: scale(1.05);
+}
+
+.low-quality .patterns-dropdown-toggle:hover {
+    transform: none;
+}
+
+.patterns-dropdown-menu {
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    display: none;
+    background-color: #222;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.7);
+    z-index: 100; 
+    margin-bottom: 5px;
+    min-width: 100px;
+    max-width: 150px;
+}
+
+.low-quality .patterns-dropdown-menu {
+    box-shadow: none;
+    border: 1px solid #444;
+}
+
+.patterns-dropdown-menu.show {
+    display: block;
+}
+
+.patterns-dropdown-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+    max-height: 120px;
+    overflow-y: auto;
+    scrollbar-width: thin;
+    scrollbar-color: #555 #222;
+}
+
+.patterns-dropdown-menu ul::-webkit-scrollbar {
+    width: 6px;
+}
+
+.patterns-dropdown-menu ul::-webkit-scrollbar-track {
+    background: #222;
+    border-radius: 3px;
+}
+
+.patterns-dropdown-menu ul::-webkit-scrollbar-thumb {
+    background-color: #555;
+    border-radius: 3px;
+    border: 1px solid #222;
+}
+
+.patterns-dropdown-menu ul::-webkit-scrollbar-thumb:hover {
+    background-color: #666;
+}
+
+.patterns-dropdown-menu li {
+    padding: 5px 10px;
+    background-color: #333;
+    border-radius: 5px;
+    font-size: 0.8em;
+    white-space: nowrap;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.action-dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.action-dropdown-toggle {
+    border-radius: 25px;
+    padding: 6px 12px;
+    cursor: pointer;
+    font-size: 0.85em;
+    transition: background 0.2s, transform 0.2s;
+    flex-shrink: 0;
+    border: none;
+    color: white;
+    background-color: #333;
+}
+
+.low-quality .action-dropdown-toggle {
+    transition: none;
+    border-radius: 15px;
+}
+
+.action-dropdown-toggle:hover {
+    background-color: #555;
+    transform: scale(1.05);
+}
+
+.low-quality .action-dropdown-toggle:hover {
+    transform: none;
+}
+
+.action-dropdown-menu {
+    position: absolute;
+    bottom: 100%;
+    right: 0;
+    transform: translateX(15%);
+    display: none;
+    background-color: #222;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.7);
+    z-index: 100;
+    margin-bottom: 5px;
+}
+
+.low-quality .action-dropdown-menu {
+    box-shadow: none;
+    border: 1px solid #444;
+}
+
+.action-dropdown-menu.show {
+    display: block;
+}
+
+.action-dropdown-menu .dropdown-item {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    background-color: #333;
+    border-radius: 5px;
+    font-size: 0.8em;
+    white-space: nowrap;
+    transition: background-color 0.2s;
+}
+
+.low-quality .action-dropdown-menu .dropdown-item {
+    transition: none;
+}
+
+.action-dropdown-menu .dropdown-item:hover {
+    background-color: #444;
+}
+
+.no-data {
+    color: #999;
+    font-size: 0.8em;
+    text-align: center;
+}
+
+#popup {
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #28a745;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    display: none;
+    font-size: 1em;
+    z-index: 1000;
+}
+
+.loading-spinner {
+    display: none;
+    margin: 50px auto;
+    width: 50px;
+    height: 50px;
+    border: 3px solid #333;
+    border-top: 3px solid #4facfe;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.map-stats {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 8px 0;
+}
+
+.map-stat-item {
+    background: linear-gradient(135deg, #1a1a1a, #2a2a2a);
+    border: none;
+    border-radius: 25px; 
+    padding: 6px 12px; 
+    box-shadow: 0 4px 15px rgba(79, 172, 254, 0.3);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    font-size: 0.85em;
+    color: white;
+}
+
+.low-quality .map-stat-item {
+    background: #1a1a1a;
+    box-shadow: none;
+    border-radius: 15px;
+    border: 1px solid rgba(79, 172, 254, 0.3);
+}
+
+.map-stat-item img {
+    height: 16px;
+    width: auto;
+    filter: drop-shadow(0 0 2px #fff);
+    vertical-align: middle;
+}
+
+.low-quality .map-stat-item img {
+    filter: none;
+}
+
+.map-stat-item span {
+    font-size: 1em;
+    color: #00f2fe;
+}
+
+.load-more-container {
+    display: flex;
+    justify-content: center;
+    margin: 40px 0;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 768px) {
+    .load-more-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+}
+
+.load-more-btn {
+    background: linear-gradient(90deg, #4facfe, #f093fb);
+    color: white;
+    border: none;
+    border-radius: 25px;
+    padding: 15px 30px;
+    font-size: 1.1em;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(79, 172, 254, 0.4);
+}
+
+@media (max-width: 768px) {
+    .load-more-btn {
+        padding: 12px 24px;
+        font-size: 1em;
+    }
+}
+
+.low-quality .load-more-btn {
+    background: #4facfe;
+    box-shadow: none;
+    transition: none;
+    border-radius: 15px;
+}
+
+.load-more-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(79, 172, 254, 0.6);
+}
+
+.low-quality .load-more-btn:hover {
+    transform: none;
+    box-shadow: none;
+    background: #00f2fe;
+}
+
+.load-more-btn:disabled {
+    background: #333;
+    color: #666;
+    cursor: not-allowed;
+    transform: none;
+    box-shadow: none;
+}
+
+.scroll-indicator {
+    background: rgba(79, 172, 254, 0.1);
+    color: #4facfe;
+    border: 1px solid rgba(79, 172, 254, 0.3);
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 0.9em;
+}
+
+@media (max-width: 768px) {
+    .scroll-indicator {
+        font-size: 0.8em;
+        padding: 8px 16px;
+        text-align: center;
+    }
+}
+
+.low-quality .scroll-indicator {
+    border-radius: 10px;
+}
+
+.error-message {
+    background: rgba(220, 53, 69, 0.1);
+    color: #dc3545;
+    border: 1px solid rgba(220, 53, 69, 0.3);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 600px;
+    text-align: center;
+}
+
+.patterns-dropdown-toggle.no-click {
+    cursor: default;
+    background-color: #333;
+}
+
+.patterns-dropdown-toggle.no-click:hover {
+    transform: none;
+    background-color: #333;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 2000px;
+    margin: 0 auto 30px;
+    position: relative;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.header-left {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.header-right {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+@media (max-width: 768px) {
+    .header-container {
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .header-left, .header-right {
+        flex-direction: column;
+        gap: 10px;
+        width: 100%;
+    }
+}
+
+.header-button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1em;
+    transition: background 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+}
+
+@media (max-width: 768px) {
+    .header-button {
+        padding: 8px 16px;
+        font-size: 0.9em;
+    }
+}
+
+.discord-button {
+    background: #5865F2;
+    color: white;
+}
+
+.discord-button:hover {
+    background: #4a54c9;
+}
+
+.info-button {
+    background: linear-gradient(90deg, #1abc9c, #2ecc71);
+    color: white;
+}
+
+.info-button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 15px rgba(26, 188, 156, 0.5);
+}
+
+.random-button {
+    background: linear-gradient(90deg, #ff6b6b, #ee5a6f);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.random-button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 15px rgba(255, 107, 107, 0.5);
+}
+
+.settings-dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.settings-toggle {
+    background: linear-gradient(90deg, #6c757d, #5a6268);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1em;
+    transition: background 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+}
+
+.settings-toggle:hover {
+    background: linear-gradient(90deg, #5a6268, #545b62);
+}
+
+.settings-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: #222;
+    min-width: 200px;
+    box-shadow: 0px 8px 20px rgba(0,0,0,0.4);
+    z-index: 1000;
+    border-radius: 15px;
+    padding: 15px;
+    margin-top: 10px;
+    border: 1px solid #444;
+}
+
+.settings-menu.show {
+    display: block;
+}
+
+.settings-option {
+    padding: 10px;
+    margin: 5px 0;
+    background: #333;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.2s;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.settings-option:hover {
+    background: #444;
+}
+
+.settings-option.active {
+    background: linear-gradient(90deg, #4facfe, #00f2fe);
+    color: white;
+}
+
+h1 {
+    font-size: 3em;
+    background: linear-gradient(90deg, #4facfe, #f093fb);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 30px;
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2em;
+        margin-bottom: 20px;
+    }
+}
+
+.low-quality h1 {
+    background: none;
+    color: #4facfe;
+    -webkit-text-fill-color: initial;
+}
+
+#search-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+
+.search-filters-container {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 768px) {
+    #search-container {
+        flex-direction: column;
+        gap: 15px;
+    }
+    
+    .search-filters-container {
+        flex-direction: column;
+        gap: 10px;
+        width: 100%;
+    }
+}
+
+#search-bar {
+    padding: 12px;
+    width: 50%;
+    max-width: 350px;
+    border-radius: 30px;
+    border: none;
+    font-size: 1em;
+    text-align: center;
+    background: #1e1e1e;
+    color: white;
+    box-shadow: inset 0 0 5px rgba(0, 255, 255, 0.1), 0 0 10px rgba(0, 255, 255, 0.2);
+    transition: box-shadow 0.3s;
+}
+
+@media (max-width: 768px) {
+    #search-bar {
+        width: 90%;
+        padding: 15px;
+    }
+}
+
+.low-quality #search-bar {
+    box-shadow: none;
+    border: 1px solid #444;
+    transition: none;
+}
+
+#search-bar:focus {
+    outline: none;
+    box-shadow: inset 0 0 8px rgba(0, 255, 255, 0.3), 0 0 15px rgba(0, 255, 255, 0.5);
+}
+
+.low-quality #search-bar:focus {
+    box-shadow: none;
+    border-color: #4facfe;
+}
+
+.filter-dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+#filter-toggle {
+    padding: 12px 20px;
+    border-radius: 30px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    transition: transform 0.2s, box-shadow 0.3s;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+    background: linear-gradient(90deg, #17a2b8, #138496);
+}
+
+#open-log-btn {
+    padding: 12px 20px;
+    border-radius: 30px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    transition: transform 0.2s, box-shadow 0.3s;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+    background: linear-gradient(90deg, #ea82ff, #6b2868);
+}
+
+@media (max-width: 768px) {
+    #filter-toggle {
+        padding: 10px 16px;
+        font-size: 0.9em;
+    }
+}
+
+@media (max-width: 768px) {
+    #open-log-btn {
+        padding: 10px 16px;
+        font-size: 0.9em;
+    }
+}
+
+.low-quality #filter-toggle {
+    transition: none;
+    box-shadow: none;
+    border: 1px solid #444;
+    background: #17a2b8;
+}
+
+#filter-toggle:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 12px #138496;
+}
+
+.low-quality #filter-toggle:hover {
+    transform: none;
+    box-shadow: none;
+    background: #138496;
+}
+
+.sort-dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.sort-dropdown-toggle {
+    background: linear-gradient(90deg, #28a745, #218838);
+    padding: 12px 20px;
+    border-radius: 30px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    transition: transform 0.2s, box-shadow 0.3s;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+}
+
+.low-quality .sort-dropdown-toggle {
+    transition: none;
+    box-shadow: none;
+    border: 1px solid #444;
+}
+
+.sort-dropdown-toggle:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 12px #218838;
+}
+
+.low-quality .sort-dropdown-toggle:hover {
+    transform: none;
+    box-shadow: none;
+    background: #218838;
+}
+
+.sort-dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #222;
+    min-width: 200px;
+    box-shadow: 0px 8px 20px rgba(0,0,0,0.4);
+    z-index: 1000;
+    border-radius: 15px;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #444;
+}
+
+.sort-dropdown-menu.show {
+    display: block;
+}
+
+.sort-option {
+    padding: 10px 15px;
+    margin: 5px 0;
+    background: #333;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.2s;
+    color: white;
+    text-align: center;
+}
+
+.sort-option:hover {
+    background: #444;
+}
+
+.sort-option.active {
+    background: linear-gradient(90deg, #007bff, #0056b3);
+    color: white;
+}
+
+.low-quality .sort-option.active {
+    background: #007bff;
+}
+
+#filter-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #222;
+    min-width: 320px;
+    max-width: 90vw;
+    box-shadow: 0px 8px 20px rgba(0,0,0,0.4);
+    z-index: 1000;
+    border-radius: 15px;
+    padding: 20px;
+    margin-top: 10px;
+    border: 1px solid #444;
+}
+
+#filter-menu.show {
+    display: block;
+}
+
+.filter-section {
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.filter-section h3 {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+}
+
+.filter-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.top-filters-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+    .top-filters-row {
+        flex-direction: column;
+        gap: 15px;
+        margin-bottom: 15px;
+    }
+}
+
+.top-filters-row .filter-section {
+    flex: 1;
+    margin-bottom: 0;
+}
+
+.range-filters-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+    .range-filters-container {
+        flex-direction: column;
+        gap: 15px;
+        margin-bottom: 15px;
+    }
+}
+
+.range-filters-container .filter-section {
+    flex: 1;
+    margin-bottom: 0;
+}
+
+.slider-container {
+    width: 85%;
+    max-width: 200px;
+    margin: 10px auto;
+    position: relative;
+}
+
+.dual-range-slider {
+    position: relative;
+    width: 100%;
+    height: 6px;
+    background: #333;
+    border-radius: 3px;
+    margin: 20px 0;
+}
+
+.slider-track {
+    position: absolute;
+    height: 6px;
+    background: linear-gradient(90deg, #4facfe, #f093fb);
+    border-radius: 3px;
+    top: 0;
+}
+
+.low-quality .slider-track {
+    background: #4facfe;
+}
+
+.slider-thumb {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background: linear-gradient(90deg, #4facfe, #f093fb);
+    border: 2px solid white;
+    border-radius: 50%;
+    cursor: pointer;
+    top: -7px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+    transition: transform 0.2s;
+}
+
+.low-quality .slider-thumb {
+    transition: none;
+    box-shadow: none;
+}
+
+.slider-thumb:hover {
+    transform: scale(1.1);
+}
+
+.low-quality .slider-thumb:hover {
+    transform: none;
+}
+
+.slider-thumb.active {
+    transform: scale(1.2);
+    box-shadow: 0 0 10px rgba(79, 172, 254, 0.5);
+}
+
+.low-quality .slider-thumb.active {
+    transform: scale(1.1);
+    box-shadow: none;
+}
+
+.slider-inputs-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.slider-input {
+    width: 30%;
+    padding: 5px;
+    border: 1px solid #444;
+    background: #1e1e1e;
+    color: white;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 0.8em;
+}
+
+.slider-input:focus {
+    outline: none;
+    border-color: #4facfe;
+}
+
+.filter-button {
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 6px 12px;
+    cursor: pointer;
+    font-size: 0.85em;
+    transition: all 0.2s;
+    flex-shrink: 0;
+}
+
+.low-quality .filter-button {
+    transition: none;
+}
+
+.filter-button:hover {
+    background-color: #444;
+    box-shadow: 0 0 8px rgba(255,255,255,0.2);
+}
+
+.low-quality .filter-button:hover {
+    box-shadow: none;
+}
+
+.filter-button.active {
+    background: linear-gradient(90deg, #28a745, #218838);
+    color: white;
+    box-shadow: 0 0 8px #218838;
+}
+
+.low-quality .filter-button.active {
+    background: #28a745;
+    box-shadow: none;
+}
+
+.bottom-filters-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+    .bottom-filters-grid {
+        grid-template-columns: 1fr;
+        gap: 15px;
+        margin-bottom: 15px;
+    }
+}
+
+.apm-filter, .other-filters {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+    text-align: center;
+}
+
+.apm-option, .filter-option {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+    padding: 4px 0;
+}
+
+.apm-option input[type="radio"], .filter-option input[type="checkbox"] {
+    margin: 0;
+    accent-color: #4facfe;
+}
+
+.apm-option label, .filter-option label {
+    font-size: 0.9em;
+    cursor: pointer;
+}
+
+.filter-actions {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-top: 15px;
+    padding-top: 15px;
+    border-top: 1px solid #444;
+}
+
+.clear-filters, .apply-filters {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 0.9em;
+    transition: all 0.2s;
+    flex: 1;
+}
+
+.slider-input[type="number"]::-webkit-inner-spin-button,
+.slider-input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.slider-input[type="number"] {
+  -moz-appearance: textfield;
+  appearance: textfield;
+}
+
+.low-quality .clear-filters, .low-quality .apply-filters {
+    transition: none;
+}
+
+.clear-filters {
+    background-color: #dc3545;
+    color: white;
+}
+
+.clear-filters:hover {
+    background-color: #c82333;
+}
+
+.apply-filters {
+    background-color: #007bff;
+    color: white;
+}
+
+.apply-filters:hover {
+    background-color: #0056b3;
+}
+
+#map-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 25px;
+    padding: 0 20px;
+    margin: 0 auto;
+    max-width: 1400px;
+}
+
+@media (min-width: 769px) and (max-width: 899px) {
+    #map-list {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 900px) and (max-width: 1199px) {
+    #map-list {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+.low-quality #map-list {
+    gap: 15px;
+}
+
+.map-card {
+    position: relative;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.7);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    min-height: 200px;
+    max-height: 280px;
+    border: 2px solid #555;
+    transition: transform 0.3s, box-shadow 0.3s, border 0.3s, background 0.3s;
+    background: linear-gradient(135deg, #222, #1a1a1a);
+    box-sizing: border-box;
+    overflow: hidden;
+    z-index: 1;
+}
+
+@media (max-width: 768px) {
+    .map-card {
+        padding: 15px;
+        min-height: 180px;
+        max-height: 260px;
+    }
+}
+
+.low-quality .map-card {
+    box-shadow: none;
+    transition: none;
+    background: #222;
+    border-radius: 10px;
+    min-height: 180px;
+    padding: 15px;
+}
+
+.map-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.8);
+    border: 2px solid #00f2fe;
+    background: linear-gradient(135deg, #2a2a2a, #1a1a1a);
+}
+
+.low-quality .map-card:hover {
+    transform: none;
+    box-shadow: none;
+    background: #333;
+    border-color: #4facfe;
+}
+
+.new-tag {
+    position: absolute;
+    top: 10px;
+    right: -25px;
+    background: linear-gradient(45deg, #ff6b6b, #4ecdc4, #45b7d1, #96ceb4, #feca57);
+    background-size: 300% 300%;
+    color: white;
+    padding: 4px 30px;
+    font-size: 0.7em;
+    font-weight: bold;
+    transform: rotate(45deg);
+    z-index: 2; 
+    animation: gradientShift 3s ease-in-out infinite, pulse 2s ease-in-out infinite;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.favorite-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1.5em;
+    z-index: 3;
+    transition: transform 0.2s;
+    padding: 5px;
+    line-height: 1;
+    color: #ff3b3b;
+    position: static;
+}
+
+.favorite-btn:hover {
+    transform: scale(1.2);
+}
+
+.favorite-btn .heart-outline,
+.favorite-btn .heart-filled {
+    color: #ff3b3b;
+}
+.favorite-btn .heart-outline {
+    display: inline;
+}
+.favorite-btn .heart-filled {
+    display: none;
+}
+.favorite-btn.favorited .heart-outline {
+    display: none;
+}
+.favorite-btn.favorited .heart-filled {
+    display: inline;
+}
+
+.favorite-tooltip {
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-75%);
+    background: rgba(0, 0, 0, 0.9);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 0.5em;
+    white-space: nowrap;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.2s;
+    z-index: 9999;
+}
+.favorite-btn:hover .favorite-tooltip {
+    opacity: 1;
+    top: calc(10px + 2em);
+}
+
+.low-quality .new-tag {
+    background: #ff6b6b;
+    animation: none;
+    box-shadow: none;
+    text-shadow: none;
+}
+
+@keyframes gradientShift {
+    0%, 100% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+}
+
+@keyframes pulse {
+    0%, 100% { transform: rotate(45deg) scale(1); }
+    50% { transform: rotate(45deg) scale(1.05); }
+}
+
+.easy { border-color: #28a745; }
+.medium { border-color: #FFA500; }
+.hard { border-color: #FF0000; }
+.logic { border-color: #800080; }
+.brrrr { border-color: #FFFFFF; }
+.tasukete { border-color: #5DADE2; }
+
+.map-content {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;  
+    align-items: center;
+    text-align: center;
+    gap: 8px;
+}
+
+.map-artist {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 5px;
+    gap: 8px;
+}
+
+.star-rating {
+    position: static;
+    font-size: 0.95em;
+    font-weight: bold;
+    color: #ffd700;
+    white-space: nowrap;
+    padding: 4px 10px;
+    border-radius: 12px;
+    background: linear-gradient(135deg, #23272f 60%, #181a20 100%);
+    border: 1px solid #444;
+    box-shadow: 0 2px 8px rgba(60, 60, 70, 0.15);
+}
+.star-rating::before {
+    display: none;
+}
+
+.artist-name {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    word-break: break-word;
+    hyphens: auto;
+    width: 100%;
+    color: #ffd700;
+    font-weight: 500;
+}
+
+.low-quality .star-rating {
+    background: #1a1a1a;
+    color: #ffd700;
+    -webkit-text-fill-color: initial;
+    box-shadow: none;
+    border: 1px solid rgba(255, 215, 0, 0.3);
+}
+
+.low-quality .star-rating::before {
+    display: none;
+}
+
+.star-rating.loading {
+    color: #ccc;
+    background: #1a1a1a;
+    -webkit-text-fill-color: initial;
+    box-shadow: none;
+    border: 1px solid #ccc;
+}
+
+.star-rating.loading::before {
+    display: none;
+}
+
+.map-name {
+    font-size: 1em;
+    font-weight: bold;
+    color: #4facfe;
+    line-height: 1.2em;
+    max-height: 2.4em;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    transition: color 0.2s;
+}
+
+.low-quality .map-name {
+    transition: none;
+}
+
+.map-name a {
+    color: #4facfe;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+.low-quality .map-name a {
+    transition: none;
+}
+
+.map-name a:hover {
+    color: #00f2fe;
+}
+
+.map-mapper, .map-difficulty {
+    font-size: 0.8em;
+    color: #ccc;
+}
+
+.map-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 12px;
+    margin-top: 15px;
+}
+
+.map-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+    justify-content: flex-start;
+    flex-basis: 0;
+    flex-grow: 1;
+    min-width: 0;
+}
+
+.map-tags span {
+    background-color: #333;
+    border-radius: 12px;
+    padding: 3px 8px;
+    font-size: 0.75em;
+    white-space: nowrap;
+}
+
+.low-quality .map-tags span {
+    border-radius: 6px;
+}
+
+.action-buttons {
+    display: flex;
+    gap: 5px;
+    flex-shrink: 0;
+    align-items: flex-start;
+}
+
+.copy-btn {
+    border-radius: 25px;
+    padding: 6px 12px;
+    cursor: pointer;
+    font-size: 0.85em;
+    transition: background 0.2s, transform 0.2s;
+    flex-shrink: 0;
+    border: none;
+    color: white;
+    background-color: #007bff;
+}
+
+.low-quality .copy-btn {
+    transition: none;
+    border-radius: 15px;
+}
+
+.copy-btn:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+.low-quality .copy-btn:hover {
+    transform: none;
+}
+
+.copy-btn.copied {
+    background-color: #28a745;
+}
+
+.copy-count {
+    font-size: 0.7em;
+    color: #ccc;
+    margin-top: 2px;
+}
+
+.patterns-dropdown-container {
+    position: relative;
+    display: inline-block;
+}
+
+.patterns-dropdown-toggle {
+    border-radius: 25px;
+    padding: 6px 12px;
+    cursor: pointer;
+    font-size: 0.85em;
+    transition: background 0.2s, transform 0.2s;
+    flex-shrink: 0;
+    border: none;
+    color: white;
+    background-color: #333;
+    white-space: nowrap;  
+}
+
+.low-quality .patterns-dropdown-toggle {
+    transition: none;
+    border-radius: 15px;
+}
+.patterns-dropdown-toggle:hover {
+    background-color: #444;
+    transform: scale(1.05);
+}
+</style>
 </head>
+
 <body>
-    <p>Moved this page to another domain.</p>
-    <p>Redirecting to Sound Space Customs...</p>
-    <p>If you are not redirected automatically, <a href="https://faworee.com/soundspacecustoms">click here</a>.</p>
+
+<div id="deprecation-notice" class="deprecation-notice">
+    <span>⚠️ This GitHub Pages site is deprecated and may not show new maps. Please visit <a href="https://faworee.com/soundspacecustoms/" target="_blank">faworee.com/soundspacecustoms</a> for the latest updates!</span>
+    <button onclick="closeDeprecationNotice()">✕</button>
+</div>
+
+<div id="change-log-panel" style="
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%) scale(0.8);
+    opacity: 0;
+    visibility: hidden;
+    height: 80vh;
+    max-height: 700px;
+    width: 90%;
+    max-width: 600px;
+    background: #f8f9fa;
+    box-shadow: 0 10px 40px rgba(0,0,0,0.5);
+    z-index: 50;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    transition: transform 0.3s ease-out, opacity 0.3s ease-out, visibility 0.3s;
+">
+    <div style="
+        padding: 20px;
+        background: white;
+        border-bottom: 1px solid #e0e0e0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    ">
+        <h2 style="
+            margin: 0;
+            font-size: 1.5em;
+            color: #5865F2;
+            background: none;
+            -webkit-text-fill-color: initial;
+        ">Change Log</h2>
+        <button id="close-log-btn" style="
+            background: none;
+            border: none;
+            font-size: 1.5em;
+            cursor: pointer;
+            color: #666;
+            padding: 5px;
+            transition: color 0.2s;
+        " onmouseover="this.style.color='#5865F2'" onmouseout="this.style.color='#666'">✕</button>
+    </div>
+
+    <div id="log-content" style="
+        padding: 20px;
+        overflow-y: auto;
+        flex-grow: 1;
+        background: #f8f9fa;
+    ">
+        <p style="text-align: center; color: #666;">Loading change history...</p>
+    </div>
+</div>
+
+<div class="header-container">
+    <div class="header-left">
+        <a href="/SoundSpaceCustoms/Info" class="header-button info-button">Info</a>
+        <button class="header-button random-button" id="random-map-btn">Copy Random Map</button>
+    </div>
+    <div class="header-right">
+        <a href="https://faworee.github.io/SoundSpaceCustoms/SubmitMaps" class="header-button discord-button">Submit Map</a>
+        <div class="settings-dropdown">
+            <button class="settings-toggle" id="settings-toggle">⚙ Settings</button>
+            <div class="settings-menu" id="settings-menu">
+                <div class="settings-option" id="quality-toggle">
+                    <span>🎨 Low Quality Mode</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<h1>Sound Space Custom Maps</h1>
+
+<div id="search-container">
+    <input type="text" id="search-bar" placeholder="Search maps, artists, mappers or GitHub links...">
+    
+    <div class="search-filters-container">
+        <div class="filter-dropdown">
+            <button id="filter-toggle">Filters</button>
+            <div id="filter-menu">
+                <div class="top-filters-row">
+                    <div class="filter-section">
+                        <h3>Difficulty</h3>
+                        <div class="filter-buttons" id="difficulty-filters">
+                            <button class="filter-button" data-filter="Easy">Easy</button>
+                            <button class="filter-button" data-filter="Medium">Medium</button>
+                            <button class="filter-button" data-filter="Hard">Hard</button>
+                            <button class="filter-button" data-filter="Logic">Logic</button>
+                            <button class="filter-button" data-filter="Brrrr">Brrrr</button>
+                            <button class="filter-button" data-filter="Tasukete">Tasukete</button>
+                        </div>
+                    </div>
+                    
+                    <div class="filter-section">
+                        <h3>Patterns</h3>
+                        <div class="filter-buttons" id="pattern-filters">
+                            <button class="filter-button" data-filter="Streams">Streams</button>
+                            <button class="filter-button" data-filter="Walls">Walls</button>
+                            <button class="filter-button" data-filter="Tech">Tech</button>
+                            <button class="filter-button" data-filter="Jumps">Jumps</button>
+                            <button class="filter-button" data-filter="Quantum">Quantum</button>
+                            <button class="filter-button" data-filter="Unconventional">Unconventional</button>
+                            <button class="filter-button" data-filter="Bursts">Bursts</button>
+                            <button class="filter-button" data-filter="Timing">Timing</button>
+                            <button class="filter-button" data-filter="Stacks">Stacks</button>
+                            <button class="filter-button" data-filter="Spins">Spins</button>
+                            <button class="filter-button" data-filter="Slides">Slides</button>
+                            <button class="filter-button" data-filter="Vibros">Vibros</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="range-filters-container">
+                    <div class="filter-section">
+                        <h3>Duration Filter</h3>
+                        <div class="slider-container">
+                            <div class="slider-inputs-wrapper">
+                                <input type="text" class="slider-input" id="duration-min-input" placeholder="0:00">
+                                <input type="text" class="slider-input" id="duration-max-input" placeholder="10:00">
+                            </div>
+                            <div class="dual-range-slider">
+                                <div class="slider-track" id="duration-track"></div>
+                                <div class="slider-thumb" id="duration-min-thumb"></div>
+                                <div class="slider-thumb" id="duration-max-thumb"></div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="filter-section">
+                        <h3>Notes Filter</h3>
+                        <div class="slider-container">
+                            <div class="slider-inputs-wrapper">
+                                <input type="number" class="slider-input" id="notes-min-input" placeholder="0">
+                                <input type="number" class="slider-input" id="notes-max-input" placeholder="10000">
+                            </div>
+                            <div class="dual-range-slider">
+                                <div class="slider-track" id="notes-track"></div>
+                                <div class="slider-thumb" id="notes-min-thumb"></div>
+                                <div class="slider-thumb" id="notes-max-thumb"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bottom-filters-grid">
+                    <div class="filter-section">
+                        <h3>APM Music Filter</h3>
+                        <div class="apm-filter">
+                            <div class="apm-option">
+                                <input type="radio" id="apm-all" name="apm-filter" value="all" checked>
+                                <label for="apm-all">All maps (APM + Normal)</label>
+                            </div>
+                            <div class="apm-option">
+                                <input type="radio" id="apm-only" name="apm-filter" value="only">
+                                <label for="apm-only">Only APM Music maps</label>
+                            </div>
+                            <div class="apm-option">
+                                <input type="radio" id="apm-none" name="apm-filter" value="none">
+                                <label for="apm-none">No APM Music maps</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="filter-section">
+                        <h3>Other Filters</h3>
+                        <div class="other-filters">
+                            <div class="filter-option">
+                                <input type="checkbox" id="new-maps-only">
+                                <label for="new-maps-only">New Maps Only</label>
+                            </div>
+                            <div class="filter-option">
+                                <input type="checkbox" id="favorites-only">
+                                <label for="favorites-only">Favorites Only</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="filter-actions">
+                    <button class="clear-filters">Clear All</button>
+                    <button class="apply-filters">Apply Filters</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="sort-dropdown">
+            <button class="sort-dropdown-toggle" id="sort-dropdown-toggle">Sort Options</button>
+            <div class="sort-dropdown-menu" id="sort-dropdown-menu">
+                <div class="sort-option" id="sort-easy-hard" data-mode="difficulty-asc">Easy → Hard</div>
+                <div class="sort-option" id="sort-hard-easy" data-mode="difficulty-desc">Hard → Easy</div>
+                <div class="sort-option" id="sort-star-high" data-mode="star-desc">★ High → Low</div>
+                <div class="sort-option" id="sort-star-low" data-mode="star-asc">★ Low → High</div>
+            </div>
+        </div>
+
+        <button class="header-button" id="open-log-btn">Update log</button>
+    </div>
+</div>
+
+<div id="change-log-overlay" style="
+    visibility: hidden;
+    opacity: 0;
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 40;
+    transition: opacity 0.3s, visibility 0.3s;
+"></div>
+
+<div class="loading-spinner" id="loading-spinner"></div>
+<div id="map-list"></div>
+
+<div class="load-more-container" id="load-more-container">
+    <button id="load-more-btn" class="load-more-btn">Load More Maps</button>
+    <div class="scroll-indicator" id="scroll-indicator">Scroll down to auto-load more maps</div>
+</div>
+
+<div id="popup"></div>
+
+<script>
+function closeDeprecationNotice() {
+    const notice = document.getElementById('deprecation-notice');
+    notice.classList.add('hidden');
+    document.body.classList.remove('notice-visible');
+    try {
+        localStorage.setItem('deprecationNoticeDismissed', 'true');
+    } catch(e) {}
+}
+
+document.addEventListener('DOMContentLoaded', function() {
+    try {
+        const dismissed = localStorage.getItem('deprecationNoticeDismissed');
+        if (!dismissed) {
+            document.body.classList.add('notice-visible');
+        } else {
+            document.getElementById('deprecation-notice').classList.add('hidden');
+        }
+    } catch(e) {
+        document.body.classList.add('notice-visible');
+    }
+});
+
+class FavoritesManager {
+    constructor() {
+        this.favorites = new Set();
+        this.loadFavorites();
+    }
+
+    loadFavorites() {
+        try {
+            const saved = document.cookie
+                .split('; ')
+                .find(row => row.startsWith('soundSpaceFavorites='));
+            if (saved) {
+                const data = JSON.parse(decodeURIComponent(saved.split('=')[1]));
+                this.favorites = new Set(data);
+            }
+        } catch (e) {
+            console.warn('Failed to load favorites:', e);
+        }
+    }
+
+    saveFavorites() {
+        try {
+            const data = JSON.stringify([...this.favorites]);
+            const expires = new Date();
+            expires.setFullYear(expires.getFullYear() + 10);
+            document.cookie = `soundSpaceFavorites=${encodeURIComponent(data)}; expires=${expires.toUTCString()}; path=/`;
+        } catch (e) {
+            console.warn('Failed to save favorites:', e);
+        }
+    }
+
+    getMapId(map) {
+        return `${map.mapName}${map.artist}${map.mapper}${map.noteCount || 0}`;
+    }
+
+    isFavorite(map) {
+        return this.favorites.has(this.getMapId(map));
+    }
+
+    toggleFavorite(map) {
+        const id = this.getMapId(map);
+        if (this.favorites.has(id)) {
+            this.favorites.delete(id);
+        } else {
+            this.favorites.add(id);
+        }
+        this.saveFavorites();
+        return this.favorites.has(id);
+    }
+
+    getFavoriteCount() {
+        return this.favorites.size;
+    }
+}
+
+class MapDataManager {
+    constructor() {
+        this.mapDataCache = new Map();
+        this.batchSize = 125;
+        this.retryAttempts = 5;
+        this.retryDelay = 250;
+        this.loadingProgress = { loaded: 0, total: 0 };
+    }
+
+    async loadAllMapData(maps) {
+        console.log(`Starting batch load of ${maps.length} maps...`);
+        this.loadingProgress.total = maps.length;
+        this.loadingProgress.loaded = 0;
+        
+        this.showLoadingProgress();
+        
+        const batches = this.createBatches(maps, this.batchSize);
+        
+        for (let i = 0; i < batches.length; i++) {
+            const batch = batches[i];
+            console.log(`Processing batch ${i + 1}/${batches.length}`);
+            
+            const batchPromises = batch.map(map => this.loadMapStats(map));
+            await Promise.allSettled(batchPromises);
+            
+            this.updateLoadingProgress();
+            
+            if (i < batches.length - 1) {
+                await this.delay(200);
+            }
+        }
+        
+        this.hideLoadingProgress();
+        console.log('Batch loading completed!');
+        
+        this.updateSliderRanges(maps);
+        
+        return maps;
+    }
+
+    createBatches(array, batchSize) {
+        const batches = [];
+        for (let i = 0; i < array.length; i += batchSize) {
+            batches.push(array.slice(i, i + batchSize));
+        }
+        return batches;
+    }
+
+    async loadMapStats(map) {
+        if (map.statsLoaded) {
+            this.loadingProgress.loaded++;
+            return map;
+        }
+
+        const rawLink = this.getRawUrl(map.link);
+        
+        try {
+            let rawData = this.mapDataCache.get(rawLink);
+            
+            if (!rawData) {
+                rawData = await this.fetchWithRetry(rawLink);
+                if (rawData) {
+                    this.mapDataCache.set(rawLink, rawData);
+                }
+            }
+            
+            if (rawData) {
+                const stats = this.parseMapData(rawData);
+                map.duration = stats.duration;
+                map.noteCount = stats.noteCount;
+                map.statsLoaded = true;
+            } else {
+                map.duration = 0;
+                map.noteCount = 0;
+                map.statsLoaded = true;
+            }
+        } catch (error) {
+            console.warn(`Failed to load stats for ${map.mapName}:`, error.message);
+            map.duration = 0;
+            map.noteCount = 0;
+            map.statsLoaded = true;
+        }
+        
+        this.loadingProgress.loaded++;
+        return map;
+    }
+
+    async fetchWithRetry(url, attempt = 1) {
+        const controller = new AbortController();
+        const timeoutId = setTimeout(() => controller.abort(), 10000);
+        
+        try {
+            const response = await fetch(url, {
+                signal: controller.signal,
+                cache: 'default',
+                headers: {
+                    'Accept': 'text/plain, */*',
+                }
+            });
+            
+            clearTimeout(timeoutId);
+            
+            if (!response.ok) {
+                throw new Error(`HTTP ${response.status}: ${response.statusText}`);
+            }
+            
+            return await response.text();
+        } catch (error) {
+            clearTimeout(timeoutId);
+            
+            if (attempt < this.retryAttempts && !controller.signal.aborted) {
+                console.warn(`Retry ${attempt}/${this.retryAttempts} for ${url}: ${error.message}`);
+                await this.delay(this.retryDelay * attempt);
+                return this.fetchWithRetry(url, attempt + 1);
+            }
+            
+            throw error;
+        }
+    }
+
+    parseMapData(rawData) {
+        if (!rawData || typeof rawData !== 'string') {
+            return { duration: 0, noteCount: 0 };
+        }
+        
+        const firstCommaIndex = rawData.indexOf(',');
+        if (firstCommaIndex === -1) {
+            return { duration: 0, noteCount: 0 };
+        }
+        
+        const notesData = rawData.substring(firstCommaIndex + 1);
+        const noteArray = notesData.split(',');
+        const noteCount = noteArray.length;
+        
+        if (noteCount === 0) {
+            return { duration: 0, noteCount: 0 };
+        }
+        
+        try {
+            const firstNote = noteArray[0];
+            const firstNoteParts = firstNote.split('|');
+            const startTime = parseFloat(firstNoteParts[2]) || 0;
+            
+            const lastNote = noteArray[noteArray.length - 1];
+            const lastNoteParts = lastNote.split('|');
+            const endTime = parseFloat(lastNoteParts[2]) || 0;
+            
+            const durationMilliseconds = Math.max(0, endTime - startTime);
+            return { duration: durationMilliseconds, noteCount: noteCount };
+        } catch (error) {
+            console.warn('Error parsing map timing data:', error);
+            return { duration: 0, noteCount: noteCount };
+        }
+    }
+
+    getRawUrl(url) {
+        if (url.includes('github.com')) {
+            let newUrl = url.replace('github.com', 'raw.githubusercontent.com');
+            newUrl = newUrl.replace('/blob/', '/').replace('/raw/', '/');
+            return newUrl;
+        }
+        if (url.includes('gitlab.com') && url.includes('/-/blob/')) {
+            return url.replace('/-/blob/', '/-/raw/');
+        }
+        return url;
+    }
+
+    updateSliderRanges(maps) {
+        const durations = maps.filter(m => m.duration > 0).map(m => m.duration);
+        const noteCounts = maps.filter(m => m.noteCount > 0).map(m => m.noteCount);
+        
+        if (durations.length > 0) {
+            const maxDuration = Math.max(...durations);
+            durationRange.max = Math.max(maxDuration, 300000);
+            currentDurationRange.max = durationRange.max;
+            if (durationMaxInput) {
+                durationMaxInput.value = formatDuration(durationRange.max);
+            }
+        }
+        
+        if (noteCounts.length > 0) {
+            const maxNotes = Math.max(...noteCounts);
+            notesRange.max = Math.max(maxNotes, 10000);
+            currentNotesRange.max = notesRange.max;
+            if (notesMaxInput) {
+                notesMaxInput.value = Math.round(notesRange.max);
+            }
+        }
+        
+        if (typeof updateDurationSlider === 'function') updateDurationSlider();
+        if (typeof updateNotesSlider === 'function') updateNotesSlider();
+    }
+
+    showLoadingProgress() {
+        let progressContainer = document.getElementById('batch-loading-progress');
+        if (!progressContainer) {
+            progressContainer = document.createElement('div');
+            progressContainer.id = 'batch-loading-progress';
+            progressContainer.innerHTML = `
+                <div style="
+                    position: fixed;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                    background: rgba(0, 0, 0, 0.9);
+                    color: white;
+                    padding: 20px;
+                    border-radius: 10px;
+                    text-align: center;
+                    z-index: 10000;
+                    min-width: 300px;
+                ">
+                    <h3>Loading Map Data...</h3>
+                    <div style="
+                        width: 100%;
+                        height: 20px;
+                        background: #333;
+                        border-radius: 10px;
+                        overflow: hidden;
+                        margin: 10px 0;
+                    ">
+                        <div id="progress-bar" style="
+                            height: 100%;
+                            background: linear-gradient(90deg, #4facfe, #00f2fe);
+                            width: 0%;
+                            transition: width 0.3s ease;
+                        "></div>
+                    </div>
+                    <p id="progress-text">0 / 0 maps loaded</p>
+                    <p style="font-size: 0.9em; color: #ccc;">This may take a few seconds...</p>
+                </div>
+            `;
+            document.body.appendChild(progressContainer);
+        }
+    }
+
+    updateLoadingProgress() {
+        const progressBar = document.getElementById('progress-bar');
+        const progressText = document.getElementById('progress-text');
+        
+        if (progressBar && progressText) {
+            const percentage = (this.loadingProgress.loaded / this.loadingProgress.total) * 100;
+            progressBar.style.width = percentage + '%';
+            progressText.textContent = `${this.loadingProgress.loaded} / ${this.loadingProgress.total} maps loaded`;
+        }
+    }
+
+    hideLoadingProgress() {
+        const progressContainer = document.getElementById('batch-loading-progress');
+        if (progressContainer) {
+            progressContainer.remove();
+        }
+    }
+
+    delay(ms) {
+        return new Promise(resolve => setTimeout(resolve, ms));
+    }
+
+    getCacheSize() {
+        return this.mapDataCache.size;
+    }
+
+    clearCache() {
+        this.mapDataCache.clear();
+        console.log('Map data cache cleared');
+    }
+
+    getCacheStats() {
+        return {
+            size: this.mapDataCache.size,
+            memory: JSON.stringify([...this.mapDataCache.entries()]).length
+        };
+    }
+}
+
+const favoritesManager = new FavoritesManager();
+let isLowQualityMode = false;
+const difficultyOrder = ["Easy", "Medium", "Hard", "Logic", "Brrrr", "Tasukete"];
+let currentSortMode = 'difficulty-asc'; 
+let maps = [];
+let filteredMaps = [];
+let selectedDifficulties = [];
+let selectedPatterns = [];
+let apmFilter = "all";
+let showNewMapsOnly = false;
+let showFavoritesOnly = false;
+let currentDisplayCount = 50;
+const LOAD_BATCH_SIZE = 100;
+let isLoading = false;
+let infiniteScrollEnabled = true;
+let durationRange = { min: 0, max: 600000 };
+let notesRange = { min: 0, max: 10000 };
+let currentDurationRange = { min: 0, max: 600000 };
+let currentNotesRange = { min: 0, max: 10000 };
+
+const searchBar = document.getElementById('search-bar');
+const mapList = document.getElementById('map-list');
+const filterToggle = document.getElementById('filter-toggle');
+const filterMenu = document.getElementById('filter-menu');
+const popup = document.getElementById('popup');
+const loadingSpinner = document.getElementById('loading-spinner');
+const loadMoreBtn = document.getElementById('load-more-btn');
+const loadMoreContainer = document.getElementById('load-more-container');
+const scrollIndicator = document.getElementById('scroll-indicator');
+const newMapsCheckbox = document.getElementById('new-maps-only');
+const favoritesCheckbox = document.getElementById('favorites-only');
+const randomMapBtn = document.getElementById('random-map-btn');
+const durationMinThumb = document.getElementById('duration-min-thumb');
+const durationMaxThumb = document.getElementById('duration-max-thumb');
+const durationMinInput = document.getElementById('duration-min-input');
+const durationMaxInput = document.getElementById('duration-max-input');
+const durationTrack = document.getElementById('duration-track');
+const notesMinThumb = document.getElementById('notes-min-thumb');
+const notesMaxThumb = document.getElementById('notes-max-thumb');
+const notesMinInput = document.getElementById('notes-min-input');
+const notesMaxInput = document.getElementById('notes-max-input');
+const notesTrack = document.getElementById('notes-track');
+
+const settingsToggle = document.getElementById('settings-toggle');
+const settingsMenu = document.getElementById('settings-menu');
+const qualityToggle = document.getElementById('quality-toggle');
+
+settingsToggle.addEventListener('click', (e) => {
+    e.stopPropagation();
+    settingsMenu.classList.toggle('show');
+});
+
+qualityToggle.addEventListener('click', () => {
+    isLowQualityMode = !isLowQualityMode;
+    document.body.classList.toggle('low-quality', isLowQualityMode);
+    qualityToggle.classList.toggle('active', isLowQualityMode);
+    qualityToggle.innerHTML = isLowQualityMode ? '<span>🎨 High Quality Mode</span>' : '<span>🎨 Low Quality Mode</span>';
+    
+    try {
+        localStorage.setItem('soundSpaceLowQuality', isLowQualityMode.toString());
+    } catch (e) {}
+    
+    if (maps.length > 0) {
+        renderMaps();
+    }
+    
+    if (isLowQualityMode && window.mapDataManager) {
+        window.mapDataManager.clearCache();
+    }
+});
+
+document.addEventListener('click', (e) => {
+    if (!settingsToggle.contains(e.target) && !settingsMenu.contains(e.target)) {
+        settingsMenu.classList.remove('show');
+    }
+});
+
+const sortDropdownToggle = document.getElementById('sort-dropdown-toggle');
+const sortDropdownMenu = document.getElementById('sort-dropdown-menu');
+const sortOptions = document.querySelectorAll('.sort-option');
+
+sortDropdownToggle.addEventListener('click', (e) => {
+    e.stopPropagation();
+    sortDropdownMenu.classList.toggle('show');
+});
+
+sortOptions.forEach(option => {
+    option.addEventListener('click', () => {
+        sortOptions.forEach(opt => opt.classList.remove('active'));
+        option.classList.add('active');
+        
+        currentSortMode = option.dataset.mode;
+        
+        const batchSize = isLowQualityMode ? LOAD_BATCH_SIZE * 2 : LOAD_BATCH_SIZE;
+        currentDisplayCount = batchSize;
+        filterAndRenderMaps();
+        
+        sortDropdownMenu.classList.remove('show');
+    });
+});
+
+document.addEventListener('click', (e) => {
+    if (!sortDropdownToggle.contains(e.target) && !sortDropdownMenu.contains(e.target)) {
+        sortDropdownMenu.classList.remove('show');
+    }
+});
+
+document.querySelector('.sort-option[data-mode="difficulty-asc"]').classList.add('active');
+
+randomMapBtn.addEventListener('click', () => {
+    if (filteredMaps.length === 0) {
+        showPopup('No maps match your current filters!', true);
+        return;
+    }
+    const randomMap = filteredMaps[Math.floor(Math.random() * filteredMaps.length)];
+    copyLink(randomMap.link, randomMapBtn, randomMap); 
+});
+
+favoritesCheckbox.addEventListener('change', () => {
+    showFavoritesOnly = favoritesCheckbox.checked;
+    const batchSize = isLowQualityMode ? LOAD_BATCH_SIZE * 2 : LOAD_BATCH_SIZE;
+    currentDisplayCount = batchSize;
+    filterAndRenderMaps();
+});
+
+try {
+    const savedPreference = localStorage.getItem('soundSpaceLowQuality');
+    if (savedPreference === 'true') {
+        qualityToggle.click();
+    }
+} catch (e) {}
+
+function initSliders() {
+    initDurationSlider();
+    initNotesSlider();
+}
+
+function initDurationSlider() {
+    let isDragging = false;
+    let currentThumb = null;
+    
+    function updateDurationSlider() {
+        const minPercent = (currentDurationRange.min / durationRange.max) * 100;
+        const maxPercent = (currentDurationRange.max / durationRange.max) * 100;
+        
+        durationMinThumb.style.left = minPercent + '%';
+        durationMaxThumb.style.left = maxPercent + '%';
+        durationTrack.style.left = minPercent + '%';
+        durationTrack.style.width = (maxPercent - minPercent) + '%';
+        
+        durationMinInput.value = formatDuration(currentDurationRange.min);
+        durationMaxInput.value = formatDuration(currentDurationRange.max);
+    }
+    
+    function handleDurationMouseDown(e, thumb) {
+        e.preventDefault();
+        e.stopPropagation();
+        isDragging = true;
+        currentThumb = thumb;
+        thumb.classList.add('active');
+        document.addEventListener('mousemove', handleDurationMouseMove);
+        document.addEventListener('mouseup', handleDurationMouseUp);
+    }
+    
+    function handleDurationMouseMove(e) {
+        if (!isDragging || !currentThumb) return;
+        e.preventDefault();
+        
+        const slider = currentThumb.parentElement;
+        const rect = slider.getBoundingClientRect();
+        const percent = Math.max(0, Math.min(100, ((e.clientX - rect.left) / rect.width) * 100));
+        const value = (percent / 100) * durationRange.max;
+        
+        if (currentThumb === durationMinThumb) {
+            currentDurationRange.min = Math.max(0, Math.min(value, currentDurationRange.max - 1000));
+        } else {
+            currentDurationRange.max = Math.min(durationRange.max, Math.max(value, currentDurationRange.min + 1000));
+        }
+        
+        updateDurationSlider();
+        debounceFilterUpdate();
+    }
+    
+    function handleDurationMouseUp() {
+        if (isDragging && currentThumb) {
+            currentThumb.classList.remove('active');
+            isDragging = false;
+            currentThumb = null;
+            document.removeEventListener('mousemove', handleDurationMouseMove);
+            document.removeEventListener('mouseup', handleDurationMouseUp);
+        }
+    }
+    
+    durationMinThumb.addEventListener('mousedown', (e) => handleDurationMouseDown(e, durationMinThumb));
+    durationMaxThumb.addEventListener('mousedown', (e) => handleDurationMouseDown(e, durationMaxThumb));
+    
+    durationMinThumb.addEventListener('touchstart', (e) => {
+        e.preventDefault();
+        handleDurationMouseDown(e.touches[0], durationMinThumb);
+    });
+    durationMaxThumb.addEventListener('touchstart', (e) => {
+        e.preventDefault();
+        handleDurationMouseDown(e.touches[0], durationMaxThumb);
+    });
+    
+    document.addEventListener('touchmove', (e) => {
+        if (isDragging) {
+            handleDurationMouseMove(e.touches[0]);
+        }
+    });
+    
+    document.addEventListener('touchend', handleDurationMouseUp);
+    
+    durationMinInput.addEventListener('input', () => {
+        const ms = parseTimeToMilliseconds(durationMinInput.value);
+        if (ms !== null && ms >= 0 && ms <= durationRange.max) {
+            currentDurationRange.min = Math.min(ms, currentDurationRange.max - 1000);
+            updateDurationSlider();
+            debounceFilterUpdate();
+        }
+    });
+    
+    durationMaxInput.addEventListener('input', () => {
+        const ms = parseTimeToMilliseconds(durationMaxInput.value);
+        if (ms !== null && ms >= 0 && ms <= durationRange.max) {
+            currentDurationRange.max = Math.max(ms, currentDurationRange.min + 1000);
+            updateDurationSlider();
+            debounceFilterUpdate();
+        }
+    });
+    
+    updateDurationSlider();
+}
+
+function initNotesSlider() {
+    let isDragging = false;
+    let currentThumb = null;
+
+    window.updateNotesSlider = function() {
+        const minPercent = (currentNotesRange.min / notesRange.max) * 100;
+        const maxPercent = (currentNotesRange.max / notesRange.max) * 100;
+
+        notesMinThumb.style.left = minPercent + '%';
+        notesMaxThumb.style.left = maxPercent + '%';
+        notesTrack.style.left = minPercent + '%';
+        notesTrack.style.width = (maxPercent - minPercent) + '%';
+
+        notesMinInput.value = Math.round(currentNotesRange.min);
+        notesMaxInput.value = Math.round(currentNotesRange.max);
+    };
+
+    function handleNotesMouseDown(e, thumb) {
+        e.preventDefault();
+        e.stopPropagation();
+        isDragging = true;
+        currentThumb = thumb;
+        thumb.classList.add('active');
+        document.addEventListener('mousemove', handleNotesMouseMove);
+        document.addEventListener('mouseup', handleNotesMouseUp);
+    }
+
+    function handleNotesMouseMove(e) {
+        if (!isDragging || !currentThumb) return;
+        e.preventDefault();
+
+        const slider = currentThumb.parentElement;
+        const rect = slider.getBoundingClientRect();
+        const percent = Math.max(0, Math.min(100, ((e.clientX - rect.left) / rect.width) * 100));
+        const value = (percent / 100) * notesRange.max;
+
+        if (currentThumb === notesMinThumb) {
+            currentNotesRange.min = Math.max(0, Math.min(value, currentNotesRange.max - 10));
+        } else {
+            currentNotesRange.max = Math.min(notesRange.max, Math.max(value, currentNotesRange.min + 10));
+        }
+
+        window.updateNotesSlider();
+        debounceFilterUpdate();
+    }
+
+    function handleNotesMouseUp() {
+        if (isDragging && currentThumb) {
+            currentThumb.classList.remove('active');
+            isDragging = false;
+            currentThumb = null;
+            document.removeEventListener('mousemove', handleNotesMouseMove);
+            document.removeEventListener('mouseup', handleNotesMouseUp);
+        }
+    }
+
+    notesMinThumb.addEventListener('mousedown', (e) => handleNotesMouseDown(e, notesMinThumb));
+    notesMaxThumb.addEventListener('mousedown', (e) => handleNotesMouseDown(e, notesMaxThumb));
+
+    notesMinThumb.addEventListener('touchstart', (e) => {
+        e.preventDefault();
+        handleNotesMouseDown(e.touches[0], notesMinThumb);
+    });
+    notesMaxThumb.addEventListener('touchstart', (e) => {
+        e.preventDefault();
+        handleNotesMouseDown(e.touches[0], notesMaxThumb);
+    });
+
+    document.addEventListener('touchmove', (e) => {
+        if (isDragging) {
+            handleNotesMouseMove(e.touches[0]);
+        }
+    });
+
+    document.addEventListener('touchend', handleNotesMouseUp);
+
+    notesMinInput.addEventListener('input', () => {
+        const value = parseInt(notesMinInput.value) || 0;
+        if (value >= 0 && value <= notesRange.max) {
+            currentNotesRange.min = Math.min(value, currentNotesRange.max - 10);
+            window.updateNotesSlider();
+            debounceFilterUpdate();
+        }
+    });
+
+    notesMaxInput.addEventListener('input', () => {
+        const value = parseInt(notesMaxInput.value) || notesRange.max;
+        if (value >= 0 && value <= notesRange.max) {
+            currentNotesRange.max = Math.max(value, currentNotesRange.min + 10);
+            window.updateNotesSlider();
+            debounceFilterUpdate();
+        }
+    });
+
+    window.updateNotesSlider();
+}
+
+let filterUpdateTimeout;
+function debounceFilterUpdate() {
+    clearTimeout(filterUpdateTimeout);
+    filterUpdateTimeout = setTimeout(() => {
+        const batchSize = isLowQualityMode ? LOAD_BATCH_SIZE * 2 : LOAD_BATCH_SIZE;
+        currentDisplayCount = batchSize;
+        filterAndRenderMaps();
+    }, 300);
+}
+
+function formatArtistName(artistName) {
+    return artistName; 
+}
+
+function createStarRating(starRating) {
+    if (starRating === null || starRating === undefined) {
+        return '<span class="star-rating loading">Loading...</span>';
+    }
+    
+    const numRating = parseFloat(starRating);
+    if (isNaN(numRating)) {
+        return '<span class="star-rating">★ 0.00</span>';
+    }
+    
+    return `<span class="star-rating">★ ${numRating.toFixed(2)}</span>`;
+}
+
+function toggleFavorite(button, event) {
+    event.stopPropagation();
+    const mapData = JSON.parse(button.getAttribute('data-map').replace(/&quot;/g, '"').replace(/&#39;/g, "'"));
+    const isFav = favoritesManager.toggleFavorite(mapData);
+    button.classList.toggle('favorited', isFav);
+    button.querySelector('.favorite-tooltip').textContent = isFav ? 'Favorited!' : 'Favorite?';
+    showPopup(isFav ? 'Added to favorites!' : 'Removed from favorites!');
+    filterAndRenderMaps();
+}
+
+async function loadMapDataFromJSON() {
+    try {
+        loadingSpinner.style.display = 'block';
+        let mapData;
+        const cacheKey = "soundSpaceMapCache";
+        const cacheTimeKey = "soundSpaceMapCacheTime";
+        const cacheDuration = 1000 * 30;
+
+        const now = Date.now();
+        const cached = localStorage.getItem(cacheKey);
+        const cachedTime = localStorage.getItem(cacheTimeKey);
+
+        if (cached && cachedTime && now - cachedTime < cacheDuration) {
+            mapData = JSON.parse(cached);
+        } else {
+            const timestamp = Date.now();
+            const response = await fetch(`Mapdata.json?v=${timestamp}`, {
+                cache: 'no-cache',
+                headers: {
+                    'Cache-Control': 'no-cache',
+                    'Pragma': 'no-cache'
+                }
+            });
+            if (!response.ok) {
+                throw new Error(`Failed to load map data: ${response.status} ${response.statusText}`);
+            }
+            mapData = await response.json();
+            localStorage.setItem(cacheKey, JSON.stringify(mapData));
+            localStorage.setItem(cacheTimeKey, now);
+        }
+
+        if (!Array.isArray(mapData)) {
+            throw new Error('Invalid JSON format: Expected an array of maps');
+        }
+
+        maps = mapData.map(mapArray => {
+            if (!Array.isArray(mapArray) || mapArray.length < 7) {
+                return null;
+            }
+            const [link, mapName, artist, mapper, difficulty, patterns, isNew, starRating] = mapArray;
+            return {
+                link: link,
+                mapName: mapName,
+                artist: artist,
+                mapper: mapper,
+                difficulty: difficulty,
+                patterns: patterns,
+                isNew: isNew || false,
+                starRating: starRating ? parseFloat(starRating) : null,
+                duration: undefined,
+                noteCount: undefined,
+                statsLoaded: false
+            };
+        }).filter(map => map !== null);
+
+        if (maps.length === 0) {
+            throw new Error('No valid map data found');
+        }
+
+        const dataManager = new MapDataManager();
+        await dataManager.loadAllMapData(maps);
+
+        initSliders();
+        filterAndRenderMaps();
+
+        window.mapDataManager = dataManager;
+
+    } catch (error) {
+        loadingSpinner.style.display = 'none';
+        
+        mapList.innerHTML = `
+            <div class="error-message">
+                <h3>Failed to Load Map Data</h3>
+                <p>Error: ${error.message}</p>
+                <p>Please ensure that:</p>
+                <ul style="text-align: left; display: inline-block;">
+                    <li>The file "Mapdata.json" exists in the same directory</li>
+                    <li>The JSON file contains valid map data in the correct format</li>
+                    <li>Your web server allows loading local JSON files</li>
+                </ul>
+                <p>If running locally, you may need to serve this through a web server rather than opening the HTML file directly.</p>
+                <button onclick="location.reload()" style="margin-top: 15px; padding: 10px 20px; background: #4facfe; color: white; border: none; border-radius: 5px; cursor: pointer;">Retry</button>
+            </div>
+        `;
+    }
+}
+
+function formatDuration(milliseconds) {
+    if (milliseconds <= 0 || isNaN(milliseconds)) return "0:00";
+    const totalSeconds = Math.floor(milliseconds / 1000);
+    const mins = Math.floor(totalSeconds / 60);
+    const secs = totalSeconds % 60;
+    return `${mins}:${secs.toString().padStart(2, '0')}`;
+}
+
+function parseTimeToMilliseconds(timeString) {
+    if (!timeString || timeString === "") return null;
+    const parts = timeString.split(':');
+    if (parts.length !== 2) return null;
+    const mins = parseInt(parts[0]) || 0;
+    const secs = parseInt(parts[1]) || 0;
+    return (mins * 60 + secs) * 1000;
+}
+
+let scrollTimeout;
+function checkScroll() {
+    if (scrollTimeout) return;
+    
+    scrollTimeout = setTimeout(() => {
+        if (!infiniteScrollEnabled || isLoading) {
+            scrollTimeout = null;
+            return;
+        }
+        
+        const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+        const windowHeight = window.innerHeight;
+        const documentHeight = document.documentElement.scrollHeight;
+        
+        if (scrollTop + windowHeight >= documentHeight - 200) {
+            loadMoreMaps();
+        }
+        scrollTimeout = null;
+    }, 100);
+}
+
+function loadMoreMaps() {
+    if (isLoading || currentDisplayCount >= filteredMaps.length) return;
+    
+    isLoading = true;
+    loadingSpinner.style.display = 'block';
+    loadMoreBtn.disabled = true;
+    loadMoreBtn.textContent = 'Loading...';
+    
+    requestAnimationFrame(() => {
+        const previousCount = currentDisplayCount;
+        const batchSize = isLowQualityMode ? LOAD_BATCH_SIZE * 2 : LOAD_BATCH_SIZE;
+        currentDisplayCount = Math.min(currentDisplayCount + batchSize, filteredMaps.length);
+        
+        const fragment = document.createDocumentFragment();
+        for (let i = previousCount; i < currentDisplayCount; i++) {
+            const m = filteredMaps[i];
+            const card = createMapCard(m);
+            fragment.appendChild(card);
+        }
+        mapList.appendChild(fragment);
+        
+        updateLoadMoreButton();
+        isLoading = false;
+        loadingSpinner.style.display = 'none';
+    });
+}
+
+function updateLoadMoreButton() {
+    const remainingMaps = filteredMaps.length - currentDisplayCount;
+    
+    if (remainingMaps <= 0) {
+        loadMoreBtn.style.display = 'none';
+        scrollIndicator.textContent = `All ${filteredMaps.length} maps loaded`;
+    } else {
+        loadMoreBtn.style.display = 'block';
+        loadMoreBtn.disabled = false;
+        const batchSize = isLowQualityMode ? LOAD_BATCH_SIZE * 2 : LOAD_BATCH_SIZE;
+        loadMoreBtn.textContent = `Load ${Math.min(batchSize, remainingMaps)} More Maps`;
+        scrollIndicator.textContent = `${remainingMaps} maps remaining - Scroll to auto-load`;
+    }
+}
+
+window.addEventListener('scroll', checkScroll, { passive: true });
+
+loadMoreBtn.addEventListener('click', () => {
+    if (!isLoading) {
+        loadMoreMaps();
+    }
+});
+
+let searchTimeout;
+searchBar.addEventListener('input', () => {
+    clearTimeout(searchTimeout);
+    searchTimeout = setTimeout(() => {
+        const batchSize = isLowQualityMode ? LOAD_BATCH_SIZE * 2 : LOAD_BATCH_SIZE;
+        currentDisplayCount = batchSize;
+        filterAndRenderMaps();
+    }, 300);
+});
+
+filterToggle.addEventListener('click', (e) => {
+    e.stopPropagation();
+    filterMenu.classList.toggle('show');
+});
+
+document.addEventListener('click', (e) => {
+    if (!filterToggle.contains(e.target) && !filterMenu.contains(e.target)) {
+        filterMenu.classList.remove('show');
+    }
+});
+
+newMapsCheckbox.addEventListener('change', () => {
+    showNewMapsOnly = newMapsCheckbox.checked;
+    const batchSize = isLowQualityMode ? LOAD_BATCH_SIZE * 2 : LOAD_BATCH_SIZE;
+    currentDisplayCount = batchSize;
+    filterAndRenderMaps();
+});
+
+document.querySelectorAll('#difficulty-filters .filter-button').forEach(button => {
+    button.addEventListener('click', () => {
+        const difficulty = button.dataset.filter;
+        button.classList.toggle('active');
+        if (button.classList.contains('active')) {
+            if (!selectedDifficulties.includes(difficulty)) {
+                selectedDifficulties.push(difficulty);
+            }
+        } else {
+            selectedDifficulties = selectedDifficulties.filter(d => d !== difficulty);
+        }
+        const batchSize = isLowQualityMode ? LOAD_BATCH_SIZE * 2 : LOAD_BATCH_SIZE;
+        currentDisplayCount = batchSize;
+        filterAndRenderMaps();
+    });
+});
+
+document.querySelectorAll('#pattern-filters .filter-button').forEach(button => {
+    button.addEventListener('click', () => {
+        const pattern = button.dataset.filter;
+        button.classList.toggle('active');
+        if (button.classList.contains('active')) {
+            if (!selectedPatterns.includes(pattern)) {
+                selectedPatterns.push(pattern);
+            }
+        } else {
+            selectedPatterns = selectedPatterns.filter(p => p !== pattern);
+        }
+        const batchSize = isLowQualityMode ? LOAD_BATCH_SIZE * 2 : LOAD_BATCH_SIZE;
+        currentDisplayCount = batchSize;
+        filterAndRenderMaps();
+    });
+});
+
+document.querySelectorAll('input[name="apm-filter"]').forEach(radio => {
+    radio.addEventListener('change', () => {
+        apmFilter = radio.value;
+        const batchSize = isLowQualityMode ? LOAD_BATCH_SIZE * 2 : LOAD_BATCH_SIZE;
+        currentDisplayCount = batchSize;
+        filterAndRenderMaps();
+    });
+});
+
+document.querySelector('.clear-filters').addEventListener('click', () => {
+    selectedDifficulties = [];
+    selectedPatterns = [];
+    apmFilter = "all";
+    showNewMapsOnly = false;
+    showFavoritesOnly = false;
+    currentDurationRange = { min: 0, max: 600000 };
+    currentNotesRange = { min: 0, max: 10000 };
+    
+    document.querySelectorAll('.filter-button.active').forEach(btn => {
+        btn.classList.remove('active');
+    });
+    document.getElementById('apm-all').checked = true;
+    newMapsCheckbox.checked = false;
+    favoritesCheckbox.checked = false;
+    
+    if (durationMinThumb) {
+        durationMinThumb.style.left = '0%';
+        durationMaxThumb.style.left = '100%';
+        durationTrack.style.left = '0%';
+        durationTrack.style.width = '100%';
+        durationMinInput.value = '0:00';
+        durationMaxInput.value = formatDuration(durationRange.max);
+    }
+    
+    if (notesMinThumb) {
+        notesMinThumb.style.left = '0%';
+        notesMaxThumb.style.left = '100%';
+        notesTrack.style.left = '0%';
+        notesTrack.style.width = '100%';
+        notesMinInput.value = '0';
+        notesMaxInput.value = Math.round(notesRange.max);
+    }
+    
+    const batchSize = isLowQualityMode ? LOAD_BATCH_SIZE * 2 : LOAD_BATCH_SIZE;
+    currentDisplayCount = batchSize;
+    filterAndRenderMaps();
+});
+
+document.querySelector('.apply-filters').addEventListener('click', () => {
+    const batchSize = isLowQualityMode ? LOAD_BATCH_SIZE * 2 : LOAD_BATCH_SIZE;
+    currentDisplayCount = batchSize;
+    filterAndRenderMaps();
+    filterMenu.classList.remove('show');
+});
+
+function showPopup(message, isError = false) {
+    popup.textContent = message;
+    popup.style.backgroundColor = isError ? "#dc3545" : "#28a745";
+    popup.style.display = "block";
+    setTimeout(() => {
+        popup.style.display = "none";
+    }, 2500);
+}
+
+function isApmMap(artist) {
+    return artist.toLowerCase().includes('apm music');
+}
+
+function getRawUrl(url) {
+    if (url.includes('github.com')) {
+        let newUrl = url.replace('github.com', 'raw.githubusercontent.com');
+        newUrl = newUrl.replace('/blob/', '/').replace('/raw/', '/');
+        return newUrl;
+    }
+    if (url.includes('gitlab.com') && url.includes('/-/blob/')) {
+        return url.replace('/-/blob/', '/-/raw/');
+    }
+    return url;
+}
+
+function filterAndRenderMaps() {
+    const searchText = searchBar.value.toLowerCase();
+    
+    filteredMaps = maps.filter(m => {
+        const matchesSearch = m.mapName.toLowerCase().includes(searchText) || 
+                            m.artist.toLowerCase().includes(searchText) || 
+                            m.mapper.toLowerCase().includes(searchText) ||
+                            m.link.toLowerCase().includes(searchText);
+        
+        const matchesDifficulty = selectedDifficulties.length === 0 || selectedDifficulties.includes(m.difficulty);
+        const matchesPatterns = selectedPatterns.length === 0 || selectedPatterns.every(pattern => m.patterns.includes(pattern));
+        
+        const isApm = isApmMap(m.artist);
+        let matchesApm = true;
+        if (apmFilter === "only") {
+            matchesApm = isApm;
+        } else if (apmFilter === "none") {
+            matchesApm = !isApm;
+        }
+
+        const mapDuration = m.duration || 0;
+        const mapNotes = m.noteCount || 0;
+        
+        const matchesDuration = mapDuration >= currentDurationRange.min && mapDuration <= currentDurationRange.max;
+        const matchesNotes = mapNotes >= currentNotesRange.min && mapNotes <= currentNotesRange.max;
+        const matchesNewFilter = !showNewMapsOnly || m.isNew;
+        const matchesFavoritesFilter = !showFavoritesOnly || favoritesManager.isFavorite(m);
+
+        return matchesSearch && matchesDifficulty && matchesPatterns && matchesApm && 
+               matchesDuration && matchesNotes && matchesNewFilter && matchesFavoritesFilter;
+    });
+
+    filteredMaps.sort((a, b) => {
+        const aFav = favoritesManager.isFavorite(a);
+        const bFav = favoritesManager.isFavorite(b);
+        if (aFav !== bFav) {
+            return aFav ? -1 : 1;
+        }
+        
+        if (currentSortMode === 'star-desc' || currentSortMode === 'star-asc') {
+            const starA = a.starRating || 0;
+            const starB = b.starRating || 0;
+            const starComparison = currentSortMode === 'star-desc' ? starB - starA : starA - starB;
+            if (starComparison !== 0) {
+                return starComparison;
+            }
+        } else if (currentSortMode === 'difficulty-asc' || currentSortMode === 'difficulty-desc') {
+            const diffA = difficultyOrder.indexOf(a.difficulty);
+            const diffB = difficultyOrder.indexOf(b.difficulty);
+            const safeA = diffA === -1 ? difficultyOrder.length : diffA;
+            const safeB = diffB === -1 ? difficultyOrder.length : diffB;
+            const difficultyComparison = currentSortMode === 'difficulty-asc' ? safeA - safeB : safeB - safeA;
+            if (difficultyComparison !== 0) {
+                return difficultyComparison;
+            }
+        }
+        
+        if (a.isNew !== b.isNew) {
+            return a.isNew ? -1 : 1;
+        }
+        
+        const artistComparison = a.artist.localeCompare(b.artist);
+        if (artistComparison !== 0) {
+            return artistComparison;
+        }
+        const mapNameComparison = a.mapName.localeCompare(b.mapName);
+        if (mapNameComparison !== 0) {
+            return mapNameComparison;
+        }
+        return a.mapper.localeCompare(b.mapper);
+    });
+    renderMaps();
+}
+
+function renderMaps() {
+    mapList.innerHTML = "";
+    const itemsToShow = Math.min(filteredMaps.length, currentDisplayCount);
+    const fragment = document.createDocumentFragment();
+    for (let i = 0; i < itemsToShow; i++) {
+        const m = filteredMaps[i];
+        const card = createMapCard(m);
+        fragment.appendChild(card);
+    }
+    mapList.appendChild(fragment);
+    updateLoadMoreButton();
+    loadingSpinner.style.display = 'none';
+}
+
+function createMapCard(m) {
+    const card = document.createElement('div');
+    card.classList.add('map-card');
+    let mapDifficulty = m.difficulty.toLowerCase();
+    if (m.difficulty === "No Data") {
+        mapDifficulty = "brrrr";
+    }
+    card.classList.add(mapDifficulty);
+    
+    let newTagHtml = '';
+    if (m.isNew) {
+        newTagHtml = '<div class="new-tag">NEW</div>';
+    }
+
+    const isFavorite = favoritesManager.isFavorite(m);
+    const mapDataJSON = JSON.stringify(m).replace(/"/g, '&quot;').replace(/'/g, '&#39;');
+    const favoriteHtml = `
+        <button class="favorite-btn ${isFavorite ? 'favorited' : ''}" onclick="toggleFavorite(this, event)" data-map="${mapDataJSON}">
+            <span class="heart-outline">♡</span>
+            <span class="heart-filled">♥</span>
+            <span class="favorite-tooltip">${isFavorite ? 'Favorited!' : 'Favorite?'}</span>
+        </button>
+    `;
+
+    let mapStatsHtml = '';
+    if (!isLowQualityMode) {
+        if (m.duration !== undefined && m.noteCount !== undefined) {
+            mapStatsHtml = `
+                <div class="map-stats">
+                    <div class="map-stat-item">
+                        <img src="Clock.png" alt="Timer Icon">
+                        <span>${formatDuration(m.duration)}</span>
+                    </div>
+                    <div class="map-stat-item">
+                        <img src="Note.png" alt="Notes Icon">
+                        <span>${m.noteCount.toLocaleString()}</span>
+                    </div>
+                </div>
+            `;
+        } else {
+            mapStatsHtml = `
+                <div class="map-stats">
+                    <div class="map-stat-item">
+                        <img src="Clock.png" alt="Timer Icon">
+                        <span>--:--</span>
+                    </div>
+                    <div class="map-stat-item">
+                        <img src="Note.png" alt="Notes Icon">
+                        <span>----</span>
+                    </div>
+                </div>
+            `;
+        }
+    } else {
+        mapStatsHtml = `
+            <div class="map-stats">
+                <div class="map-stat-item">
+                    <span style="color: #ccc; font-size: 0.8em;">Stats disabled in Low Quality Mode</span>
+                </div>
+            </div>
+        `;
+    }
+
+    let patternsHtml = '';
+    if (m.patterns && m.patterns.length > 0) {
+        const patternListHtml = m.patterns.map(p => {
+            const patternName = p === "No Data" ? "No Pattern Data" : p;
+            return `<li>${patternName}</li>`;
+        }).join('');
+        patternsHtml = `
+            <div class="patterns-dropdown-container">
+                <button class="patterns-dropdown-toggle" onclick="togglePatternsDropdown(this)">Show Patterns</button>
+                <div class="patterns-dropdown-menu">
+                    <ul>
+                        ${patternListHtml}
+                    </ul>
+                </div>
+            </div>
+        `;
+    } else {
+        patternsHtml = `
+            <div class="patterns-dropdown-container">
+                <button class="patterns-dropdown-toggle no-click">No Patterns</button>
+            </div>
+        `;
+    }
+
+    const escapedLink = m.link.replace(/'/g, "\\'");
+    const starRatingHtml = createStarRating(m.starRating);
+    const formattedArtistName = formatArtistName(m.artist);
+    const mapDataForCopy = encodeURIComponent(JSON.stringify(m));
+    
+    card.innerHTML = `
+    ${newTagHtml}
+    <div class="map-content">
+        <div class="map-artist">
+            <div style="display: flex; justify-content: space-between; align-items: center; width: 100%; gap: 10px;">
+                <div style="flex: 0 0 auto;">${starRatingHtml}</div>
+                <div style="flex: 0 0 auto;">${favoriteHtml}</div>
+            </div>
+            <span class="artist-name">${formattedArtistName}</span>
+        </div>
+        <div class="map-name"><a href="${m.link}" target="_blank" rel="noopener">${m.mapName}</a></div>
+        <div class="map-mapper">Mapped by: ${m.mapper}</div>
+        <div class="map-difficulty">Difficulty: ${m.difficulty}</div>
+        ${mapStatsHtml}
+    </div>
+    <div class="map-footer">
+        ${patternsHtml}
+        <div class="action-buttons">
+            <button class="copy-btn" onclick="copyLinkFromCard('${escapedLink}', this, '${mapDataForCopy}')">
+                Copy Link
+            </button>
+            <div class="action-dropdown">
+                <button class="action-dropdown-toggle" onclick="toggleActionDropdown(this)">&#x22EE;</button>
+                <div class="action-dropdown-menu">
+                    <a href="#" class="dropdown-item" onclick="event.preventDefault(); copyRawFromCard('${escapedLink}', '${mapDataForCopy}')">Copy Raw</a>
+                </div>
+            </div>
+        </div>
+    </div>
+`;
+    return card;
+}
+
+function copyLinkFromCard(link, button, encodedMapData) {
+    const mapData = JSON.parse(decodeURIComponent(encodedMapData));
+    copyLink(link, button, mapData);
+}
+
+function copyRawFromCard(link, encodedMapData) {
+    const mapData = JSON.parse(decodeURIComponent(encodedMapData));
+    copyRawData(link, mapData);
+}
+
+async function copyLink(link, button, mapData) {
+    try {
+        await navigator.clipboard.writeText(link);
+        button.classList.add("copied");
+        const originalText = button.innerHTML;
+        button.innerHTML = "Copied!";
+        showPopup("Link copied!", false);
+        
+        setTimeout(() => {
+            button.classList.remove("copied");
+            if (button.id === "random-map-btn") {
+                button.innerHTML = "Copy Random Map";
+            } else {
+                button.innerHTML = "Copy Link";
+            }
+        }, 1000);
+    } catch (err) {
+        showPopup("Failed to copy link.", true);
+    }
+}
+
+async function copyRawData(link, mapData) {
+    try {
+        const rawLink = getRawUrl(link);
+        let rawContent = null;
+        
+        if (window.mapDataManager && window.mapDataManager.mapDataCache) {
+            rawContent = window.mapDataManager.mapDataCache.get(rawLink);
+        }
+        
+        if (!rawContent) {
+            const response = await fetch(rawLink);
+            if (!response.ok) throw new Error('Fetch failed');
+            rawContent = await response.text();
+            
+            if (rawContent && window.mapDataManager && window.mapDataManager.mapDataCache) {
+                window.mapDataManager.mapDataCache.set(rawLink, rawContent);
+            }
+        }
+        
+        if (rawContent) {
+            await navigator.clipboard.writeText(rawContent);
+            showPopup("Raw data copied!", false);
+        } else {
+            showPopup("Failed to fetch raw data.", true);
+        }
+    } catch (error) {
+        showPopup("Failed to copy raw data.", true);
+    }
+}
+
+function togglePatternsDropdown(button) {
+    if (button.classList.contains('no-click')) {
+        return;
+    }
+    
+    const dropdownMenu = button.nextElementSibling;
+    dropdownMenu.classList.toggle('show');
+    const allMenus = document.querySelectorAll('.patterns-dropdown-menu, .action-dropdown-menu');
+    allMenus.forEach(menu => {
+        if (menu !== dropdownMenu) {
+            menu.classList.remove('show');
+        }
+    });
+}
+
+function toggleActionDropdown(button) {
+    const dropdownMenu = button.nextElementSibling;
+    dropdownMenu.classList.toggle('show');
+    const allMenus = document.querySelectorAll('.patterns-dropdown-menu, .action-dropdown-menu');
+    allMenus.forEach(menu => {
+        if (menu !== dropdownMenu) {
+            menu.classList.remove('show');
+        }
+    });
+}
+
+document.addEventListener('click', (event) => {
+    if (!event.target.closest('.patterns-dropdown-container') && !event.target.closest('.action-dropdown')) {
+        document.querySelectorAll('.patterns-dropdown-menu, .action-dropdown-menu').forEach(menu => {
+            menu.classList.remove('show');
+        });
+    }
+});
+
+function initChangeLog() {
+    const changeLogData = [
+        {
+            version: "1.2.3 - Loading improvements",
+            date: "2025-01-11",
+            changes: [
+                "Loading should be way faster now.",
+            ]
+        },
+        {
+            version: "1.2.2 - Maps",
+            date: "2025-01-11",
+            changes: [
+                "Removed maps from 2 mappers, they didn't want them public anymore.",
+            ]
+        },
+        {
+            version: "1.2.2 - Hotfix",
+            date: "2025-01-09",
+            changes: [
+                "Fixed info and submitmap button",
+                "Fixed Copy raw data not working.",
+            ]
+        },
+        {
+            version: "1.2.1 - Update",
+            date: "2025-01-09",
+            changes: [
+                "Added this change log panel to keep users informed about updates.",
+                "Added 10+ New maps from the community.",
+                "Random map button now copies a random map from the filters you selected."
+            ]
+        },
+        {
+            version: "1.2 - Favorite Maps & Performance Improvements",
+            date: "2024-09-28",
+            changes: [
+                "Added 10+ New Maps from the community.",
+                "Fixed Favorites not saving issue.",
+                "Improved performance of the map loading process."
+            ]
+        },
+        {
+            version: "1.1.0 - Star Rating Feature",
+            date: "2024-08-10",
+            changes: [
+                "Star Rating has been added",
+                "Few maps were also added"
+            ]
+        }
+    ];
+
+    function renderChangeLog() {
+        const container = document.getElementById('log-content');
+        container.innerHTML = '';
+
+        changeLogData.forEach(log => {
+            const logEntry = document.createElement('div');
+            logEntry.style.cssText = `
+                margin-bottom: 20px;
+                padding: 15px;
+                background: white;
+                box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+                border-radius: 10px;
+                border-left: 4px solid #5865F2;
+            `;
+
+            const header = document.createElement('h3');
+            header.style.cssText = `
+                margin: 0 0 5px 0;
+                font-size: 1.1em;
+                color: #5865F2;
+                background: none;
+                -webkit-text-fill-color: initial;
+            `;
+            header.textContent = log.version;
+
+            const dateP = document.createElement('p');
+            dateP.style.cssText = `
+                margin: 0 0 10px 0;
+                font-size: 0.85em;
+                color: #666;
+            `;
+            dateP.textContent = `Released: ${log.date}`;
+
+            const ul = document.createElement('ul');
+            ul.style.cssText = `
+                margin: 10px 0 0 0;
+                padding-left: 20px;
+                color: #333;
+            `;
+
+            log.changes.forEach(changeText => {
+                const li = document.createElement('li');
+                li.style.cssText = `
+                    margin-bottom: 5px;
+                    font-size: 0.9em;
+                    line-height: 1.4;
+                `;
+                li.textContent = changeText;
+                ul.appendChild(li);
+            });
+
+            logEntry.appendChild(header);
+            logEntry.appendChild(dateP);
+            logEntry.appendChild(ul);
+            container.appendChild(logEntry);
+        });
+    }
+
+    function toggleChangeLog() {
+        const overlay = document.getElementById('change-log-overlay');
+        const panel = document.getElementById('change-log-panel');
+        
+        const isOpen = overlay.style.visibility === 'visible';
+        
+        if (isOpen) {
+            overlay.style.visibility = 'hidden';
+            overlay.style.opacity = '0';
+            panel.style.transform = 'translate(-50%, -50%) scale(0.8)';
+            panel.style.opacity = '0';
+            panel.style.visibility = 'hidden';
+        } else {
+            overlay.style.visibility = 'visible';
+            overlay.style.opacity = '1';
+            panel.style.transform = 'translate(-50%, -50%) scale(1)';
+            panel.style.opacity = '1';
+            panel.style.visibility = 'visible';
+        }
+    }
+
+    renderChangeLog();
+    
+    document.getElementById('open-log-btn').addEventListener('click', toggleChangeLog);
+    document.getElementById('close-log-btn').addEventListener('click', toggleChangeLog);
+    document.getElementById('change-log-overlay').addEventListener('click', function(e) {
+        if (e.target === this) {
+            toggleChangeLog();
+        }
+    });
+}
+
+document.addEventListener("DOMContentLoaded", () => {
+    loadMapDataFromJSON();
+    initChangeLog();
+});
+</script>
 </body>
 </html>
