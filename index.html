@@ -1693,24 +1693,11 @@ function closeDeprecationNotice() {
     const notice = document.getElementById('deprecation-notice');
     notice.classList.add('hidden');
     document.body.classList.remove('notice-visible');
-    try {
-        localStorage.setItem('deprecationNoticeDismissed', 'true');
-    } catch(e) {}
 }
 
 document.addEventListener('DOMContentLoaded', function() {
-    try {
-        const dismissed = localStorage.getItem('deprecationNoticeDismissed');
-        if (!dismissed) {
-            document.body.classList.add('notice-visible');
-        } else {
-            document.getElementById('deprecation-notice').classList.add('hidden');
-        }
-    } catch(e) {
-        document.body.classList.add('notice-visible');
-    }
+    document.body.classList.add('notice-visible');
 });
-
 class FavoritesManager {
     constructor() {
         this.favorites = new Set();
