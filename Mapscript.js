@@ -224,7 +224,7 @@ initCustomDropdowns();
             }
             
             const usernameText = userData.isAdmin 
-                ? `logout (${userData.username}) â­` 
+                ? `logout (${userData.username}) ⭐` 
                 : `logout (${userData.username})`;
             
             discordAuthBtn.innerHTML = '';
@@ -987,7 +987,7 @@ const difficultyEmojis = {
     "Easy": "🟩",
     "Medium": "🟨", 
     "Hard": "🟥",
-    "Logic": "🟫",
+    "Logic": "🟪",
     "Brrrr": "⬜",
     "Tasukete": "🟦"
 };
@@ -1334,7 +1334,7 @@ function updateActiveFiltersDisplay() {
         filters.push('Favorites Only');
     }
     
-content.textContent = filters.length > 0 ? filters.join(' • ') : 'None';
+    content.textContent = filters.length > 0 ? filters.join(' • ') : 'None';
 }
 
 let searchTimeout;
@@ -1627,7 +1627,7 @@ document.getElementById('saveMapEditsBtn')?.addEventListener('click', async func
             maps[mapIndex] = { ...maps[mapIndex], ...currentEditingMap };
         }
         
-         alert('✅ Map updated successfully!');
+        alert('✅ Map updated successfully!');
         closeModal('editMapModal');
         
         setTimeout(() => {
@@ -1635,7 +1635,7 @@ document.getElementById('saveMapEditsBtn')?.addEventListener('click', async func
         }, 500);
         
     } catch (error) {
-     alert('❌ Failed to save changes:\n\n${error.message}`);
+        alert(`❌ Failed to save changes:\n\n${error.message}`);
     } finally {
         saveBtn.textContent = originalText;
         saveBtn.disabled = false;
@@ -1650,7 +1650,7 @@ document.getElementById('deleteMapBtn')?.addEventListener('click', async functio
     
     if (!currentEditingMap) return;
     
-    const confirmDelete = confirm(`âš ï¸ Are you sure you want to delete the map "${currentEditingMap.mapName}"?\n\nThis action CANNOT be undone!`);
+    const confirmDelete = confirm(`⚠️ Are you sure you want to delete the map "${currentEditingMap.mapName}"?\n\nThis action CANNOT be undone!`);
     if (!confirmDelete) return;
     
     const doubleConfirm = confirm(`Final confirmation: Delete "${currentEditingMap.mapName}" by ${currentEditingMap.mapper}?`);
@@ -1692,7 +1692,7 @@ document.getElementById('deleteMapBtn')?.addEventListener('click', async functio
             maps.splice(mapIndex, 1);
         }
         
-        alert('âœ… Map deleted successfully!');
+        alert('✅ Map deleted successfully!');
         closeModal('editMapModal');
         
         setTimeout(() => {
@@ -1700,7 +1700,7 @@ document.getElementById('deleteMapBtn')?.addEventListener('click', async functio
         }, 500);
         
     } catch (error) {
-        alert(`âŒ Failed to delete map: ${error.message}`);
+        alert(`❌ Failed to delete map: ${error.message}`);
     } finally {
         deleteBtn.textContent = originalText;
         deleteBtn.disabled = false;
@@ -1871,11 +1871,11 @@ function createMapCard(m) {
 
     const isFavorite = favoritesManager.isFavorite(m);
     const mapDataJSON = JSON.stringify(m).replace(/"/g, '&quot;').replace(/'/g, '&#39;');
-    const difficultyEmoji = difficultyEmojis[m.difficulty] || 'â¬œ';
+    const difficultyEmoji = difficultyEmojis[m.difficulty] || '⬜';
     const difficultyName = m.difficulty || 'Unknown';
     
-const starRating = m.starRating !== null && m.starRating !== undefined ? 
-    `★ ${parseFloat(m.starRating).toFixed(2)}` : '★ N/A'; ;
+    const starRating = m.starRating !== null && m.starRating !== undefined ? 
+        `★ ${parseFloat(m.starRating).toFixed(2)}` : '★ N/A';
     
     let statsHtml = '';
     if (!isLowQualityMode) {
@@ -1931,9 +1931,8 @@ const starRating = m.starRating !== null && m.starRating !== undefined ?
         <div class="card-header">
             <div class="star-rating">${starRating}</div>
             <button class="favorite-btn ${isFavorite ? 'favorited' : ''}" onclick="toggleFavorite(this, event)" data-map="${mapDataJSON}">
-          <span class="heart-outline">♡</span>
-
-<span class="heart-filled">♥</span>
+                <span class="heart-outline">♡</span>
+                <span class="heart-filled">♥</span>
             </button>
         </div>
         <div class="card-content">
@@ -1948,7 +1947,7 @@ const starRating = m.starRating !== null && m.starRating !== undefined ?
         </div>
         <div class="card-footer">
             <button class="action-btn" onclick="copyMapLink('${m.link.replace(/'/g, "\\'")}', this)">Copy Link</button>
-                <button class="more-btn" onclick="toggleMoreActions(this)">⋮
+            <button class="more-btn" onclick="toggleMoreActions(this)">⋮
                 <div class="more-actions-dropdown">
                     <div class="dropdown-action" onclick="openStartFrom('${m.link.replace(/'/g, "\\'")}')">Start From</div>
                     <div class="dropdown-action" onclick="copyRawData('${m.link.replace(/'/g, "\\'")}')">Copy Raw</div>
@@ -2110,7 +2109,7 @@ function filterAndRenderMaps() {
         return 0;
     });
     
-    updateFiltersDisplay();
+    updateActiveFiltersDisplay();
     renderMaps();
 }
 
