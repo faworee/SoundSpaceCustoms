@@ -1635,7 +1635,7 @@ document.getElementById('saveMapEditsBtn')?.addEventListener('click', async func
         }, 500);
         
     } catch (error) {
-        alert(`❌ Failed to save changes:\n\n${error.message}`);
+    alert('❌ Failed to save changes');
     } finally {
         saveBtn.textContent = originalText;
         saveBtn.disabled = false;
