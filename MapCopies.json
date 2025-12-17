@@ -461,7 +461,7 @@
   },
   "Demisnya": {
     "displayName": "Demisnya",
-    "totalCopies": 3164,
+    "totalCopies": 3163,
     "maps": [
       {
         "id": "DemisnyaBrrrr4240BassMonster",
@@ -712,10 +712,8 @@
       {
         "id": "DemisnyaBrrrr2310Gaea'sFeast",
         "name": "Gaea's Feast",
-        "copies": 60,
-        "notes": 2310,
-        "artist": "MetaHumanBoi",
-        "difficulty": "Brrrr"
+        "copies": 59,
+        "notes": 2310
       },
       {
         "id": "DemisnyaBrrrr2181Achiga",
@@ -1545,7 +1543,7 @@
   },
   "faworee": {
     "displayName": "faworee",
-    "totalCopies": 1388,
+    "totalCopies": 1389,
     "maps": [
       {
         "id": "faworeeBrrrr2526eeyuh!",
@@ -1558,7 +1556,7 @@
       {
         "id": "faworeeTasukete5424CYBER999",
         "name": "CYBER 999",
-        "copies": 948,
+        "copies": 949,
         "notes": 5424,
         "artist": "Underscore",
         "difficulty": "Tasukete"
@@ -2155,13 +2153,15 @@
   },
   "Cake": {
     "displayName": "Cake",
-    "totalCopies": 42,
+    "totalCopies": 43,
     "maps": [
       {
         "id": "CakeBrrrr1467The13th",
         "name": "The 13th",
-        "copies": 42,
-        "notes": 1467
+        "copies": 43,
+        "notes": 1467,
+        "artist": "ED$ANE",
+        "difficulty": "Brrrr"
       }
     ]
   },
@@ -2777,7 +2777,7 @@
   },
   "FpXHarborYT": {
     "displayName": "FpXHarborYT",
-    "totalCopies": 152,
+    "totalCopies": 153,
     "maps": [
       {
         "id": "FpXHarborYTLogic1513Control",
@@ -2800,7 +2800,7 @@
       {
         "id": "FpXHarborYTBrrrr1859ProtostarNewHorizons",
         "name": "Protostar New Horizons",
-        "copies": 3,
+        "copies": 4,
         "notes": 1859,
         "artist": "Monstercat",
         "difficulty": "Brrrr"
