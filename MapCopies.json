@@ -827,7 +827,7 @@
   },
   "Xilp": {
     "displayName": "Xilp",
-    "totalCopies": 2214,
+    "totalCopies": 2215,
     "maps": [
       {
         "id": "XilpBrrrr3215Bloom",
@@ -894,8 +894,10 @@
       {
         "id": "XilpBrrrr2128Machination",
         "name": "Machination",
-        "copies": 127,
-        "notes": 2128
+        "copies": 128,
+        "notes": 2128,
+        "artist": "Underscore",
+        "difficulty": "Brrrr"
       },
       {
         "id": "XilpBrrrr1673ChocolateShotgun",
@@ -1063,7 +1065,7 @@
   },
   "SheaNya": {
     "displayName": "SheaNya",
-    "totalCopies": 4322,
+    "totalCopies": 4321,
     "maps": [
       {
         "id": "SheaNyaBrrrr1558Jumpstyle",
@@ -1074,10 +1076,8 @@
       {
         "id": "SheaNyaTasukete2487Dogbite",
         "name": "Dogbite",
-        "copies": 297,
-        "notes": 2487,
-        "artist": "t+pazolite",
-        "difficulty": "Tasukete"
+        "copies": 296,
+        "notes": 2487
       },
       {
         "id": "SheaNyaBrrrr2668UltraV",
@@ -1697,7 +1697,7 @@
   },
   "Kappa": {
     "displayName": "Kappa",
-    "totalCopies": 496,
+    "totalCopies": 495,
     "maps": [
       {
         "id": "KappaBrrrr2234cyborgworkout",
@@ -1714,10 +1714,8 @@
       {
         "id": "KappaBrrrr3401plexus",
         "name": "plexus",
-        "copies": 145,
-        "notes": 3401,
-        "artist": "APM Music",
-        "difficulty": "Brrrr"
+        "copies": 144,
+        "notes": 3401
       },
       {
         "id": "KappaBrrrr1116IntenseChase",
