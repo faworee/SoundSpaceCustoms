@@ -295,15 +295,13 @@
   },
   "Taco": {
     "displayName": "Taco",
-    "totalCopies": 3175,
+    "totalCopies": 3174,
     "maps": [
       {
         "id": "TacoMedium354toxic",
         "name": "toxic",
-        "copies": 116,
-        "notes": 354,
-        "artist": "d3r & 6arelyhuman & Pröz",
-        "difficulty": "Medium"
+        "copies": 115,
+        "notes": 354
       },
       {
         "id": "TacoTasukete3061IntercosmicEcho",
@@ -381,7 +379,7 @@
   },
   "Alter/p183805": {
     "displayName": "Alter/p183805",
-    "totalCopies": 1090,
+    "totalCopies": 1091,
     "maps": [
       {
         "id": "Alter/p183805Brrrr1333CrabRave",
@@ -412,8 +410,10 @@
       {
         "id": "Alter/p183805Tasukete290MonkeysParty",
         "name": "Monkeys Party",
-        "copies": 222,
-        "notes": 290
+        "copies": 223,
+        "notes": 290,
+        "artist": "Alex Tschallener",
+        "difficulty": "Tasukete"
       }
     ]
   },
