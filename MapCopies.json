@@ -845,7 +845,7 @@
   },
   "Xilp": {
     "displayName": "Xilp",
-    "totalCopies": 2215,
+    "totalCopies": 2216,
     "maps": [
       {
         "id": "XilpBrrrr3215Bloom",
@@ -944,8 +944,10 @@
       {
         "id": "XilpBrrrr2062CORRUPTEDDATABASE",
         "name": "CORRUPTED DATABASE",
-        "copies": 52,
-        "notes": 2062
+        "copies": 53,
+        "notes": 2062,
+        "artist": "MetaHumanBoi",
+        "difficulty": "Brrrr"
       },
       {
         "id": "XilpBrrrr2200HappyCaribbeanAdventure",
