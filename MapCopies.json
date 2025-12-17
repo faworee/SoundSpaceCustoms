@@ -2413,7 +2413,7 @@
   },
   "Scxthes": {
     "displayName": "Scxthes",
-    "totalCopies": 1373,
+    "totalCopies": 1372,
     "maps": [
       {
         "id": "ScxthesLogic18224NDROMEDA",
@@ -2440,7 +2440,7 @@
       {
         "id": "ScxthesTasukete2599WASSA",
         "name": "WASSA",
-        "copies": 222,
+        "copies": 221,
         "notes": 2599,
         "artist": "HR",
         "difficulty": "Tasukete"
@@ -2651,7 +2651,7 @@
   },
   "narcissistnile": {
     "displayName": "narcissistnile",
-    "totalCopies": 1052,
+    "totalCopies": 1053,
     "maps": [
       {
         "id": "narcissistnileTasukete4186cowbellgod",
@@ -2664,7 +2664,7 @@
       {
         "id": "narcissistnileTasukete3581wheni'mgone",
         "name": "when i'm gone",
-        "copies": 369,
+        "copies": 370,
         "notes": 3581,
         "artist": "jugsta",
         "difficulty": "Tasukete"
