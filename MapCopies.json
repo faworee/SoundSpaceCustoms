@@ -443,13 +443,15 @@
   },
   "Demisnya": {
     "displayName": "Demisnya",
-    "totalCopies": 3153,
+    "totalCopies": 3154,
     "maps": [
       {
         "id": "DemisnyaBrrrr4240BassMonster",
         "name": "Bass Monster",
-        "copies": 78,
-        "notes": 4240
+        "copies": 79,
+        "notes": 4240,
+        "artist": "APM Music",
+        "difficulty": "Brrrr"
       },
       {
         "id": "DemisnyaBrrrr4450MLGCANDYDRIVE",
@@ -1503,7 +1505,7 @@
   },
   "Matt430": {
     "displayName": "Matt430",
-    "totalCopies": 618,
+    "totalCopies": 619,
     "maps": [
       {
         "id": "Matt430Brrrr1946ETHEREALVELOCITY",
@@ -1514,7 +1516,7 @@
       {
         "id": "Matt430Tasukete29002024BPMISNOTENOUGH",
         "name": "2024 BPM IS NOT ENOUGH",
-        "copies": 498,
+        "copies": 499,
         "notes": 2900,
         "artist": "Underscore",
         "difficulty": "Tasukete"
@@ -2631,12 +2633,12 @@
   },
   "Ghefine": {
     "displayName": "Ghefine",
-    "totalCopies": 234,
+    "totalCopies": 233,
     "maps": [
       {
         "id": "GhefineBrrrr3090Fusion",
         "name": "Fusion",
-        "copies": 234,
+        "copies": 233,
         "notes": 3090,
         "artist": "red",
         "difficulty": "Brrrr"
