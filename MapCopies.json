@@ -1,7 +1,7 @@
 {
   "SnivyTrueForm": {
     "displayName": "SnivyTrueForm",
-    "totalCopies": 1331,
+    "totalCopies": 1332,
     "maps": [
       {
         "id": "SnivyTrueFormEasy1382MoreThanFriends",
@@ -44,8 +44,10 @@
       {
         "id": "SnivyTrueFormTasukete3325StuffedJackal",
         "name": "Stuffed Jackal",
-        "copies": 92,
-        "notes": 3325
+        "copies": 93,
+        "notes": 3325,
+        "artist": "Korsio",
+        "difficulty": "Tasukete"
       },
       {
         "id": "SnivyTrueFormHard1543AtTheEndOfTime",
@@ -309,7 +311,7 @@
   },
   "Taco": {
     "displayName": "Taco",
-    "totalCopies": 3180,
+    "totalCopies": 3181,
     "maps": [
       {
         "id": "TacoMedium354toxic",
@@ -320,8 +322,10 @@
       {
         "id": "TacoTasukete3061IntercosmicEcho",
         "name": "Intercosmic Echo",
-        "copies": 334,
-        "notes": 3061
+        "copies": 335,
+        "notes": 3061,
+        "artist": "Diamomd",
+        "difficulty": "Tasukete"
       },
       {
         "id": "TacoBrrrr2430CUTEMAKMAKFUNK",
@@ -2353,7 +2357,7 @@
   },
   "Scxthes": {
     "displayName": "Scxthes",
-    "totalCopies": 1356,
+    "totalCopies": 1355,
     "maps": [
       {
         "id": "ScxthesLogic18224NDROMEDA",
@@ -2364,7 +2368,7 @@
       {
         "id": "ScxthesTasukete4383OATHBREAKER",
         "name": "OATH BREAKER",
-        "copies": 381,
+        "copies": 380,
         "notes": 4383,
         "artist": "Underscore",
         "difficulty": "Tasukete"
