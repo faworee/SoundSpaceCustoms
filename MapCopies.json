@@ -445,7 +445,7 @@
   },
   "Demisnya": {
     "displayName": "Demisnya",
-    "totalCopies": 3156,
+    "totalCopies": 3157,
     "maps": [
       {
         "id": "DemisnyaBrrrr4240BassMonster",
@@ -610,8 +610,10 @@
       {
         "id": "DemisnyaTasukete2842IntercosmicEcho2",
         "name": "Intercosmic Echo 2",
-        "copies": 147,
-        "notes": 2842
+        "copies": 148,
+        "notes": 2842,
+        "artist": "diamomd",
+        "difficulty": "Tasukete"
       },
       {
         "id": "DemisnyaBrrrr2238HATEDHERO",
@@ -1097,7 +1099,7 @@
   },
   "SheaNya": {
     "displayName": "SheaNya",
-    "totalCopies": 4329,
+    "totalCopies": 4328,
     "maps": [
       {
         "id": "SheaNyaBrrrr1558Jumpstyle",
@@ -1302,7 +1304,7 @@
       {
         "id": "SheaNyaBrrrr2569epicrace",
         "name": "epic race",
-        "copies": 88,
+        "copies": 87,
         "notes": 2569,
         "artist": "APM Music",
         "difficulty": "Brrrr"
@@ -2677,7 +2679,7 @@
   },
   "FpXHarborYT": {
     "displayName": "FpXHarborYT",
-    "totalCopies": 147,
+    "totalCopies": 146,
     "maps": [
       {
         "id": "FpXHarborYTLogic1513Control",
@@ -2700,10 +2702,8 @@
       {
         "id": "FpXHarborYTBrrrr1859ProtostarNewHorizons",
         "name": "Protostar New Horizons",
-        "copies": 3,
-        "notes": 1859,
-        "artist": "Monstercat",
-        "difficulty": "Brrrr"
+        "copies": 2,
+        "notes": 1859
       },
       {
         "id": "fpxharborytbrrrr2425thinkingaboutyou",
