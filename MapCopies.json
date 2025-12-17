@@ -1,7 +1,7 @@
 {
   "SnivyTrueForm": {
     "displayName": "SnivyTrueForm",
-    "totalCopies": 1328,
+    "totalCopies": 1329,
     "maps": [
       {
         "id": "SnivyTrueFormEasy1382MoreThanFriends",
@@ -98,8 +98,10 @@
       {
         "id": "SnivyTrueFormLogic2932IntercosmicEcho",
         "name": "Intercosmic Echo",
-        "copies": 34,
-        "notes": 2932
+        "copies": 35,
+        "notes": 2932,
+        "artist": "diamomd",
+        "difficulty": "Logic"
       },
       {
         "id": "SnivyTrueFormLogic1106Monday",
