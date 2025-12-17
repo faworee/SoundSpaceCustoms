@@ -845,7 +845,7 @@
   },
   "zeroth": {
     "displayName": "zeroth",
-    "totalCopies": 2068,
+    "totalCopies": 2067,
     "maps": [
       {
         "id": "zerothBrrrr4944mymoon",
@@ -880,7 +880,7 @@
       {
         "id": "zerothTasukete1763iwontgiveuponyou",
         "name": "i wont give up on you",
-        "copies": 505,
+        "copies": 504,
         "notes": 1763,
         "artist": "mon",
         "difficulty": "Tasukete"
@@ -1825,12 +1825,12 @@
   },
   "Kappa": {
     "displayName": "Kappa",
-    "totalCopies": 501,
+    "totalCopies": 502,
     "maps": [
       {
         "id": "KappaBrrrr2234cyborgworkout",
         "name": "cyborg workout",
-        "copies": 120,
+        "copies": 121,
         "notes": 2234,
         "artist": "APM Music",
         "difficulty": "Brrrr"
@@ -2831,12 +2831,12 @@
   },
   "reticentmemory": {
     "displayName": "reticentmemory",
-    "totalCopies": 15,
+    "totalCopies": 14,
     "maps": [
       {
         "id": "reticentmemoryTasukete3469FINALSTAND",
         "name": "FINAL STAND",
-        "copies": 15,
+        "copies": 14,
         "notes": 3469,
         "artist": "Underscore",
         "difficulty": "Tasukete"
