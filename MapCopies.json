@@ -1102,7 +1102,7 @@
       {
         "id": "SheaNyaBrrrr1558Jumpstyle",
         "name": "Jumpstyle",
-        "copies": 360,
+        "copies": 361,
         "notes": 1558,
         "artist": "APM Music",
         "difficulty": "Brrrr"
@@ -1162,10 +1162,8 @@
       {
         "id": "SheaNyaBrrrr1417AlarmForDoomsday",
         "name": "Alarm For Doomsday",
-        "copies": 83,
-        "notes": 1417,
-        "artist": "APM Music",
-        "difficulty": "Brrrr"
+        "copies": 82,
+        "notes": 1417
       },
       {
         "id": "SheaNyaBrrrr1405GreenEmerald",
