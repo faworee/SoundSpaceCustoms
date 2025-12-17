@@ -313,7 +313,7 @@
   },
   "Taco": {
     "displayName": "Taco",
-    "totalCopies": 3190,
+    "totalCopies": 3191,
     "maps": [
       {
         "id": "TacoMedium354toxic",
@@ -386,8 +386,10 @@
       {
         "id": "TacoTasukete1107skibidifanumtax",
         "name": "skibidi fanum tax",
-        "copies": 208,
-        "notes": 1107
+        "copies": 209,
+        "notes": 1107,
+        "artist": "RizzlerBullet",
+        "difficulty": "Tasukete"
       },
       {
         "id": "TacoBrrrr2157youreyes",
