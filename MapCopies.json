@@ -853,7 +853,7 @@
   },
   "Xilp": {
     "displayName": "Xilp",
-    "totalCopies": 2216,
+    "totalCopies": 2215,
     "maps": [
       {
         "id": "XilpBrrrr3215Bloom",
@@ -890,10 +890,8 @@
       {
         "id": "XilpBrrrr3501Kyzaghan",
         "name": "Kyzaghan",
-        "copies": 250,
-        "notes": 3501,
-        "artist": "Underscore",
-        "difficulty": "Brrrr"
+        "copies": 249,
+        "notes": 3501
       },
       {
         "id": "XilpTasukete3510HadronCollision",
@@ -1093,13 +1091,15 @@
   },
   "SheaNya": {
     "displayName": "SheaNya",
-    "totalCopies": 4325,
+    "totalCopies": 4327,
     "maps": [
       {
         "id": "SheaNyaBrrrr1558Jumpstyle",
         "name": "Jumpstyle",
-        "copies": 359,
-        "notes": 1558
+        "copies": 360,
+        "notes": 1558,
+        "artist": "APM Music",
+        "difficulty": "Brrrr"
       },
       {
         "id": "SheaNyaTasukete2487Dogbite",
@@ -1212,8 +1212,10 @@
       {
         "id": "SheaNyaBrrrr2782Starspangledbanner",
         "name": "Star spangled banner",
-        "copies": 101,
-        "notes": 2782
+        "copies": 102,
+        "notes": 2782,
+        "artist": "APM Music",
+        "difficulty": "Brrrr"
       },
       {
         "id": "sheanyabrrrr1437wewishyouamerrychristmas",
