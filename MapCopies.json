@@ -311,7 +311,7 @@
   },
   "Taco": {
     "displayName": "Taco",
-    "totalCopies": 3185,
+    "totalCopies": 3186,
     "maps": [
       {
         "id": "TacoMedium354toxic",
@@ -360,7 +360,7 @@
       {
         "id": "TacoTasukete3590noescape",
         "name": "no escape",
-        "copies": 757,
+        "copies": 758,
         "notes": 3590,
         "artist": "d3r & m1v & asteria",
         "difficulty": "Tasukete"
@@ -1569,15 +1569,13 @@
   },
   "Matt430": {
     "displayName": "Matt430",
-    "totalCopies": 621,
+    "totalCopies": 620,
     "maps": [
       {
         "id": "Matt430Brrrr1946ETHEREALVELOCITY",
         "name": "ETHEREAL VELOCITY",
-        "copies": 121,
-        "notes": 1946,
-        "artist": "Underscore",
-        "difficulty": "Brrrr"
+        "copies": 120,
+        "notes": 1946
       },
       {
         "id": "Matt430Tasukete29002024BPMISNOTENOUGH",
