@@ -313,7 +313,7 @@
   },
   "Taco": {
     "displayName": "Taco",
-    "totalCopies": 3188,
+    "totalCopies": 3189,
     "maps": [
       {
         "id": "TacoMedium354toxic",
@@ -362,7 +362,7 @@
       {
         "id": "TacoTasukete3590noescape",
         "name": "no escape",
-        "copies": 759,
+        "copies": 760,
         "notes": 3590,
         "artist": "d3r & m1v & asteria",
         "difficulty": "Tasukete"
@@ -2777,7 +2777,7 @@
   },
   "FpXHarborYT": {
     "displayName": "FpXHarborYT",
-    "totalCopies": 153,
+    "totalCopies": 152,
     "maps": [
       {
         "id": "FpXHarborYTLogic1513Control",
@@ -2800,7 +2800,7 @@
       {
         "id": "FpXHarborYTBrrrr1859ProtostarNewHorizons",
         "name": "Protostar New Horizons",
-        "copies": 4,
+        "copies": 3,
         "notes": 1859,
         "artist": "Monstercat",
         "difficulty": "Brrrr"
