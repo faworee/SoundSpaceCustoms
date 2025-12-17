@@ -2682,10 +2682,8 @@
       {
         "id": "FpXHarborYTLogic1513Control",
         "name": "Control",
-        "copies": 51,
-        "notes": 1513,
-        "artist": "luvbackpack x sukoyomi",
-        "difficulty": "Logic"
+        "copies": 50,
+        "notes": 1513
       },
       {
         "id": "FpXHarborYTLogic2152NewWorld",
@@ -2702,8 +2700,10 @@
       {
         "id": "FpXHarborYTBrrrr1859ProtostarNewHorizons",
         "name": "Protostar New Horizons",
-        "copies": 2,
-        "notes": 1859
+        "copies": 3,
+        "notes": 1859,
+        "artist": "Monstercat",
+        "difficulty": "Brrrr"
       },
       {
         "id": "fpxharborytbrrrr2425thinkingaboutyou",
