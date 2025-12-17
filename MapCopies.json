@@ -311,7 +311,7 @@
   },
   "Taco": {
     "displayName": "Taco",
-    "totalCopies": 3187,
+    "totalCopies": 3188,
     "maps": [
       {
         "id": "TacoMedium354toxic",
@@ -324,7 +324,7 @@
       {
         "id": "TacoTasukete3061IntercosmicEcho",
         "name": "Intercosmic Echo",
-        "copies": 335,
+        "copies": 336,
         "notes": 3061,
         "artist": "Diamomd",
         "difficulty": "Tasukete"
@@ -2801,12 +2801,12 @@
   },
   "reticentmemory": {
     "displayName": "reticentmemory",
-    "totalCopies": 14,
+    "totalCopies": 13,
     "maps": [
       {
         "id": "reticentmemoryTasukete3469FINALSTAND",
         "name": "FINAL STAND",
-        "copies": 14,
+        "copies": 13,
         "notes": 3469,
         "artist": "Underscore",
         "difficulty": "Tasukete"
