@@ -1765,13 +1765,15 @@
   },
   "Faworee": {
     "displayName": "Faworee",
-    "totalCopies": 33,
+    "totalCopies": 34,
     "maps": [
       {
         "id": "FaworeeLogic1086Space",
         "name": "Space",
-        "copies": 33,
-        "notes": 1086
+        "copies": 34,
+        "notes": 1086,
+        "artist": "Astra",
+        "difficulty": "Logic"
       }
     ]
   },
