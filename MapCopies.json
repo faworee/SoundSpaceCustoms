@@ -461,7 +461,7 @@
   },
   "Demisnya": {
     "displayName": "Demisnya",
-    "totalCopies": 3164,
+    "totalCopies": 3163,
     "maps": [
       {
         "id": "DemisnyaBrrrr4240BassMonster",
@@ -712,10 +712,8 @@
       {
         "id": "DemisnyaBrrrr2310Gaea'sFeast",
         "name": "Gaea's Feast",
-        "copies": 60,
-        "notes": 2310,
-        "artist": "MetaHumanBoi",
-        "difficulty": "Brrrr"
+        "copies": 59,
+        "notes": 2310
       },
       {
         "id": "DemisnyaBrrrr2181Achiga",
@@ -1545,7 +1543,7 @@
   },
   "faworee": {
     "displayName": "faworee",
-    "totalCopies": 1387,
+    "totalCopies": 1386,
     "maps": [
       {
         "id": "faworeeBrrrr2526eeyuh!",
@@ -1558,7 +1556,7 @@
       {
         "id": "faworeeTasukete5424CYBER999",
         "name": "CYBER 999",
-        "copies": 947,
+        "copies": 946,
         "notes": 5424,
         "artist": "Underscore",
         "difficulty": "Tasukete"
@@ -2411,7 +2409,7 @@
   },
   "Scxthes": {
     "displayName": "Scxthes",
-    "totalCopies": 1367,
+    "totalCopies": 1366,
     "maps": [
       {
         "id": "ScxthesLogic18224NDROMEDA",
@@ -2466,7 +2464,7 @@
       {
         "id": "ScxthesTasukete4878Expedite",
         "name": "Expedite",
-        "copies": 11,
+        "copies": 10,
         "notes": 4878,
         "artist": "Mon",
         "difficulty": "Tasukete"
@@ -2737,15 +2735,13 @@
   },
   "Senternal": {
     "displayName": "Senternal",
-    "totalCopies": 157,
+    "totalCopies": 156,
     "maps": [
       {
         "id": "SenternalTasukete2091Eeyuh!",
         "name": "Eeyuh!",
-        "copies": 157,
-        "notes": 2091,
-        "artist": "hr",
-        "difficulty": "Tasukete"
+        "copies": 156,
+        "notes": 2091
       }
     ]
   },
@@ -2779,7 +2775,7 @@
   },
   "FpXHarborYT": {
     "displayName": "FpXHarborYT",
-    "totalCopies": 151,
+    "totalCopies": 152,
     "maps": [
       {
         "id": "FpXHarborYTLogic1513Control",
@@ -2802,7 +2798,7 @@
       {
         "id": "FpXHarborYTBrrrr1859ProtostarNewHorizons",
         "name": "Protostar New Horizons",
-        "copies": 3,
+        "copies": 4,
         "notes": 1859,
         "artist": "Monstercat",
         "difficulty": "Brrrr"
