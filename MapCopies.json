@@ -849,7 +849,7 @@
   },
   "zeroth": {
     "displayName": "zeroth",
-    "totalCopies": 2069,
+    "totalCopies": 2068,
     "maps": [
       {
         "id": "zerothBrrrr4944mymoon",
@@ -862,7 +862,7 @@
       {
         "id": "zerothLogic2573ily",
         "name": "ily",
-        "copies": 242,
+        "copies": 241,
         "notes": 2573,
         "artist": "kirkiimad, CG5",
         "difficulty": "Logic"
@@ -1519,7 +1519,7 @@
   },
   "OrAlex": {
     "displayName": "OrAlex",
-    "totalCopies": 1147,
+    "totalCopies": 1146,
     "maps": [
       {
         "id": "OrAlexTasukete10535realityisdecaying\\world-end.",
@@ -1532,7 +1532,7 @@
       {
         "id": "OrAlexTasukete5098ULTIMATUM",
         "name": "ULTIMATUM",
-        "copies": 453,
+        "copies": 452,
         "notes": 5098,
         "artist": "Underscore",
         "difficulty": "Tasukete"
@@ -2415,7 +2415,7 @@
   },
   "Scxthes": {
     "displayName": "Scxthes",
-    "totalCopies": 1376,
+    "totalCopies": 1375,
     "maps": [
       {
         "id": "ScxthesLogic18224NDROMEDA",
@@ -2442,7 +2442,7 @@
       {
         "id": "ScxthesTasukete2599WASSA",
         "name": "WASSA",
-        "copies": 223,
+        "copies": 222,
         "notes": 2599,
         "artist": "HR",
         "difficulty": "Tasukete"
@@ -2591,12 +2591,12 @@
   },
   "allusionist": {
     "displayName": "allusionist",
-    "totalCopies": 48,
+    "totalCopies": 49,
     "maps": [
       {
         "id": "allusionistBrrrr3000AMiserablePileOfSecrets(TheImpalerII)",
         "name": "A Miserable Pile Of Secrets (The Impaler II)",
-        "copies": 48,
+        "copies": 49,
         "notes": 3000,
         "artist": "Nstryder",
         "difficulty": "Brrrr"
