@@ -297,7 +297,7 @@
   },
   "Taco": {
     "displayName": "Taco",
-    "totalCopies": 3175,
+    "totalCopies": 3174,
     "maps": [
       {
         "id": "TacoMedium354toxic",
@@ -314,10 +314,8 @@
       {
         "id": "TacoBrrrr2430CUTEMAKMAKFUNK",
         "name": "CUTEMAKMAKFUNK",
-        "copies": 449,
-        "notes": 2430,
-        "artist": "DJWahRA",
-        "difficulty": "Brrrr"
+        "copies": 448,
+        "notes": 2430
       },
       {
         "id": "TacoBrrrr1293KillEverybody",
@@ -1989,7 +1987,7 @@
   },
   "sev": {
     "displayName": "sev",
-    "totalCopies": 623,
+    "totalCopies": 624,
     "maps": [
       {
         "id": "sevBrrrr4171RawHaus",
@@ -2000,8 +1998,10 @@
       {
         "id": "sevBrrrr2495AVANGARD2.0",
         "name": "AVANGARD 2.0",
-        "copies": 441,
-        "notes": 2495
+        "copies": 442,
+        "notes": 2495,
+        "artist": "Alanwaad",
+        "difficulty": "Brrrr"
       }
     ]
   },
@@ -2617,7 +2617,7 @@
   },
   "FpXHarborYT": {
     "displayName": "FpXHarborYT",
-    "totalCopies": 147,
+    "totalCopies": 146,
     "maps": [
       {
         "id": "FpXHarborYTLogic1513Control",
@@ -2646,7 +2646,7 @@
       {
         "id": "fpxharborytbrrrr2425thinkingaboutyou",
         "name": "Thinking About You",
-        "copies": 3,
+        "copies": 2,
         "notes": 2425,
         "artist": "Monstercat",
         "difficulty": "Brrrr"
