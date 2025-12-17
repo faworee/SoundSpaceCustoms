@@ -311,7 +311,7 @@
   },
   "Taco": {
     "displayName": "Taco",
-    "totalCopies": 3181,
+    "totalCopies": 3182,
     "maps": [
       {
         "id": "TacoMedium354toxic",
@@ -348,7 +348,7 @@
       {
         "id": "TacoTasukete2870HOTAKFUNK",
         "name": "HOTAKFUNK",
-        "copies": 364,
+        "copies": 365,
         "notes": 2870,
         "artist": "DJWahRA",
         "difficulty": "Tasukete"
@@ -1117,7 +1117,7 @@
   },
   "SheaNya": {
     "displayName": "SheaNya",
-    "totalCopies": 4334,
+    "totalCopies": 4335,
     "maps": [
       {
         "id": "SheaNyaBrrrr1558Jumpstyle",
@@ -1372,7 +1372,7 @@
       {
         "id": "sheanyabrrrr3049outofmyhead",
         "name": "oUt oF mY HEad",
-        "copies": 50,
+        "copies": 51,
         "notes": 3049,
         "artist": "WUANT x BLUNDER",
         "difficulty": "Brrrr"
@@ -1917,7 +1917,7 @@
   },
   "Flvxify": {
     "displayName": "Flvxify",
-    "totalCopies": 164,
+    "totalCopies": 163,
     "maps": [
       {
         "id": "FlvxifyLogic4914M1LLI0NPP",
@@ -1952,7 +1952,7 @@
       {
         "id": "flvxifybrrrr1627fortalice",
         "name": "FORTALiCE",
-        "copies": 13,
+        "copies": 12,
         "notes": 1627,
         "artist": "Zxnx",
         "difficulty": "Brrrr"
