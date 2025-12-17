@@ -2794,7 +2794,7 @@
       {
         "id": "FpXHarborYTLogic912Alanwaad",
         "name": "Alanwaad ",
-        "copies": 35,
+        "copies": 34,
         "notes": 912
       },
       {
@@ -2812,6 +2812,14 @@
         "notes": 2425,
         "artist": "Monstercat",
         "difficulty": "Brrrr"
+      },
+      {
+        "id": "fpxharborytlogic1153brxphonk",
+        "name": "BRX PHONK",
+        "copies": 1,
+        "notes": 1153,
+        "artist": "Alanwaad",
+        "difficulty": "Logic"
       }
     ]
   },
