@@ -2039,7 +2039,7 @@
   },
   "sev": {
     "displayName": "sev",
-    "totalCopies": 623,
+    "totalCopies": 624,
     "maps": [
       {
         "id": "sevBrrrr4171RawHaus",
@@ -2050,8 +2050,10 @@
       {
         "id": "sevBrrrr2495AVANGARD2.0",
         "name": "AVANGARD 2.0",
-        "copies": 441,
-        "notes": 2495
+        "copies": 442,
+        "notes": 2495,
+        "artist": "Alanwaad",
+        "difficulty": "Brrrr"
       }
     ]
   },
@@ -4354,12 +4356,12 @@
   },
   "TUPPICUNOTUFFMAPPER": {
     "displayName": "TUPPICUNOTUFFMAPPER",
-    "totalCopies": 2,
+    "totalCopies": 1,
     "maps": [
       {
         "id": "tuppicunotuffmapperbrrrr2862toxic",
         "name": "toxic",
-        "copies": 2,
+        "copies": 1,
         "notes": 2862,
         "artist": "d3r & 6arelyhuman & Pröz",
         "difficulty": "Brrrr"
