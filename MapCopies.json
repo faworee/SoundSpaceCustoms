@@ -1129,7 +1129,7 @@
   },
   "SheaNya": {
     "displayName": "SheaNya",
-    "totalCopies": 4338,
+    "totalCopies": 4339,
     "maps": [
       {
         "id": "SheaNyaBrrrr1558Jumpstyle",
@@ -1246,8 +1246,10 @@
       {
         "id": "SheaNyaBrrrr2242BPM=RT",
         "name": "BPM=RT",
-        "copies": 85,
-        "notes": 2242
+        "copies": 86,
+        "notes": 2242,
+        "artist": "t+pazolite",
+        "difficulty": "Brrrr"
       },
       {
         "id": "SheaNyaBrrrr2782Starspangledbanner",
