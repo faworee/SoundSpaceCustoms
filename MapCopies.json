@@ -2745,12 +2745,12 @@
   },
   "Silva": {
     "displayName": "Silva",
-    "totalCopies": 129,
+    "totalCopies": 130,
     "maps": [
       {
         "id": "SilvaBrrrr1865Hot",
         "name": "Hot",
-        "copies": 129,
+        "copies": 130,
         "notes": 1865,
         "artist": "FWLR",
         "difficulty": "Brrrr"
