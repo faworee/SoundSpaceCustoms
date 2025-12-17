@@ -64,6 +64,7 @@ function initCustomDropdowns() {
 }
 
 initCustomDropdowns();
+let mapCopiesData = {};
 
 (function() {
     const DISCORD_CONFIG = {
@@ -224,7 +225,7 @@ initCustomDropdowns();
             }
             
             const usernameText = userData.isAdmin 
-                ? `logout (${userData.username}) ⭐` 
+                ? `logout (${userData.username}) â­` 
                 : `logout (${userData.username})`;
             
             discordAuthBtn.innerHTML = '';
@@ -236,20 +237,159 @@ initCustomDropdowns();
             discordAuthBtn.onclick = loginWithDiscord;
         }
     }
-
-    function init() {
-        const urlParams = new URLSearchParams(window.location.search);
-        const code = urlParams.get('code');
-        
-        if (code) {
-            handleOAuthCallback(code);
+function updateAdminUI() {
+    const user = window.getDiscordUser ? window.getDiscordUser() : null;
+    const addMapMenuBtn = document.getElementById('addMapMenuBtn');
+    
+    if (addMapMenuBtn) {
+        if (user && user.isAdmin === true) {
+            addMapMenuBtn.style.display = 'block';
         } else {
-            setTimeout(() => {
-                updateButtonUI();
-                updateMenuButtonAvatar();
-            }, 100);
+            addMapMenuBtn.style.display = 'none';
         }
     }
+}
+
+document.getElementById('addMapMenuBtn')?.addEventListener('click', () => {
+    const user = window.getDiscordUser();
+    if (!user || !user.isAdmin) {
+        alert('Admin access required');
+        return;
+    }
+    
+    document.getElementById('addMapModal').classList.add('show');
+    headerMenu.classList.remove('show');
+});
+
+document.querySelectorAll('#addDifficultyOptions .filter-option').forEach(btn => {
+    btn.addEventListener('click', (e) => {
+        e.stopPropagation();
+        document.querySelectorAll('#addDifficultyOptions .filter-option').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+    });
+});
+
+document.querySelectorAll('#addPatternOptions .filter-option').forEach(btn => {
+    btn.addEventListener('click', (e) => {
+        e.stopPropagation();
+        btn.classList.toggle('active');
+    });
+});
+
+document.getElementById('addMapBtn')?.addEventListener('click', async function() {
+    const user = window.getDiscordUser();
+    if (!user || !user.isAdmin) {
+        alert('Admin access required');
+        return;
+    }
+    
+    const mapName = document.getElementById('addMapName').value.trim();
+    const artist = document.getElementById('addArtist').value.trim();
+    const mapper = document.getElementById('addMapper').value.trim();
+    const githubLink = document.getElementById('addGithubLink').value.trim();
+    const info = document.getElementById('addInfo').value.trim();
+    const starRating = document.getElementById('addStarRating').value.trim();
+    
+    if (!mapName || !artist || !mapper || !githubLink) {
+        alert('Please fill in all required fields (Map Name, Artist, Mapper, GitHub Link)');
+        return;
+    }
+    
+    const selectedDifficulty = document.querySelector('#addDifficultyOptions .filter-option.active')?.dataset.difficulty;
+    if (!selectedDifficulty) {
+        alert('Please select a difficulty');
+        return;
+    }
+    
+    const selectedPatterns = Array.from(document.querySelectorAll('#addPatternOptions .filter-option.active'))
+        .map(btn => btn.dataset.pattern);
+    
+    const newMapData = {
+        mapName,
+        artist,
+        mapper,
+        link: githubLink,
+        difficulty: selectedDifficulty,
+        patterns: selectedPatterns.length > 0 ? selectedPatterns : ["No Data"],
+        info: info || null,
+        starRating: starRating ? parseFloat(starRating) : null,
+        isNew: true,
+        discordId: user.id
+    };
+    
+    const addBtn = document.getElementById('addMapBtn');
+    const originalText = addBtn.textContent;
+    addBtn.textContent = 'Adding...';
+    addBtn.disabled = true;
+    
+    try {
+        const response = await fetch(MAP_API_URL, {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify({
+                action: 'addMap',
+                userId: user.id,
+                isAdmin: user.isAdmin,
+                mapData: newMapData
+            })
+        });
+        
+        let responseData;
+        const contentType = response.headers.get('content-type');
+        
+        if (contentType && contentType.includes('application/json')) {
+            responseData = await response.json();
+        } else {
+            throw new Error('Server returned non-JSON response');
+        }
+        
+        if (!response.ok) {
+            const errorMsg = responseData.error || 'Unknown error';
+            const errorDetails = responseData.details || '';
+            const fullError = errorDetails ? `${errorMsg}: ${errorDetails}` : errorMsg;
+            throw new Error(fullError);
+        }
+        
+        alert('âœ… Map added successfully!');
+        closeModal('addMapModal');
+        
+        document.getElementById('addMapName').value = '';
+        document.getElementById('addArtist').value = '';
+        document.getElementById('addMapper').value = '';
+        document.getElementById('addGithubLink').value = '';
+        document.getElementById('addInfo').value = '';
+        document.getElementById('addStarRating').value = '';
+        document.querySelectorAll('#addDifficultyOptions .filter-option').forEach(btn => btn.classList.remove('active'));
+        document.querySelectorAll('#addPatternOptions .filter-option').forEach(btn => btn.classList.remove('active'));
+        
+        setTimeout(() => {
+            location.reload();
+        }, 500);
+        
+    } catch (error) {
+        alert(`âŒ Failed to add map:\n\n${error.message}`);
+    } finally {
+        addBtn.textContent = originalText;
+        addBtn.disabled = false;
+    }
+});
+
+    function init() {
+    const urlParams = new URLSearchParams(window.location.search);
+    const code = urlParams.get('code');
+    
+    if (code) {
+        handleOAuthCallback(code);
+    } else {
+        setTimeout(() => {
+            updateButtonUI();
+            updateMenuButtonAvatar();
+            updateAdminUI();
+        }, 100);
+    }
+}
 
     window.getDiscordUser = () => loadUserSession();
     window.isDiscordAuthenticated = () => loadUserSession() !== null;
@@ -984,12 +1124,12 @@ const favoritesManager = new FavoritesManager();
 let isLowQualityMode = false;
 const difficultyOrder = ["Easy", "Medium", "Hard", "Logic", "Brrrr", "Tasukete"];
 const difficultyEmojis = {
-    "Easy": "🟩",
-    "Medium": "🟨", 
-    "Hard": "🟥",
-    "Logic": "🟪",
-    "Brrrr": "⬜",
-    "Tasukete": "🟦"
+    "Easy": "ðŸŸ©",
+    "Medium": "ðŸŸ¨", 
+    "Hard": "ðŸŸ¥",
+    "Logic": "ðŸŸª",
+    "Brrrr": "â¬œ",
+    "Tasukete": "ðŸŸ¦"
 };
 let currentSortMode = 'difficulty-asc';
 let secondarySortMode = 'none';
@@ -1334,7 +1474,7 @@ function updateActiveFiltersDisplay() {
         filters.push('Favorites Only');
     }
     
-    content.textContent = filters.length > 0 ? filters.join(' • ') : 'None';
+    content.textContent = filters.length > 0 ? filters.join(' â€¢ ') : 'None';
 }
 
 let searchTimeout;
@@ -1627,7 +1767,7 @@ document.getElementById('saveMapEditsBtn')?.addEventListener('click', async func
             maps[mapIndex] = { ...maps[mapIndex], ...currentEditingMap };
         }
         
-        alert('✅ Map updated successfully!');
+        alert('âœ… Map updated successfully!');
         closeModal('editMapModal');
         
         setTimeout(() => {
@@ -1635,7 +1775,7 @@ document.getElementById('saveMapEditsBtn')?.addEventListener('click', async func
         }, 500);
         
     } catch (error) {
-    alert('❌ Failed to save changes');
+        alert(`âŒ Failed to save changes:\n\n${error.message}`);
     } finally {
         saveBtn.textContent = originalText;
         saveBtn.disabled = false;
@@ -1650,7 +1790,7 @@ document.getElementById('deleteMapBtn')?.addEventListener('click', async functio
     
     if (!currentEditingMap) return;
     
-    const confirmDelete = confirm(`⚠️ Are you sure you want to delete the map "${currentEditingMap.mapName}"?\n\nThis action CANNOT be undone!`);
+    const confirmDelete = confirm(`âš ï¸ Are you sure you want to delete the map "${currentEditingMap.mapName}"?\n\nThis action CANNOT be undone!`);
     if (!confirmDelete) return;
     
     const doubleConfirm = confirm(`Final confirmation: Delete "${currentEditingMap.mapName}" by ${currentEditingMap.mapper}?`);
@@ -1692,7 +1832,7 @@ document.getElementById('deleteMapBtn')?.addEventListener('click', async functio
             maps.splice(mapIndex, 1);
         }
         
-        alert('✅ Map deleted successfully!');
+        alert('âœ… Map deleted successfully!');
         closeModal('editMapModal');
         
         setTimeout(() => {
@@ -1700,7 +1840,7 @@ document.getElementById('deleteMapBtn')?.addEventListener('click', async functio
         }, 500);
         
     } catch (error) {
-        alert(`❌ Failed to delete map: ${error.message}`);
+        alert(`âŒ Failed to delete map: ${error.message}`);
     } finally {
         deleteBtn.textContent = originalText;
         deleteBtn.disabled = false;
@@ -1871,11 +2011,11 @@ function createMapCard(m) {
 
     const isFavorite = favoritesManager.isFavorite(m);
     const mapDataJSON = JSON.stringify(m).replace(/"/g, '&quot;').replace(/'/g, '&#39;');
-    const difficultyEmoji = difficultyEmojis[m.difficulty] || '⬜';
+    const difficultyEmoji = difficultyEmojis[m.difficulty] || 'â¬œ';
     const difficultyName = m.difficulty || 'Unknown';
     
     const starRating = m.starRating !== null && m.starRating !== undefined ? 
-        `★ ${parseFloat(m.starRating).toFixed(2)}` : '★ N/A';
+        `â˜… ${parseFloat(m.starRating).toFixed(2)}` : 'â˜… N/A';
     
     let statsHtml = '';
     if (!isLowQualityMode) {
@@ -1921,6 +2061,14 @@ function createMapCard(m) {
         `;
     }
 
+    const copies = m.copies || 0;
+    const popularityHtml = `
+        <div class="popularity-display">
+            <strong>Popularity:</strong>
+            <span>${copies.toLocaleString()} ${copies === 1 ? 'copy' : 'copies'}</span>
+        </div>
+    `;
+
     const user = window.getDiscordUser ? window.getDiscordUser() : null;
     const canEdit = user && (user.id === m.discordId || user.isAdmin === true);
     const editButtonHtml = canEdit 
@@ -1931,8 +2079,8 @@ function createMapCard(m) {
         <div class="card-header">
             <div class="star-rating">${starRating}</div>
             <button class="favorite-btn ${isFavorite ? 'favorited' : ''}" onclick="toggleFavorite(this, event)" data-map="${mapDataJSON}">
-                <span class="heart-outline">♡</span>
-                <span class="heart-filled">♥</span>
+                <span class="heart-outline">â™¡</span>
+                <span class="heart-filled">â™¥</span>
             </button>
         </div>
         <div class="card-content">
@@ -1944,10 +2092,11 @@ function createMapCard(m) {
             </div>
             ${patternsHtml}
             ${infoHtml}
+            ${popularityHtml}
         </div>
         <div class="card-footer">
             <button class="action-btn" onclick="copyMapLink('${m.link.replace(/'/g, "\\'")}', this)">Copy Link</button>
-            <button class="more-btn" onclick="toggleMoreActions(this)">⋮
+            <button class="more-btn" onclick="toggleMoreActions(this)">â‹®
                 <div class="more-actions-dropdown">
                     <div class="dropdown-action" onclick="openStartFrom('${m.link.replace(/'/g, "\\'")}')">Start From</div>
                     <div class="dropdown-action" onclick="copyRawData('${m.link.replace(/'/g, "\\'")}')">Copy Raw</div>
@@ -2062,52 +2211,66 @@ function filterAndRenderMaps() {
     });
 
     filteredMaps.sort((a, b) => {
-        const aFav = favoritesManager.isFavorite(a);
-        const bFav = favoritesManager.isFavorite(b);
-        if (aFav !== bFav) {
-            return aFav ? -1 : 1;
+    const aFav = favoritesManager.isFavorite(a);
+    const bFav = favoritesManager.isFavorite(b);
+    if (aFav !== bFav) {
+        return aFav ? -1 : 1;
+    }
+    
+    if (currentSortMode === 'star-desc' || currentSortMode === 'star-asc') {
+        const starA = a.starRating || 0;
+        const starB = b.starRating || 0;
+        const starComparison = currentSortMode === 'star-desc' ? starB - starA : starA - starB;
+        if (starComparison !== 0) {
+            return starComparison;
         }
-        
-        if (currentSortMode === 'star-desc' || currentSortMode === 'star-asc') {
+    } else if (currentSortMode === 'difficulty-asc' || currentSortMode === 'difficulty-desc') {
+        const diffA = difficultyOrder.indexOf(a.difficulty);
+        const diffB = difficultyOrder.indexOf(b.difficulty);
+        const diffComparison = currentSortMode === 'difficulty-asc' ? diffA - diffB : diffB - diffA;
+        if (diffComparison !== 0) {
+            return diffComparison;
+        }
+    } else if (currentSortMode === 'popularity-desc' || currentSortMode === 'popularity-asc') {
+        const copiesA = a.copies || 0;
+        const copiesB = b.copies || 0;
+        const copiesComparison = currentSortMode === 'popularity-desc' ? copiesB - copiesA : copiesA - copiesB;
+        if (copiesComparison !== 0) {
+            return copiesComparison;
+        }
+    }
+    
+    if (a.isNew !== b.isNew) {
+        return a.isNew ? -1 : 1;
+    }
+    
+    if (secondarySortMode !== 'none') {
+        if (secondarySortMode === 'star-desc' || secondarySortMode === 'star-asc') {
             const starA = a.starRating || 0;
             const starB = b.starRating || 0;
-            const starComparison = currentSortMode === 'star-desc' ? starB - starA : starA - starB;
+            const starComparison = secondarySortMode === 'star-desc' ? starB - starA : starA - starB;
             if (starComparison !== 0) {
                 return starComparison;
             }
-        } else if (currentSortMode === 'difficulty-asc' || currentSortMode === 'difficulty-desc') {
+        } else if (secondarySortMode === 'difficulty-asc' || secondarySortMode === 'difficulty-desc') {
             const diffA = difficultyOrder.indexOf(a.difficulty);
             const diffB = difficultyOrder.indexOf(b.difficulty);
-            const diffComparison = currentSortMode === 'difficulty-asc' ? diffA - diffB : diffB - diffA;
+            const diffComparison = secondarySortMode === 'difficulty-asc' ? diffA - diffB : diffB - diffA;
             if (diffComparison !== 0) {
                 return diffComparison;
             }
-        }
-        
-        if (a.isNew !== b.isNew) {
-            return a.isNew ? -1 : 1;
-        }
-        
-        if (secondarySortMode !== 'none') {
-            if (secondarySortMode === 'star-desc' || secondarySortMode === 'star-asc') {
-                const starA = a.starRating || 0;
-                const starB = b.starRating || 0;
-                const starComparison = secondarySortMode === 'star-desc' ? starB - starA : starA - starB;
-                if (starComparison !== 0) {
-                    return starComparison;
-                }
-            } else if (secondarySortMode === 'difficulty-asc' || secondarySortMode === 'difficulty-desc') {
-                const diffA = difficultyOrder.indexOf(a.difficulty);
-                const diffB = difficultyOrder.indexOf(b.difficulty);
-                const diffComparison = secondarySortMode === 'difficulty-asc' ? diffA - diffB : diffB - diffA;
-                if (diffComparison !== 0) {
-                    return diffComparison;
-                }
+        } else if (secondarySortMode === 'popularity-desc' || secondarySortMode === 'popularity-asc') {
+            const copiesA = a.copies || 0;
+            const copiesB = b.copies || 0;
+            const copiesComparison = secondarySortMode === 'popularity-desc' ? copiesB - copiesA : copiesA - copiesB;
+            if (copiesComparison !== 0) {
+                return copiesComparison;
             }
         }
-        
-        return 0;
-    });
+    }
+    
+    return 0;
+});
     
     updateActiveFiltersDisplay();
     renderMaps();
@@ -2134,6 +2297,8 @@ async function loadMapData() {
     try {
         if (loadingSpinner) loadingSpinner.style.display = 'block';
         
+        await loadMapCopies();
+        
         const timestamp = Date.now();
         const response = await fetch(`Mapdata.json?v=${timestamp}`);
         if (!response.ok) throw new Error('Failed to load map data');
@@ -2156,7 +2321,8 @@ async function loadMapData() {
                 info: info || null,
                 discordId: discordId || null,
                 duration: null,
-                noteCount: null
+                noteCount: null,
+                copies: getMapCopies(mapName, artist, mapper)
             };
             
             try {
@@ -2207,7 +2373,36 @@ async function loadMapData() {
         }
     }
 }
+async function loadMapCopies() {
+    try {
+        const timestamp = Date.now();
+        const response = await fetch(`MapCopies.json?v=${timestamp}`);
+        if (!response.ok) throw new Error('Failed to load map copies data');
+        
+        mapCopiesData = await response.json();
+    } catch (error) {
+        console.warn('Could not load map copies data:', error);
+        mapCopiesData = {};
+    }
+}
 
+function getMapCopies(mapName, artist, mapper) {
+    for (const mapperKey in mapCopiesData) {
+        const mapperData = mapCopiesData[mapperKey];
+        
+        if (mapperData.displayName && mapperData.displayName.toLowerCase() === mapper.toLowerCase()) {
+            if (mapperData.maps) {
+                for (const map of mapperData.maps) {
+                    if (map.name === mapName) {
+                        return map.copies || 0;
+                    }
+                }
+            }
+        }
+    }
+    
+    return 0;
+}
 function loadChangelog() {
     const container = document.getElementById('changelogContent');
     if (!container) return;
