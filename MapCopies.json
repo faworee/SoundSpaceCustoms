@@ -311,7 +311,7 @@
   },
   "Taco": {
     "displayName": "Taco",
-    "totalCopies": 3187,
+    "totalCopies": 3188,
     "maps": [
       {
         "id": "TacoMedium354toxic",
@@ -324,7 +324,7 @@
       {
         "id": "TacoTasukete3061IntercosmicEcho",
         "name": "Intercosmic Echo",
-        "copies": 335,
+        "copies": 336,
         "notes": 3061,
         "artist": "Diamomd",
         "difficulty": "Tasukete"
