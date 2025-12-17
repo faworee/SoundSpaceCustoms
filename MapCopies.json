@@ -1637,13 +1637,15 @@
   },
   "canteloupe3727": {
     "displayName": "canteloupe3727",
-    "totalCopies": 145,
+    "totalCopies": 146,
     "maps": [
       {
         "id": "canteloupe3727Brrrr5593M1LLI0NPP",
         "name": "M1LLI0N PP",
-        "copies": 51,
-        "notes": 5593
+        "copies": 52,
+        "notes": 5593,
+        "artist": "Camellia",
+        "difficulty": "Brrrr"
       },
       {
         "id": "canteloupe3727Brrrr1675Flowers",
