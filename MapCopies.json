@@ -1119,7 +1119,7 @@
   },
   "SheaNya": {
     "displayName": "SheaNya",
-    "totalCopies": 4337,
+    "totalCopies": 4336,
     "maps": [
       {
         "id": "SheaNyaBrrrr1558Jumpstyle",
@@ -1152,10 +1152,8 @@
       {
         "id": "SheaNyaTasukete5726EXTRA!",
         "name": "EXTRA!",
-        "copies": 453,
-        "notes": 5726,
-        "artist": "Underscore",
-        "difficulty": "Tasukete"
+        "copies": 452,
+        "notes": 5726
       },
       {
         "id": "SheaNyaTasukete2783wassa",
@@ -2601,7 +2599,7 @@
   },
   "narcissistnile": {
     "displayName": "narcissistnile",
-    "totalCopies": 1050,
+    "totalCopies": 1051,
     "maps": [
       {
         "id": "narcissistnileTasukete4186cowbellgod",
@@ -2614,8 +2612,10 @@
       {
         "id": "narcissistnileTasukete3581wheni'mgone",
         "name": "when i'm gone",
-        "copies": 368,
-        "notes": 3581
+        "copies": 369,
+        "notes": 3581,
+        "artist": "jugsta",
+        "difficulty": "Tasukete"
       },
       {
         "id": "narcissistnileBrrrr1466Alone",
