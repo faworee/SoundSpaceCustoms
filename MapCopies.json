@@ -881,7 +881,7 @@
   },
   "Xilp": {
     "displayName": "Xilp",
-    "totalCopies": 2220,
+    "totalCopies": 2221,
     "maps": [
       {
         "id": "XilpBrrrr3215Bloom",
@@ -950,7 +950,7 @@
       {
         "id": "XilpBrrrr2128Machination",
         "name": "Machination",
-        "copies": 128,
+        "copies": 129,
         "notes": 2128,
         "artist": "Underscore",
         "difficulty": "Brrrr"
@@ -2131,15 +2131,13 @@
   },
   "Cake": {
     "displayName": "Cake",
-    "totalCopies": 43,
+    "totalCopies": 42,
     "maps": [
       {
         "id": "CakeBrrrr1467The13th",
         "name": "The 13th",
-        "copies": 43,
-        "notes": 1467,
-        "artist": "ED$ANE",
-        "difficulty": "Brrrr"
+        "copies": 42,
+        "notes": 1467
       }
     ]
   },
@@ -2445,15 +2443,13 @@
   },
   "Noobourn": {
     "displayName": "Noobourn",
-    "totalCopies": 109,
+    "totalCopies": 108,
     "maps": [
       {
         "id": "NoobournBrrrr3800Stay(Metahumanboibootleg)",
         "name": "Stay (Metahumanboi bootleg)",
-        "copies": 109,
-        "notes": 3800,
-        "artist": "The Kid LAROI, Justin Bieber",
-        "difficulty": "Brrrr"
+        "copies": 108,
+        "notes": 3800
       }
     ]
   },
