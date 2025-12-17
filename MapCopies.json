@@ -2225,15 +2225,13 @@
   },
   "goldenwatre": {
     "displayName": "goldenwatre",
-    "totalCopies": 32,
+    "totalCopies": 31,
     "maps": [
       {
         "id": "goldenwatreBrrrr988thereforyou",
         "name": "there for you",
-        "copies": 32,
-        "notes": 988,
-        "artist": "kuNarU",
-        "difficulty": "Brrrr"
+        "copies": 31,
+        "notes": 988
       }
     ]
   },
@@ -2372,8 +2370,10 @@
       {
         "id": "ScxthesLogic18224NDROMEDA",
         "name": "4NDROMEDA",
-        "copies": 35,
-        "notes": 1822
+        "copies": 36,
+        "notes": 1822,
+        "artist": "Zytrx & Nstryder",
+        "difficulty": "Logic"
       },
       {
         "id": "ScxthesTasukete4383OATHBREAKER",
@@ -2420,7 +2420,7 @@
       {
         "id": "ScxthesTasukete4878Expedite",
         "name": "Expedite",
-        "copies": 10,
+        "copies": 9,
         "notes": 4878,
         "artist": "Mon",
         "difficulty": "Tasukete"
