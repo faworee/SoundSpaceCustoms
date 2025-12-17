@@ -1145,7 +1145,7 @@
   },
   "SheaNya": {
     "displayName": "SheaNya",
-    "totalCopies": 4342,
+    "totalCopies": 4341,
     "maps": [
       {
         "id": "SheaNyaBrrrr1558Jumpstyle",
@@ -1172,7 +1172,7 @@
       {
         "id": "SheaNyaTasukete3327DeadInside",
         "name": "Dead Inside",
-        "copies": 266,
+        "copies": 265,
         "notes": 3327,
         "artist": "WUANT X BLUNDER",
         "difficulty": "Tasukete"
@@ -1589,7 +1589,7 @@
   },
   "Matt430": {
     "displayName": "Matt430",
-    "totalCopies": 621,
+    "totalCopies": 622,
     "maps": [
       {
         "id": "Matt430Brrrr1946ETHEREALVELOCITY",
@@ -1600,7 +1600,7 @@
       {
         "id": "Matt430Tasukete29002024BPMISNOTENOUGH",
         "name": "2024 BPM IS NOT ENOUGH",
-        "copies": 501,
+        "copies": 502,
         "notes": 2900,
         "artist": "Underscore",
         "difficulty": "Tasukete"
@@ -2415,7 +2415,7 @@
   },
   "Scxthes": {
     "displayName": "Scxthes",
-    "totalCopies": 1378,
+    "totalCopies": 1377,
     "maps": [
       {
         "id": "ScxthesLogic18224NDROMEDA",
@@ -2442,7 +2442,7 @@
       {
         "id": "ScxthesTasukete2599WASSA",
         "name": "WASSA",
-        "copies": 224,
+        "copies": 223,
         "notes": 2599,
         "artist": "HR",
         "difficulty": "Tasukete"
@@ -2839,12 +2839,12 @@
   },
   "reticentmemory": {
     "displayName": "reticentmemory",
-    "totalCopies": 16,
+    "totalCopies": 17,
     "maps": [
       {
         "id": "reticentmemoryTasukete3469FINALSTAND",
         "name": "FINAL STAND",
-        "copies": 16,
+        "copies": 17,
         "notes": 3469,
         "artist": "Underscore",
         "difficulty": "Tasukete"
