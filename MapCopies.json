@@ -1783,7 +1783,7 @@
   },
   "Kappa": {
     "displayName": "Kappa",
-    "totalCopies": 497,
+    "totalCopies": 498,
     "maps": [
       {
         "id": "KappaBrrrr2234cyborgworkout",
@@ -1800,7 +1800,7 @@
       {
         "id": "KappaBrrrr3401plexus",
         "name": "plexus",
-        "copies": 146,
+        "copies": 147,
         "notes": 3401,
         "artist": "APM Music",
         "difficulty": "Brrrr"
