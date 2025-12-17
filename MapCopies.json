@@ -305,7 +305,7 @@
   },
   "Taco": {
     "displayName": "Taco",
-    "totalCopies": 3179,
+    "totalCopies": 3178,
     "maps": [
       {
         "id": "TacoMedium354toxic",
@@ -368,10 +368,8 @@
       {
         "id": "TacoTasukete1107skibidifanumtax",
         "name": "skibidi fanum tax",
-        "copies": 209,
-        "notes": 1107,
-        "artist": "RizzlerBullet",
-        "difficulty": "Tasukete"
+        "copies": 208,
+        "notes": 1107
       },
       {
         "id": "TacoBrrrr2157youreyes",
@@ -2731,12 +2729,12 @@
   },
   "reticentmemory": {
     "displayName": "reticentmemory",
-    "totalCopies": 9,
+    "totalCopies": 10,
     "maps": [
       {
         "id": "reticentmemoryTasukete3469FINALSTAND",
         "name": "FINAL STAND",
-        "copies": 9,
+        "copies": 10,
         "notes": 3469,
         "artist": "Underscore",
         "difficulty": "Tasukete"
