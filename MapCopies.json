@@ -1129,7 +1129,7 @@
   },
   "SheaNya": {
     "displayName": "SheaNya",
-    "totalCopies": 4339,
+    "totalCopies": 4338,
     "maps": [
       {
         "id": "SheaNyaBrrrr1558Jumpstyle",
@@ -1246,10 +1246,8 @@
       {
         "id": "SheaNyaBrrrr2242BPM=RT",
         "name": "BPM=RT",
-        "copies": 86,
-        "notes": 2242,
-        "artist": "t+pazolite",
-        "difficulty": "Brrrr"
+        "copies": 85,
+        "notes": 2242
       },
       {
         "id": "SheaNyaBrrrr2782Starspangledbanner",
@@ -1506,7 +1504,7 @@
       {
         "id": "OrAlexTasukete10535realityisdecaying\\world-end.",
         "name": "reality is decaying\\world-end.",
-        "copies": 329,
+        "copies": 328,
         "notes": 10535,
         "artist": "Underscore",
         "difficulty": "Tasukete"
@@ -1514,7 +1512,7 @@
       {
         "id": "OrAlexTasukete5098ULTIMATUM",
         "name": "ULTIMATUM",
-        "copies": 452,
+        "copies": 453,
         "notes": 5098,
         "artist": "Underscore",
         "difficulty": "Tasukete"
@@ -1909,15 +1907,13 @@
   },
   "divetek": {
     "displayName": "divetek",
-    "totalCopies": 223,
+    "totalCopies": 222,
     "maps": [
       {
         "id": "divetekBrrrr1925BUTANE",
         "name": "BUTANE",
-        "copies": 99,
-        "notes": 1925,
-        "artist": "Astra",
-        "difficulty": "Brrrr"
+        "copies": 98,
+        "notes": 1925
       },
       {
         "id": "divetekBrrrr2761IntercosmicEcho",
