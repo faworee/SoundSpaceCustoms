@@ -1477,12 +1477,12 @@
   },
   "OrAlex": {
     "displayName": "OrAlex",
-    "totalCopies": 1146,
+    "totalCopies": 1145,
     "maps": [
       {
         "id": "OrAlexTasukete10535realityisdecaying\\world-end.",
         "name": "reality is decaying\\world-end.",
-        "copies": 329,
+        "copies": 328,
         "notes": 10535,
         "artist": "Underscore",
         "difficulty": "Tasukete"
@@ -1747,13 +1747,15 @@
   },
   "curtival": {
     "displayName": "curtival",
-    "totalCopies": 242,
+    "totalCopies": 243,
     "maps": [
       {
         "id": "curtivalTasukete6618africantribe",
         "name": "african tribe",
-        "copies": 242,
-        "notes": 6618
+        "copies": 243,
+        "notes": 6618,
+        "artist": "APM Music",
+        "difficulty": "Tasukete"
       }
     ]
   },
