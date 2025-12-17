@@ -309,7 +309,7 @@
   },
   "Taco": {
     "displayName": "Taco",
-    "totalCopies": 3179,
+    "totalCopies": 3178,
     "maps": [
       {
         "id": "TacoMedium354toxic",
@@ -384,10 +384,8 @@
       {
         "id": "TacoTasukete1183TheCommunity",
         "name": "The Community",
-        "copies": 251,
-        "notes": 1183,
-        "artist": "CYRIL \\\\ i am bob",
-        "difficulty": "Tasukete"
+        "copies": 250,
+        "notes": 1183
       },
       {
         "id": "TacoLogic784Theme2(SoundSpaceLobbyTheme)",
@@ -2345,7 +2343,7 @@
   },
   "Scxthes": {
     "displayName": "Scxthes",
-    "totalCopies": 1353,
+    "totalCopies": 1354,
     "maps": [
       {
         "id": "ScxthesLogic18224NDROMEDA",
@@ -2398,7 +2396,7 @@
       {
         "id": "ScxthesTasukete4878Expedite",
         "name": "Expedite",
-        "copies": 7,
+        "copies": 8,
         "notes": 4878,
         "artist": "Mon",
         "difficulty": "Tasukete"
@@ -2579,7 +2577,7 @@
   },
   "narcissistnile": {
     "displayName": "narcissistnile",
-    "totalCopies": 1051,
+    "totalCopies": 1050,
     "maps": [
       {
         "id": "narcissistnileTasukete4186cowbellgod",
@@ -2598,7 +2596,7 @@
       {
         "id": "narcissistnileBrrrr1466Alone",
         "name": "Alone",
-        "copies": 313,
+        "copies": 312,
         "notes": 1466,
         "artist": "Lil Kuudere, sukoyomi",
         "difficulty": "Brrrr"
