@@ -313,7 +313,7 @@
   },
   "Taco": {
     "displayName": "Taco",
-    "totalCopies": 3189,
+    "totalCopies": 3188,
     "maps": [
       {
         "id": "TacoMedium354toxic",
@@ -362,7 +362,7 @@
       {
         "id": "TacoTasukete3590noescape",
         "name": "no escape",
-        "copies": 760,
+        "copies": 759,
         "notes": 3590,
         "artist": "d3r & m1v & asteria",
         "difficulty": "Tasukete"
@@ -845,12 +845,12 @@
   },
   "zeroth": {
     "displayName": "zeroth",
-    "totalCopies": 2067,
+    "totalCopies": 2068,
     "maps": [
       {
         "id": "zerothBrrrr4944mymoon",
         "name": "my moon",
-        "copies": 733,
+        "copies": 734,
         "notes": 4944,
         "artist": "7ate",
         "difficulty": "Brrrr"
@@ -1605,7 +1605,7 @@
   },
   "xazthenpc": {
     "displayName": "xazthenpc",
-    "totalCopies": 447,
+    "totalCopies": 446,
     "maps": [
       {
         "id": "xazthenpcBrrrr7175BadAccess",
@@ -1642,10 +1642,8 @@
       {
         "id": "xazthenpcBrrrr3278AMiserablePileOfSecrets(TheImpalerII)",
         "name": "A Miserable Pile Of Secrets (The Impaler II)",
-        "copies": 49,
-        "notes": 3278,
-        "artist": "Nstryder",
-        "difficulty": "Brrrr"
+        "copies": 48,
+        "notes": 3278
       },
       {
         "id": "xazthenpcBrrrr2781DefragmentationOfTheGlassDimension",
