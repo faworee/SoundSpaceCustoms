@@ -1111,7 +1111,7 @@
   },
   "SheaNya": {
     "displayName": "SheaNya",
-    "totalCopies": 4335,
+    "totalCopies": 4334,
     "maps": [
       {
         "id": "SheaNyaBrrrr1558Jumpstyle",
@@ -1446,10 +1446,8 @@
       {
         "id": "SheaNyaBrrrr2105Tuesday",
         "name": "Tuesday",
-        "copies": 4,
-        "notes": 2105,
-        "artist": "Rutra",
-        "difficulty": "Brrrr"
+        "copies": 3,
+        "notes": 2105
       }
     ]
   },
@@ -2355,7 +2353,7 @@
   },
   "Scxthes": {
     "displayName": "Scxthes",
-    "totalCopies": 1355,
+    "totalCopies": 1356,
     "maps": [
       {
         "id": "ScxthesLogic18224NDROMEDA",
@@ -2366,7 +2364,7 @@
       {
         "id": "ScxthesTasukete4383OATHBREAKER",
         "name": "OATH BREAKER",
-        "copies": 380,
+        "copies": 381,
         "notes": 4383,
         "artist": "Underscore",
         "difficulty": "Tasukete"
