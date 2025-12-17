@@ -1085,7 +1085,7 @@
   },
   "SheaNya": {
     "displayName": "SheaNya",
-    "totalCopies": 4324,
+    "totalCopies": 4325,
     "maps": [
       {
         "id": "SheaNyaBrrrr1558Jumpstyle",
@@ -1108,8 +1108,10 @@
       {
         "id": "SheaNyaTasukete3327DeadInside",
         "name": "Dead Inside",
-        "copies": 263,
-        "notes": 3327
+        "copies": 264,
+        "notes": 3327,
+        "artist": "WUANT X BLUNDER",
+        "difficulty": "Tasukete"
       },
       {
         "id": "SheaNyaTasukete5726EXTRA!",
@@ -1459,15 +1461,13 @@
   },
   "faworee": {
     "displayName": "faworee",
-    "totalCopies": 1385,
+    "totalCopies": 1384,
     "maps": [
       {
         "id": "faworeeBrrrr2526eeyuh!",
         "name": "eeyuh!",
-        "copies": 313,
-        "notes": 2526,
-        "artist": "HR",
-        "difficulty": "Brrrr"
+        "copies": 312,
+        "notes": 2526
       },
       {
         "id": "faworeeTasukete5424CYBER999",
