@@ -2389,7 +2389,7 @@
   },
   "Scxthes": {
     "displayName": "Scxthes",
-    "totalCopies": 1357,
+    "totalCopies": 1358,
     "maps": [
       {
         "id": "ScxthesLogic18224NDROMEDA",
@@ -2420,7 +2420,7 @@
       {
         "id": "ScxthesBrrrr3408ForgettingWasMyOnlyOption",
         "name": "Forgetting Was My Only Option",
-        "copies": 106,
+        "copies": 107,
         "notes": 3408,
         "artist": "633397",
         "difficulty": "Brrrr"
