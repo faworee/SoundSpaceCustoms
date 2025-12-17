@@ -1007,15 +1007,13 @@
   },
   "Immortal": {
     "displayName": "Immortal",
-    "totalCopies": 917,
+    "totalCopies": 916,
     "maps": [
       {
         "id": "ImmortalTasukete2508Artcore",
         "name": "Artcore",
-        "copies": 555,
-        "notes": 2508,
-        "artist": "Mon",
-        "difficulty": "Tasukete"
+        "copies": 554,
+        "notes": 2508
       },
       {
         "id": "ImmortalBrrrr8276Bloom",
@@ -2673,12 +2671,12 @@
   },
   "reticentmemory": {
     "displayName": "reticentmemory",
-    "totalCopies": 6,
+    "totalCopies": 7,
     "maps": [
       {
         "id": "reticentmemoryTasukete3469FINALSTAND",
         "name": "FINAL STAND",
-        "copies": 6,
+        "copies": 7,
         "notes": 3469,
         "artist": "Underscore",
         "difficulty": "Tasukete"
