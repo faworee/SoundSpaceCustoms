@@ -445,7 +445,7 @@
   },
   "Demisnya": {
     "displayName": "Demisnya",
-    "totalCopies": 3157,
+    "totalCopies": 3156,
     "maps": [
       {
         "id": "DemisnyaBrrrr4240BassMonster",
@@ -484,10 +484,8 @@
       {
         "id": "DemisnyaBrrrr586ExtinctionWaltz",
         "name": "Extinction Waltz",
-        "copies": 38,
-        "notes": 586,
-        "artist": "APM Music",
-        "difficulty": "Brrrr"
+        "copies": 37,
+        "notes": 586
       },
       {
         "id": "DemisnyaBrrrr2047Aizome",
@@ -2683,7 +2681,7 @@
   },
   "FpXHarborYT": {
     "displayName": "FpXHarborYT",
-    "totalCopies": 146,
+    "totalCopies": 147,
     "maps": [
       {
         "id": "FpXHarborYTLogic1513Control",
@@ -2700,7 +2698,7 @@
       {
         "id": "FpXHarborYTLogic912Alanwaad",
         "name": "Alanwaad ",
-        "copies": 34,
+        "copies": 35,
         "notes": 912
       },
       {
