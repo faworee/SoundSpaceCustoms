@@ -313,7 +313,7 @@
   },
   "Taco": {
     "displayName": "Taco",
-    "totalCopies": 3188,
+    "totalCopies": 3189,
     "maps": [
       {
         "id": "TacoMedium354toxic",
@@ -362,7 +362,7 @@
       {
         "id": "TacoTasukete3590noescape",
         "name": "no escape",
-        "copies": 759,
+        "copies": 760,
         "notes": 3590,
         "artist": "d3r & m1v & asteria",
         "difficulty": "Tasukete"
@@ -920,10 +920,8 @@
       {
         "id": "XilpBrrrr1545UltraV",
         "name": "Ultra V",
-        "copies": 33,
-        "notes": 1545,
-        "artist": "ED$ANE",
-        "difficulty": "Brrrr"
+        "copies": 32,
+        "notes": 1545
       },
       {
         "id": "XilpBrrrr3501Kyzaghan",
@@ -1068,7 +1066,7 @@
       {
         "id": "XilpTasukete3187CYBER999",
         "name": "CYBER 999",
-        "copies": 352,
+        "copies": 353,
         "notes": 3187,
         "artist": "Underscore",
         "difficulty": "Tasukete"
