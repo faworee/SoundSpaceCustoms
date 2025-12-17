@@ -2443,13 +2443,15 @@
   },
   "Noobourn": {
     "displayName": "Noobourn",
-    "totalCopies": 108,
+    "totalCopies": 109,
     "maps": [
       {
         "id": "NoobournBrrrr3800Stay(Metahumanboibootleg)",
         "name": "Stay (Metahumanboi bootleg)",
-        "copies": 108,
-        "notes": 3800
+        "copies": 109,
+        "notes": 3800,
+        "artist": "The Kid LAROI, Justin Bieber",
+        "difficulty": "Brrrr"
       }
     ]
   },
