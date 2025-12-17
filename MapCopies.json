@@ -1097,7 +1097,7 @@
   },
   "SheaNya": {
     "displayName": "SheaNya",
-    "totalCopies": 4329,
+    "totalCopies": 4330,
     "maps": [
       {
         "id": "SheaNyaBrrrr1558Jumpstyle",
@@ -1246,7 +1246,7 @@
       {
         "id": "SheaNyaBrrrr796BeatThenScreech",
         "name": "Beat Then Screech",
-        "copies": 92,
+        "copies": 93,
         "notes": 796,
         "artist": "APM Music",
         "difficulty": "Brrrr"
@@ -2145,7 +2145,7 @@
   },
   "Sdrullo": {
     "displayName": "Sdrullo",
-    "totalCopies": 338,
+    "totalCopies": 337,
     "maps": [
       {
         "id": "SdrulloBrrrr1697Darkstar",
@@ -2162,10 +2162,8 @@
       {
         "id": "SdrulloBrrrr1421iwontgiveuponyou",
         "name": "i wont give up on you",
-        "copies": 235,
-        "notes": 1421,
-        "artist": "mon",
-        "difficulty": "Brrrr"
+        "copies": 234,
+        "notes": 1421
       }
     ]
   },
