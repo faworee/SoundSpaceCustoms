@@ -2039,13 +2039,15 @@
   },
   "sev": {
     "displayName": "sev",
-    "totalCopies": 624,
+    "totalCopies": 625,
     "maps": [
       {
         "id": "sevBrrrr4171RawHaus",
         "name": "RawHaus",
-        "copies": 182,
-        "notes": 4171
+        "copies": 183,
+        "notes": 4171,
+        "artist": "Underscore",
+        "difficulty": "Brrrr"
       },
       {
         "id": "sevBrrrr2495AVANGARD2.0",
