@@ -1,7 +1,7 @@
 {
   "SnivyTrueForm": {
     "displayName": "SnivyTrueForm",
-    "totalCopies": 1323,
+    "totalCopies": 1322,
     "maps": [
       {
         "id": "SnivyTrueFormEasy1382MoreThanFriends",
@@ -156,10 +156,8 @@
       {
         "id": "SnivyTrueFormBrrrr2352Feelthesame",
         "name": "Feel the same",
-        "copies": 28,
-        "notes": 2352,
-        "artist": "Gardens",
-        "difficulty": "Brrrr"
+        "copies": 27,
+        "notes": 2352
       },
       {
         "id": "SnivyTrueFormBrrrr1378PastelWaltz",
@@ -2251,7 +2249,7 @@
   },
   "teft2oo": {
     "displayName": "teft2oo",
-    "totalCopies": 46,
+    "totalCopies": 47,
     "maps": [
       {
         "id": "teft2ooBrrrr1926FORTALiCE",
@@ -2268,8 +2266,10 @@
       {
         "id": "teft2ooBrrrr2500Feelthesame",
         "name": "Feel the same",
-        "copies": 14,
-        "notes": 2500
+        "copies": 15,
+        "notes": 2500,
+        "artist": "Gardens",
+        "difficulty": "Brrrr"
       }
     ]
   },
