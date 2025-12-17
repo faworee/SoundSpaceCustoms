@@ -2409,7 +2409,7 @@
   },
   "Scxthes": {
     "displayName": "Scxthes",
-    "totalCopies": 1368,
+    "totalCopies": 1369,
     "maps": [
       {
         "id": "ScxthesLogic18224NDROMEDA",
@@ -2434,7 +2434,7 @@
       {
         "id": "ScxthesTasukete2599WASSA",
         "name": "WASSA",
-        "copies": 221,
+        "copies": 222,
         "notes": 2599,
         "artist": "HR",
         "difficulty": "Tasukete"
