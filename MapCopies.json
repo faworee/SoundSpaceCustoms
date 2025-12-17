@@ -1589,7 +1589,7 @@
   },
   "xazthenpc": {
     "displayName": "xazthenpc",
-    "totalCopies": 447,
+    "totalCopies": 446,
     "maps": [
       {
         "id": "xazthenpcBrrrr7175BadAccess",
@@ -1626,10 +1626,8 @@
       {
         "id": "xazthenpcBrrrr3278AMiserablePileOfSecrets(TheImpalerII)",
         "name": "A Miserable Pile Of Secrets (The Impaler II)",
-        "copies": 49,
-        "notes": 3278,
-        "artist": "Nstryder",
-        "difficulty": "Brrrr"
+        "copies": 48,
+        "notes": 3278
       },
       {
         "id": "xazthenpcBrrrr2781DefragmentationOfTheGlassDimension",
@@ -2387,7 +2385,7 @@
   },
   "Scxthes": {
     "displayName": "Scxthes",
-    "totalCopies": 1355,
+    "totalCopies": 1356,
     "maps": [
       {
         "id": "ScxthesLogic18224NDROMEDA",
@@ -2418,7 +2416,7 @@
       {
         "id": "ScxthesBrrrr3408ForgettingWasMyOnlyOption",
         "name": "Forgetting Was My Only Option",
-        "copies": 104,
+        "copies": 105,
         "notes": 3408,
         "artist": "633397",
         "difficulty": "Brrrr"
@@ -2751,7 +2749,7 @@
   },
   "FpXHarborYT": {
     "displayName": "FpXHarborYT",
-    "totalCopies": 150,
+    "totalCopies": 149,
     "maps": [
       {
         "id": "FpXHarborYTLogic1513Control",
@@ -2780,7 +2778,7 @@
       {
         "id": "fpxharborytbrrrr2425thinkingaboutyou",
         "name": "Thinking About You",
-        "copies": 6,
+        "copies": 5,
         "notes": 2425,
         "artist": "Monstercat",
         "difficulty": "Brrrr"
