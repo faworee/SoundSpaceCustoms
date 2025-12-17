@@ -1,7 +1,7 @@
 {
   "SnivyTrueForm": {
     "displayName": "SnivyTrueForm",
-    "totalCopies": 1332,
+    "totalCopies": 1331,
     "maps": [
       {
         "id": "SnivyTrueFormEasy1382MoreThanFriends",
@@ -104,10 +104,8 @@
       {
         "id": "SnivyTrueFormLogic1106Monday",
         "name": "Monday",
-        "copies": 10,
-        "notes": 1106,
-        "artist": "Rutra",
-        "difficulty": "Logic"
+        "copies": 9,
+        "notes": 1106
       },
       {
         "id": "SnivyTrueFormBrrrr5490UltraV",
@@ -1109,7 +1107,7 @@
   },
   "SheaNya": {
     "displayName": "SheaNya",
-    "totalCopies": 4331,
+    "totalCopies": 4332,
     "maps": [
       {
         "id": "SheaNyaBrrrr1558Jumpstyle",
@@ -1406,8 +1404,10 @@
       {
         "id": "SheaNyaBrrrr1908Words",
         "name": "Words",
-        "copies": 25,
-        "notes": 1908
+        "copies": 26,
+        "notes": 1908,
+        "artist": "X3ll3n",
+        "difficulty": "Brrrr"
       },
       {
         "id": "SheaNyaBrrrr2040waltzundbasse",
@@ -1471,13 +1471,15 @@
   },
   "OrAlex": {
     "displayName": "OrAlex",
-    "totalCopies": 1144,
+    "totalCopies": 1145,
     "maps": [
       {
         "id": "OrAlexTasukete10535realityisdecaying\\world-end.",
         "name": "reality is decaying\\world-end.",
-        "copies": 327,
-        "notes": 10535
+        "copies": 328,
+        "notes": 10535,
+        "artist": "Underscore",
+        "difficulty": "Tasukete"
       },
       {
         "id": "OrAlexTasukete5098ULTIMATUM",
