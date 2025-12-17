@@ -1107,7 +1107,7 @@
   },
   "SheaNya": {
     "displayName": "SheaNya",
-    "totalCopies": 4332,
+    "totalCopies": 4333,
     "maps": [
       {
         "id": "SheaNyaBrrrr1558Jumpstyle",
@@ -1250,8 +1250,10 @@
       {
         "id": "SheaNyaLogic1580AAUGHH",
         "name": "AAUGHH",
-        "copies": 20,
-        "notes": 1580
+        "copies": 21,
+        "notes": 1580,
+        "artist": "Rutra",
+        "difficulty": "Logic"
       },
       {
         "id": "SheaNyaBrrrr796BeatThenScreech",
