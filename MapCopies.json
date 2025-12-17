@@ -1565,13 +1565,15 @@
   },
   "Worst Ghost Player": {
     "displayName": "Worst Ghost Player",
-    "totalCopies": 440,
+    "totalCopies": 441,
     "maps": [
       {
         "id": "WorstGhostPlayerTasukete2205SPEEDCORENIGHTLIFE",
         "name": "SPEEDCORE NIGHTLIFE",
-        "copies": 440,
-        "notes": 2205
+        "copies": 441,
+        "notes": 2205,
+        "artist": "Underscore",
+        "difficulty": "Tasukete"
       }
     ]
   },
@@ -2599,7 +2601,7 @@
   },
   "FpXHarborYT": {
     "displayName": "FpXHarborYT",
-    "totalCopies": 145,
+    "totalCopies": 144,
     "maps": [
       {
         "id": "FpXHarborYTLogic1513Control",
@@ -2624,14 +2626,6 @@
         "name": "Protostar New Horizons",
         "copies": 2,
         "notes": 1859
-      },
-      {
-        "id": "fpxharborytbrrrr2425thinkingaboutyou",
-        "name": "Thinking About You",
-        "copies": 1,
-        "notes": 2425,
-        "artist": "Monstercat",
-        "difficulty": "Brrrr"
       }
     ]
   },
