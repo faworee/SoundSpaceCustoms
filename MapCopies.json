@@ -408,15 +408,13 @@
       {
         "id": "Alter/p183805Brrrr1333CrabRave",
         "name": "Crab Rave",
-        "copies": 184,
-        "notes": 1333,
-        "artist": "Noisestorm",
-        "difficulty": "Brrrr"
+        "copies": 183,
+        "notes": 1333
       },
       {
         "id": "alterp183805brrrr2368outofmyhead",
         "name": "oUt oF mY HEad",
-        "copies": 119,
+        "copies": 120,
         "notes": 2368,
         "artist": "WUANT x BLUNDER",
         "difficulty": "Brrrr"
@@ -1119,7 +1117,7 @@
   },
   "SheaNya": {
     "displayName": "SheaNya",
-    "totalCopies": 4335,
+    "totalCopies": 4334,
     "maps": [
       {
         "id": "SheaNyaBrrrr1558Jumpstyle",
@@ -1374,7 +1372,7 @@
       {
         "id": "sheanyabrrrr3049outofmyhead",
         "name": "oUt oF mY HEad",
-        "copies": 51,
+        "copies": 50,
         "notes": 3049,
         "artist": "WUANT x BLUNDER",
         "difficulty": "Brrrr"
