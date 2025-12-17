@@ -311,7 +311,7 @@
   },
   "Taco": {
     "displayName": "Taco",
-    "totalCopies": 3186,
+    "totalCopies": 3184,
     "maps": [
       {
         "id": "TacoMedium354toxic",
@@ -332,10 +332,8 @@
       {
         "id": "TacoBrrrr2430CUTEMAKMAKFUNK",
         "name": "CUTEMAKMAKFUNK",
-        "copies": 449,
-        "notes": 2430,
-        "artist": "DJWahRA",
-        "difficulty": "Brrrr"
+        "copies": 448,
+        "notes": 2430
       },
       {
         "id": "TacoBrrrr1293KillEverybody",
@@ -362,7 +360,7 @@
       {
         "id": "TacoTasukete3590noescape",
         "name": "no escape",
-        "copies": 757,
+        "copies": 756,
         "notes": 3590,
         "artist": "d3r & m1v & asteria",
         "difficulty": "Tasukete"
@@ -1206,8 +1204,10 @@
       {
         "id": "SheaNyaBrrrr1217NoMatterWhat",
         "name": "No Matter What",
-        "copies": 59,
-        "notes": 1217
+        "copies": 60,
+        "notes": 1217,
+        "artist": "APM Music",
+        "difficulty": "Brrrr"
       },
       {
         "id": "SheaNyaBrrrr2547ABassRenaissance",
@@ -1344,10 +1344,8 @@
       {
         "id": "SheaNyaBrrrr3507IWantYou",
         "name": "I Want You",
-        "copies": 82,
-        "notes": 3507,
-        "artist": "APM Music",
-        "difficulty": "Brrrr"
+        "copies": 81,
+        "notes": 3507
       },
       {
         "id": "SheaNyaBrrrr1409StepIntoIt",
