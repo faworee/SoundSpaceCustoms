@@ -1,7 +1,7 @@
 {
   "SnivyTrueForm": {
     "displayName": "SnivyTrueForm",
-    "totalCopies": 1334,
+    "totalCopies": 1333,
     "maps": [
       {
         "id": "SnivyTrueFormEasy1382MoreThanFriends",
@@ -238,10 +238,8 @@
       {
         "id": "SnivyTrueFormLogic605Twilightyears",
         "name": "Twilight years",
-        "copies": 13,
-        "notes": 605,
-        "artist": "jackuw",
-        "difficulty": "Logic"
+        "copies": 12,
+        "notes": 605
       },
       {
         "id": "SnivyTrueFormBrrrr1618Execute",
@@ -2227,13 +2225,15 @@
   },
   "goldenwatre": {
     "displayName": "goldenwatre",
-    "totalCopies": 31,
+    "totalCopies": 32,
     "maps": [
       {
         "id": "goldenwatreBrrrr988thereforyou",
         "name": "there for you",
-        "copies": 31,
-        "notes": 988
+        "copies": 32,
+        "notes": 988,
+        "artist": "kuNarU",
+        "difficulty": "Brrrr"
       }
     ]
   },
