@@ -1929,7 +1929,7 @@
   },
   "ciem": {
     "displayName": "ciem",
-    "totalCopies": 379,
+    "totalCopies": 380,
     "maps": [
       {
         "id": "ciemBrrrr2822freewings",
@@ -1940,8 +1940,10 @@
       {
         "id": "ciemBrrrr695JobApplicationPhonk",
         "name": "Job Application Phonk",
-        "copies": 74,
-        "notes": 695
+        "copies": 75,
+        "notes": 695,
+        "artist": "Blanka",
+        "difficulty": "Brrrr"
       },
       {
         "id": "ciemBrrrr1388theenragedfighters",
@@ -2641,15 +2643,13 @@
   },
   "Senternal": {
     "displayName": "Senternal",
-    "totalCopies": 157,
+    "totalCopies": 156,
     "maps": [
       {
         "id": "SenternalTasukete2091Eeyuh!",
         "name": "Eeyuh!",
-        "copies": 157,
-        "notes": 2091,
-        "artist": "hr",
-        "difficulty": "Tasukete"
+        "copies": 156,
+        "notes": 2091
       }
     ]
   },
