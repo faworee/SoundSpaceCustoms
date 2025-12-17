@@ -311,7 +311,7 @@
   },
   "Taco": {
     "displayName": "Taco",
-    "totalCopies": 3182,
+    "totalCopies": 3181,
     "maps": [
       {
         "id": "TacoMedium354toxic",
@@ -330,10 +330,8 @@
       {
         "id": "TacoBrrrr2430CUTEMAKMAKFUNK",
         "name": "CUTEMAKMAKFUNK",
-        "copies": 449,
-        "notes": 2430,
-        "artist": "DJWahRA",
-        "difficulty": "Brrrr"
+        "copies": 448,
+        "notes": 2430
       },
       {
         "id": "TacoBrrrr1293KillEverybody",
@@ -1119,7 +1117,7 @@
   },
   "SheaNya": {
     "displayName": "SheaNya",
-    "totalCopies": 4335,
+    "totalCopies": 4334,
     "maps": [
       {
         "id": "SheaNyaBrrrr1558Jumpstyle",
@@ -1374,7 +1372,7 @@
       {
         "id": "sheanyabrrrr3049outofmyhead",
         "name": "oUt oF mY HEad",
-        "copies": 51,
+        "copies": 50,
         "notes": 3049,
         "artist": "WUANT x BLUNDER",
         "difficulty": "Brrrr"
@@ -1887,7 +1885,7 @@
   },
   "divetek": {
     "displayName": "divetek",
-    "totalCopies": 222,
+    "totalCopies": 223,
     "maps": [
       {
         "id": "divetekBrrrr1925BUTANE",
@@ -1910,7 +1908,7 @@
       {
         "id": "divetekbrrrr1963resistance",
         "name": "RESISTANCE",
-        "copies": 35,
+        "copies": 36,
         "notes": 1963,
         "artist": "Zytrx",
         "difficulty": "Brrrr"
