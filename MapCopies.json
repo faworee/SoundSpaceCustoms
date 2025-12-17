@@ -2749,7 +2749,7 @@
   },
   "FpXHarborYT": {
     "displayName": "FpXHarborYT",
-    "totalCopies": 149,
+    "totalCopies": 150,
     "maps": [
       {
         "id": "FpXHarborYTLogic1513Control",
@@ -2778,7 +2778,7 @@
       {
         "id": "fpxharborytbrrrr2425thinkingaboutyou",
         "name": "Thinking About You",
-        "copies": 5,
+        "copies": 6,
         "notes": 2425,
         "artist": "Monstercat",
         "difficulty": "Brrrr"
