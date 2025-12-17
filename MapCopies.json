@@ -1,7 +1,7 @@
 {
   "SnivyTrueForm": {
     "displayName": "SnivyTrueForm",
-    "totalCopies": 1333,
+    "totalCopies": 1332,
     "maps": [
       {
         "id": "SnivyTrueFormEasy1382MoreThanFriends",
@@ -142,7 +142,7 @@
       {
         "id": "SnivyTrueFormLogic759LoveSick!ft.Isabel",
         "name": "LoveSick! ft. Isabel",
-        "copies": 21,
+        "copies": 20,
         "notes": 759,
         "artist": "kuNarU",
         "difficulty": "Logic"
@@ -877,7 +877,7 @@
   },
   "Xilp": {
     "displayName": "Xilp",
-    "totalCopies": 2218,
+    "totalCopies": 2219,
     "maps": [
       {
         "id": "XilpBrrrr3215Bloom",
@@ -938,8 +938,10 @@
       {
         "id": "XilpBrrrr2553TokyoDrift",
         "name": "Tokyo Drift",
-        "copies": 131,
-        "notes": 2553
+        "copies": 132,
+        "notes": 2553,
+        "artist": "Fumitake Igarashi",
+        "difficulty": "Brrrr"
       },
       {
         "id": "XilpBrrrr2128Machination",
@@ -2365,7 +2367,7 @@
   },
   "Scxthes": {
     "displayName": "Scxthes",
-    "totalCopies": 1356,
+    "totalCopies": 1355,
     "maps": [
       {
         "id": "ScxthesLogic18224NDROMEDA",
@@ -2376,7 +2378,7 @@
       {
         "id": "ScxthesTasukete4383OATHBREAKER",
         "name": "OATH BREAKER",
-        "copies": 381,
+        "copies": 380,
         "notes": 4383,
         "artist": "Underscore",
         "difficulty": "Tasukete"
