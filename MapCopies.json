@@ -459,7 +459,7 @@
   },
   "Demisnya": {
     "displayName": "Demisnya",
-    "totalCopies": 3162,
+    "totalCopies": 3161,
     "maps": [
       {
         "id": "DemisnyaBrrrr4240BassMonster",
@@ -472,10 +472,8 @@
       {
         "id": "DemisnyaBrrrr4450MLGCANDYDRIVE",
         "name": "MLG CANDY DRIVE",
-        "copies": 26,
-        "notes": 4450,
-        "artist": "Zytrx",
-        "difficulty": "Brrrr"
+        "copies": 25,
+        "notes": 4450
       },
       {
         "id": "DemisnyaBrrrr2353attheendoftime",
@@ -1135,7 +1133,7 @@
   },
   "SheaNya": {
     "displayName": "SheaNya",
-    "totalCopies": 4342,
+    "totalCopies": 4341,
     "maps": [
       {
         "id": "SheaNyaBrrrr1558Jumpstyle",
@@ -1170,7 +1168,7 @@
       {
         "id": "SheaNyaTasukete5726EXTRA!",
         "name": "EXTRA!",
-        "copies": 454,
+        "copies": 453,
         "notes": 5726,
         "artist": "Underscore",
         "difficulty": "Tasukete"
@@ -2111,13 +2109,15 @@
   },
   "sev": {
     "displayName": "sev",
-    "totalCopies": 625,
+    "totalCopies": 626,
     "maps": [
       {
         "id": "sevBrrrr4171RawHaus",
         "name": "RawHaus",
-        "copies": 182,
-        "notes": 4171
+        "copies": 183,
+        "notes": 4171,
+        "artist": "Underscore",
+        "difficulty": "Brrrr"
       },
       {
         "id": "sevBrrrr2495AVANGARD2.0",
