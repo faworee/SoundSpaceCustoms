@@ -313,7 +313,7 @@
   },
   "Taco": {
     "displayName": "Taco",
-    "totalCopies": 3188,
+    "totalCopies": 3189,
     "maps": [
       {
         "id": "TacoMedium354toxic",
@@ -362,7 +362,7 @@
       {
         "id": "TacoTasukete3590noescape",
         "name": "no escape",
-        "copies": 759,
+        "copies": 760,
         "notes": 3590,
         "artist": "d3r & m1v & asteria",
         "difficulty": "Tasukete"
@@ -1543,7 +1543,7 @@
   },
   "faworee": {
     "displayName": "faworee",
-    "totalCopies": 1388,
+    "totalCopies": 1386,
     "maps": [
       {
         "id": "faworeeBrrrr2526eeyuh!",
@@ -1556,7 +1556,7 @@
       {
         "id": "faworeeTasukete5424CYBER999",
         "name": "CYBER 999",
-        "copies": 948,
+        "copies": 946,
         "notes": 5424,
         "artist": "Underscore",
         "difficulty": "Tasukete"
@@ -2409,7 +2409,7 @@
   },
   "Scxthes": {
     "displayName": "Scxthes",
-    "totalCopies": 1367,
+    "totalCopies": 1366,
     "maps": [
       {
         "id": "ScxthesLogic18224NDROMEDA",
@@ -2464,7 +2464,7 @@
       {
         "id": "ScxthesTasukete4878Expedite",
         "name": "Expedite",
-        "copies": 11,
+        "copies": 10,
         "notes": 4878,
         "artist": "Mon",
         "difficulty": "Tasukete"
@@ -2747,12 +2747,12 @@
   },
   "Ghefine": {
     "displayName": "Ghefine",
-    "totalCopies": 238,
+    "totalCopies": 237,
     "maps": [
       {
         "id": "GhefineBrrrr3090Fusion",
         "name": "Fusion",
-        "copies": 238,
+        "copies": 237,
         "notes": 3090,
         "artist": "red",
         "difficulty": "Brrrr"
@@ -2829,12 +2829,12 @@
   },
   "reticentmemory": {
     "displayName": "reticentmemory",
-    "totalCopies": 14,
+    "totalCopies": 13,
     "maps": [
       {
         "id": "reticentmemoryTasukete3469FINALSTAND",
         "name": "FINAL STAND",
-        "copies": 14,
+        "copies": 13,
         "notes": 3469,
         "artist": "Underscore",
         "difficulty": "Tasukete"
