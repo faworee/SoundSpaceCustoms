@@ -1077,12 +1077,12 @@
   },
   "Immortal": {
     "displayName": "Immortal",
-    "totalCopies": 918,
+    "totalCopies": 919,
     "maps": [
       {
         "id": "ImmortalTasukete2508Artcore",
         "name": "Artcore",
-        "copies": 556,
+        "copies": 557,
         "notes": 2508,
         "artist": "Mon",
         "difficulty": "Tasukete"
@@ -1143,7 +1143,7 @@
   },
   "SheaNya": {
     "displayName": "SheaNya",
-    "totalCopies": 4342,
+    "totalCopies": 4341,
     "maps": [
       {
         "id": "SheaNyaBrrrr1558Jumpstyle",
@@ -1186,7 +1186,7 @@
       {
         "id": "SheaNyaTasukete2783wassa",
         "name": "wassa",
-        "copies": 470,
+        "copies": 469,
         "notes": 2783,
         "artist": "Hr",
         "difficulty": "Tasukete"
