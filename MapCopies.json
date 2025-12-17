@@ -1,7 +1,7 @@
 {
   "SnivyTrueForm": {
     "displayName": "SnivyTrueForm",
-    "totalCopies": 1330,
+    "totalCopies": 1331,
     "maps": [
       {
         "id": "SnivyTrueFormEasy1382MoreThanFriends",
@@ -140,8 +140,10 @@
       {
         "id": "SnivyTrueFormLogic759LoveSick!ft.Isabel",
         "name": "LoveSick! ft. Isabel",
-        "copies": 19,
-        "notes": 759
+        "copies": 20,
+        "notes": 759,
+        "artist": "kuNarU",
+        "difficulty": "Logic"
       },
       {
         "id": "SnivyTrueFormBrrrr1788BlueCorgi",
@@ -1103,7 +1105,7 @@
   },
   "SheaNya": {
     "displayName": "SheaNya",
-    "totalCopies": 4332,
+    "totalCopies": 4331,
     "maps": [
       {
         "id": "SheaNyaBrrrr1558Jumpstyle",
@@ -1246,10 +1248,8 @@
       {
         "id": "SheaNyaLogic1580AAUGHH",
         "name": "AAUGHH",
-        "copies": 21,
-        "notes": 1580,
-        "artist": "Rutra",
-        "difficulty": "Logic"
+        "copies": 20,
+        "notes": 1580
       },
       {
         "id": "SheaNyaBrrrr796BeatThenScreech",
