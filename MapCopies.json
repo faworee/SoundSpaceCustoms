@@ -1,7 +1,7 @@
 {
   "SnivyTrueForm": {
     "displayName": "SnivyTrueForm",
-    "totalCopies": 1335,
+    "totalCopies": 1334,
     "maps": [
       {
         "id": "SnivyTrueFormEasy1382MoreThanFriends",
@@ -36,7 +36,7 @@
       {
         "id": "SnivyTrueFormBrrrr2780Santa-chansWinterWonderlandAdventure",
         "name": "Santa-chans Winter Wonderland Adventure",
-        "copies": 53,
+        "copies": 52,
         "notes": 2780,
         "artist": "Nstryder",
         "difficulty": "Brrrr"
@@ -459,7 +459,7 @@
   },
   "Demisnya": {
     "displayName": "Demisnya",
-    "totalCopies": 3159,
+    "totalCopies": 3160,
     "maps": [
       {
         "id": "DemisnyaBrrrr4240BassMonster",
@@ -764,8 +764,10 @@
       {
         "id": "DemisnyaBrrrr1956Lexay",
         "name": "Lexay",
-        "copies": 59,
-        "notes": 1956
+        "copies": 60,
+        "notes": 1956,
+        "artist": "BossRush",
+        "difficulty": "Brrrr"
       },
       {
         "id": "DemisnyaBrrrr28411nputThis2Y0urSpine",
@@ -879,7 +881,7 @@
   },
   "Xilp": {
     "displayName": "Xilp",
-    "totalCopies": 2220,
+    "totalCopies": 2221,
     "maps": [
       {
         "id": "XilpBrrrr3215Bloom",
@@ -942,8 +944,10 @@
       {
         "id": "XilpBrrrr2553TokyoDrift",
         "name": "Tokyo Drift",
-        "copies": 131,
-        "notes": 2553
+        "copies": 132,
+        "notes": 2553,
+        "artist": "Fumitake Igarashi",
+        "difficulty": "Brrrr"
       },
       {
         "id": "XilpBrrrr2128Machination",
@@ -1523,7 +1527,7 @@
   },
   "faworee": {
     "displayName": "faworee",
-    "totalCopies": 1386,
+    "totalCopies": 1385,
     "maps": [
       {
         "id": "faworeeBrrrr2526eeyuh!",
@@ -1536,7 +1540,7 @@
       {
         "id": "faworeeTasukete5424CYBER999",
         "name": "CYBER 999",
-        "copies": 947,
+        "copies": 946,
         "notes": 5424,
         "artist": "Underscore",
         "difficulty": "Tasukete"
