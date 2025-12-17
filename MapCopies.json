@@ -1,7 +1,7 @@
 {
   "SnivyTrueForm": {
     "displayName": "SnivyTrueForm",
-    "totalCopies": 1336,
+    "totalCopies": 1335,
     "maps": [
       {
         "id": "SnivyTrueFormEasy1382MoreThanFriends",
@@ -294,10 +294,8 @@
       {
         "id": "SnivyTrueFormHard901Friday",
         "name": "Friday",
-        "copies": 11,
-        "notes": 901,
-        "artist": "Rutra",
-        "difficulty": "Hard"
+        "copies": 10,
+        "notes": 901
       },
       {
         "id": "SnivyTrueFormLogic1434Tuesday",
@@ -2779,7 +2777,7 @@
   },
   "FpXHarborYT": {
     "displayName": "FpXHarborYT",
-    "totalCopies": 153,
+    "totalCopies": 154,
     "maps": [
       {
         "id": "FpXHarborYTLogic1513Control",
@@ -2796,7 +2794,7 @@
       {
         "id": "FpXHarborYTLogic912Alanwaad",
         "name": "Alanwaad ",
-        "copies": 34,
+        "copies": 35,
         "notes": 912
       },
       {
