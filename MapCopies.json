@@ -891,7 +891,7 @@
   },
   "Xilp": {
     "displayName": "Xilp",
-    "totalCopies": 2221,
+    "totalCopies": 2222,
     "maps": [
       {
         "id": "XilpBrrrr3215Bloom",
@@ -902,8 +902,10 @@
       {
         "id": "XilpTasukete6297TeraI/O",
         "name": "Tera I/O",
-        "copies": 134,
-        "notes": 6297
+        "copies": 135,
+        "notes": 6297,
+        "artist": "Camellia",
+        "difficulty": "Tasukete"
       },
       {
         "id": "xilpbrrrr2514mach874939",
