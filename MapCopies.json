@@ -1,7 +1,7 @@
 {
   "SnivyTrueForm": {
     "displayName": "SnivyTrueForm",
-    "totalCopies": 1325,
+    "totalCopies": 1326,
     "maps": [
       {
         "id": "SnivyTrueFormEasy1382MoreThanFriends",
@@ -36,7 +36,7 @@
       {
         "id": "SnivyTrueFormBrrrr2780Santa-chansWinterWonderlandAdventure",
         "name": "Santa-chans Winter Wonderland Adventure",
-        "copies": 51,
+        "copies": 52,
         "notes": 2780,
         "artist": "Nstryder",
         "difficulty": "Brrrr"
@@ -1128,8 +1128,10 @@
       {
         "id": "SheaNyaBrrrr2220Us",
         "name": "Us",
-        "copies": 191,
-        "notes": 2220
+        "copies": 192,
+        "notes": 2220,
+        "artist": "APM Music",
+        "difficulty": "Brrrr"
       },
       {
         "id": "SheaNyaLogic344ForTheUnderdog",
@@ -1342,10 +1344,8 @@
       {
         "id": "SheaNyaBrrrr2809Grimoire",
         "name": "Grimoire",
-        "copies": 31,
-        "notes": 2809,
-        "artist": "Gardens",
-        "difficulty": "Brrrr"
+        "copies": 30,
+        "notes": 2809
       },
       {
         "id": "SheaNyaBrrrr1416istillfeelmorealonethanieverhavebeenwhenyouaren'there",
@@ -2293,7 +2293,7 @@
   },
   "Scxthes": {
     "displayName": "Scxthes",
-    "totalCopies": 1347,
+    "totalCopies": 1348,
     "maps": [
       {
         "id": "ScxthesLogic18224NDROMEDA",
@@ -2324,7 +2324,7 @@
       {
         "id": "ScxthesBrrrr3408ForgettingWasMyOnlyOption",
         "name": "Forgetting Was My Only Option",
-        "copies": 101,
+        "copies": 102,
         "notes": 3408,
         "artist": "633397",
         "difficulty": "Brrrr"
