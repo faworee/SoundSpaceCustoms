@@ -825,15 +825,13 @@
   },
   "zeroth": {
     "displayName": "zeroth",
-    "totalCopies": 2065,
+    "totalCopies": 2064,
     "maps": [
       {
         "id": "zerothBrrrr4944mymoon",
         "name": "my moon",
-        "copies": 732,
-        "notes": 4944,
-        "artist": "7ate",
-        "difficulty": "Brrrr"
+        "copies": 731,
+        "notes": 4944
       },
       {
         "id": "zerothLogic2573ily",
@@ -867,7 +865,7 @@
   },
   "Xilp": {
     "displayName": "Xilp",
-    "totalCopies": 2216,
+    "totalCopies": 2217,
     "maps": [
       {
         "id": "XilpBrrrr3215Bloom",
@@ -928,8 +926,10 @@
       {
         "id": "XilpBrrrr2553TokyoDrift",
         "name": "Tokyo Drift",
-        "copies": 131,
-        "notes": 2553
+        "copies": 132,
+        "notes": 2553,
+        "artist": "Fumitake Igarashi",
+        "difficulty": "Brrrr"
       },
       {
         "id": "XilpBrrrr2128Machination",
@@ -2343,7 +2343,7 @@
   },
   "Scxthes": {
     "displayName": "Scxthes",
-    "totalCopies": 1353,
+    "totalCopies": 1352,
     "maps": [
       {
         "id": "ScxthesLogic18224NDROMEDA",
@@ -2388,7 +2388,7 @@
       {
         "id": "ScxthesTasukete2421TrustedVillainVIP",
         "name": "Trusted Villain VIP",
-        "copies": 199,
+        "copies": 198,
         "notes": 2421,
         "artist": "MetaHumanBoi",
         "difficulty": "Tasukete"
