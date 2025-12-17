@@ -1069,12 +1069,12 @@
   },
   "Immortal": {
     "displayName": "Immortal",
-    "totalCopies": 917,
+    "totalCopies": 918,
     "maps": [
       {
         "id": "ImmortalTasukete2508Artcore",
         "name": "Artcore",
-        "copies": 555,
+        "copies": 556,
         "notes": 2508,
         "artist": "Mon",
         "difficulty": "Tasukete"
@@ -2389,7 +2389,7 @@
   },
   "Scxthes": {
     "displayName": "Scxthes",
-    "totalCopies": 1357,
+    "totalCopies": 1356,
     "maps": [
       {
         "id": "ScxthesLogic18224NDROMEDA",
@@ -2420,7 +2420,7 @@
       {
         "id": "ScxthesBrrrr3408ForgettingWasMyOnlyOption",
         "name": "Forgetting Was My Only Option",
-        "copies": 106,
+        "copies": 105,
         "notes": 3408,
         "artist": "633397",
         "difficulty": "Brrrr"
