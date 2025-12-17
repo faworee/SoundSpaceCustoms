@@ -1,7 +1,7 @@
 {
   "SnivyTrueForm": {
     "displayName": "SnivyTrueForm",
-    "totalCopies": 1331,
+    "totalCopies": 1332,
     "maps": [
       {
         "id": "SnivyTrueFormEasy1382MoreThanFriends",
@@ -44,8 +44,10 @@
       {
         "id": "SnivyTrueFormTasukete3325StuffedJackal",
         "name": "Stuffed Jackal",
-        "copies": 92,
-        "notes": 3325
+        "copies": 93,
+        "notes": 3325,
+        "artist": "Korsio",
+        "difficulty": "Tasukete"
       },
       {
         "id": "SnivyTrueFormHard1543AtTheEndOfTime",
@@ -1111,7 +1113,7 @@
   },
   "SheaNya": {
     "displayName": "SheaNya",
-    "totalCopies": 4333,
+    "totalCopies": 4334,
     "maps": [
       {
         "id": "SheaNyaBrrrr1558Jumpstyle",
@@ -1148,7 +1150,7 @@
       {
         "id": "SheaNyaTasukete2783wassa",
         "name": "wassa",
-        "copies": 468,
+        "copies": 469,
         "notes": 2783,
         "artist": "Hr",
         "difficulty": "Tasukete"
@@ -1747,15 +1749,13 @@
   },
   "curtival": {
     "displayName": "curtival",
-    "totalCopies": 243,
+    "totalCopies": 242,
     "maps": [
       {
         "id": "curtivalTasukete6618africantribe",
         "name": "african tribe",
-        "copies": 243,
-        "notes": 6618,
-        "artist": "APM Music",
-        "difficulty": "Tasukete"
+        "copies": 242,
+        "notes": 6618
       }
     ]
   },
