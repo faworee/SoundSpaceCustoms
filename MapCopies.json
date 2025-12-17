@@ -1,7 +1,7 @@
 {
   "SnivyTrueForm": {
     "displayName": "SnivyTrueForm",
-    "totalCopies": 1321,
+    "totalCopies": 1322,
     "maps": [
       {
         "id": "SnivyTrueFormEasy1382MoreThanFriends",
@@ -172,8 +172,10 @@
       {
         "id": "SnivyTrueFormHard768onedayinyourbed",
         "name": "one day in your bed",
-        "copies": 26,
-        "notes": 768
+        "copies": 27,
+        "notes": 768,
+        "artist": "jackuw",
+        "difficulty": "Hard"
       },
       {
         "id": "SnivyTrueFormHard1083Overclocked",
@@ -827,7 +829,7 @@
   },
   "Xilp": {
     "displayName": "Xilp",
-    "totalCopies": 2215,
+    "totalCopies": 2214,
     "maps": [
       {
         "id": "XilpBrrrr3215Bloom",
@@ -978,10 +980,8 @@
       {
         "id": "XilpBrrrr3530ClaíomhSolais'",
         "name": "Claíomh Solais'",
-        "copies": 21,
-        "notes": 3530,
-        "artist": "Nstryder vs Kyutatsuki",
-        "difficulty": "Brrrr"
+        "copies": 20,
+        "notes": 3530
       },
       {
         "id": "XilpBrrrr2713ComputeItWithSomeDevilishAlcoholicSteampunkEngines",
