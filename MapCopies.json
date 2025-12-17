@@ -1571,7 +1571,7 @@
   },
   "Matt430": {
     "displayName": "Matt430",
-    "totalCopies": 620,
+    "totalCopies": 621,
     "maps": [
       {
         "id": "Matt430Brrrr1946ETHEREALVELOCITY",
@@ -1582,7 +1582,7 @@
       {
         "id": "Matt430Tasukete29002024BPMISNOTENOUGH",
         "name": "2024 BPM IS NOT ENOUGH",
-        "copies": 500,
+        "copies": 501,
         "notes": 2900,
         "artist": "Underscore",
         "difficulty": "Tasukete"
