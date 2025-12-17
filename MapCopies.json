@@ -1861,7 +1861,7 @@
   },
   "divetek": {
     "displayName": "divetek",
-    "totalCopies": 223,
+    "totalCopies": 222,
     "maps": [
       {
         "id": "divetekBrrrr1925BUTANE",
@@ -1884,7 +1884,7 @@
       {
         "id": "divetekbrrrr1963resistance",
         "name": "RESISTANCE",
-        "copies": 36,
+        "copies": 35,
         "notes": 1963,
         "artist": "Zytrx",
         "difficulty": "Brrrr"
@@ -2505,13 +2505,15 @@
   },
   "allusionist": {
     "displayName": "allusionist",
-    "totalCopies": 47,
+    "totalCopies": 48,
     "maps": [
       {
         "id": "allusionistBrrrr3000AMiserablePileOfSecrets(TheImpalerII)",
         "name": "A Miserable Pile Of Secrets (The Impaler II)",
-        "copies": 47,
-        "notes": 3000
+        "copies": 48,
+        "notes": 3000,
+        "artist": "Nstryder",
+        "difficulty": "Brrrr"
       }
     ]
   },
