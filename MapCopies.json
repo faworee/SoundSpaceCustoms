@@ -859,7 +859,7 @@
   },
   "Xilp": {
     "displayName": "Xilp",
-    "totalCopies": 2216,
+    "totalCopies": 2215,
     "maps": [
       {
         "id": "XilpBrrrr3215Bloom",
@@ -940,10 +940,8 @@
       {
         "id": "XilpBrrrr1678Karma",
         "name": "Karma",
-        "copies": 55,
-        "notes": 1678,
-        "artist": "Sacuna",
-        "difficulty": "Brrrr"
+        "copies": 54,
+        "notes": 1678
       },
       {
         "id": "XilpBrrrr1319rainbow",
@@ -2333,7 +2331,7 @@
   },
   "Scxthes": {
     "displayName": "Scxthes",
-    "totalCopies": 1352,
+    "totalCopies": 1353,
     "maps": [
       {
         "id": "ScxthesLogic18224NDROMEDA",
@@ -2372,8 +2370,10 @@
       {
         "id": "ScxthesTasukete3884HatedHero",
         "name": "Hated Hero",
-        "copies": 254,
-        "notes": 3884
+        "copies": 255,
+        "notes": 3884,
+        "artist": "MetaHumanBoi",
+        "difficulty": "Tasukete"
       },
       {
         "id": "ScxthesTasukete2421TrustedVillainVIP",
