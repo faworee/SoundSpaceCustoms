@@ -2760,8 +2760,10 @@
       {
         "id": "FpXHarborYTLogic1513Control",
         "name": "Control",
-        "copies": 50,
-        "notes": 1513
+        "copies": 51,
+        "notes": 1513,
+        "artist": "luvbackpack x sukoyomi",
+        "difficulty": "Logic"
       },
       {
         "id": "FpXHarborYTLogic2152NewWorld",
@@ -2772,7 +2774,7 @@
       {
         "id": "FpXHarborYTLogic912Alanwaad",
         "name": "Alanwaad ",
-        "copies": 35,
+        "copies": 34,
         "notes": 912
       },
       {
