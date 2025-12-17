@@ -2391,7 +2391,7 @@
   },
   "Scxthes": {
     "displayName": "Scxthes",
-    "totalCopies": 1360,
+    "totalCopies": 1361,
     "maps": [
       {
         "id": "ScxthesLogic18224NDROMEDA",
@@ -2422,7 +2422,7 @@
       {
         "id": "ScxthesBrrrr3408ForgettingWasMyOnlyOption",
         "name": "Forgetting Was My Only Option",
-        "copies": 109,
+        "copies": 110,
         "notes": 3408,
         "artist": "633397",
         "difficulty": "Brrrr"
@@ -2805,12 +2805,12 @@
   },
   "reticentmemory": {
     "displayName": "reticentmemory",
-    "totalCopies": 14,
+    "totalCopies": 13,
     "maps": [
       {
         "id": "reticentmemoryTasukete3469FINALSTAND",
         "name": "FINAL STAND",
-        "copies": 14,
+        "copies": 13,
         "notes": 3469,
         "artist": "Underscore",
         "difficulty": "Tasukete"
