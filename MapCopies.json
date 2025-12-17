@@ -443,7 +443,7 @@
   },
   "Demisnya": {
     "displayName": "Demisnya",
-    "totalCopies": 3153,
+    "totalCopies": 3154,
     "maps": [
       {
         "id": "DemisnyaBrrrr4240BassMonster",
@@ -498,8 +498,10 @@
       {
         "id": "DemisnyaTasukete2943C0REC0NSTANT",
         "name": "C0RE C0NSTANT",
-        "copies": 197,
-        "notes": 2943
+        "copies": 198,
+        "notes": 2943,
+        "artist": "Zytrx Ft. MetaHumanBoi",
+        "difficulty": "Tasukete"
       },
       {
         "id": "DemisnyaBrrrr1956CatchMe",
@@ -1089,7 +1091,7 @@
   },
   "SheaNya": {
     "displayName": "SheaNya",
-    "totalCopies": 4326,
+    "totalCopies": 4325,
     "maps": [
       {
         "id": "SheaNyaBrrrr1558Jumpstyle",
@@ -1170,7 +1172,7 @@
       {
         "id": "SheaNyaBrrrr2547ABassRenaissance",
         "name": "A Bass Renaissance",
-        "copies": 166,
+        "copies": 165,
         "notes": 2547,
         "artist": "APM Music",
         "difficulty": "Brrrr"
