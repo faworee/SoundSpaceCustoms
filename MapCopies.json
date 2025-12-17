@@ -407,7 +407,7 @@
   },
   "Alter/p183805": {
     "displayName": "Alter/p183805",
-    "totalCopies": 1091,
+    "totalCopies": 1092,
     "maps": [
       {
         "id": "Alter/p183805Brrrr1333CrabRave",
@@ -434,8 +434,10 @@
       {
         "id": "Alter/p183805Brrrr1066JET2HOLIDAYFUNK(Slowed)",
         "name": "JET 2 HOLIDAY FUNK (Slowed)",
-        "copies": 232,
-        "notes": 1066
+        "copies": 233,
+        "notes": 1066,
+        "artist": " jugsta",
+        "difficulty": "Brrrr"
       },
       {
         "id": "Alter/p183805Tasukete290MonkeysParty",
