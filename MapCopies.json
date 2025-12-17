@@ -1,7 +1,7 @@
 {
   "SnivyTrueForm": {
     "displayName": "SnivyTrueForm",
-    "totalCopies": 1334,
+    "totalCopies": 1333,
     "maps": [
       {
         "id": "SnivyTrueFormEasy1382MoreThanFriends",
@@ -28,7 +28,7 @@
       {
         "id": "snivytrueformbrrrr2260mach874939",
         "name": "MACH 874939",
-        "copies": 38,
+        "copies": 37,
         "notes": 2260,
         "artist": "Zytrx",
         "difficulty": "Brrrr"
@@ -1125,7 +1125,7 @@
   },
   "SheaNya": {
     "displayName": "SheaNya",
-    "totalCopies": 4339,
+    "totalCopies": 4338,
     "maps": [
       {
         "id": "SheaNyaBrrrr1558Jumpstyle",
@@ -1204,10 +1204,8 @@
       {
         "id": "SheaNyaBrrrr1217NoMatterWhat",
         "name": "No Matter What",
-        "copies": 60,
-        "notes": 1217,
-        "artist": "APM Music",
-        "difficulty": "Brrrr"
+        "copies": 59,
+        "notes": 1217
       },
       {
         "id": "SheaNyaBrrrr2547ABassRenaissance",
@@ -2295,13 +2293,15 @@
   },
   "FuSe Omega and Pinchyl": {
     "displayName": "FuSe Omega and Pinchyl",
-    "totalCopies": 23,
+    "totalCopies": 24,
     "maps": [
       {
         "id": "FuSeOmegaandPinchylBrrrr1218TrustedVillainVIP",
         "name": "Trusted Villain VIP",
-        "copies": 23,
-        "notes": 1218
+        "copies": 24,
+        "notes": 1218,
+        "artist": "Zytrx",
+        "difficulty": "Brrrr"
       }
     ]
   },
