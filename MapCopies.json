@@ -1501,13 +1501,15 @@
   },
   "Xilp & OrAlex": {
     "displayName": "Xilp & OrAlex",
-    "totalCopies": 293,
+    "totalCopies": 294,
     "maps": [
       {
         "id": "Xilp&OrAlexBrrrr3551FINALHOPE",
         "name": "FINAL HOPE",
-        "copies": 293,
-        "notes": 3551
+        "copies": 294,
+        "notes": 3551,
+        "artist": "Underscore",
+        "difficulty": "Brrrr"
       }
     ]
   },
@@ -2309,7 +2311,7 @@
   },
   "Scxthes": {
     "displayName": "Scxthes",
-    "totalCopies": 1352,
+    "totalCopies": 1351,
     "maps": [
       {
         "id": "ScxthesLogic18224NDROMEDA",
@@ -2354,7 +2356,7 @@
       {
         "id": "ScxthesTasukete2421TrustedVillainVIP",
         "name": "Trusted Villain VIP",
-        "copies": 199,
+        "copies": 198,
         "notes": 2421,
         "artist": "MetaHumanBoi",
         "difficulty": "Tasukete"
