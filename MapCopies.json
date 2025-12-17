@@ -445,7 +445,7 @@
   },
   "Demisnya": {
     "displayName": "Demisnya",
-    "totalCopies": 3156,
+    "totalCopies": 3157,
     "maps": [
       {
         "id": "DemisnyaBrrrr4240BassMonster",
@@ -458,8 +458,10 @@
       {
         "id": "DemisnyaBrrrr4450MLGCANDYDRIVE",
         "name": "MLG CANDY DRIVE",
-        "copies": 25,
-        "notes": 4450
+        "copies": 26,
+        "notes": 4450,
+        "artist": "Zytrx",
+        "difficulty": "Brrrr"
       },
       {
         "id": "DemisnyaBrrrr2353attheendoftime",
@@ -1097,7 +1099,7 @@
   },
   "SheaNya": {
     "displayName": "SheaNya",
-    "totalCopies": 4330,
+    "totalCopies": 4329,
     "maps": [
       {
         "id": "SheaNyaBrrrr1558Jumpstyle",
@@ -1174,10 +1176,8 @@
       {
         "id": "SheaNyaBrrrr1217NoMatterWhat",
         "name": "No Matter What",
-        "copies": 60,
-        "notes": 1217,
-        "artist": "APM Music",
-        "difficulty": "Brrrr"
+        "copies": 59,
+        "notes": 1217
       },
       {
         "id": "SheaNyaBrrrr2547ABassRenaissance",
