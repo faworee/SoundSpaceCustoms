@@ -1,7 +1,7 @@
 {
   "SnivyTrueForm": {
     "displayName": "SnivyTrueForm",
-    "totalCopies": 1322,
+    "totalCopies": 1323,
     "maps": [
       {
         "id": "SnivyTrueFormEasy1382MoreThanFriends",
@@ -156,8 +156,10 @@
       {
         "id": "SnivyTrueFormBrrrr2352Feelthesame",
         "name": "Feel the same",
-        "copies": 27,
-        "notes": 2352
+        "copies": 28,
+        "notes": 2352,
+        "artist": "Gardens",
+        "difficulty": "Brrrr"
       },
       {
         "id": "SnivyTrueFormBrrrr1378PastelWaltz",
