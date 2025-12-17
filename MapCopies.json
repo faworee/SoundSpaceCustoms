@@ -1141,7 +1141,7 @@
   },
   "SheaNya": {
     "displayName": "SheaNya",
-    "totalCopies": 4342,
+    "totalCopies": 4341,
     "maps": [
       {
         "id": "SheaNyaBrrrr1558Jumpstyle",
@@ -1284,10 +1284,8 @@
       {
         "id": "SheaNyaBrrrr2274BreathDeep",
         "name": "Breath Deep",
-        "copies": 143,
-        "notes": 2274,
-        "artist": "APM Music",
-        "difficulty": "Brrrr"
+        "copies": 142,
+        "notes": 2274
       },
       {
         "id": "SheaNyaLogic1580AAUGHH",
@@ -2227,7 +2225,7 @@
   },
   "Sdrullo": {
     "displayName": "Sdrullo",
-    "totalCopies": 341,
+    "totalCopies": 342,
     "maps": [
       {
         "id": "SdrulloBrrrr1697Darkstar",
@@ -2248,7 +2246,7 @@
       {
         "id": "SdrulloBrrrr1421iwontgiveuponyou",
         "name": "i wont give up on you",
-        "copies": 235,
+        "copies": 236,
         "notes": 1421,
         "artist": "mon",
         "difficulty": "Brrrr"
@@ -2411,7 +2409,7 @@
   },
   "Scxthes": {
     "displayName": "Scxthes",
-    "totalCopies": 1368,
+    "totalCopies": 1367,
     "maps": [
       {
         "id": "ScxthesLogic18224NDROMEDA",
@@ -2422,7 +2420,7 @@
       {
         "id": "ScxthesTasukete4383OATHBREAKER",
         "name": "OATH BREAKER",
-        "copies": 383,
+        "copies": 382,
         "notes": 4383,
         "artist": "Underscore",
         "difficulty": "Tasukete"
@@ -4456,12 +4454,12 @@
   },
   "TUPPICUNOTUFFMAPPER": {
     "displayName": "TUPPICUNOTUFFMAPPER",
-    "totalCopies": 3,
+    "totalCopies": 2,
     "maps": [
       {
         "id": "tuppicunotuffmapperbrrrr2862toxic",
         "name": "toxic",
-        "copies": 3,
+        "copies": 2,
         "notes": 2862,
         "artist": "d3r & 6arelyhuman & Pröz",
         "difficulty": "Brrrr"
