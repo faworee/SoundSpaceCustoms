@@ -313,7 +313,7 @@
   },
   "Taco": {
     "displayName": "Taco",
-    "totalCopies": 3189,
+    "totalCopies": 3188,
     "maps": [
       {
         "id": "TacoMedium354toxic",
@@ -348,10 +348,8 @@
       {
         "id": "TacoLogic1804PLAY",
         "name": "PLAY",
-        "copies": 91,
-        "notes": 1804,
-        "artist": "Tokyo Machine",
-        "difficulty": "Logic"
+        "copies": 90,
+        "notes": 1804
       },
       {
         "id": "TacoTasukete2870HOTAKFUNK",
@@ -891,7 +889,7 @@
   },
   "Xilp": {
     "displayName": "Xilp",
-    "totalCopies": 2221,
+    "totalCopies": 2222,
     "maps": [
       {
         "id": "XilpBrrrr3215Bloom",
@@ -954,8 +952,10 @@
       {
         "id": "XilpBrrrr2553TokyoDrift",
         "name": "Tokyo Drift",
-        "copies": 131,
-        "notes": 2553
+        "copies": 132,
+        "notes": 2553,
+        "artist": "Fumitake Igarashi",
+        "difficulty": "Brrrr"
       },
       {
         "id": "XilpBrrrr2128Machination",
@@ -1493,15 +1493,13 @@
   },
   "dillish": {
     "displayName": "dillish",
-    "totalCopies": 75,
+    "totalCopies": 74,
     "maps": [
       {
         "id": "dillishBrrrr2079TrustedVillainVIP",
         "name": "Trusted Villain VIP",
-        "copies": 75,
-        "notes": 2079,
-        "artist": "Zytrx",
-        "difficulty": "Brrrr"
+        "copies": 74,
+        "notes": 2079
       }
     ]
   },
