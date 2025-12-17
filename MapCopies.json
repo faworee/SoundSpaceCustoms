@@ -827,7 +827,7 @@
   },
   "zeroth": {
     "displayName": "zeroth",
-    "totalCopies": 2066,
+    "totalCopies": 2065,
     "maps": [
       {
         "id": "zerothBrrrr4944mymoon",
@@ -860,7 +860,7 @@
       {
         "id": "zerothTasukete1763iwontgiveuponyou",
         "name": "i wont give up on you",
-        "copies": 505,
+        "copies": 504,
         "notes": 1763,
         "artist": "mon",
         "difficulty": "Tasukete"
@@ -2392,10 +2392,8 @@
       {
         "id": "ScxthesTasukete3884HatedHero",
         "name": "Hated Hero",
-        "copies": 255,
-        "notes": 3884,
-        "artist": "MetaHumanBoi",
-        "difficulty": "Tasukete"
+        "copies": 254,
+        "notes": 3884
       },
       {
         "id": "ScxthesTasukete2421TrustedVillainVIP",
@@ -2408,7 +2406,7 @@
       {
         "id": "ScxthesTasukete4878Expedite",
         "name": "Expedite",
-        "copies": 8,
+        "copies": 9,
         "notes": 4878,
         "artist": "Mon",
         "difficulty": "Tasukete"
