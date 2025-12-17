@@ -459,7 +459,7 @@
   },
   "Demisnya": {
     "displayName": "Demisnya",
-    "totalCopies": 3159,
+    "totalCopies": 3160,
     "maps": [
       {
         "id": "DemisnyaBrrrr4240BassMonster",
@@ -564,8 +564,10 @@
       {
         "id": "DemisnyaBrrrr1863Handshake",
         "name": "Handshake",
-        "copies": 66,
-        "notes": 1863
+        "copies": 67,
+        "notes": 1863,
+        "artist": "APM Music",
+        "difficulty": "Brrrr"
       },
       {
         "id": "DemisnyaBrrrr3491+ERABY+ECONNEC+10N",
@@ -1985,15 +1987,13 @@
   },
   "ciem": {
     "displayName": "ciem",
-    "totalCopies": 380,
+    "totalCopies": 379,
     "maps": [
       {
         "id": "ciemBrrrr2822freewings",
         "name": "free wings",
-        "copies": 100,
-        "notes": 2822,
-        "artist": "APM Music",
-        "difficulty": "Brrrr"
+        "copies": 99,
+        "notes": 2822
       },
       {
         "id": "ciemBrrrr695JobApplicationPhonk",
