@@ -445,7 +445,7 @@
   },
   "Demisnya": {
     "displayName": "Demisnya",
-    "totalCopies": 3157,
+    "totalCopies": 3156,
     "maps": [
       {
         "id": "DemisnyaBrrrr4240BassMonster",
@@ -458,10 +458,8 @@
       {
         "id": "DemisnyaBrrrr4450MLGCANDYDRIVE",
         "name": "MLG CANDY DRIVE",
-        "copies": 26,
-        "notes": 4450,
-        "artist": "Zytrx",
-        "difficulty": "Brrrr"
+        "copies": 25,
+        "notes": 4450
       },
       {
         "id": "DemisnyaBrrrr2353attheendoftime",
@@ -2147,7 +2145,7 @@
   },
   "Sdrullo": {
     "displayName": "Sdrullo",
-    "totalCopies": 337,
+    "totalCopies": 338,
     "maps": [
       {
         "id": "SdrulloBrrrr1697Darkstar",
@@ -2164,8 +2162,10 @@
       {
         "id": "SdrulloBrrrr1421iwontgiveuponyou",
         "name": "i wont give up on you",
-        "copies": 234,
-        "notes": 1421
+        "copies": 235,
+        "notes": 1421,
+        "artist": "mon",
+        "difficulty": "Brrrr"
       }
     ]
   },
