@@ -708,8 +708,10 @@
       {
         "id": "DemisnyaBrrrr2310Gaea'sFeast",
         "name": "Gaea's Feast",
-        "copies": 59,
-        "notes": 2310
+        "copies": 60,
+        "notes": 2310,
+        "artist": "MetaHumanBoi",
+        "difficulty": "Brrrr"
       },
       {
         "id": "DemisnyaBrrrr2181Achiga",
@@ -764,10 +766,8 @@
       {
         "id": "DemisnyaBrrrr1956Lexay",
         "name": "Lexay",
-        "copies": 60,
-        "notes": 1956,
-        "artist": "BossRush",
-        "difficulty": "Brrrr"
+        "copies": 59,
+        "notes": 1956
       },
       {
         "id": "DemisnyaBrrrr28411nputThis2Y0urSpine",
@@ -1127,7 +1127,7 @@
   },
   "SheaNya": {
     "displayName": "SheaNya",
-    "totalCopies": 4339,
+    "totalCopies": 4338,
     "maps": [
       {
         "id": "SheaNyaBrrrr1558Jumpstyle",
@@ -1452,7 +1452,7 @@
       {
         "id": "SheaNyaBrrrr1338PhonkVol.I-Phonk'tOut",
         "name": "Phonk Vol. I - Phonk't Out",
-        "copies": 55,
+        "copies": 54,
         "notes": 1338,
         "artist": "APM Music",
         "difficulty": "Brrrr"
