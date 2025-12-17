@@ -2829,12 +2829,12 @@
   },
   "reticentmemory": {
     "displayName": "reticentmemory",
-    "totalCopies": 14,
+    "totalCopies": 15,
     "maps": [
       {
         "id": "reticentmemoryTasukete3469FINALSTAND",
         "name": "FINAL STAND",
-        "copies": 14,
+        "copies": 15,
         "notes": 3469,
         "artist": "Underscore",
         "difficulty": "Tasukete"
