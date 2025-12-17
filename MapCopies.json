@@ -2153,13 +2153,15 @@
   },
   "Cake": {
     "displayName": "Cake",
-    "totalCopies": 42,
+    "totalCopies": 43,
     "maps": [
       {
         "id": "CakeBrrrr1467The13th",
         "name": "The 13th",
-        "copies": 42,
-        "notes": 1467
+        "copies": 43,
+        "notes": 1467,
+        "artist": "ED$ANE",
+        "difficulty": "Brrrr"
       }
     ]
   },
@@ -2409,7 +2411,7 @@
   },
   "Scxthes": {
     "displayName": "Scxthes",
-    "totalCopies": 1368,
+    "totalCopies": 1369,
     "maps": [
       {
         "id": "ScxthesLogic18224NDROMEDA",
@@ -2442,7 +2444,7 @@
       {
         "id": "ScxthesBrrrr3408ForgettingWasMyOnlyOption",
         "name": "Forgetting Was My Only Option",
-        "copies": 110,
+        "copies": 111,
         "notes": 3408,
         "artist": "633397",
         "difficulty": "Brrrr"
@@ -2815,12 +2817,12 @@
   },
   "Spica": {
     "displayName": "Spica",
-    "totalCopies": 81,
+    "totalCopies": 80,
     "maps": [
       {
         "id": "SpicaBrrrr2187Uproar",
         "name": "Uproar",
-        "copies": 81,
+        "copies": 80,
         "notes": 2187,
         "artist": "Tim Besamusca",
         "difficulty": "Brrrr"
