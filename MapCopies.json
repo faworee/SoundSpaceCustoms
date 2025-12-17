@@ -1,7 +1,7 @@
 {
   "SnivyTrueForm": {
     "displayName": "SnivyTrueForm",
-    "totalCopies": 1335,
+    "totalCopies": 1336,
     "maps": [
       {
         "id": "SnivyTrueFormEasy1382MoreThanFriends",
@@ -294,8 +294,10 @@
       {
         "id": "SnivyTrueFormHard901Friday",
         "name": "Friday",
-        "copies": 10,
-        "notes": 901
+        "copies": 11,
+        "notes": 901,
+        "artist": "Rutra",
+        "difficulty": "Hard"
       },
       {
         "id": "SnivyTrueFormLogic1434Tuesday",
@@ -313,12 +315,12 @@
   },
   "Taco": {
     "displayName": "Taco",
-    "totalCopies": 3189,
+    "totalCopies": 3188,
     "maps": [
       {
         "id": "TacoMedium354toxic",
         "name": "toxic",
-        "copies": 117,
+        "copies": 116,
         "notes": 354,
         "artist": "d3r & 6arelyhuman & Pröz",
         "difficulty": "Medium"
@@ -1141,7 +1143,7 @@
   },
   "SheaNya": {
     "displayName": "SheaNya",
-    "totalCopies": 4342,
+    "totalCopies": 4341,
     "maps": [
       {
         "id": "SheaNyaBrrrr1558Jumpstyle",
@@ -1192,7 +1194,7 @@
       {
         "id": "SheaNyaBrrrr2220Us",
         "name": "Us",
-        "copies": 194,
+        "copies": 193,
         "notes": 2220,
         "artist": "APM Music",
         "difficulty": "Brrrr"
@@ -1685,12 +1687,12 @@
   },
   "Worst Ghost Player": {
     "displayName": "Worst Ghost Player",
-    "totalCopies": 442,
+    "totalCopies": 441,
     "maps": [
       {
         "id": "WorstGhostPlayerTasukete2205SPEEDCORENIGHTLIFE",
         "name": "SPEEDCORE NIGHTLIFE",
-        "copies": 442,
+        "copies": 441,
         "notes": 2205,
         "artist": "Underscore",
         "difficulty": "Tasukete"
