@@ -311,7 +311,7 @@
   },
   "Taco": {
     "displayName": "Taco",
-    "totalCopies": 3189,
+    "totalCopies": 3188,
     "maps": [
       {
         "id": "TacoMedium354toxic",
@@ -400,10 +400,8 @@
       {
         "id": "TacoLogic784Theme2(SoundSpaceLobbyTheme)",
         "name": "Theme 2 (Sound Space Lobby Theme)",
-        "copies": 39,
-        "notes": 784,
-        "artist": "MetaHumanBoi",
-        "difficulty": "Logic"
+        "copies": 38,
+        "notes": 784
       }
     ]
   },
@@ -2393,7 +2391,7 @@
   },
   "Scxthes": {
     "displayName": "Scxthes",
-    "totalCopies": 1359,
+    "totalCopies": 1360,
     "maps": [
       {
         "id": "ScxthesLogic18224NDROMEDA",
@@ -2446,7 +2444,7 @@
       {
         "id": "ScxthesTasukete4878Expedite",
         "name": "Expedite",
-        "copies": 9,
+        "copies": 10,
         "notes": 4878,
         "artist": "Mon",
         "difficulty": "Tasukete"
