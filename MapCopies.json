@@ -1063,7 +1063,7 @@
   },
   "SheaNya": {
     "displayName": "SheaNya",
-    "totalCopies": 4321,
+    "totalCopies": 4322,
     "maps": [
       {
         "id": "SheaNyaBrrrr1558Jumpstyle",
@@ -1074,8 +1074,10 @@
       {
         "id": "SheaNyaTasukete2487Dogbite",
         "name": "Dogbite",
-        "copies": 296,
-        "notes": 2487
+        "copies": 297,
+        "notes": 2487,
+        "artist": "t+pazolite",
+        "difficulty": "Tasukete"
       },
       {
         "id": "SheaNyaBrrrr2668UltraV",
