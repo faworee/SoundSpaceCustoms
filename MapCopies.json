@@ -1569,13 +1569,15 @@
   },
   "Matt430": {
     "displayName": "Matt430",
-    "totalCopies": 620,
+    "totalCopies": 621,
     "maps": [
       {
         "id": "Matt430Brrrr1946ETHEREALVELOCITY",
         "name": "ETHEREAL VELOCITY",
-        "copies": 120,
-        "notes": 1946
+        "copies": 121,
+        "notes": 1946,
+        "artist": "Underscore",
+        "difficulty": "Brrrr"
       },
       {
         "id": "Matt430Tasukete29002024BPMISNOTENOUGH",
