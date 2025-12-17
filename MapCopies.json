@@ -1,7 +1,7 @@
 {
   "SnivyTrueForm": {
     "displayName": "SnivyTrueForm",
-    "totalCopies": 1331,
+    "totalCopies": 1330,
     "maps": [
       {
         "id": "SnivyTrueFormEasy1382MoreThanFriends",
@@ -254,10 +254,8 @@
       {
         "id": "SnivyTrueFormLogic1030iwishwehadmoretimetogether",
         "name": "i wish we had more time together",
-        "copies": 47,
-        "notes": 1030,
-        "artist": "jackuw",
-        "difficulty": "Logic"
+        "copies": 46,
+        "notes": 1030
       },
       {
         "id": "SnivyTrueFormBrrrr2272ChipHeaven",
@@ -2105,7 +2103,7 @@
   },
   "clvssicist": {
     "displayName": "clvssicist",
-    "totalCopies": 170,
+    "totalCopies": 171,
     "maps": [
       {
         "id": "clvssicistBrrrr1162PsychedFevereiro",
@@ -2140,8 +2138,10 @@
       {
         "id": "clvssicistLogic941Dogbite",
         "name": "Dogbite",
-        "copies": 21,
-        "notes": 941
+        "copies": 22,
+        "notes": 941,
+        "artist": "t+pazolite",
+        "difficulty": "Logic"
       },
       {
         "id": "clvssicistLogic1495BrokenFaith",
