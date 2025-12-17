@@ -1,7 +1,7 @@
 {
   "SnivyTrueForm": {
     "displayName": "SnivyTrueForm",
-    "totalCopies": 1329,
+    "totalCopies": 1328,
     "maps": [
       {
         "id": "SnivyTrueFormEasy1382MoreThanFriends",
@@ -98,10 +98,8 @@
       {
         "id": "SnivyTrueFormLogic2932IntercosmicEcho",
         "name": "Intercosmic Echo",
-        "copies": 35,
-        "notes": 2932,
-        "artist": "diamomd",
-        "difficulty": "Logic"
+        "copies": 34,
+        "notes": 2932
       },
       {
         "id": "SnivyTrueFormLogic1106Monday",
@@ -1099,7 +1097,7 @@
   },
   "SheaNya": {
     "displayName": "SheaNya",
-    "totalCopies": 4328,
+    "totalCopies": 4329,
     "maps": [
       {
         "id": "SheaNyaBrrrr1558Jumpstyle",
@@ -1304,7 +1302,7 @@
       {
         "id": "SheaNyaBrrrr2569epicrace",
         "name": "epic race",
-        "copies": 87,
+        "copies": 88,
         "notes": 2569,
         "artist": "APM Music",
         "difficulty": "Brrrr"
