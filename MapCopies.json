@@ -845,7 +845,7 @@
   },
   "Xilp": {
     "displayName": "Xilp",
-    "totalCopies": 2214,
+    "totalCopies": 2215,
     "maps": [
       {
         "id": "XilpBrrrr3215Bloom",
@@ -912,8 +912,10 @@
       {
         "id": "XilpBrrrr2128Machination",
         "name": "Machination",
-        "copies": 127,
-        "notes": 2128
+        "copies": 128,
+        "notes": 2128,
+        "artist": "Underscore",
+        "difficulty": "Brrrr"
       },
       {
         "id": "XilpBrrrr1673ChocolateShotgun",
