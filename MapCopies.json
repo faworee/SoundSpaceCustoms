@@ -443,7 +443,7 @@
   },
   "Demisnya": {
     "displayName": "Demisnya",
-    "totalCopies": 3155,
+    "totalCopies": 3156,
     "maps": [
       {
         "id": "DemisnyaBrrrr4240BassMonster",
@@ -586,8 +586,10 @@
       {
         "id": "DemisnyaBrrrr4993HardcoreUproar",
         "name": "Hardcore Uproar",
-        "copies": 66,
-        "notes": 4993
+        "copies": 67,
+        "notes": 4993,
+        "artist": "APM Music",
+        "difficulty": "Brrrr"
       },
       {
         "id": "DemisnyaBrrrr1518TrustedVillainVIP",
@@ -855,7 +857,7 @@
   },
   "Xilp": {
     "displayName": "Xilp",
-    "totalCopies": 2216,
+    "totalCopies": 2215,
     "maps": [
       {
         "id": "XilpBrrrr3215Bloom",
@@ -916,10 +918,8 @@
       {
         "id": "XilpBrrrr2553TokyoDrift",
         "name": "Tokyo Drift",
-        "copies": 132,
-        "notes": 2553,
-        "artist": "Fumitake Igarashi",
-        "difficulty": "Brrrr"
+        "copies": 131,
+        "notes": 2553
       },
       {
         "id": "XilpBrrrr2128Machination",
