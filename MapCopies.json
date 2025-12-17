@@ -827,7 +827,7 @@
   },
   "Xilp": {
     "displayName": "Xilp",
-    "totalCopies": 2215,
+    "totalCopies": 2214,
     "maps": [
       {
         "id": "XilpBrrrr3215Bloom",
@@ -894,10 +894,8 @@
       {
         "id": "XilpBrrrr2128Machination",
         "name": "Machination",
-        "copies": 128,
-        "notes": 2128,
-        "artist": "Underscore",
-        "difficulty": "Brrrr"
+        "copies": 127,
+        "notes": 2128
       },
       {
         "id": "XilpBrrrr1673ChocolateShotgun",
@@ -1065,7 +1063,7 @@
   },
   "SheaNya": {
     "displayName": "SheaNya",
-    "totalCopies": 4321,
+    "totalCopies": 4320,
     "maps": [
       {
         "id": "SheaNyaBrrrr1558Jumpstyle",
@@ -1258,10 +1256,8 @@
       {
         "id": "SheaNyaBrrrr2569epicrace",
         "name": "epic race",
-        "copies": 87,
-        "notes": 2569,
-        "artist": "APM Music",
-        "difficulty": "Brrrr"
+        "copies": 86,
+        "notes": 2569
       },
       {
         "id": "SheaNyaBrrrr3507IWantYou",
