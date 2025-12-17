@@ -1515,7 +1515,7 @@
   },
   "faworee": {
     "displayName": "faworee",
-    "totalCopies": 1385,
+    "totalCopies": 1386,
     "maps": [
       {
         "id": "faworeeBrrrr2526eeyuh!",
@@ -1528,7 +1528,7 @@
       {
         "id": "faworeeTasukete5424CYBER999",
         "name": "CYBER 999",
-        "copies": 946,
+        "copies": 947,
         "notes": 5424,
         "artist": "Underscore",
         "difficulty": "Tasukete"
@@ -2225,13 +2225,15 @@
   },
   "goldenwatre": {
     "displayName": "goldenwatre",
-    "totalCopies": 31,
+    "totalCopies": 32,
     "maps": [
       {
         "id": "goldenwatreBrrrr988thereforyou",
         "name": "there for you",
-        "copies": 31,
-        "notes": 988
+        "copies": 32,
+        "notes": 988,
+        "artist": "kuNarU",
+        "difficulty": "Brrrr"
       }
     ]
   },
@@ -2365,15 +2367,13 @@
   },
   "Scxthes": {
     "displayName": "Scxthes",
-    "totalCopies": 1356,
+    "totalCopies": 1355,
     "maps": [
       {
         "id": "ScxthesLogic18224NDROMEDA",
         "name": "4NDROMEDA",
-        "copies": 36,
-        "notes": 1822,
-        "artist": "Zytrx & Nstryder",
-        "difficulty": "Logic"
+        "copies": 35,
+        "notes": 1822
       },
       {
         "id": "ScxthesTasukete4383OATHBREAKER",
