@@ -2039,15 +2039,13 @@
   },
   "sev": {
     "displayName": "sev",
-    "totalCopies": 625,
+    "totalCopies": 624,
     "maps": [
       {
         "id": "sevBrrrr4171RawHaus",
         "name": "RawHaus",
-        "copies": 183,
-        "notes": 4171,
-        "artist": "Underscore",
-        "difficulty": "Brrrr"
+        "copies": 182,
+        "notes": 4171
       },
       {
         "id": "sevBrrrr2495AVANGARD2.0",
@@ -2061,12 +2059,12 @@
   },
   "kappa": {
     "displayName": "kappa",
-    "totalCopies": 82,
+    "totalCopies": 83,
     "maps": [
       {
         "id": "kappaBrrrr3814Logicbomb",
         "name": "Logic bomb",
-        "copies": 82,
+        "copies": 83,
         "notes": 3814,
         "artist": "APM Music",
         "difficulty": "Brrrr"
