@@ -2735,13 +2735,15 @@
   },
   "Senternal": {
     "displayName": "Senternal",
-    "totalCopies": 156,
+    "totalCopies": 157,
     "maps": [
       {
         "id": "SenternalTasukete2091Eeyuh!",
         "name": "Eeyuh!",
-        "copies": 156,
-        "notes": 2091
+        "copies": 157,
+        "notes": 2091,
+        "artist": "hr",
+        "difficulty": "Tasukete"
       }
     ]
   },
@@ -2775,7 +2777,7 @@
   },
   "FpXHarborYT": {
     "displayName": "FpXHarborYT",
-    "totalCopies": 152,
+    "totalCopies": 151,
     "maps": [
       {
         "id": "FpXHarborYTLogic1513Control",
@@ -2798,7 +2800,7 @@
       {
         "id": "FpXHarborYTBrrrr1859ProtostarNewHorizons",
         "name": "Protostar New Horizons",
-        "copies": 4,
+        "copies": 3,
         "notes": 1859,
         "artist": "Monstercat",
         "difficulty": "Brrrr"
