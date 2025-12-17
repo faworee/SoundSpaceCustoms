@@ -459,7 +459,7 @@
   },
   "Demisnya": {
     "displayName": "Demisnya",
-    "totalCopies": 3162,
+    "totalCopies": 3163,
     "maps": [
       {
         "id": "DemisnyaBrrrr4240BassMonster",
@@ -532,8 +532,10 @@
       {
         "id": "DemisnyaBrrrr1968SpeedOfSound",
         "name": "Speed Of Sound",
-        "copies": 188,
-        "notes": 1968
+        "copies": 189,
+        "notes": 1968,
+        "artist": "APM MUsic",
+        "difficulty": "Brrrr"
       },
       {
         "id": "DemisnyaTasukete1958//along/the/mystic/lands//",
