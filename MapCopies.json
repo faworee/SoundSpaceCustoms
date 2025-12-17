@@ -431,7 +431,7 @@
   },
   "Demisnya": {
     "displayName": "Demisnya",
-    "totalCopies": 3152,
+    "totalCopies": 3151,
     "maps": [
       {
         "id": "DemisnyaBrrrr4240BassMonster",
@@ -656,10 +656,8 @@
       {
         "id": "DemisnyaBrrrr1473LoveSick!ft.Isabel",
         "name": "LoveSick! ft. Isabel",
-        "copies": 25,
-        "notes": 1473,
-        "artist": "kuNarU x Kitsune",
-        "difficulty": "Brrrr"
+        "copies": 24,
+        "notes": 1473
       },
       {
         "id": "DemisnyaBrrrr3226Flamewall",
@@ -1069,7 +1067,7 @@
   },
   "SheaNya": {
     "displayName": "SheaNya",
-    "totalCopies": 4321,
+    "totalCopies": 4322,
     "maps": [
       {
         "id": "SheaNyaBrrrr1558Jumpstyle",
@@ -1146,8 +1144,10 @@
       {
         "id": "SheaNyaBrrrr2547ABassRenaissance",
         "name": "A Bass Renaissance",
-        "copies": 164,
-        "notes": 2547
+        "copies": 165,
+        "notes": 2547,
+        "artist": "APM Music",
+        "difficulty": "Brrrr"
       },
       {
         "id": "SheaNyaBrrrr1226HeartAttack",
