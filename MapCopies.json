@@ -1517,12 +1517,12 @@
   },
   "OrAlex": {
     "displayName": "OrAlex",
-    "totalCopies": 1147,
+    "totalCopies": 1146,
     "maps": [
       {
         "id": "OrAlexTasukete10535realityisdecaying\\world-end.",
         "name": "reality is decaying\\world-end.",
-        "copies": 330,
+        "copies": 329,
         "notes": 10535,
         "artist": "Underscore",
         "difficulty": "Tasukete"
@@ -2413,7 +2413,7 @@
   },
   "Scxthes": {
     "displayName": "Scxthes",
-    "totalCopies": 1372,
+    "totalCopies": 1373,
     "maps": [
       {
         "id": "ScxthesLogic18224NDROMEDA",
@@ -2440,7 +2440,7 @@
       {
         "id": "ScxthesTasukete2599WASSA",
         "name": "WASSA",
-        "copies": 221,
+        "copies": 222,
         "notes": 2599,
         "artist": "HR",
         "difficulty": "Tasukete"
