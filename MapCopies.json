@@ -1234,10 +1234,8 @@
       {
         "id": "SheaNyaBrrrr2274BreathDeep",
         "name": "Breath Deep",
-        "copies": 143,
-        "notes": 2274,
-        "artist": "APM Music",
-        "difficulty": "Brrrr"
+        "copies": 142,
+        "notes": 2274
       },
       {
         "id": "SheaNyaLogic1580AAUGHH",
@@ -1318,8 +1316,10 @@
       {
         "id": "SheaNyaBrrrr1409StepIntoIt",
         "name": "Step Into It",
-        "copies": 55,
-        "notes": 1409
+        "copies": 56,
+        "notes": 1409,
+        "artist": "APM Music",
+        "difficulty": "Brrrr"
       },
       {
         "id": "sheanyabrrrr2263vulture2",
