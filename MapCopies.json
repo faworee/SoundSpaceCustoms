@@ -839,12 +839,12 @@
   },
   "zeroth": {
     "displayName": "zeroth",
-    "totalCopies": 2067,
+    "totalCopies": 2068,
     "maps": [
       {
         "id": "zerothBrrrr4944mymoon",
         "name": "my moon",
-        "copies": 733,
+        "copies": 734,
         "notes": 4944,
         "artist": "7ate",
         "difficulty": "Brrrr"
@@ -1765,15 +1765,13 @@
   },
   "Faworee": {
     "displayName": "Faworee",
-    "totalCopies": 34,
+    "totalCopies": 33,
     "maps": [
       {
         "id": "FaworeeLogic1086Space",
         "name": "Space",
-        "copies": 34,
-        "notes": 1086,
-        "artist": "Astra",
-        "difficulty": "Logic"
+        "copies": 33,
+        "notes": 1086
       }
     ]
   },
