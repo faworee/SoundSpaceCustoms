@@ -1,7 +1,7 @@
 {
   "SnivyTrueForm": {
     "displayName": "SnivyTrueForm",
-    "totalCopies": 1333,
+    "totalCopies": 1334,
     "maps": [
       {
         "id": "SnivyTrueFormEasy1382MoreThanFriends",
@@ -28,7 +28,7 @@
       {
         "id": "snivytrueformbrrrr2260mach874939",
         "name": "MACH 874939",
-        "copies": 37,
+        "copies": 38,
         "notes": 2260,
         "artist": "Zytrx",
         "difficulty": "Brrrr"
@@ -311,7 +311,7 @@
   },
   "Taco": {
     "displayName": "Taco",
-    "totalCopies": 3184,
+    "totalCopies": 3185,
     "maps": [
       {
         "id": "TacoMedium354toxic",
@@ -332,8 +332,10 @@
       {
         "id": "TacoBrrrr2430CUTEMAKMAKFUNK",
         "name": "CUTEMAKMAKFUNK",
-        "copies": 448,
-        "notes": 2430
+        "copies": 449,
+        "notes": 2430,
+        "artist": "DJWahRA",
+        "difficulty": "Brrrr"
       },
       {
         "id": "TacoBrrrr1293KillEverybody",
@@ -837,7 +839,7 @@
   },
   "zeroth": {
     "displayName": "zeroth",
-    "totalCopies": 2066,
+    "totalCopies": 2067,
     "maps": [
       {
         "id": "zerothBrrrr4944mymoon",
@@ -858,8 +860,10 @@
       {
         "id": "zerothBrrrr3326jealous",
         "name": "jealous",
-        "copies": 452,
-        "notes": 3326
+        "copies": 453,
+        "notes": 3326,
+        "artist": "d3r & Pröz",
+        "difficulty": "Brrrr"
       },
       {
         "id": "zerothBrrrr1769H4MANIAYUH",
@@ -1125,7 +1129,7 @@
   },
   "SheaNya": {
     "displayName": "SheaNya",
-    "totalCopies": 4338,
+    "totalCopies": 4339,
     "maps": [
       {
         "id": "SheaNyaBrrrr1558Jumpstyle",
@@ -1342,8 +1346,10 @@
       {
         "id": "SheaNyaBrrrr3507IWantYou",
         "name": "I Want You",
-        "copies": 81,
-        "notes": 3507
+        "copies": 82,
+        "notes": 3507,
+        "artist": "APM Music",
+        "difficulty": "Brrrr"
       },
       {
         "id": "SheaNyaBrrrr1409StepIntoIt",
@@ -2293,15 +2299,13 @@
   },
   "FuSe Omega and Pinchyl": {
     "displayName": "FuSe Omega and Pinchyl",
-    "totalCopies": 24,
+    "totalCopies": 23,
     "maps": [
       {
         "id": "FuSeOmegaandPinchylBrrrr1218TrustedVillainVIP",
         "name": "Trusted Villain VIP",
-        "copies": 24,
-        "notes": 1218,
-        "artist": "Zytrx",
-        "difficulty": "Brrrr"
+        "copies": 23,
+        "notes": 1218
       }
     ]
   },
