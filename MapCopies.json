@@ -831,7 +831,7 @@
   },
   "Xilp": {
     "displayName": "Xilp",
-    "totalCopies": 2215,
+    "totalCopies": 2214,
     "maps": [
       {
         "id": "XilpBrrrr3215Bloom",
@@ -874,10 +874,8 @@
       {
         "id": "XilpTasukete3510HadronCollision",
         "name": "Hadron Collision",
-        "copies": 254,
-        "notes": 3510,
-        "artist": "Zytrx",
-        "difficulty": "Tasukete"
+        "copies": 253,
+        "notes": 3510
       },
       {
         "id": "XilpBrrrr3050SolarStrike",
@@ -2267,7 +2265,7 @@
   },
   "Scxthes": {
     "displayName": "Scxthes",
-    "totalCopies": 1344,
+    "totalCopies": 1345,
     "maps": [
       {
         "id": "ScxthesLogic18224NDROMEDA",
@@ -2320,7 +2318,7 @@
       {
         "id": "ScxthesTasukete4878Expedite",
         "name": "Expedite",
-        "copies": 4,
+        "copies": 5,
         "notes": 4878,
         "artist": "Mon",
         "difficulty": "Tasukete"
