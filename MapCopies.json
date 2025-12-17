@@ -457,7 +457,7 @@
   },
   "Demisnya": {
     "displayName": "Demisnya",
-    "totalCopies": 3158,
+    "totalCopies": 3159,
     "maps": [
       {
         "id": "DemisnyaBrrrr4240BassMonster",
@@ -732,8 +732,10 @@
       {
         "id": "DemisnyaBrrrr1624死にゆく自然(DyingNature)",
         "name": "死にゆく自然 (Dying Nature)",
-        "copies": 24,
-        "notes": 1624
+        "copies": 25,
+        "notes": 1624,
+        "artist": "diamond",
+        "difficulty": "Brrrr"
       },
       {
         "id": "DemisnyaBrrrr1330ChartreuseGreen",
@@ -1119,7 +1121,7 @@
   },
   "SheaNya": {
     "displayName": "SheaNya",
-    "totalCopies": 4337,
+    "totalCopies": 4336,
     "maps": [
       {
         "id": "SheaNyaBrrrr1558Jumpstyle",
@@ -1336,10 +1338,8 @@
       {
         "id": "SheaNyaBrrrr3507IWantYou",
         "name": "I Want You",
-        "copies": 82,
-        "notes": 3507,
-        "artist": "APM Music",
-        "difficulty": "Brrrr"
+        "copies": 81,
+        "notes": 3507
       },
       {
         "id": "SheaNyaBrrrr1409StepIntoIt",
