@@ -867,7 +867,7 @@
   },
   "Xilp": {
     "displayName": "Xilp",
-    "totalCopies": 2216,
+    "totalCopies": 2217,
     "maps": [
       {
         "id": "XilpBrrrr3215Bloom",
@@ -1040,8 +1040,10 @@
       {
         "id": "XilpTasukete3187CYBER999",
         "name": "CYBER 999",
-        "copies": 350,
-        "notes": 3187
+        "copies": 351,
+        "notes": 3187,
+        "artist": "Underscore",
+        "difficulty": "Tasukete"
       }
     ]
   },
