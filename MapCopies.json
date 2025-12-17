@@ -435,7 +435,7 @@
   },
   "Demisnya": {
     "displayName": "Demisnya",
-    "totalCopies": 3153,
+    "totalCopies": 3152,
     "maps": [
       {
         "id": "DemisnyaBrrrr4240BassMonster",
@@ -502,10 +502,8 @@
       {
         "id": "DemisnyaBrrrr1968SpeedOfSound",
         "name": "Speed Of Sound",
-        "copies": 189,
-        "notes": 1968,
-        "artist": "APM MUsic",
-        "difficulty": "Brrrr"
+        "copies": 188,
+        "notes": 1968
       },
       {
         "id": "DemisnyaTasukete1958//along/the/mystic/lands//",
@@ -1075,7 +1073,7 @@
   },
   "SheaNya": {
     "displayName": "SheaNya",
-    "totalCopies": 4324,
+    "totalCopies": 4325,
     "maps": [
       {
         "id": "SheaNyaBrrrr1558Jumpstyle",
@@ -1154,7 +1152,7 @@
       {
         "id": "SheaNyaBrrrr2547ABassRenaissance",
         "name": "A Bass Renaissance",
-        "copies": 165,
+        "copies": 166,
         "notes": 2547,
         "artist": "APM Music",
         "difficulty": "Brrrr"
