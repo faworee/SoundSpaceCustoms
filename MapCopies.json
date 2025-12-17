@@ -803,13 +803,15 @@
   },
   "zeroth": {
     "displayName": "zeroth",
-    "totalCopies": 2063,
+    "totalCopies": 2064,
     "maps": [
       {
         "id": "zerothBrrrr4944mymoon",
         "name": "my moon",
-        "copies": 731,
-        "notes": 4944
+        "copies": 732,
+        "notes": 4944,
+        "artist": "7ate",
+        "difficulty": "Brrrr"
       },
       {
         "id": "zerothLogic2573ily",
