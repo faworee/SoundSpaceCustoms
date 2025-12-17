@@ -1443,7 +1443,7 @@
   },
   "OrAlex": {
     "displayName": "OrAlex",
-    "totalCopies": 1143,
+    "totalCopies": 1144,
     "maps": [
       {
         "id": "OrAlexTasukete10535realityisdecaying\\world-end.",
@@ -1454,8 +1454,10 @@
       {
         "id": "OrAlexTasukete5098ULTIMATUM",
         "name": "ULTIMATUM",
-        "copies": 451,
-        "notes": 5098
+        "copies": 452,
+        "notes": 5098,
+        "artist": "Underscore",
+        "difficulty": "Tasukete"
       },
       {
         "id": "OrAlexTasukete3237CYBER999",
