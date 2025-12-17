@@ -845,12 +845,12 @@
   },
   "zeroth": {
     "displayName": "zeroth",
-    "totalCopies": 2068,
+    "totalCopies": 2067,
     "maps": [
       {
         "id": "zerothBrrrr4944mymoon",
         "name": "my moon",
-        "copies": 734,
+        "copies": 733,
         "notes": 4944,
         "artist": "7ate",
         "difficulty": "Brrrr"
@@ -2777,7 +2777,7 @@
   },
   "FpXHarborYT": {
     "displayName": "FpXHarborYT",
-    "totalCopies": 152,
+    "totalCopies": 153,
     "maps": [
       {
         "id": "FpXHarborYTLogic1513Control",
@@ -2788,8 +2788,10 @@
       {
         "id": "FpXHarborYTLogic2152NewWorld",
         "name": "New World",
-        "copies": 58,
-        "notes": 2152
+        "copies": 59,
+        "notes": 2152,
+        "artist": "Hoaprox",
+        "difficulty": "Logic"
       },
       {
         "id": "FpXHarborYTLogic912Alanwaad",
