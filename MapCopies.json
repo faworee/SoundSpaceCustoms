@@ -1553,12 +1553,12 @@
   },
   "Xilp & OrAlex": {
     "displayName": "Xilp & OrAlex",
-    "totalCopies": 294,
+    "totalCopies": 295,
     "maps": [
       {
         "id": "Xilp&OrAlexBrrrr3551FINALHOPE",
         "name": "FINAL HOPE",
-        "copies": 294,
+        "copies": 295,
         "notes": 3551,
         "artist": "Underscore",
         "difficulty": "Brrrr"
@@ -1905,7 +1905,7 @@
   },
   "divetek": {
     "displayName": "divetek",
-    "totalCopies": 223,
+    "totalCopies": 222,
     "maps": [
       {
         "id": "divetekBrrrr1925BUTANE",
@@ -1916,10 +1916,8 @@
       {
         "id": "divetekBrrrr2761IntercosmicEcho",
         "name": "Intercosmic Echo",
-        "copies": 69,
-        "notes": 2761,
-        "artist": "diamomd",
-        "difficulty": "Brrrr"
+        "copies": 68,
+        "notes": 2761
       },
       {
         "id": "divetekBrrrr2347Polybreak",
@@ -2445,15 +2443,13 @@
   },
   "Noobourn": {
     "displayName": "Noobourn",
-    "totalCopies": 109,
+    "totalCopies": 108,
     "maps": [
       {
         "id": "NoobournBrrrr3800Stay(Metahumanboibootleg)",
         "name": "Stay (Metahumanboi bootleg)",
-        "copies": 109,
-        "notes": 3800,
-        "artist": "The Kid LAROI, Justin Bieber",
-        "difficulty": "Brrrr"
+        "copies": 108,
+        "notes": 3800
       }
     ]
   },
