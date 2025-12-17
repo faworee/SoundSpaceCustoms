@@ -1543,7 +1543,7 @@
   },
   "faworee": {
     "displayName": "faworee",
-    "totalCopies": 1386,
+    "totalCopies": 1387,
     "maps": [
       {
         "id": "faworeeBrrrr2526eeyuh!",
@@ -1556,7 +1556,7 @@
       {
         "id": "faworeeTasukete5424CYBER999",
         "name": "CYBER 999",
-        "copies": 946,
+        "copies": 947,
         "notes": 5424,
         "artist": "Underscore",
         "difficulty": "Tasukete"
@@ -2409,7 +2409,7 @@
   },
   "Scxthes": {
     "displayName": "Scxthes",
-    "totalCopies": 1366,
+    "totalCopies": 1367,
     "maps": [
       {
         "id": "ScxthesLogic18224NDROMEDA",
@@ -2464,7 +2464,7 @@
       {
         "id": "ScxthesTasukete4878Expedite",
         "name": "Expedite",
-        "copies": 10,
+        "copies": 11,
         "notes": 4878,
         "artist": "Mon",
         "difficulty": "Tasukete"
@@ -2735,15 +2735,13 @@
   },
   "Senternal": {
     "displayName": "Senternal",
-    "totalCopies": 157,
+    "totalCopies": 156,
     "maps": [
       {
         "id": "SenternalTasukete2091Eeyuh!",
         "name": "Eeyuh!",
-        "copies": 157,
-        "notes": 2091,
-        "artist": "hr",
-        "difficulty": "Tasukete"
+        "copies": 156,
+        "notes": 2091
       }
     ]
   },
@@ -2831,12 +2829,12 @@
   },
   "reticentmemory": {
     "displayName": "reticentmemory",
-    "totalCopies": 13,
+    "totalCopies": 14,
     "maps": [
       {
         "id": "reticentmemoryTasukete3469FINALSTAND",
         "name": "FINAL STAND",
-        "copies": 13,
+        "copies": 14,
         "notes": 3469,
         "artist": "Underscore",
         "difficulty": "Tasukete"
