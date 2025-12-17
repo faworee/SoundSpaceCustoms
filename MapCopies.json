@@ -1141,7 +1141,7 @@
   },
   "SheaNya": {
     "displayName": "SheaNya",
-    "totalCopies": 4342,
+    "totalCopies": 4341,
     "maps": [
       {
         "id": "SheaNyaBrrrr1558Jumpstyle",
@@ -1256,10 +1256,8 @@
       {
         "id": "SheaNyaBrrrr2514Chaos",
         "name": "Chaos",
-        "copies": 104,
-        "notes": 2514,
-        "artist": "APM Music",
-        "difficulty": "Brrrr"
+        "copies": 103,
+        "notes": 2514
       },
       {
         "id": "SheaNyaBrrrr2242BPM=RT",
@@ -1545,7 +1543,7 @@
   },
   "faworee": {
     "displayName": "faworee",
-    "totalCopies": 1386,
+    "totalCopies": 1388,
     "maps": [
       {
         "id": "faworeeBrrrr2526eeyuh!",
@@ -1558,7 +1556,7 @@
       {
         "id": "faworeeTasukete5424CYBER999",
         "name": "CYBER 999",
-        "copies": 946,
+        "copies": 948,
         "notes": 5424,
         "artist": "Underscore",
         "difficulty": "Tasukete"
@@ -2411,7 +2409,7 @@
   },
   "Scxthes": {
     "displayName": "Scxthes",
-    "totalCopies": 1366,
+    "totalCopies": 1367,
     "maps": [
       {
         "id": "ScxthesLogic18224NDROMEDA",
@@ -2466,7 +2464,7 @@
       {
         "id": "ScxthesTasukete4878Expedite",
         "name": "Expedite",
-        "copies": 10,
+        "copies": 11,
         "notes": 4878,
         "artist": "Mon",
         "difficulty": "Tasukete"
@@ -2749,12 +2747,12 @@
   },
   "Ghefine": {
     "displayName": "Ghefine",
-    "totalCopies": 236,
+    "totalCopies": 238,
     "maps": [
       {
         "id": "GhefineBrrrr3090Fusion",
         "name": "Fusion",
-        "copies": 236,
+        "copies": 238,
         "notes": 3090,
         "artist": "red",
         "difficulty": "Brrrr"
@@ -2831,12 +2829,12 @@
   },
   "reticentmemory": {
     "displayName": "reticentmemory",
-    "totalCopies": 13,
+    "totalCopies": 14,
     "maps": [
       {
         "id": "reticentmemoryTasukete3469FINALSTAND",
         "name": "FINAL STAND",
-        "copies": 13,
+        "copies": 14,
         "notes": 3469,
         "artist": "Underscore",
         "difficulty": "Tasukete"
