@@ -2077,13 +2077,15 @@
   },
   "FuSe Omega & Pinchyl": {
     "displayName": "FuSe Omega & Pinchyl",
-    "totalCopies": 56,
+    "totalCopies": 57,
     "maps": [
       {
         "id": "FuSeOmega&PinchylBrrrr1779HATEDHERO",
         "name": "HATED HERO",
-        "copies": 56,
-        "notes": 1779
+        "copies": 57,
+        "notes": 1779,
+        "artist": "Zytrx",
+        "difficulty": "Brrrr"
       }
     ]
   },
@@ -2265,7 +2267,7 @@
   },
   "Scxthes": {
     "displayName": "Scxthes",
-    "totalCopies": 1346,
+    "totalCopies": 1344,
     "maps": [
       {
         "id": "ScxthesLogic18224NDROMEDA",
@@ -2296,7 +2298,7 @@
       {
         "id": "ScxthesBrrrr3408ForgettingWasMyOnlyOption",
         "name": "Forgetting Was My Only Option",
-        "copies": 101,
+        "copies": 100,
         "notes": 3408,
         "artist": "633397",
         "difficulty": "Brrrr"
@@ -2304,10 +2306,8 @@
       {
         "id": "ScxthesTasukete3884HatedHero",
         "name": "Hated Hero",
-        "copies": 255,
-        "notes": 3884,
-        "artist": "MetaHumanBoi",
-        "difficulty": "Tasukete"
+        "copies": 254,
+        "notes": 3884
       },
       {
         "id": "ScxthesTasukete2421TrustedVillainVIP",
