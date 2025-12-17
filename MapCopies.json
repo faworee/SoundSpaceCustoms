@@ -2675,12 +2675,12 @@
   },
   "reticentmemory": {
     "displayName": "reticentmemory",
-    "totalCopies": 6,
+    "totalCopies": 7,
     "maps": [
       {
         "id": "reticentmemoryTasukete3469FINALSTAND",
         "name": "FINAL STAND",
-        "copies": 6,
+        "copies": 7,
         "notes": 3469,
         "artist": "Underscore",
         "difficulty": "Tasukete"
@@ -4300,12 +4300,12 @@
   },
   "TUPPICUNOTUFFMAPPER": {
     "displayName": "TUPPICUNOTUFFMAPPER",
-    "totalCopies": 2,
+    "totalCopies": 1,
     "maps": [
       {
         "id": "tuppicunotuffmapperbrrrr2862toxic",
         "name": "toxic",
-        "copies": 2,
+        "copies": 1,
         "notes": 2862,
         "artist": "d3r & 6arelyhuman & Pröz",
         "difficulty": "Brrrr"
