@@ -1,7 +1,7 @@
 {
   "SnivyTrueForm": {
     "displayName": "SnivyTrueForm",
-    "totalCopies": 1333,
+    "totalCopies": 1334,
     "maps": [
       {
         "id": "SnivyTrueFormEasy1382MoreThanFriends",
@@ -28,7 +28,7 @@
       {
         "id": "snivytrueformbrrrr2260mach874939",
         "name": "MACH 874939",
-        "copies": 37,
+        "copies": 38,
         "notes": 2260,
         "artist": "Zytrx",
         "difficulty": "Brrrr"
@@ -1731,12 +1731,12 @@
   },
   "Llykae2009": {
     "displayName": "Llykae2009",
-    "totalCopies": 72,
+    "totalCopies": 73,
     "maps": [
       {
         "id": "Llykae2009Brrrr2905Hijacked",
         "name": "Hijacked",
-        "copies": 72,
+        "copies": 73,
         "notes": 2905,
         "artist": "John August Pregler",
         "difficulty": "Brrrr"
@@ -1903,7 +1903,7 @@
   },
   "divetek": {
     "displayName": "divetek",
-    "totalCopies": 223,
+    "totalCopies": 222,
     "maps": [
       {
         "id": "divetekBrrrr1925BUTANE",
@@ -1926,7 +1926,7 @@
       {
         "id": "divetekbrrrr1963resistance",
         "name": "RESISTANCE",
-        "copies": 36,
+        "copies": 35,
         "notes": 1963,
         "artist": "Zytrx",
         "difficulty": "Brrrr"
