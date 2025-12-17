@@ -849,7 +849,7 @@
   },
   "zeroth": {
     "displayName": "zeroth",
-    "totalCopies": 2068,
+    "totalCopies": 2069,
     "maps": [
       {
         "id": "zerothBrrrr4944mymoon",
@@ -862,7 +862,7 @@
       {
         "id": "zerothLogic2573ily",
         "name": "ily",
-        "copies": 241,
+        "copies": 242,
         "notes": 2573,
         "artist": "kirkiimad, CG5",
         "difficulty": "Logic"
@@ -1519,12 +1519,12 @@
   },
   "OrAlex": {
     "displayName": "OrAlex",
-    "totalCopies": 1147,
+    "totalCopies": 1146,
     "maps": [
       {
         "id": "OrAlexTasukete10535realityisdecaying\\world-end.",
         "name": "reality is decaying\\world-end.",
-        "copies": 330,
+        "copies": 329,
         "notes": 10535,
         "artist": "Underscore",
         "difficulty": "Tasukete"
@@ -1689,12 +1689,12 @@
   },
   "Worst Ghost Player": {
     "displayName": "Worst Ghost Player",
-    "totalCopies": 442,
+    "totalCopies": 441,
     "maps": [
       {
         "id": "WorstGhostPlayerTasukete2205SPEEDCORENIGHTLIFE",
         "name": "SPEEDCORE NIGHTLIFE",
-        "copies": 442,
+        "copies": 441,
         "notes": 2205,
         "artist": "Underscore",
         "difficulty": "Tasukete"
