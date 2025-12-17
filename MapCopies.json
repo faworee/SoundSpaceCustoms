@@ -2155,12 +2155,12 @@
   },
   "Cake": {
     "displayName": "Cake",
-    "totalCopies": 44,
+    "totalCopies": 45,
     "maps": [
       {
         "id": "CakeBrrrr1467The13th",
         "name": "The 13th",
-        "copies": 44,
+        "copies": 45,
         "notes": 1467,
         "artist": "ED$ANE",
         "difficulty": "Brrrr"
