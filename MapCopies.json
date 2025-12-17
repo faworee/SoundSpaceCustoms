@@ -1007,13 +1007,15 @@
   },
   "Immortal": {
     "displayName": "Immortal",
-    "totalCopies": 916,
+    "totalCopies": 917,
     "maps": [
       {
         "id": "ImmortalTasukete2508Artcore",
         "name": "Artcore",
-        "copies": 554,
-        "notes": 2508
+        "copies": 555,
+        "notes": 2508,
+        "artist": "Mon",
+        "difficulty": "Tasukete"
       },
       {
         "id": "ImmortalBrrrr8276Bloom",
@@ -2265,7 +2267,7 @@
   },
   "Scxthes": {
     "displayName": "Scxthes",
-    "totalCopies": 1345,
+    "totalCopies": 1344,
     "maps": [
       {
         "id": "ScxthesLogic18224NDROMEDA",
@@ -2276,7 +2278,7 @@
       {
         "id": "ScxthesTasukete4383OATHBREAKER",
         "name": "OATH BREAKER",
-        "copies": 380,
+        "copies": 379,
         "notes": 4383,
         "artist": "Underscore",
         "difficulty": "Tasukete"
@@ -2621,7 +2623,7 @@
   },
   "FpXHarborYT": {
     "displayName": "FpXHarborYT",
-    "totalCopies": 147,
+    "totalCopies": 146,
     "maps": [
       {
         "id": "FpXHarborYTLogic1513Control",
@@ -2650,7 +2652,7 @@
       {
         "id": "fpxharborytbrrrr2425thinkingaboutyou",
         "name": "Thinking About You",
-        "copies": 3,
+        "copies": 2,
         "notes": 2425,
         "artist": "Monstercat",
         "difficulty": "Brrrr"
