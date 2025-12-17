@@ -845,7 +845,7 @@
   },
   "zeroth": {
     "displayName": "zeroth",
-    "totalCopies": 2067,
+    "totalCopies": 2068,
     "maps": [
       {
         "id": "zerothBrrrr4944mymoon",
@@ -880,7 +880,7 @@
       {
         "id": "zerothTasukete1763iwontgiveuponyou",
         "name": "i wont give up on you",
-        "copies": 504,
+        "copies": 505,
         "notes": 1763,
         "artist": "mon",
         "difficulty": "Tasukete"
@@ -1825,12 +1825,12 @@
   },
   "Kappa": {
     "displayName": "Kappa",
-    "totalCopies": 502,
+    "totalCopies": 501,
     "maps": [
       {
         "id": "KappaBrrrr2234cyborgworkout",
         "name": "cyborg workout",
-        "copies": 121,
+        "copies": 120,
         "notes": 2234,
         "artist": "APM Music",
         "difficulty": "Brrrr"
@@ -2411,7 +2411,7 @@
   },
   "Scxthes": {
     "displayName": "Scxthes",
-    "totalCopies": 1369,
+    "totalCopies": 1370,
     "maps": [
       {
         "id": "ScxthesLogic18224NDROMEDA",
@@ -2436,7 +2436,7 @@
       {
         "id": "ScxthesTasukete2599WASSA",
         "name": "WASSA",
-        "copies": 221,
+        "copies": 222,
         "notes": 2599,
         "artist": "HR",
         "difficulty": "Tasukete"
@@ -2763,12 +2763,12 @@
   },
   "Silva": {
     "displayName": "Silva",
-    "totalCopies": 131,
+    "totalCopies": 130,
     "maps": [
       {
         "id": "SilvaBrrrr1865Hot",
         "name": "Hot",
-        "copies": 131,
+        "copies": 130,
         "notes": 1865,
         "artist": "FWLR",
         "difficulty": "Brrrr"
