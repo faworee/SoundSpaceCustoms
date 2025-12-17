@@ -2283,7 +2283,7 @@
   },
   "Scxthes": {
     "displayName": "Scxthes",
-    "totalCopies": 1346,
+    "totalCopies": 1347,
     "maps": [
       {
         "id": "ScxthesLogic18224NDROMEDA",
@@ -2294,7 +2294,7 @@
       {
         "id": "ScxthesTasukete4383OATHBREAKER",
         "name": "OATH BREAKER",
-        "copies": 379,
+        "copies": 380,
         "notes": 4383,
         "artist": "Underscore",
         "difficulty": "Tasukete"
