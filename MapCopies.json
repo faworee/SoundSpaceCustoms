@@ -431,7 +431,7 @@
   },
   "Demisnya": {
     "displayName": "Demisnya",
-    "totalCopies": 3152,
+    "totalCopies": 3153,
     "maps": [
       {
         "id": "DemisnyaBrrrr4240BassMonster",
@@ -590,8 +590,10 @@
       {
         "id": "DemisnyaTasukete2842IntercosmicEcho2",
         "name": "Intercosmic Echo 2",
-        "copies": 147,
-        "notes": 2842
+        "copies": 148,
+        "notes": 2842,
+        "artist": "diamomd",
+        "difficulty": "Tasukete"
       },
       {
         "id": "DemisnyaBrrrr2238HATEDHERO",
@@ -2269,7 +2271,7 @@
   },
   "Scxthes": {
     "displayName": "Scxthes",
-    "totalCopies": 1345,
+    "totalCopies": 1346,
     "maps": [
       {
         "id": "ScxthesLogic18224NDROMEDA",
@@ -2322,7 +2324,7 @@
       {
         "id": "ScxthesTasukete4878Expedite",
         "name": "Expedite",
-        "copies": 4,
+        "copies": 5,
         "notes": 4878,
         "artist": "Mon",
         "difficulty": "Tasukete"
@@ -2675,12 +2677,12 @@
   },
   "reticentmemory": {
     "displayName": "reticentmemory",
-    "totalCopies": 7,
+    "totalCopies": 6,
     "maps": [
       {
         "id": "reticentmemoryTasukete3469FINALSTAND",
         "name": "FINAL STAND",
-        "copies": 7,
+        "copies": 6,
         "notes": 3469,
         "artist": "Underscore",
         "difficulty": "Tasukete"
