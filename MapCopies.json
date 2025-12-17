@@ -2207,7 +2207,7 @@
   },
   "Sdrullo": {
     "displayName": "Sdrullo",
-    "totalCopies": 338,
+    "totalCopies": 339,
     "maps": [
       {
         "id": "SdrulloBrrrr1697Darkstar",
@@ -2218,8 +2218,10 @@
       {
         "id": "SdrulloBrrrr2532TheImpaler",
         "name": "The Impaler",
-        "copies": 38,
-        "notes": 2532
+        "copies": 39,
+        "notes": 2532,
+        "artist": "Nstryder",
+        "difficulty": "Brrrr"
       },
       {
         "id": "SdrulloBrrrr1421iwontgiveuponyou",
