@@ -2777,13 +2777,15 @@
   },
   "FpXHarborYT": {
     "displayName": "FpXHarborYT",
-    "totalCopies": 152,
+    "totalCopies": 153,
     "maps": [
       {
         "id": "FpXHarborYTLogic1513Control",
         "name": "Control",
-        "copies": 50,
-        "notes": 1513
+        "copies": 51,
+        "notes": 1513,
+        "artist": "luvbackpack x sukoyomi",
+        "difficulty": "Logic"
       },
       {
         "id": "FpXHarborYTLogic2152NewWorld",
