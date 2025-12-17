@@ -104,8 +104,10 @@
       {
         "id": "SnivyTrueFormLogic1106Monday",
         "name": "Monday",
-        "copies": 9,
-        "notes": 1106
+        "copies": 10,
+        "notes": 1106,
+        "artist": "Rutra",
+        "difficulty": "Logic"
       },
       {
         "id": "SnivyTrueFormBrrrr5490UltraV",
@@ -122,10 +124,8 @@
       {
         "id": "SnivyTrueFormBrrrr2254HappyCaribbeanAdventure",
         "name": "Happy Caribbean Adventure",
-        "copies": 20,
-        "notes": 2254,
-        "artist": "Korsio",
-        "difficulty": "Brrrr"
+        "copies": 19,
+        "notes": 2254
       },
       {
         "id": "SnivyTrueFormBrrrr3746Time",
