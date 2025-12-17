@@ -1543,7 +1543,7 @@
   },
   "faworee": {
     "displayName": "faworee",
-    "totalCopies": 1387,
+    "totalCopies": 1388,
     "maps": [
       {
         "id": "faworeeBrrrr2526eeyuh!",
@@ -1556,7 +1556,7 @@
       {
         "id": "faworeeTasukete5424CYBER999",
         "name": "CYBER 999",
-        "copies": 947,
+        "copies": 948,
         "notes": 5424,
         "artist": "Underscore",
         "difficulty": "Tasukete"
@@ -2420,7 +2420,7 @@
       {
         "id": "ScxthesTasukete4383OATHBREAKER",
         "name": "OATH BREAKER",
-        "copies": 382,
+        "copies": 383,
         "notes": 4383,
         "artist": "Underscore",
         "difficulty": "Tasukete"
@@ -2464,7 +2464,7 @@
       {
         "id": "ScxthesTasukete4878Expedite",
         "name": "Expedite",
-        "copies": 12,
+        "copies": 11,
         "notes": 4878,
         "artist": "Mon",
         "difficulty": "Tasukete"
@@ -2829,12 +2829,12 @@
   },
   "reticentmemory": {
     "displayName": "reticentmemory",
-    "totalCopies": 13,
+    "totalCopies": 14,
     "maps": [
       {
         "id": "reticentmemoryTasukete3469FINALSTAND",
         "name": "FINAL STAND",
-        "copies": 13,
+        "copies": 14,
         "notes": 3469,
         "artist": "Underscore",
         "difficulty": "Tasukete"
