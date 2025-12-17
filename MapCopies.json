@@ -459,7 +459,7 @@
   },
   "Demisnya": {
     "displayName": "Demisnya",
-    "totalCopies": 3161,
+    "totalCopies": 3162,
     "maps": [
       {
         "id": "DemisnyaBrrrr4240BassMonster",
@@ -576,8 +576,10 @@
       {
         "id": "DemisnyaBrrrr2720IntercosmicEcho",
         "name": "Intercosmic Echo",
-        "copies": 106,
-        "notes": 2720
+        "copies": 107,
+        "notes": 2720,
+        "artist": "diamomd",
+        "difficulty": "Brrrr"
       },
       {
         "id": "DemisnyaBrrrr1350IdealWorld",
@@ -1637,15 +1639,13 @@
   },
   "canteloupe3727": {
     "displayName": "canteloupe3727",
-    "totalCopies": 146,
+    "totalCopies": 145,
     "maps": [
       {
         "id": "canteloupe3727Brrrr5593M1LLI0NPP",
         "name": "M1LLI0N PP",
-        "copies": 52,
-        "notes": 5593,
-        "artist": "Camellia",
-        "difficulty": "Brrrr"
+        "copies": 51,
+        "notes": 5593
       },
       {
         "id": "canteloupe3727Brrrr1675Flowers",
