@@ -1,7 +1,7 @@
 {
   "SnivyTrueForm": {
     "displayName": "SnivyTrueForm",
-    "totalCopies": 1334,
+    "totalCopies": 1335,
     "maps": [
       {
         "id": "SnivyTrueFormEasy1382MoreThanFriends",
@@ -22,8 +22,10 @@
       {
         "id": "SnivyTrueFormBrrrr1760CatchMe",
         "name": "Catch Me",
-        "copies": 40,
-        "notes": 1760
+        "copies": 41,
+        "notes": 1760,
+        "artist": "Luvnyte",
+        "difficulty": "Brrrr"
       },
       {
         "id": "snivytrueformbrrrr2260mach874939",
@@ -311,7 +313,7 @@
   },
   "Taco": {
     "displayName": "Taco",
-    "totalCopies": 3189,
+    "totalCopies": 3188,
     "maps": [
       {
         "id": "TacoMedium354toxic",
@@ -388,10 +390,8 @@
       {
         "id": "TacoBrrrr2157youreyes",
         "name": "your eyes",
-        "copies": 128,
-        "notes": 2157,
-        "artist": "Kibi",
-        "difficulty": "Brrrr"
+        "copies": 127,
+        "notes": 2157
       },
       {
         "id": "TacoTasukete1183TheCommunity",
