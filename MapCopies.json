@@ -1,7 +1,7 @@
 {
   "SnivyTrueForm": {
     "displayName": "SnivyTrueForm",
-    "totalCopies": 1329,
+    "totalCopies": 1328,
     "maps": [
       {
         "id": "SnivyTrueFormEasy1382MoreThanFriends",
@@ -110,10 +110,8 @@
       {
         "id": "SnivyTrueFormBrrrr5490UltraV",
         "name": "Ultra V",
-        "copies": 36,
-        "notes": 5490,
-        "artist": "ED$ANE",
-        "difficulty": "Brrrr"
+        "copies": 35,
+        "notes": 5490
       },
       {
         "id": "SnivyTrueFormHard418FarAway",
@@ -1551,7 +1549,7 @@
   },
   "xazthenpc": {
     "displayName": "xazthenpc",
-    "totalCopies": 445,
+    "totalCopies": 446,
     "maps": [
       {
         "id": "xazthenpcBrrrr7175BadAccess",
@@ -1568,8 +1566,10 @@
       {
         "id": "xazthenpcBrrrr1077LoveSick!ft.Isabel",
         "name": "LoveSick! ft. Isabel",
-        "copies": 93,
-        "notes": 1077
+        "copies": 94,
+        "notes": 1077,
+        "artist": "KunarU x Kitsune",
+        "difficulty": "Brrrr"
       },
       {
         "id": "xazthenpcBrrrr1771RunItBack",
