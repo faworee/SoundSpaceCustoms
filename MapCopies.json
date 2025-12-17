@@ -2265,7 +2265,7 @@
   },
   "Scxthes": {
     "displayName": "Scxthes",
-    "totalCopies": 1345,
+    "totalCopies": 1346,
     "maps": [
       {
         "id": "ScxthesLogic18224NDROMEDA",
@@ -2304,8 +2304,10 @@
       {
         "id": "ScxthesTasukete3884HatedHero",
         "name": "Hated Hero",
-        "copies": 254,
-        "notes": 3884
+        "copies": 255,
+        "notes": 3884,
+        "artist": "MetaHumanBoi",
+        "difficulty": "Tasukete"
       },
       {
         "id": "ScxthesTasukete2421TrustedVillainVIP",
