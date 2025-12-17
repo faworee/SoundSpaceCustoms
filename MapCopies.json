@@ -1433,13 +1433,15 @@
   },
   "faworee": {
     "displayName": "faworee",
-    "totalCopies": 1383,
+    "totalCopies": 1384,
     "maps": [
       {
         "id": "faworeeBrrrr2526eeyuh!",
         "name": "eeyuh!",
-        "copies": 312,
-        "notes": 2526
+        "copies": 313,
+        "notes": 2526,
+        "artist": "HR",
+        "difficulty": "Brrrr"
       },
       {
         "id": "faworeeTasukete5424CYBER999",
