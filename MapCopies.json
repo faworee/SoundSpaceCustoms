@@ -437,7 +437,7 @@
   },
   "Demisnya": {
     "displayName": "Demisnya",
-    "totalCopies": 3153,
+    "totalCopies": 3152,
     "maps": [
       {
         "id": "DemisnyaBrrrr4240BassMonster",
@@ -480,10 +480,8 @@
       {
         "id": "DemisnyaBrrrr2047Aizome",
         "name": "Aizome",
-        "copies": 38,
-        "notes": 2047,
-        "artist": "Karmadylo",
-        "difficulty": "Brrrr"
+        "copies": 37,
+        "notes": 2047
       },
       {
         "id": "DemisnyaBrrrr1032Nightune",
@@ -805,7 +803,7 @@
   },
   "zeroth": {
     "displayName": "zeroth",
-    "totalCopies": 2064,
+    "totalCopies": 2063,
     "maps": [
       {
         "id": "zerothBrrrr4944mymoon",
@@ -822,10 +820,8 @@
       {
         "id": "zerothBrrrr3326jealous",
         "name": "jealous",
-        "copies": 453,
-        "notes": 3326,
-        "artist": "d3r & Pröz",
-        "difficulty": "Brrrr"
+        "copies": 452,
+        "notes": 3326
       },
       {
         "id": "zerothBrrrr1769H4MANIAYUH",
@@ -1683,13 +1679,15 @@
   },
   "curtival": {
     "displayName": "curtival",
-    "totalCopies": 242,
+    "totalCopies": 243,
     "maps": [
       {
         "id": "curtivalTasukete6618africantribe",
         "name": "african tribe",
-        "copies": 242,
-        "notes": 6618
+        "copies": 243,
+        "notes": 6618,
+        "artist": "APM Music",
+        "difficulty": "Tasukete"
       }
     ]
   },
@@ -2515,7 +2513,7 @@
   },
   "narcissistnile": {
     "displayName": "narcissistnile",
-    "totalCopies": 1048,
+    "totalCopies": 1049,
     "maps": [
       {
         "id": "narcissistnileTasukete4186cowbellgod",
@@ -2534,8 +2532,10 @@
       {
         "id": "narcissistnileBrrrr1466Alone",
         "name": "Alone",
-        "copies": 310,
-        "notes": 1466
+        "copies": 311,
+        "notes": 1466,
+        "artist": "Lil Kuudere, sukoyomi",
+        "difficulty": "Brrrr"
       }
     ]
   },
