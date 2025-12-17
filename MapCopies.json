@@ -313,7 +313,7 @@
   },
   "Taco": {
     "displayName": "Taco",
-    "totalCopies": 3189,
+    "totalCopies": 3188,
     "maps": [
       {
         "id": "TacoMedium354toxic",
@@ -362,7 +362,7 @@
       {
         "id": "TacoTasukete3590noescape",
         "name": "no escape",
-        "copies": 760,
+        "copies": 759,
         "notes": 3590,
         "artist": "d3r & m1v & asteria",
         "difficulty": "Tasukete"
@@ -889,7 +889,7 @@
   },
   "Xilp": {
     "displayName": "Xilp",
-    "totalCopies": 2222,
+    "totalCopies": 2221,
     "maps": [
       {
         "id": "XilpBrrrr3215Bloom",
@@ -1066,7 +1066,7 @@
       {
         "id": "XilpTasukete3187CYBER999",
         "name": "CYBER 999",
-        "copies": 353,
+        "copies": 352,
         "notes": 3187,
         "artist": "Underscore",
         "difficulty": "Tasukete"
@@ -1075,12 +1075,12 @@
   },
   "Immortal": {
     "displayName": "Immortal",
-    "totalCopies": 917,
+    "totalCopies": 918,
     "maps": [
       {
         "id": "ImmortalTasukete2508Artcore",
         "name": "Artcore",
-        "copies": 555,
+        "copies": 556,
         "notes": 2508,
         "artist": "Mon",
         "difficulty": "Tasukete"
