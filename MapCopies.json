@@ -305,7 +305,7 @@
   },
   "Taco": {
     "displayName": "Taco",
-    "totalCopies": 3179,
+    "totalCopies": 3178,
     "maps": [
       {
         "id": "TacoMedium354toxic",
@@ -368,10 +368,8 @@
       {
         "id": "TacoTasukete1107skibidifanumtax",
         "name": "skibidi fanum tax",
-        "copies": 209,
-        "notes": 1107,
-        "artist": "RizzlerBullet",
-        "difficulty": "Tasukete"
+        "copies": 208,
+        "notes": 1107
       },
       {
         "id": "TacoBrrrr2157youreyes",
@@ -861,7 +859,7 @@
   },
   "Xilp": {
     "displayName": "Xilp",
-    "totalCopies": 2215,
+    "totalCopies": 2216,
     "maps": [
       {
         "id": "XilpBrrrr3215Bloom",
@@ -904,8 +902,10 @@
       {
         "id": "XilpTasukete3510HadronCollision",
         "name": "Hadron Collision",
-        "copies": 253,
-        "notes": 3510
+        "copies": 254,
+        "notes": 3510,
+        "artist": "Zytrx",
+        "difficulty": "Tasukete"
       },
       {
         "id": "XilpBrrrr3050SolarStrike",
