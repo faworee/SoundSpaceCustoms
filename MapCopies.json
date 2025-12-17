@@ -859,7 +859,7 @@
   },
   "Xilp": {
     "displayName": "Xilp",
-    "totalCopies": 2215,
+    "totalCopies": 2216,
     "maps": [
       {
         "id": "XilpBrrrr3215Bloom",
@@ -940,8 +940,10 @@
       {
         "id": "XilpBrrrr1678Karma",
         "name": "Karma",
-        "copies": 54,
-        "notes": 1678
+        "copies": 55,
+        "notes": 1678,
+        "artist": "Sacuna",
+        "difficulty": "Brrrr"
       },
       {
         "id": "XilpBrrrr1319rainbow",
@@ -4366,12 +4368,12 @@
   },
   "TUPPICUNOTUFFMAPPER": {
     "displayName": "TUPPICUNOTUFFMAPPER",
-    "totalCopies": 3,
+    "totalCopies": 2,
     "maps": [
       {
         "id": "tuppicunotuffmapperbrrrr2862toxic",
         "name": "toxic",
-        "copies": 3,
+        "copies": 2,
         "notes": 2862,
         "artist": "d3r & 6arelyhuman & Pröz",
         "difficulty": "Brrrr"
