@@ -1767,7 +1767,7 @@
   },
   "Nate10993": {
     "displayName": "Nate10993",
-    "totalCopies": 120,
+    "totalCopies": 119,
     "maps": [
       {
         "id": "Nate10993Brrrr3616ComputeItWithSomeDevilishAlcoholicSteampunkEngines",
@@ -1778,10 +1778,8 @@
       {
         "id": "Nate10993Brrrr2679IntercosmicEcho2",
         "name": "Intercosmic Echo 2",
-        "copies": 90,
-        "notes": 2679,
-        "artist": "diamomd",
-        "difficulty": "Brrrr"
+        "copies": 89,
+        "notes": 2679
       }
     ]
   },
@@ -2579,13 +2577,15 @@
   },
   "Senternal": {
     "displayName": "Senternal",
-    "totalCopies": 156,
+    "totalCopies": 157,
     "maps": [
       {
         "id": "SenternalTasukete2091Eeyuh!",
         "name": "Eeyuh!",
-        "copies": 156,
-        "notes": 2091
+        "copies": 157,
+        "notes": 2091,
+        "artist": "hr",
+        "difficulty": "Tasukete"
       }
     ]
   },
