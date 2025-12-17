@@ -429,7 +429,7 @@
   },
   "Demisnya": {
     "displayName": "Demisnya",
-    "totalCopies": 3151,
+    "totalCopies": 3150,
     "maps": [
       {
         "id": "DemisnyaBrrrr4240BassMonster",
@@ -736,10 +736,8 @@
       {
         "id": "DemisnyaBrrrr1989Project",
         "name": "Project",
-        "copies": 10,
-        "notes": 1989,
-        "artist": "SPIRIT GARDEN *",
-        "difficulty": "Brrrr"
+        "copies": 9,
+        "notes": 1989
       },
       {
         "id": "DemisnyaBrrrr2188BPM=RT",
@@ -829,7 +827,7 @@
   },
   "Xilp": {
     "displayName": "Xilp",
-    "totalCopies": 2214,
+    "totalCopies": 2215,
     "maps": [
       {
         "id": "XilpBrrrr3215Bloom",
@@ -980,8 +978,10 @@
       {
         "id": "XilpBrrrr3530ClaíomhSolais'",
         "name": "Claíomh Solais'",
-        "copies": 20,
-        "notes": 3530
+        "copies": 21,
+        "notes": 3530,
+        "artist": "Nstryder vs Kyutatsuki",
+        "difficulty": "Brrrr"
       },
       {
         "id": "XilpBrrrr2713ComputeItWithSomeDevilishAlcoholicSteampunkEngines",
