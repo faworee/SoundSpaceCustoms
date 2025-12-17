@@ -1,7 +1,7 @@
 {
   "SnivyTrueForm": {
     "displayName": "SnivyTrueForm",
-    "totalCopies": 1330,
+    "totalCopies": 1331,
     "maps": [
       {
         "id": "SnivyTrueFormEasy1382MoreThanFriends",
@@ -254,8 +254,10 @@
       {
         "id": "SnivyTrueFormLogic1030iwishwehadmoretimetogether",
         "name": "i wish we had more time together",
-        "copies": 46,
-        "notes": 1030
+        "copies": 47,
+        "notes": 1030,
+        "artist": "jackuw",
+        "difficulty": "Logic"
       },
       {
         "id": "SnivyTrueFormBrrrr2272ChipHeaven",
@@ -1821,12 +1823,12 @@
   },
   "Pyxenity, Alt": {
     "displayName": "Pyxenity, Alt",
-    "totalCopies": 100,
+    "totalCopies": 99,
     "maps": [
       {
         "id": "Pyxenity,AltTasukete6000TeraI/O",
         "name": "Tera I/O",
-        "copies": 100,
+        "copies": 99,
         "notes": 6000,
         "artist": "Camellia",
         "difficulty": "Tasukete"
