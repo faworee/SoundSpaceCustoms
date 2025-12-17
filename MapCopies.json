@@ -1893,7 +1893,7 @@
   },
   "divetek": {
     "displayName": "divetek",
-    "totalCopies": 222,
+    "totalCopies": 223,
     "maps": [
       {
         "id": "divetekBrrrr1925BUTANE",
@@ -1904,8 +1904,10 @@
       {
         "id": "divetekBrrrr2761IntercosmicEcho",
         "name": "Intercosmic Echo",
-        "copies": 68,
-        "notes": 2761
+        "copies": 69,
+        "notes": 2761,
+        "artist": "diamomd",
+        "difficulty": "Brrrr"
       },
       {
         "id": "divetekBrrrr2347Polybreak",
