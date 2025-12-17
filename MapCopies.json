@@ -411,7 +411,7 @@
   },
   "Alter/p183805": {
     "displayName": "Alter/p183805",
-    "totalCopies": 1092,
+    "totalCopies": 1093,
     "maps": [
       {
         "id": "Alter/p183805Brrrr1333CrabRave",
@@ -430,7 +430,7 @@
       {
         "id": "Alter/p183805Tasukete1430Base",
         "name": "Base",
-        "copies": 335,
+        "copies": 336,
         "notes": 1430,
         "artist": "sximanes",
         "difficulty": "Tasukete"
@@ -2413,7 +2413,7 @@
   },
   "Scxthes": {
     "displayName": "Scxthes",
-    "totalCopies": 1373,
+    "totalCopies": 1372,
     "maps": [
       {
         "id": "ScxthesLogic18224NDROMEDA",
@@ -2440,7 +2440,7 @@
       {
         "id": "ScxthesTasukete2599WASSA",
         "name": "WASSA",
-        "copies": 222,
+        "copies": 221,
         "notes": 2599,
         "artist": "HR",
         "difficulty": "Tasukete"
