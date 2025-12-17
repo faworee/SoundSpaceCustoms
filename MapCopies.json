@@ -1073,7 +1073,7 @@
   },
   "SheaNya": {
     "displayName": "SheaNya",
-    "totalCopies": 4324,
+    "totalCopies": 4325,
     "maps": [
       {
         "id": "SheaNyaBrrrr1558Jumpstyle",
@@ -1330,8 +1330,10 @@
       {
         "id": "SheaNyaBrrrr2809Grimoire",
         "name": "Grimoire",
-        "copies": 30,
-        "notes": 2809
+        "copies": 31,
+        "notes": 2809,
+        "artist": "Gardens",
+        "difficulty": "Brrrr"
       },
       {
         "id": "SheaNyaBrrrr1416istillfeelmorealonethanieverhavebeenwhenyouaren'there",
@@ -2249,7 +2251,7 @@
   },
   "teft2oo": {
     "displayName": "teft2oo",
-    "totalCopies": 47,
+    "totalCopies": 46,
     "maps": [
       {
         "id": "teft2ooBrrrr1926FORTALiCE",
@@ -2266,10 +2268,8 @@
       {
         "id": "teft2ooBrrrr2500Feelthesame",
         "name": "Feel the same",
-        "copies": 15,
-        "notes": 2500,
-        "artist": "Gardens",
-        "difficulty": "Brrrr"
+        "copies": 14,
+        "notes": 2500
       }
     ]
   },
