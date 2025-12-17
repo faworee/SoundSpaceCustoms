@@ -449,7 +449,7 @@
   },
   "Demisnya": {
     "displayName": "Demisnya",
-    "totalCopies": 3157,
+    "totalCopies": 3158,
     "maps": [
       {
         "id": "DemisnyaBrrrr4240BassMonster",
@@ -794,8 +794,10 @@
       {
         "id": "DemisnyaBrrrr1233istillfeelmorealonethanieverhavebeenwhenyouaren'there",
         "name": "i still feel more alone than i ever have been when you aren't here",
-        "copies": 47,
-        "notes": 1233
+        "copies": 48,
+        "notes": 1233,
+        "artist": "633397",
+        "difficulty": "Brrrr"
       },
       {
         "id": "DemisnyaBrrrr1967FightForThePresent",
