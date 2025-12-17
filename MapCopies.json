@@ -855,7 +855,7 @@
   },
   "Xilp": {
     "displayName": "Xilp",
-    "totalCopies": 2215,
+    "totalCopies": 2216,
     "maps": [
       {
         "id": "XilpBrrrr3215Bloom",
@@ -916,8 +916,10 @@
       {
         "id": "XilpBrrrr2553TokyoDrift",
         "name": "Tokyo Drift",
-        "copies": 131,
-        "notes": 2553
+        "copies": 132,
+        "notes": 2553,
+        "artist": "Fumitake Igarashi",
+        "difficulty": "Brrrr"
       },
       {
         "id": "XilpBrrrr2128Machination",
@@ -1093,7 +1095,7 @@
   },
   "SheaNya": {
     "displayName": "SheaNya",
-    "totalCopies": 4329,
+    "totalCopies": 4328,
     "maps": [
       {
         "id": "SheaNyaBrrrr1558Jumpstyle",
@@ -1256,10 +1258,8 @@
       {
         "id": "SheaNyaBrrrr2541PhonkVol.1-BellPepper",
         "name": "Phonk Vol. 1 - Bell Pepper",
-        "copies": 52,
-        "notes": 2541,
-        "artist": "APM Music",
-        "difficulty": "Brrrr"
+        "copies": 51,
+        "notes": 2541
       },
       {
         "id": "SheaNyaBrrrr1190PhonkVol.2-Back&TheFront",
