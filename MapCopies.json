@@ -403,13 +403,15 @@
   },
   "Alter/p183805": {
     "displayName": "Alter/p183805",
-    "totalCopies": 1091,
+    "totalCopies": 1092,
     "maps": [
       {
         "id": "Alter/p183805Brrrr1333CrabRave",
         "name": "Crab Rave",
-        "copies": 183,
-        "notes": 1333
+        "copies": 184,
+        "notes": 1333,
+        "artist": "Noisestorm",
+        "difficulty": "Brrrr"
       },
       {
         "id": "alterp183805brrrr2368outofmyhead",
@@ -2593,7 +2595,7 @@
   },
   "narcissistnile": {
     "displayName": "narcissistnile",
-    "totalCopies": 1051,
+    "totalCopies": 1050,
     "maps": [
       {
         "id": "narcissistnileTasukete4186cowbellgod",
@@ -2606,10 +2608,8 @@
       {
         "id": "narcissistnileTasukete3581wheni'mgone",
         "name": "when i'm gone",
-        "copies": 369,
-        "notes": 3581,
-        "artist": "jugsta",
-        "difficulty": "Tasukete"
+        "copies": 368,
+        "notes": 3581
       },
       {
         "id": "narcissistnileBrrrr1466Alone",
