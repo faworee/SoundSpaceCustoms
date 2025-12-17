@@ -1145,7 +1145,7 @@
   },
   "SheaNya": {
     "displayName": "SheaNya",
-    "totalCopies": 4342,
+    "totalCopies": 4341,
     "maps": [
       {
         "id": "SheaNyaBrrrr1558Jumpstyle",
@@ -1196,7 +1196,7 @@
       {
         "id": "SheaNyaBrrrr2220Us",
         "name": "Us",
-        "copies": 194,
+        "copies": 193,
         "notes": 2220,
         "artist": "APM Music",
         "difficulty": "Brrrr"
@@ -2415,7 +2415,7 @@
   },
   "Scxthes": {
     "displayName": "Scxthes",
-    "totalCopies": 1377,
+    "totalCopies": 1378,
     "maps": [
       {
         "id": "ScxthesLogic18224NDROMEDA",
@@ -2428,7 +2428,7 @@
       {
         "id": "ScxthesTasukete4383OATHBREAKER",
         "name": "OATH BREAKER",
-        "copies": 384,
+        "copies": 385,
         "notes": 4383,
         "artist": "Underscore",
         "difficulty": "Tasukete"
