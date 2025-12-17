@@ -1829,12 +1829,12 @@
   },
   "Kappa": {
     "displayName": "Kappa",
-    "totalCopies": 502,
+    "totalCopies": 503,
     "maps": [
       {
         "id": "KappaBrrrr2234cyborgworkout",
         "name": "cyborg workout",
-        "copies": 121,
+        "copies": 122,
         "notes": 2234,
         "artist": "APM Music",
         "difficulty": "Brrrr"
