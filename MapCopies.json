@@ -1,12 +1,12 @@
 {
   "SnivyTrueForm": {
     "displayName": "SnivyTrueForm",
-    "totalCopies": 1332,
+    "totalCopies": 1331,
     "maps": [
       {
         "id": "SnivyTrueFormEasy1382MoreThanFriends",
         "name": "More Than Friends",
-        "copies": 115,
+        "copies": 114,
         "notes": 1382,
         "artist": "Kazuya",
         "difficulty": "Easy"
@@ -399,7 +399,7 @@
   },
   "Alter/p183805": {
     "displayName": "Alter/p183805",
-    "totalCopies": 1091,
+    "totalCopies": 1092,
     "maps": [
       {
         "id": "Alter/p183805Brrrr1333CrabRave",
@@ -418,7 +418,7 @@
       {
         "id": "Alter/p183805Tasukete1430Base",
         "name": "Base",
-        "copies": 335,
+        "copies": 336,
         "notes": 1430,
         "artist": "sximanes",
         "difficulty": "Tasukete"
@@ -1111,7 +1111,7 @@
   },
   "SheaNya": {
     "displayName": "SheaNya",
-    "totalCopies": 4334,
+    "totalCopies": 4333,
     "maps": [
       {
         "id": "SheaNyaBrrrr1558Jumpstyle",
@@ -1148,7 +1148,7 @@
       {
         "id": "SheaNyaTasukete2783wassa",
         "name": "wassa",
-        "copies": 469,
+        "copies": 468,
         "notes": 2783,
         "artist": "Hr",
         "difficulty": "Tasukete"
