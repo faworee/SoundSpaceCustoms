@@ -1055,7 +1055,7 @@
   },
   "Pyxenity": {
     "displayName": "Pyxenity",
-    "totalCopies": 440,
+    "totalCopies": 439,
     "maps": [
       {
         "id": "PyxenityBrrrr4876+ERABY+ECONNEC+10N",
@@ -1084,10 +1084,8 @@
       {
         "id": "PyxenityBrrrr1234ClassicChase",
         "name": "Classic Chase",
-        "copies": 57,
-        "notes": 1234,
-        "artist": "APM Music",
-        "difficulty": "Brrrr"
+        "copies": 56,
+        "notes": 1234
       },
       {
         "id": "PyxenityBrrrr2031002:DIVINEINQUISITION",
@@ -1099,7 +1097,7 @@
   },
   "SheaNya": {
     "displayName": "SheaNya",
-    "totalCopies": 4329,
+    "totalCopies": 4330,
     "maps": [
       {
         "id": "SheaNyaBrrrr1558Jumpstyle",
@@ -1414,8 +1412,10 @@
       {
         "id": "SheaNyaBrrrr1338PhonkVol.I-Phonk'tOut",
         "name": "Phonk Vol. I - Phonk't Out",
-        "copies": 53,
-        "notes": 1338
+        "copies": 54,
+        "notes": 1338,
+        "artist": "APM Music",
+        "difficulty": "Brrrr"
       },
       {
         "id": "SheaNyaLogic1774FightForthepresent",
