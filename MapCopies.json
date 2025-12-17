@@ -867,7 +867,7 @@
   },
   "Xilp": {
     "displayName": "Xilp",
-    "totalCopies": 2219,
+    "totalCopies": 2218,
     "maps": [
       {
         "id": "XilpBrrrr3215Bloom",
@@ -1040,7 +1040,7 @@
       {
         "id": "XilpTasukete3187CYBER999",
         "name": "CYBER 999",
-        "copies": 353,
+        "copies": 352,
         "notes": 3187,
         "artist": "Underscore",
         "difficulty": "Tasukete"
@@ -1475,12 +1475,12 @@
   },
   "OrAlex": {
     "displayName": "OrAlex",
-    "totalCopies": 1145,
+    "totalCopies": 1146,
     "maps": [
       {
         "id": "OrAlexTasukete10535realityisdecaying\\world-end.",
         "name": "reality is decaying\\world-end.",
-        "copies": 328,
+        "copies": 329,
         "notes": 10535,
         "artist": "Underscore",
         "difficulty": "Tasukete"
