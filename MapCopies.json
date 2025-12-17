@@ -2097,12 +2097,12 @@
   },
   "spoob": {
     "displayName": "spoob",
-    "totalCopies": 211,
+    "totalCopies": 210,
     "maps": [
       {
         "id": "spoobTasukete3193AMiserablePileOfSecrets(TheImpalerII)",
         "name": "A Miserable Pile Of Secrets (The Impaler II)",
-        "copies": 170,
+        "copies": 169,
         "notes": 3193,
         "artist": "Nstryder",
         "difficulty": "Tasukete"
@@ -2409,7 +2409,7 @@
   },
   "Scxthes": {
     "displayName": "Scxthes",
-    "totalCopies": 1366,
+    "totalCopies": 1367,
     "maps": [
       {
         "id": "ScxthesLogic18224NDROMEDA",
@@ -2464,7 +2464,7 @@
       {
         "id": "ScxthesTasukete4878Expedite",
         "name": "Expedite",
-        "copies": 10,
+        "copies": 11,
         "notes": 4878,
         "artist": "Mon",
         "difficulty": "Tasukete"
@@ -2735,13 +2735,15 @@
   },
   "Senternal": {
     "displayName": "Senternal",
-    "totalCopies": 156,
+    "totalCopies": 157,
     "maps": [
       {
         "id": "SenternalTasukete2091Eeyuh!",
         "name": "Eeyuh!",
-        "copies": 156,
-        "notes": 2091
+        "copies": 157,
+        "notes": 2091,
+        "artist": "hr",
+        "difficulty": "Tasukete"
       }
     ]
   },
