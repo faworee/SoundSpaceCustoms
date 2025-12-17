@@ -381,7 +381,7 @@
   },
   "Alter/p183805": {
     "displayName": "Alter/p183805",
-    "totalCopies": 1091,
+    "totalCopies": 1090,
     "maps": [
       {
         "id": "Alter/p183805Brrrr1333CrabRave",
@@ -400,10 +400,8 @@
       {
         "id": "Alter/p183805Tasukete1430Base",
         "name": "Base",
-        "copies": 335,
-        "notes": 1430,
-        "artist": "sximanes",
-        "difficulty": "Tasukete"
+        "copies": 334,
+        "notes": 1430
       },
       {
         "id": "Alter/p183805Brrrr1066JET2HOLIDAYFUNK(Slowed)",
@@ -1069,7 +1067,7 @@
   },
   "SheaNya": {
     "displayName": "SheaNya",
-    "totalCopies": 4323,
+    "totalCopies": 4324,
     "maps": [
       {
         "id": "SheaNyaBrrrr1558Jumpstyle",
@@ -1104,8 +1102,10 @@
       {
         "id": "SheaNyaTasukete2783wassa",
         "name": "wassa",
-        "copies": 467,
-        "notes": 2783
+        "copies": 468,
+        "notes": 2783,
+        "artist": "Hr",
+        "difficulty": "Tasukete"
       },
       {
         "id": "SheaNyaBrrrr2220Us",
@@ -2613,7 +2613,7 @@
   },
   "FpXHarborYT": {
     "displayName": "FpXHarborYT",
-    "totalCopies": 145,
+    "totalCopies": 146,
     "maps": [
       {
         "id": "FpXHarborYTLogic1513Control",
@@ -2642,7 +2642,7 @@
       {
         "id": "fpxharborytbrrrr2425thinkingaboutyou",
         "name": "Thinking About You",
-        "copies": 1,
+        "copies": 2,
         "notes": 2425,
         "artist": "Monstercat",
         "difficulty": "Brrrr"
