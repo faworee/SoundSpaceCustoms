@@ -1899,7 +1899,7 @@
   },
   "porshii": {
     "displayName": "porshii",
-    "totalCopies": 113,
+    "totalCopies": 114,
     "maps": [
       {
         "id": "porshiiBrrrr1415Wonderland",
@@ -1910,8 +1910,10 @@
       {
         "id": "porshiiBrrrr2403HadronCollission",
         "name": "Hadron Collission",
-        "copies": 40,
-        "notes": 2403
+        "copies": 41,
+        "notes": 2403,
+        "artist": "Zytrx",
+        "difficulty": "Brrrr"
       },
       {
         "id": "porshiiBrrrr603skibidifanumtax",
