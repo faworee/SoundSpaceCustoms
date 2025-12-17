@@ -918,8 +918,10 @@
       {
         "id": "XilpBrrrr3501Kyzaghan",
         "name": "Kyzaghan",
-        "copies": 249,
-        "notes": 3501
+        "copies": 250,
+        "notes": 3501,
+        "artist": "Underscore",
+        "difficulty": "Brrrr"
       },
       {
         "id": "XilpTasukete3510HadronCollision",
@@ -950,7 +952,7 @@
       {
         "id": "XilpBrrrr2128Machination",
         "name": "Machination",
-        "copies": 129,
+        "copies": 128,
         "notes": 2128,
         "artist": "Underscore",
         "difficulty": "Brrrr"
