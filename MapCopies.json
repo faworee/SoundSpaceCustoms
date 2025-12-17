@@ -459,7 +459,7 @@
   },
   "Demisnya": {
     "displayName": "Demisnya",
-    "totalCopies": 3162,
+    "totalCopies": 3161,
     "maps": [
       {
         "id": "DemisnyaBrrrr4240BassMonster",
@@ -558,10 +558,8 @@
       {
         "id": "DemisnyaBrrrr841HighSpeedLane",
         "name": "High Speed Lane",
-        "copies": 80,
-        "notes": 841,
-        "artist": "APM Music",
-        "difficulty": "Brrrr"
+        "copies": 79,
+        "notes": 841
       },
       {
         "id": "DemisnyaBrrrr1863Handshake",
@@ -2445,13 +2443,15 @@
   },
   "Noobourn": {
     "displayName": "Noobourn",
-    "totalCopies": 108,
+    "totalCopies": 109,
     "maps": [
       {
         "id": "NoobournBrrrr3800Stay(Metahumanboibootleg)",
         "name": "Stay (Metahumanboi bootleg)",
-        "copies": 108,
-        "notes": 3800
+        "copies": 109,
+        "notes": 3800,
+        "artist": "The Kid LAROI, Justin Bieber",
+        "difficulty": "Brrrr"
       }
     ]
   },
@@ -4422,12 +4422,12 @@
   },
   "TUPPICUNOTUFFMAPPER": {
     "displayName": "TUPPICUNOTUFFMAPPER",
-    "totalCopies": 2,
+    "totalCopies": 3,
     "maps": [
       {
         "id": "tuppicunotuffmapperbrrrr2862toxic",
         "name": "toxic",
-        "copies": 2,
+        "copies": 3,
         "notes": 2862,
         "artist": "d3r & 6arelyhuman & Pröz",
         "difficulty": "Brrrr"
