@@ -313,7 +313,7 @@
   },
   "Taco": {
     "displayName": "Taco",
-    "totalCopies": 3192,
+    "totalCopies": 3191,
     "maps": [
       {
         "id": "TacoMedium354toxic",
@@ -364,7 +364,7 @@
       {
         "id": "TacoTasukete3590noescape",
         "name": "no escape",
-        "copies": 760,
+        "copies": 759,
         "notes": 3590,
         "artist": "d3r & m1v & asteria",
         "difficulty": "Tasukete"
@@ -2415,7 +2415,7 @@
   },
   "Scxthes": {
     "displayName": "Scxthes",
-    "totalCopies": 1374,
+    "totalCopies": 1375,
     "maps": [
       {
         "id": "ScxthesLogic18224NDROMEDA",
@@ -2474,7 +2474,7 @@
       {
         "id": "ScxthesTasukete4878Expedite",
         "name": "Expedite",
-        "copies": 12,
+        "copies": 13,
         "notes": 4878,
         "artist": "Mon",
         "difficulty": "Tasukete"
