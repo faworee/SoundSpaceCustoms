@@ -1141,7 +1141,7 @@
   },
   "SheaNya": {
     "displayName": "SheaNya",
-    "totalCopies": 4341,
+    "totalCopies": 4342,
     "maps": [
       {
         "id": "SheaNyaBrrrr1558Jumpstyle",
@@ -1284,8 +1284,10 @@
       {
         "id": "SheaNyaBrrrr2274BreathDeep",
         "name": "Breath Deep",
-        "copies": 142,
-        "notes": 2274
+        "copies": 143,
+        "notes": 2274,
+        "artist": "APM Music",
+        "difficulty": "Brrrr"
       },
       {
         "id": "SheaNyaLogic1580AAUGHH",
