@@ -883,13 +883,15 @@
   },
   "Xilp": {
     "displayName": "Xilp",
-    "totalCopies": 2220,
+    "totalCopies": 2221,
     "maps": [
       {
         "id": "XilpBrrrr3215Bloom",
         "name": "Bloom",
-        "copies": 173,
-        "notes": 3215
+        "copies": 174,
+        "notes": 3215,
+        "artist": "Throttle",
+        "difficulty": "Brrrr"
       },
       {
         "id": "XilpTasukete6297TeraI/O",
