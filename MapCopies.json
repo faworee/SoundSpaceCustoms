@@ -1479,7 +1479,7 @@
   },
   "faworee": {
     "displayName": "faworee",
-    "totalCopies": 1385,
+    "totalCopies": 1386,
     "maps": [
       {
         "id": "faworeeBrrrr2526eeyuh!",
@@ -1500,8 +1500,10 @@
       {
         "id": "faworeeBrrrr2544Threshold",
         "name": "Threshold",
-        "copies": 126,
-        "notes": 2544
+        "copies": 127,
+        "notes": 2544,
+        "artist": "Underscore",
+        "difficulty": "Brrrr"
       }
     ]
   },
@@ -2317,7 +2319,7 @@
   },
   "Scxthes": {
     "displayName": "Scxthes",
-    "totalCopies": 1353,
+    "totalCopies": 1352,
     "maps": [
       {
         "id": "ScxthesLogic18224NDROMEDA",
@@ -2328,7 +2330,7 @@
       {
         "id": "ScxthesTasukete4383OATHBREAKER",
         "name": "OATH BREAKER",
-        "copies": 381,
+        "copies": 380,
         "notes": 4383,
         "artist": "Underscore",
         "difficulty": "Tasukete"
