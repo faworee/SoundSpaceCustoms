@@ -1687,13 +1687,15 @@
   },
   "Llykae2009": {
     "displayName": "Llykae2009",
-    "totalCopies": 71,
+    "totalCopies": 72,
     "maps": [
       {
         "id": "Llykae2009Brrrr2905Hijacked",
         "name": "Hijacked",
-        "copies": 71,
-        "notes": 2905
+        "copies": 72,
+        "notes": 2905,
+        "artist": "John August Pregler",
+        "difficulty": "Brrrr"
       }
     ]
   },
