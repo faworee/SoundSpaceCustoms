@@ -2661,13 +2661,15 @@
   },
   "reticentmemory": {
     "displayName": "reticentmemory",
-    "totalCopies": 2,
+    "totalCopies": 3,
     "maps": [
       {
         "id": "reticentmemoryTasukete3469FINALSTAND",
         "name": "FINAL STAND",
-        "copies": 2,
-        "notes": 3469
+        "copies": 3,
+        "notes": 3469,
+        "artist": "Underscore",
+        "difficulty": "Tasukete"
       }
     ]
   },
