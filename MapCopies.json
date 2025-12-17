@@ -393,7 +393,7 @@
   },
   "Alter/p183805": {
     "displayName": "Alter/p183805",
-    "totalCopies": 1091,
+    "totalCopies": 1092,
     "maps": [
       {
         "id": "Alter/p183805Brrrr1333CrabRave",
@@ -426,8 +426,10 @@
       {
         "id": "Alter/p183805Tasukete290MonkeysParty",
         "name": "Monkeys Party",
-        "copies": 222,
-        "notes": 290
+        "copies": 223,
+        "notes": 290,
+        "artist": "Alex Tschallener",
+        "difficulty": "Tasukete"
       }
     ]
   },
@@ -1455,7 +1457,7 @@
   },
   "OrAlex": {
     "displayName": "OrAlex",
-    "totalCopies": 1145,
+    "totalCopies": 1144,
     "maps": [
       {
         "id": "OrAlexTasukete10535realityisdecaying\\world-end.",
@@ -1466,7 +1468,7 @@
       {
         "id": "OrAlexTasukete5098ULTIMATUM",
         "name": "ULTIMATUM",
-        "copies": 453,
+        "copies": 452,
         "notes": 5098,
         "artist": "Underscore",
         "difficulty": "Tasukete"
@@ -2319,7 +2321,7 @@
   },
   "Scxthes": {
     "displayName": "Scxthes",
-    "totalCopies": 1353,
+    "totalCopies": 1352,
     "maps": [
       {
         "id": "ScxthesLogic18224NDROMEDA",
@@ -2372,7 +2374,7 @@
       {
         "id": "ScxthesTasukete4878Expedite",
         "name": "Expedite",
-        "copies": 8,
+        "copies": 7,
         "notes": 4878,
         "artist": "Mon",
         "difficulty": "Tasukete"
