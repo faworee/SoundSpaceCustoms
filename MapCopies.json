@@ -1093,7 +1093,7 @@
   },
   "SheaNya": {
     "displayName": "SheaNya",
-    "totalCopies": 4328,
+    "totalCopies": 4329,
     "maps": [
       {
         "id": "SheaNyaBrrrr1558Jumpstyle",
@@ -1312,8 +1312,10 @@
       {
         "id": "SheaNyaBrrrr1409StepIntoIt",
         "name": "Step Into It",
-        "copies": 55,
-        "notes": 1409
+        "copies": 56,
+        "notes": 1409,
+        "artist": "APM Music",
+        "difficulty": "Brrrr"
       },
       {
         "id": "sheanyabrrrr2263vulture2",
