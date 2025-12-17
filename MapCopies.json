@@ -1109,7 +1109,7 @@
   },
   "SheaNya": {
     "displayName": "SheaNya",
-    "totalCopies": 4334,
+    "totalCopies": 4333,
     "maps": [
       {
         "id": "SheaNyaBrrrr1558Jumpstyle",
@@ -1122,10 +1122,8 @@
       {
         "id": "SheaNyaTasukete2487Dogbite",
         "name": "Dogbite",
-        "copies": 297,
-        "notes": 2487,
-        "artist": "t+pazolite",
-        "difficulty": "Tasukete"
+        "copies": 296,
+        "notes": 2487
       },
       {
         "id": "SheaNyaBrrrr2668UltraV",
@@ -1477,12 +1475,12 @@
   },
   "OrAlex": {
     "displayName": "OrAlex",
-    "totalCopies": 1146,
+    "totalCopies": 1145,
     "maps": [
       {
         "id": "OrAlexTasukete10535realityisdecaying\\world-end.",
         "name": "reality is decaying\\world-end.",
-        "copies": 329,
+        "copies": 328,
         "notes": 10535,
         "artist": "Underscore",
         "difficulty": "Tasukete"
@@ -2765,12 +2763,12 @@
   },
   "reticentmemory": {
     "displayName": "reticentmemory",
-    "totalCopies": 10,
+    "totalCopies": 11,
     "maps": [
       {
         "id": "reticentmemoryTasukete3469FINALSTAND",
         "name": "FINAL STAND",
-        "copies": 10,
+        "copies": 11,
         "notes": 3469,
         "artist": "Underscore",
         "difficulty": "Tasukete"
