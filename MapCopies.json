@@ -437,7 +437,7 @@
   },
   "Demisnya": {
     "displayName": "Demisnya",
-    "totalCopies": 3152,
+    "totalCopies": 3153,
     "maps": [
       {
         "id": "DemisnyaBrrrr4240BassMonster",
@@ -534,8 +534,10 @@
       {
         "id": "DemisnyaBrrrr1863Handshake",
         "name": "Handshake",
-        "copies": 66,
-        "notes": 1863
+        "copies": 67,
+        "notes": 1863,
+        "artist": "APM Music",
+        "difficulty": "Brrrr"
       },
       {
         "id": "DemisnyaBrrrr3491+ERABY+ECONNEC+10N",
@@ -1677,15 +1679,13 @@
   },
   "curtival": {
     "displayName": "curtival",
-    "totalCopies": 243,
+    "totalCopies": 242,
     "maps": [
       {
         "id": "curtivalTasukete6618africantribe",
         "name": "african tribe",
-        "copies": 243,
-        "notes": 6618,
-        "artist": "APM Music",
-        "difficulty": "Tasukete"
+        "copies": 242,
+        "notes": 6618
       }
     ]
   },
