@@ -431,7 +431,7 @@
   },
   "Demisnya": {
     "displayName": "Demisnya",
-    "totalCopies": 3150,
+    "totalCopies": 3151,
     "maps": [
       {
         "id": "DemisnyaBrrrr4240BassMonster",
@@ -648,8 +648,10 @@
       {
         "id": "DemisnyaBrrrr2502Grimoire",
         "name": "Grimoire",
-        "copies": 108,
-        "notes": 2502
+        "copies": 109,
+        "notes": 2502,
+        "artist": "Gardens",
+        "difficulty": "Brrrr"
       },
       {
         "id": "DemisnyaBrrrr1473LoveSick!ft.Isabel",
@@ -1433,15 +1435,13 @@
   },
   "faworee": {
     "displayName": "faworee",
-    "totalCopies": 1384,
+    "totalCopies": 1383,
     "maps": [
       {
         "id": "faworeeBrrrr2526eeyuh!",
         "name": "eeyuh!",
-        "copies": 313,
-        "notes": 2526,
-        "artist": "HR",
-        "difficulty": "Brrrr"
+        "copies": 312,
+        "notes": 2526
       },
       {
         "id": "faworeeTasukete5424CYBER999",
