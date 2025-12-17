@@ -819,7 +819,7 @@
   },
   "zeroth": {
     "displayName": "zeroth",
-    "totalCopies": 2065,
+    "totalCopies": 2064,
     "maps": [
       {
         "id": "zerothBrrrr4944mymoon",
@@ -830,7 +830,7 @@
       {
         "id": "zerothLogic2573ily",
         "name": "ily",
-        "copies": 242,
+        "copies": 241,
         "notes": 2573,
         "artist": "kirkiimad, CG5",
         "difficulty": "Logic"
@@ -859,7 +859,7 @@
   },
   "Xilp": {
     "displayName": "Xilp",
-    "totalCopies": 2216,
+    "totalCopies": 2215,
     "maps": [
       {
         "id": "XilpBrrrr3215Bloom",
@@ -902,10 +902,8 @@
       {
         "id": "XilpTasukete3510HadronCollision",
         "name": "Hadron Collision",
-        "copies": 254,
-        "notes": 3510,
-        "artist": "Zytrx",
-        "difficulty": "Tasukete"
+        "copies": 253,
+        "notes": 3510
       },
       {
         "id": "XilpBrrrr3050SolarStrike",
@@ -1457,7 +1455,7 @@
   },
   "OrAlex": {
     "displayName": "OrAlex",
-    "totalCopies": 1144,
+    "totalCopies": 1145,
     "maps": [
       {
         "id": "OrAlexTasukete10535realityisdecaying\\world-end.",
@@ -1468,7 +1466,7 @@
       {
         "id": "OrAlexTasukete5098ULTIMATUM",
         "name": "ULTIMATUM",
-        "copies": 452,
+        "copies": 453,
         "notes": 5098,
         "artist": "Underscore",
         "difficulty": "Tasukete"
@@ -2321,7 +2319,7 @@
   },
   "Scxthes": {
     "displayName": "Scxthes",
-    "totalCopies": 1352,
+    "totalCopies": 1353,
     "maps": [
       {
         "id": "ScxthesLogic18224NDROMEDA",
@@ -2374,7 +2372,7 @@
       {
         "id": "ScxthesTasukete4878Expedite",
         "name": "Expedite",
-        "copies": 7,
+        "copies": 8,
         "notes": 4878,
         "artist": "Mon",
         "difficulty": "Tasukete"
