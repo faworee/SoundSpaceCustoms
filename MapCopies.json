@@ -2463,13 +2463,15 @@
   },
   "Drako": {
     "displayName": "Drako",
-    "totalCopies": 7,
+    "totalCopies": 8,
     "maps": [
       {
         "id": "DrakoBrrrr1682SolarStrike",
         "name": "Solar Strike",
-        "copies": 7,
-        "notes": 1682
+        "copies": 8,
+        "notes": 1682,
+        "artist": "MetaHumanBoi",
+        "difficulty": "Brrrr"
       }
     ]
   },
