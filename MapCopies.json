@@ -1,7 +1,7 @@
 {
   "SnivyTrueForm": {
     "displayName": "SnivyTrueForm",
-    "totalCopies": 1332,
+    "totalCopies": 1333,
     "maps": [
       {
         "id": "SnivyTrueFormEasy1382MoreThanFriends",
@@ -142,7 +142,7 @@
       {
         "id": "SnivyTrueFormLogic759LoveSick!ft.Isabel",
         "name": "LoveSick! ft. Isabel",
-        "copies": 20,
+        "copies": 21,
         "notes": 759,
         "artist": "kuNarU",
         "difficulty": "Logic"
@@ -2129,7 +2129,7 @@
   },
   "clvssicist": {
     "displayName": "clvssicist",
-    "totalCopies": 171,
+    "totalCopies": 170,
     "maps": [
       {
         "id": "clvssicistBrrrr1162PsychedFevereiro",
@@ -2158,10 +2158,8 @@
       {
         "id": "clvssicistLogic1351Insane",
         "name": "Insane",
-        "copies": 16,
-        "notes": 1351,
-        "artist": "Sacuna",
-        "difficulty": "Logic"
+        "copies": 15,
+        "notes": 1351
       },
       {
         "id": "clvssicistLogic941Dogbite",
