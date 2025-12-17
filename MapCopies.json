@@ -6,7 +6,7 @@
       {
         "id": "SnivyTrueFormEasy1382MoreThanFriends",
         "name": "More Than Friends",
-        "copies": 114,
+        "copies": 115,
         "notes": 1382,
         "artist": "Kazuya",
         "difficulty": "Easy"
@@ -86,10 +86,8 @@
       {
         "id": "SnivyTrueFormLogic1940GlowMind",
         "name": "Glow Mind",
-        "copies": 20,
-        "notes": 1940,
-        "artist": "Rutra",
-        "difficulty": "Logic"
+        "copies": 19,
+        "notes": 1940
       },
       {
         "id": "SnivyTrueFormLogic807Propulsion",
