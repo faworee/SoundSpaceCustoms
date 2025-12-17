@@ -1119,7 +1119,7 @@
   },
   "SheaNya": {
     "displayName": "SheaNya",
-    "totalCopies": 4337,
+    "totalCopies": 4336,
     "maps": [
       {
         "id": "SheaNyaBrrrr1558Jumpstyle",
@@ -1390,10 +1390,8 @@
       {
         "id": "SheaNyaBrrrr2809Grimoire",
         "name": "Grimoire",
-        "copies": 31,
-        "notes": 2809,
-        "artist": "Gardens",
-        "difficulty": "Brrrr"
+        "copies": 30,
+        "notes": 2809
       },
       {
         "id": "SheaNyaBrrrr1416istillfeelmorealonethanieverhavebeenwhenyouaren'there",
@@ -1893,7 +1891,7 @@
   },
   "divetek": {
     "displayName": "divetek",
-    "totalCopies": 223,
+    "totalCopies": 222,
     "maps": [
       {
         "id": "divetekBrrrr1925BUTANE",
@@ -1904,10 +1902,8 @@
       {
         "id": "divetekBrrrr2761IntercosmicEcho",
         "name": "Intercosmic Echo",
-        "copies": 69,
-        "notes": 2761,
-        "artist": "diamomd",
-        "difficulty": "Brrrr"
+        "copies": 68,
+        "notes": 2761
       },
       {
         "id": "divetekBrrrr2347Polybreak",
@@ -2193,7 +2189,7 @@
   },
   "Sdrullo": {
     "displayName": "Sdrullo",
-    "totalCopies": 337,
+    "totalCopies": 338,
     "maps": [
       {
         "id": "SdrulloBrrrr1697Darkstar",
@@ -2204,8 +2200,10 @@
       {
         "id": "SdrulloBrrrr2532TheImpaler",
         "name": "The Impaler",
-        "copies": 38,
-        "notes": 2532
+        "copies": 39,
+        "notes": 2532,
+        "artist": "Nstryder",
+        "difficulty": "Brrrr"
       },
       {
         "id": "SdrulloBrrrr1421iwontgiveuponyou",
