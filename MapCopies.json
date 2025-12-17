@@ -461,7 +461,7 @@
   },
   "Demisnya": {
     "displayName": "Demisnya",
-    "totalCopies": 3164,
+    "totalCopies": 3163,
     "maps": [
       {
         "id": "DemisnyaBrrrr4240BassMonster",
@@ -724,7 +724,7 @@
       {
         "id": "DemisnyaBrrrr3002AMiserablePileOfSecrets(TheImpalerII)",
         "name": "A Miserable Pile Of Secrets (The Impaler II)",
-        "copies": 51,
+        "copies": 50,
         "notes": 3002,
         "artist": "Nstryder",
         "difficulty": "Brrrr"
@@ -4454,12 +4454,12 @@
   },
   "TUPPICUNOTUFFMAPPER": {
     "displayName": "TUPPICUNOTUFFMAPPER",
-    "totalCopies": 2,
+    "totalCopies": 3,
     "maps": [
       {
         "id": "tuppicunotuffmapperbrrrr2862toxic",
         "name": "toxic",
-        "copies": 2,
+        "copies": 3,
         "notes": 2862,
         "artist": "d3r & 6arelyhuman & Pröz",
         "difficulty": "Brrrr"
