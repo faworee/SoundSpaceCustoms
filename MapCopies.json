@@ -445,7 +445,7 @@
   },
   "Demisnya": {
     "displayName": "Demisnya",
-    "totalCopies": 3157,
+    "totalCopies": 3156,
     "maps": [
       {
         "id": "DemisnyaBrrrr4240BassMonster",
@@ -610,10 +610,8 @@
       {
         "id": "DemisnyaTasukete2842IntercosmicEcho2",
         "name": "Intercosmic Echo 2",
-        "copies": 148,
-        "notes": 2842,
-        "artist": "diamomd",
-        "difficulty": "Tasukete"
+        "copies": 147,
+        "notes": 2842
       },
       {
         "id": "DemisnyaBrrrr2238HATEDHERO",
@@ -1099,7 +1097,7 @@
   },
   "SheaNya": {
     "displayName": "SheaNya",
-    "totalCopies": 4328,
+    "totalCopies": 4329,
     "maps": [
       {
         "id": "SheaNyaBrrrr1558Jumpstyle",
@@ -1304,7 +1302,7 @@
       {
         "id": "SheaNyaBrrrr2569epicrace",
         "name": "epic race",
-        "copies": 87,
+        "copies": 88,
         "notes": 2569,
         "artist": "APM Music",
         "difficulty": "Brrrr"
@@ -2319,7 +2317,7 @@
   },
   "Scxthes": {
     "displayName": "Scxthes",
-    "totalCopies": 1351,
+    "totalCopies": 1352,
     "maps": [
       {
         "id": "ScxthesLogic18224NDROMEDA",
@@ -2372,7 +2370,7 @@
       {
         "id": "ScxthesTasukete4878Expedite",
         "name": "Expedite",
-        "copies": 6,
+        "copies": 7,
         "notes": 4878,
         "artist": "Mon",
         "difficulty": "Tasukete"
