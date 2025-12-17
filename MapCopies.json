@@ -1162,8 +1162,10 @@
       {
         "id": "SheaNyaBrrrr1417AlarmForDoomsday",
         "name": "Alarm For Doomsday",
-        "copies": 82,
-        "notes": 1417
+        "copies": 83,
+        "notes": 1417,
+        "artist": "APM Music",
+        "difficulty": "Brrrr"
       },
       {
         "id": "SheaNyaBrrrr1405GreenEmerald",
@@ -1246,7 +1248,7 @@
       {
         "id": "SheaNyaBrrrr796BeatThenScreech",
         "name": "Beat Then Screech",
-        "copies": 93,
+        "copies": 92,
         "notes": 796,
         "artist": "APM Music",
         "difficulty": "Brrrr"
