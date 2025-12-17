@@ -2265,7 +2265,7 @@
   },
   "Scxthes": {
     "displayName": "Scxthes",
-    "totalCopies": 1340,
+    "totalCopies": 1341,
     "maps": [
       {
         "id": "ScxthesLogic18224NDROMEDA",
@@ -2314,7 +2314,7 @@
       {
         "id": "ScxthesTasukete4878Expedite",
         "name": "Expedite",
-        "copies": 2,
+        "copies": 3,
         "notes": 4878,
         "artist": "Mon",
         "difficulty": "Tasukete"
