@@ -309,13 +309,15 @@
   },
   "Taco": {
     "displayName": "Taco",
-    "totalCopies": 3178,
+    "totalCopies": 3179,
     "maps": [
       {
         "id": "TacoMedium354toxic",
         "name": "toxic",
-        "copies": 115,
-        "notes": 354
+        "copies": 116,
+        "notes": 354,
+        "artist": "d3r & 6arelyhuman & Pröz",
+        "difficulty": "Medium"
       },
       {
         "id": "TacoTasukete3061IntercosmicEcho",
