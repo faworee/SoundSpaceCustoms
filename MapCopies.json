@@ -313,7 +313,7 @@
   },
   "Taco": {
     "displayName": "Taco",
-    "totalCopies": 3189,
+    "totalCopies": 3190,
     "maps": [
       {
         "id": "TacoMedium354toxic",
@@ -334,8 +334,10 @@
       {
         "id": "TacoBrrrr2430CUTEMAKMAKFUNK",
         "name": "CUTEMAKMAKFUNK",
-        "copies": 448,
-        "notes": 2430
+        "copies": 449,
+        "notes": 2430,
+        "artist": "DJWahRA",
+        "difficulty": "Brrrr"
       },
       {
         "id": "TacoBrrrr1293KillEverybody",
