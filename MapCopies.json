@@ -1547,7 +1547,7 @@
   },
   "faworee": {
     "displayName": "faworee",
-    "totalCopies": 1389,
+    "totalCopies": 1390,
     "maps": [
       {
         "id": "faworeeBrrrr2526eeyuh!",
@@ -1560,7 +1560,7 @@
       {
         "id": "faworeeTasukete5424CYBER999",
         "name": "CYBER 999",
-        "copies": 949,
+        "copies": 950,
         "notes": 5424,
         "artist": "Underscore",
         "difficulty": "Tasukete"
@@ -2442,7 +2442,7 @@
       {
         "id": "ScxthesTasukete2599WASSA",
         "name": "WASSA",
-        "copies": 222,
+        "copies": 223,
         "notes": 2599,
         "artist": "HR",
         "difficulty": "Tasukete"
@@ -2474,7 +2474,7 @@
       {
         "id": "ScxthesTasukete4878Expedite",
         "name": "Expedite",
-        "copies": 13,
+        "copies": 12,
         "notes": 4878,
         "artist": "Mon",
         "difficulty": "Tasukete"
@@ -2757,12 +2757,12 @@
   },
   "Ghefine": {
     "displayName": "Ghefine",
-    "totalCopies": 238,
+    "totalCopies": 237,
     "maps": [
       {
         "id": "GhefineBrrrr3090Fusion",
         "name": "Fusion",
-        "copies": 238,
+        "copies": 237,
         "notes": 3090,
         "artist": "red",
         "difficulty": "Brrrr"
@@ -2839,12 +2839,12 @@
   },
   "reticentmemory": {
     "displayName": "reticentmemory",
-    "totalCopies": 16,
+    "totalCopies": 15,
     "maps": [
       {
         "id": "reticentmemoryTasukete3469FINALSTAND",
         "name": "FINAL STAND",
-        "copies": 16,
+        "copies": 15,
         "notes": 3469,
         "artist": "Underscore",
         "difficulty": "Tasukete"
