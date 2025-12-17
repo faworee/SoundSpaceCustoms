@@ -845,7 +845,7 @@
   },
   "zeroth": {
     "displayName": "zeroth",
-    "totalCopies": 2068,
+    "totalCopies": 2067,
     "maps": [
       {
         "id": "zerothBrrrr4944mymoon",
@@ -880,7 +880,7 @@
       {
         "id": "zerothTasukete1763iwontgiveuponyou",
         "name": "i wont give up on you",
-        "copies": 505,
+        "copies": 504,
         "notes": 1763,
         "artist": "mon",
         "difficulty": "Tasukete"
@@ -1141,12 +1141,12 @@
   },
   "SheaNya": {
     "displayName": "SheaNya",
-    "totalCopies": 4341,
+    "totalCopies": 4342,
     "maps": [
       {
         "id": "SheaNyaBrrrr1558Jumpstyle",
         "name": "Jumpstyle",
-        "copies": 360,
+        "copies": 361,
         "notes": 1558,
         "artist": "APM Music",
         "difficulty": "Brrrr"
@@ -2777,7 +2777,7 @@
   },
   "FpXHarborYT": {
     "displayName": "FpXHarborYT",
-    "totalCopies": 153,
+    "totalCopies": 152,
     "maps": [
       {
         "id": "FpXHarborYTLogic1513Control",
@@ -2812,14 +2812,6 @@
         "notes": 2425,
         "artist": "Monstercat",
         "difficulty": "Brrrr"
-      },
-      {
-        "id": "fpxharborytlogic1153brxphonk",
-        "name": "BRX PHONK",
-        "copies": 1,
-        "notes": 1153,
-        "artist": "Alanwaad",
-        "difficulty": "Logic"
       }
     ]
   },
