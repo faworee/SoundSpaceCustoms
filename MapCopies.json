@@ -1811,15 +1811,13 @@
   },
   "Kappa": {
     "displayName": "Kappa",
-    "totalCopies": 501,
+    "totalCopies": 500,
     "maps": [
       {
         "id": "KappaBrrrr2234cyborgworkout",
         "name": "cyborg workout",
-        "copies": 120,
-        "notes": 2234,
-        "artist": "APM Music",
-        "difficulty": "Brrrr"
+        "copies": 119,
+        "notes": 2234
       },
       {
         "id": "KappaBrrrr1789behindmasks",
@@ -2389,7 +2387,7 @@
   },
   "Scxthes": {
     "displayName": "Scxthes",
-    "totalCopies": 1355,
+    "totalCopies": 1356,
     "maps": [
       {
         "id": "ScxthesLogic18224NDROMEDA",
@@ -2420,7 +2418,7 @@
       {
         "id": "ScxthesBrrrr3408ForgettingWasMyOnlyOption",
         "name": "Forgetting Was My Only Option",
-        "copies": 104,
+        "copies": 105,
         "notes": 3408,
         "artist": "633397",
         "difficulty": "Brrrr"
