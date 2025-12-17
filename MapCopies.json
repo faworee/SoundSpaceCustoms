@@ -2265,7 +2265,7 @@
   },
   "Scxthes": {
     "displayName": "Scxthes",
-    "totalCopies": 1345,
+    "totalCopies": 1344,
     "maps": [
       {
         "id": "ScxthesLogic18224NDROMEDA",
@@ -2296,7 +2296,7 @@
       {
         "id": "ScxthesBrrrr3408ForgettingWasMyOnlyOption",
         "name": "Forgetting Was My Only Option",
-        "copies": 101,
+        "copies": 100,
         "notes": 3408,
         "artist": "633397",
         "difficulty": "Brrrr"
@@ -2621,7 +2621,7 @@
   },
   "FpXHarborYT": {
     "displayName": "FpXHarborYT",
-    "totalCopies": 146,
+    "totalCopies": 147,
     "maps": [
       {
         "id": "FpXHarborYTLogic1513Control",
@@ -2650,7 +2650,7 @@
       {
         "id": "fpxharborytbrrrr2425thinkingaboutyou",
         "name": "Thinking About You",
-        "copies": 2,
+        "copies": 3,
         "notes": 2425,
         "artist": "Monstercat",
         "difficulty": "Brrrr"
