@@ -445,7 +445,7 @@
   },
   "Demisnya": {
     "displayName": "Demisnya",
-    "totalCopies": 3157,
+    "totalCopies": 3156,
     "maps": [
       {
         "id": "DemisnyaBrrrr4240BassMonster",
@@ -458,10 +458,8 @@
       {
         "id": "DemisnyaBrrrr4450MLGCANDYDRIVE",
         "name": "MLG CANDY DRIVE",
-        "copies": 26,
-        "notes": 4450,
-        "artist": "Zytrx",
-        "difficulty": "Brrrr"
+        "copies": 25,
+        "notes": 4450
       },
       {
         "id": "DemisnyaBrrrr2353attheendoftime",
@@ -861,7 +859,7 @@
   },
   "Xilp": {
     "displayName": "Xilp",
-    "totalCopies": 2215,
+    "totalCopies": 2216,
     "maps": [
       {
         "id": "XilpBrrrr3215Bloom",
@@ -1002,8 +1000,10 @@
       {
         "id": "XilpLogic1994Project",
         "name": "Project",
-        "copies": 17,
-        "notes": 1994
+        "copies": 18,
+        "notes": 1994,
+        "artist": "SPIRIT GARDEN",
+        "difficulty": "Logic"
       },
       {
         "id": "XilpBrrrr2419GravitySwitch",
