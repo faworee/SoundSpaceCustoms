@@ -827,7 +827,7 @@
   },
   "Xilp": {
     "displayName": "Xilp",
-    "totalCopies": 2215,
+    "totalCopies": 2214,
     "maps": [
       {
         "id": "XilpBrrrr3215Bloom",
@@ -882,10 +882,8 @@
       {
         "id": "XilpBrrrr1961onedayinyourbed",
         "name": "one day in your bed",
-        "copies": 33,
-        "notes": 1961,
-        "artist": "Jackuw",
-        "difficulty": "Brrrr"
+        "copies": 32,
+        "notes": 1961
       },
       {
         "id": "XilpBrrrr2553TokyoDrift",
@@ -1697,7 +1695,7 @@
   },
   "Kappa": {
     "displayName": "Kappa",
-    "totalCopies": 495,
+    "totalCopies": 496,
     "maps": [
       {
         "id": "KappaBrrrr2234cyborgworkout",
@@ -1714,8 +1712,10 @@
       {
         "id": "KappaBrrrr3401plexus",
         "name": "plexus",
-        "copies": 144,
-        "notes": 3401
+        "copies": 145,
+        "notes": 3401,
+        "artist": "APM Music",
+        "difficulty": "Brrrr"
       },
       {
         "id": "KappaBrrrr1116IntenseChase",
@@ -2575,13 +2575,15 @@
   },
   "Ghefine": {
     "displayName": "Ghefine",
-    "totalCopies": 232,
+    "totalCopies": 233,
     "maps": [
       {
         "id": "GhefineBrrrr3090Fusion",
         "name": "Fusion",
-        "copies": 232,
-        "notes": 3090
+        "copies": 233,
+        "notes": 3090,
+        "artist": "red",
+        "difficulty": "Brrrr"
       }
     ]
   },
@@ -2599,7 +2601,7 @@
   },
   "FpXHarborYT": {
     "displayName": "FpXHarborYT",
-    "totalCopies": 145,
+    "totalCopies": 144,
     "maps": [
       {
         "id": "FpXHarborYTLogic1513Control",
@@ -2624,14 +2626,6 @@
         "name": "Protostar New Horizons",
         "copies": 2,
         "notes": 1859
-      },
-      {
-        "id": "fpxharborytbrrrr2425thinkingaboutyou",
-        "name": "Thinking About You",
-        "copies": 1,
-        "notes": 2425,
-        "artist": "Monstercat",
-        "difficulty": "Brrrr"
       }
     ]
   },
