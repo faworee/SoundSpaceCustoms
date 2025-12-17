@@ -1,7 +1,7 @@
 {
   "SnivyTrueForm": {
     "displayName": "SnivyTrueForm",
-    "totalCopies": 1323,
+    "totalCopies": 1322,
     "maps": [
       {
         "id": "SnivyTrueFormEasy1382MoreThanFriends",
@@ -236,10 +236,8 @@
       {
         "id": "SnivyTrueFormBrrrr1618Execute",
         "name": "Execute",
-        "copies": 47,
-        "notes": 1618,
-        "artist": "Korsio",
-        "difficulty": "Brrrr"
+        "copies": 46,
+        "notes": 1618
       },
       {
         "id": "SnivyTrueFormHard659002:DIVINEINQUISITION",
@@ -299,7 +297,7 @@
   },
   "Taco": {
     "displayName": "Taco",
-    "totalCopies": 3174,
+    "totalCopies": 3175,
     "maps": [
       {
         "id": "TacoMedium354toxic",
@@ -316,8 +314,10 @@
       {
         "id": "TacoBrrrr2430CUTEMAKMAKFUNK",
         "name": "CUTEMAKMAKFUNK",
-        "copies": 448,
-        "notes": 2430
+        "copies": 449,
+        "notes": 2430,
+        "artist": "DJWahRA",
+        "difficulty": "Brrrr"
       },
       {
         "id": "TacoBrrrr1293KillEverybody",
@@ -2617,7 +2617,7 @@
   },
   "FpXHarborYT": {
     "displayName": "FpXHarborYT",
-    "totalCopies": 146,
+    "totalCopies": 147,
     "maps": [
       {
         "id": "FpXHarborYTLogic1513Control",
@@ -2646,7 +2646,7 @@
       {
         "id": "fpxharborytbrrrr2425thinkingaboutyou",
         "name": "Thinking About You",
-        "copies": 2,
+        "copies": 3,
         "notes": 2425,
         "artist": "Monstercat",
         "difficulty": "Brrrr"
