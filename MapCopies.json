@@ -1,7 +1,7 @@
 {
   "SnivyTrueForm": {
     "displayName": "SnivyTrueForm",
-    "totalCopies": 1327,
+    "totalCopies": 1328,
     "maps": [
       {
         "id": "SnivyTrueFormEasy1382MoreThanFriends",
@@ -240,8 +240,10 @@
       {
         "id": "SnivyTrueFormBrrrr1618Execute",
         "name": "Execute",
-        "copies": 46,
-        "notes": 1618
+        "copies": 47,
+        "notes": 1618,
+        "artist": "Korsio",
+        "difficulty": "Brrrr"
       },
       {
         "id": "SnivyTrueFormHard659002:DIVINEINQUISITION",
