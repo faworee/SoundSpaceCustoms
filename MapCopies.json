@@ -1493,13 +1493,15 @@
   },
   "dillish": {
     "displayName": "dillish",
-    "totalCopies": 74,
+    "totalCopies": 75,
     "maps": [
       {
         "id": "dillishBrrrr2079TrustedVillainVIP",
         "name": "Trusted Villain VIP",
-        "copies": 74,
-        "notes": 2079
+        "copies": 75,
+        "notes": 2079,
+        "artist": "Zytrx",
+        "difficulty": "Brrrr"
       }
     ]
   },
