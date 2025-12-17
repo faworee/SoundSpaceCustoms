@@ -1,7 +1,7 @@
 {
   "SnivyTrueForm": {
     "displayName": "SnivyTrueForm",
-    "totalCopies": 1334,
+    "totalCopies": 1333,
     "maps": [
       {
         "id": "SnivyTrueFormEasy1382MoreThanFriends",
@@ -28,7 +28,7 @@
       {
         "id": "snivytrueformbrrrr2260mach874939",
         "name": "MACH 874939",
-        "copies": 38,
+        "copies": 37,
         "notes": 2260,
         "artist": "Zytrx",
         "difficulty": "Brrrr"
@@ -459,7 +459,7 @@
   },
   "Demisnya": {
     "displayName": "Demisnya",
-    "totalCopies": 3160,
+    "totalCopies": 3159,
     "maps": [
       {
         "id": "DemisnyaBrrrr4240BassMonster",
@@ -588,10 +588,8 @@
       {
         "id": "DemisnyaBrrrr2853SunshineGroove",
         "name": "Sunshine Groove",
-        "copies": 44,
-        "notes": 2853,
-        "artist": "APM Music",
-        "difficulty": "Brrrr"
+        "copies": 43,
+        "notes": 2853
       },
       {
         "id": "DemisnyaLogic1675Rose-ColouredGlasses",
@@ -1905,7 +1903,7 @@
   },
   "divetek": {
     "displayName": "divetek",
-    "totalCopies": 222,
+    "totalCopies": 223,
     "maps": [
       {
         "id": "divetekBrrrr1925BUTANE",
@@ -1928,7 +1926,7 @@
       {
         "id": "divetekbrrrr1963resistance",
         "name": "RESISTANCE",
-        "copies": 35,
+        "copies": 36,
         "notes": 1963,
         "artist": "Zytrx",
         "difficulty": "Brrrr"
