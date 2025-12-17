@@ -311,7 +311,7 @@
   },
   "Taco": {
     "displayName": "Taco",
-    "totalCopies": 3185,
+    "totalCopies": 3184,
     "maps": [
       {
         "id": "TacoMedium354toxic",
@@ -332,10 +332,8 @@
       {
         "id": "TacoBrrrr2430CUTEMAKMAKFUNK",
         "name": "CUTEMAKMAKFUNK",
-        "copies": 449,
-        "notes": 2430,
-        "artist": "DJWahRA",
-        "difficulty": "Brrrr"
+        "copies": 448,
+        "notes": 2430
       },
       {
         "id": "TacoBrrrr1293KillEverybody",
@@ -1127,7 +1125,7 @@
   },
   "SheaNya": {
     "displayName": "SheaNya",
-    "totalCopies": 4339,
+    "totalCopies": 4338,
     "maps": [
       {
         "id": "SheaNyaBrrrr1558Jumpstyle",
@@ -1344,10 +1342,8 @@
       {
         "id": "SheaNyaBrrrr3507IWantYou",
         "name": "I Want You",
-        "copies": 82,
-        "notes": 3507,
-        "artist": "APM Music",
-        "difficulty": "Brrrr"
+        "copies": 81,
+        "notes": 3507
       },
       {
         "id": "SheaNyaBrrrr1409StepIntoIt",
@@ -2119,12 +2115,12 @@
   },
   "kappa": {
     "displayName": "kappa",
-    "totalCopies": 82,
+    "totalCopies": 83,
     "maps": [
       {
         "id": "kappaBrrrr3814Logicbomb",
         "name": "Logic bomb",
-        "copies": 82,
+        "copies": 83,
         "notes": 3814,
         "artist": "APM Music",
         "difficulty": "Brrrr"
