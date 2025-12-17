@@ -445,7 +445,7 @@
   },
   "Demisnya": {
     "displayName": "Demisnya",
-    "totalCopies": 3156,
+    "totalCopies": 3157,
     "maps": [
       {
         "id": "DemisnyaBrrrr4240BassMonster",
@@ -540,8 +540,10 @@
       {
         "id": "DemisnyaBrrrr841HighSpeedLane",
         "name": "High Speed Lane",
-        "copies": 79,
-        "notes": 841
+        "copies": 80,
+        "notes": 841,
+        "artist": "APM Music",
+        "difficulty": "Brrrr"
       },
       {
         "id": "DemisnyaBrrrr1863Handshake",
@@ -2059,12 +2061,12 @@
   },
   "kappa": {
     "displayName": "kappa",
-    "totalCopies": 83,
+    "totalCopies": 82,
     "maps": [
       {
         "id": "kappaBrrrr3814Logicbomb",
         "name": "Logic bomb",
-        "copies": 83,
+        "copies": 82,
         "notes": 3814,
         "artist": "APM Music",
         "difficulty": "Brrrr"
