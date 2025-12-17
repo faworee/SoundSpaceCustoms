@@ -1,7 +1,7 @@
 {
   "SnivyTrueForm": {
     "displayName": "SnivyTrueForm",
-    "totalCopies": 1322,
+    "totalCopies": 1323,
     "maps": [
       {
         "id": "SnivyTrueFormEasy1382MoreThanFriends",
@@ -236,8 +236,10 @@
       {
         "id": "SnivyTrueFormBrrrr1618Execute",
         "name": "Execute",
-        "copies": 46,
-        "notes": 1618
+        "copies": 47,
+        "notes": 1618,
+        "artist": "Korsio",
+        "difficulty": "Brrrr"
       },
       {
         "id": "SnivyTrueFormHard659002:DIVINEINQUISITION",
@@ -297,7 +299,7 @@
   },
   "Taco": {
     "displayName": "Taco",
-    "totalCopies": 3175,
+    "totalCopies": 3174,
     "maps": [
       {
         "id": "TacoMedium354toxic",
@@ -314,10 +316,8 @@
       {
         "id": "TacoBrrrr2430CUTEMAKMAKFUNK",
         "name": "CUTEMAKMAKFUNK",
-        "copies": 449,
-        "notes": 2430,
-        "artist": "DJWahRA",
-        "difficulty": "Brrrr"
+        "copies": 448,
+        "notes": 2430
       },
       {
         "id": "TacoBrrrr1293KillEverybody",
@@ -2267,7 +2267,7 @@
   },
   "Scxthes": {
     "displayName": "Scxthes",
-    "totalCopies": 1340,
+    "totalCopies": 1339,
     "maps": [
       {
         "id": "ScxthesLogic18224NDROMEDA",
@@ -2314,7 +2314,7 @@
       {
         "id": "ScxthesTasukete4878Expedite",
         "name": "Expedite",
-        "copies": 3,
+        "copies": 2,
         "notes": 4878,
         "artist": "Mon",
         "difficulty": "Tasukete"
