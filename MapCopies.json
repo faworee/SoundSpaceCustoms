@@ -808,10 +808,8 @@
       {
         "id": "zerothBrrrr4944mymoon",
         "name": "my moon",
-        "copies": 732,
-        "notes": 4944,
-        "artist": "7ate",
-        "difficulty": "Brrrr"
+        "copies": 731,
+        "notes": 4944
       },
       {
         "id": "zerothLogic2573ily",
@@ -822,8 +820,10 @@
       {
         "id": "zerothBrrrr3326jealous",
         "name": "jealous",
-        "copies": 452,
-        "notes": 3326
+        "copies": 453,
+        "notes": 3326,
+        "artist": "d3r & Pröz",
+        "difficulty": "Brrrr"
       },
       {
         "id": "zerothBrrrr1769H4MANIAYUH",
