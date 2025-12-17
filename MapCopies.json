@@ -1891,7 +1891,7 @@
   },
   "divetek": {
     "displayName": "divetek",
-    "totalCopies": 222,
+    "totalCopies": 223,
     "maps": [
       {
         "id": "divetekBrrrr1925BUTANE",
@@ -1914,7 +1914,7 @@
       {
         "id": "divetekbrrrr1963resistance",
         "name": "RESISTANCE",
-        "copies": 35,
+        "copies": 36,
         "notes": 1963,
         "artist": "Zytrx",
         "difficulty": "Brrrr"
@@ -2729,7 +2729,7 @@
   },
   "FpXHarborYT": {
     "displayName": "FpXHarborYT",
-    "totalCopies": 148,
+    "totalCopies": 147,
     "maps": [
       {
         "id": "FpXHarborYTLogic1513Control",
@@ -2758,7 +2758,7 @@
       {
         "id": "fpxharborytbrrrr2425thinkingaboutyou",
         "name": "Thinking About You",
-        "copies": 4,
+        "copies": 3,
         "notes": 2425,
         "artist": "Monstercat",
         "difficulty": "Brrrr"
