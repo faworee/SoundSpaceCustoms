@@ -1121,7 +1121,7 @@
   },
   "SheaNya": {
     "displayName": "SheaNya",
-    "totalCopies": 4337,
+    "totalCopies": 4336,
     "maps": [
       {
         "id": "SheaNyaBrrrr1558Jumpstyle",
@@ -1252,7 +1252,7 @@
       {
         "id": "sheanyabrrrr1437wewishyouamerrychristmas",
         "name": "We Wish You A Merry Christmas",
-        "copies": 31,
+        "copies": 30,
         "notes": 1437,
         "artist": "APM Music",
         "difficulty": "Brrrr"
@@ -2343,7 +2343,7 @@
   },
   "teft2oo": {
     "displayName": "teft2oo",
-    "totalCopies": 46,
+    "totalCopies": 47,
     "maps": [
       {
         "id": "teft2ooBrrrr1926FORTALiCE",
@@ -2354,8 +2354,10 @@
       {
         "id": "teft2ooBrrrr1295ChartreuseGreen",
         "name": "Chartreuse Green",
-        "copies": 15,
-        "notes": 1295
+        "copies": 16,
+        "notes": 1295,
+        "artist": "t+pazolite",
+        "difficulty": "Brrrr"
       },
       {
         "id": "teft2ooBrrrr2500Feelthesame",
