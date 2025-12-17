@@ -1525,7 +1525,7 @@
   },
   "faworee": {
     "displayName": "faworee",
-    "totalCopies": 1385,
+    "totalCopies": 1386,
     "maps": [
       {
         "id": "faworeeBrrrr2526eeyuh!",
@@ -1546,19 +1546,21 @@
       {
         "id": "faworeeBrrrr2544Threshold",
         "name": "Threshold",
-        "copies": 126,
-        "notes": 2544
+        "copies": 127,
+        "notes": 2544,
+        "artist": "Underscore",
+        "difficulty": "Brrrr"
       }
     ]
   },
   "Xilp & OrAlex": {
     "displayName": "Xilp & OrAlex",
-    "totalCopies": 295,
+    "totalCopies": 294,
     "maps": [
       {
         "id": "Xilp&OrAlexBrrrr3551FINALHOPE",
         "name": "FINAL HOPE",
-        "copies": 295,
+        "copies": 294,
         "notes": 3551,
         "artist": "Underscore",
         "difficulty": "Brrrr"
