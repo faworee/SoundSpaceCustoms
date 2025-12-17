@@ -1583,15 +1583,13 @@
   },
   "Worst Ghost Player": {
     "displayName": "Worst Ghost Player",
-    "totalCopies": 441,
+    "totalCopies": 440,
     "maps": [
       {
         "id": "WorstGhostPlayerTasukete2205SPEEDCORENIGHTLIFE",
         "name": "SPEEDCORE NIGHTLIFE",
-        "copies": 441,
-        "notes": 2205,
-        "artist": "Underscore",
-        "difficulty": "Tasukete"
+        "copies": 440,
+        "notes": 2205
       }
     ]
   },
@@ -2513,7 +2511,7 @@
   },
   "narcissistnile": {
     "displayName": "narcissistnile",
-    "totalCopies": 1048,
+    "totalCopies": 1049,
     "maps": [
       {
         "id": "narcissistnileTasukete4186cowbellgod",
@@ -2532,8 +2530,10 @@
       {
         "id": "narcissistnileBrrrr1466Alone",
         "name": "Alone",
-        "copies": 310,
-        "notes": 1466
+        "copies": 311,
+        "notes": 1466,
+        "artist": "Lil Kuudere, sukoyomi",
+        "difficulty": "Brrrr"
       }
     ]
   },
