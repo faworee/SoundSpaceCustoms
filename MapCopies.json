@@ -2293,7 +2293,7 @@
   },
   "Scxthes": {
     "displayName": "Scxthes",
-    "totalCopies": 1347,
+    "totalCopies": 1348,
     "maps": [
       {
         "id": "ScxthesLogic18224NDROMEDA",
@@ -2346,7 +2346,7 @@
       {
         "id": "ScxthesTasukete4878Expedite",
         "name": "Expedite",
-        "copies": 6,
+        "copies": 7,
         "notes": 4878,
         "artist": "Mon",
         "difficulty": "Tasukete"
@@ -2513,15 +2513,13 @@
   },
   "🥺Pinchyl🥺": {
     "displayName": "🥺Pinchyl🥺",
-    "totalCopies": 100,
+    "totalCopies": 99,
     "maps": [
       {
         "id": "🥺Pinchyl🥺Brrrr1194SolarStrike",
         "name": "Solar Strike",
-        "copies": 100,
-        "notes": 1194,
-        "artist": "Metahumanboi ",
-        "difficulty": "Brrrr"
+        "copies": 99,
+        "notes": 1194
       }
     ]
   },
