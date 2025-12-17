@@ -1,7 +1,7 @@
 {
   "SnivyTrueForm": {
     "displayName": "SnivyTrueForm",
-    "totalCopies": 1326,
+    "totalCopies": 1327,
     "maps": [
       {
         "id": "SnivyTrueFormEasy1382MoreThanFriends",
@@ -146,8 +146,10 @@
       {
         "id": "SnivyTrueFormBrrrr1788BlueCorgi",
         "name": "Blue Corgi",
-        "copies": 38,
-        "notes": 1788
+        "copies": 39,
+        "notes": 1788,
+        "artist": "Korsio",
+        "difficulty": "Brrrr"
       },
       {
         "id": "SnivyTrueFormBrrrr1326palette(りずむ-パレット)",
