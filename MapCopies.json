@@ -1,7 +1,7 @@
 {
   "SnivyTrueForm": {
     "displayName": "SnivyTrueForm",
-    "totalCopies": 1335,
+    "totalCopies": 1336,
     "maps": [
       {
         "id": "SnivyTrueFormEasy1382MoreThanFriends",
@@ -14,7 +14,7 @@
       {
         "id": "SnivyTrueFormEasy499ここはどこ...?(Whereisthis...?)",
         "name": "ここはどこ...? (Where is this...?)",
-        "copies": 136,
+        "copies": 137,
         "notes": 499,
         "artist": "Rizum",
         "difficulty": "Easy"
