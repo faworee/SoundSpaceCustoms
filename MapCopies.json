@@ -435,7 +435,7 @@
   },
   "Demisnya": {
     "displayName": "Demisnya",
-    "totalCopies": 3152,
+    "totalCopies": 3153,
     "maps": [
       {
         "id": "DemisnyaBrrrr4240BassMonster",
@@ -520,8 +520,10 @@
       {
         "id": "DemisnyaBrrrr3858AccessGranted",
         "name": "Access Granted",
-        "copies": 116,
-        "notes": 3858
+        "copies": 117,
+        "notes": 3858,
+        "artist": "APM Music",
+        "difficulty": "Brrrr"
       },
       {
         "id": "DemisnyaBrrrr841HighSpeedLane",
@@ -1501,7 +1503,7 @@
   },
   "xazthenpc": {
     "displayName": "xazthenpc",
-    "totalCopies": 446,
+    "totalCopies": 445,
     "maps": [
       {
         "id": "xazthenpcBrrrr7175BadAccess",
@@ -1530,10 +1532,8 @@
       {
         "id": "xazthenpcBrrrr2240BreathDeep",
         "name": "Breath Deep",
-        "copies": 105,
-        "notes": 2240,
-        "artist": "APM Music",
-        "difficulty": "Brrrr"
+        "copies": 104,
+        "notes": 2240
       },
       {
         "id": "xazthenpcBrrrr3278AMiserablePileOfSecrets(TheImpalerII)",
