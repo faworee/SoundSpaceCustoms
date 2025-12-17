@@ -2177,7 +2177,7 @@
   },
   "ZitroNitro & Azurlexx": {
     "displayName": "ZitroNitro & Azurlexx",
-    "totalCopies": 31,
+    "totalCopies": 32,
     "maps": [
       {
         "id": "zitronitroazurlexxbrrrr1750fortalice",
@@ -2190,8 +2190,10 @@
       {
         "id": "ZitroNitro&AzurlexxBrrrr2137Aizome",
         "name": "Aizome",
-        "copies": 13,
-        "notes": 2137
+        "copies": 14,
+        "notes": 2137,
+        "artist": "Karmadylo",
+        "difficulty": "Brrrr"
       }
     ]
   },
