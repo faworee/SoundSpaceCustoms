@@ -2757,12 +2757,12 @@
   },
   "Ghefine": {
     "displayName": "Ghefine",
-    "totalCopies": 237,
+    "totalCopies": 238,
     "maps": [
       {
         "id": "GhefineBrrrr3090Fusion",
         "name": "Fusion",
-        "copies": 237,
+        "copies": 238,
         "notes": 3090,
         "artist": "red",
         "difficulty": "Brrrr"
