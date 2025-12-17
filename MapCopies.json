@@ -443,7 +443,7 @@
   },
   "Demisnya": {
     "displayName": "Demisnya",
-    "totalCopies": 3154,
+    "totalCopies": 3155,
     "maps": [
       {
         "id": "DemisnyaBrrrr4240BassMonster",
@@ -698,8 +698,10 @@
       {
         "id": "DemisnyaBrrrr3002AMiserablePileOfSecrets(TheImpalerII)",
         "name": "A Miserable Pile Of Secrets (The Impaler II)",
-        "copies": 48,
-        "notes": 3002
+        "copies": 49,
+        "notes": 3002,
+        "artist": "Nstryder",
+        "difficulty": "Brrrr"
       },
       {
         "id": "DemisnyaBrrrr1942Overclocked",
@@ -2011,12 +2013,12 @@
   },
   "spoob": {
     "displayName": "spoob",
-    "totalCopies": 211,
+    "totalCopies": 210,
     "maps": [
       {
         "id": "spoobTasukete3193AMiserablePileOfSecrets(TheImpalerII)",
         "name": "A Miserable Pile Of Secrets (The Impaler II)",
-        "copies": 170,
+        "copies": 169,
         "notes": 3193,
         "artist": "Nstryder",
         "difficulty": "Tasukete"
