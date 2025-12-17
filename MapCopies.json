@@ -437,7 +437,7 @@
   },
   "Demisnya": {
     "displayName": "Demisnya",
-    "totalCopies": 3152,
+    "totalCopies": 3153,
     "maps": [
       {
         "id": "DemisnyaBrrrr4240BassMonster",
@@ -480,8 +480,10 @@
       {
         "id": "DemisnyaBrrrr2047Aizome",
         "name": "Aizome",
-        "copies": 37,
-        "notes": 2047
+        "copies": 38,
+        "notes": 2047,
+        "artist": "Karmadylo",
+        "difficulty": "Brrrr"
       },
       {
         "id": "DemisnyaBrrrr1032Nightune",
@@ -803,7 +805,7 @@
   },
   "zeroth": {
     "displayName": "zeroth",
-    "totalCopies": 2063,
+    "totalCopies": 2064,
     "maps": [
       {
         "id": "zerothBrrrr4944mymoon",
@@ -820,8 +822,10 @@
       {
         "id": "zerothBrrrr3326jealous",
         "name": "jealous",
-        "copies": 452,
-        "notes": 3326
+        "copies": 453,
+        "notes": 3326,
+        "artist": "d3r & Pröz",
+        "difficulty": "Brrrr"
       },
       {
         "id": "zerothBrrrr1769H4MANIAYUH",
@@ -2279,7 +2283,7 @@
   },
   "Scxthes": {
     "displayName": "Scxthes",
-    "totalCopies": 1347,
+    "totalCopies": 1346,
     "maps": [
       {
         "id": "ScxthesLogic18224NDROMEDA",
@@ -2318,10 +2322,8 @@
       {
         "id": "ScxthesTasukete3884HatedHero",
         "name": "Hated Hero",
-        "copies": 255,
-        "notes": 3884,
-        "artist": "MetaHumanBoi",
-        "difficulty": "Tasukete"
+        "copies": 254,
+        "notes": 3884
       },
       {
         "id": "ScxthesTasukete2421TrustedVillainVIP",
@@ -2513,7 +2515,7 @@
   },
   "narcissistnile": {
     "displayName": "narcissistnile",
-    "totalCopies": 1049,
+    "totalCopies": 1048,
     "maps": [
       {
         "id": "narcissistnileTasukete4186cowbellgod",
@@ -2532,10 +2534,8 @@
       {
         "id": "narcissistnileBrrrr1466Alone",
         "name": "Alone",
-        "copies": 311,
-        "notes": 1466,
-        "artist": "Lil Kuudere, sukoyomi",
-        "difficulty": "Brrrr"
+        "copies": 310,
+        "notes": 1466
       }
     ]
   },
