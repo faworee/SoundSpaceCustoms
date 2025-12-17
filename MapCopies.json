@@ -311,7 +311,7 @@
   },
   "Taco": {
     "displayName": "Taco",
-    "totalCopies": 3188,
+    "totalCopies": 3189,
     "maps": [
       {
         "id": "TacoMedium354toxic",
@@ -400,8 +400,10 @@
       {
         "id": "TacoLogic784Theme2(SoundSpaceLobbyTheme)",
         "name": "Theme 2 (Sound Space Lobby Theme)",
-        "copies": 38,
-        "notes": 784
+        "copies": 39,
+        "notes": 784,
+        "artist": "MetaHumanBoi",
+        "difficulty": "Logic"
       }
     ]
   },
@@ -2755,15 +2757,13 @@
   },
   "FpXHarborYT": {
     "displayName": "FpXHarborYT",
-    "totalCopies": 150,
+    "totalCopies": 149,
     "maps": [
       {
         "id": "FpXHarborYTLogic1513Control",
         "name": "Control",
-        "copies": 51,
-        "notes": 1513,
-        "artist": "luvbackpack x sukoyomi",
-        "difficulty": "Logic"
+        "copies": 50,
+        "notes": 1513
       },
       {
         "id": "FpXHarborYTLogic2152NewWorld",
