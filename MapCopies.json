@@ -443,7 +443,7 @@
   },
   "Demisnya": {
     "displayName": "Demisnya",
-    "totalCopies": 3152,
+    "totalCopies": 3154,
     "maps": [
       {
         "id": "DemisnyaBrrrr4240BassMonster",
@@ -466,8 +466,10 @@
       {
         "id": "DemisnyaTasukete2010AAUGHH",
         "name": "AAUGHH",
-        "copies": 120,
-        "notes": 2010
+        "copies": 121,
+        "notes": 2010,
+        "artist": "Rutra",
+        "difficulty": "Tasukete"
       },
       {
         "id": "demisnyabrrrr1734fortalice",
@@ -522,8 +524,10 @@
       {
         "id": "DemisnyaBrrrr2374Dogbite",
         "name": "Dogbite",
-        "copies": 38,
-        "notes": 2374
+        "copies": 39,
+        "notes": 2374,
+        "artist": "t+pazolite",
+        "difficulty": "Brrrr"
       },
       {
         "id": "DemisnyaBrrrr3858AccessGranted",
@@ -2293,7 +2297,7 @@
   },
   "Scxthes": {
     "displayName": "Scxthes",
-    "totalCopies": 1348,
+    "totalCopies": 1349,
     "maps": [
       {
         "id": "ScxthesLogic18224NDROMEDA",
@@ -2324,7 +2328,7 @@
       {
         "id": "ScxthesBrrrr3408ForgettingWasMyOnlyOption",
         "name": "Forgetting Was My Only Option",
-        "copies": 102,
+        "copies": 103,
         "notes": 3408,
         "artist": "633397",
         "difficulty": "Brrrr"
@@ -4328,12 +4332,12 @@
   },
   "TUPPICUNOTUFFMAPPER": {
     "displayName": "TUPPICUNOTUFFMAPPER",
-    "totalCopies": 2,
+    "totalCopies": 1,
     "maps": [
       {
         "id": "tuppicunotuffmapperbrrrr2862toxic",
         "name": "toxic",
-        "copies": 2,
+        "copies": 1,
         "notes": 2862,
         "artist": "d3r & 6arelyhuman & Pröz",
         "difficulty": "Brrrr"
