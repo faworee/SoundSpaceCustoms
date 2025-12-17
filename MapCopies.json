@@ -313,7 +313,7 @@
   },
   "Taco": {
     "displayName": "Taco",
-    "totalCopies": 3191,
+    "totalCopies": 3192,
     "maps": [
       {
         "id": "TacoMedium354toxic",
@@ -372,7 +372,7 @@
       {
         "id": "TacoTasukete2339CHWYKU",
         "name": "CHWYKU",
-        "copies": 287,
+        "copies": 288,
         "notes": 2339,
         "artist": "DJWahRA",
         "difficulty": "Tasukete"
