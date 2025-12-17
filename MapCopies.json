@@ -383,7 +383,7 @@
   },
   "Alter/p183805": {
     "displayName": "Alter/p183805",
-    "totalCopies": 1092,
+    "totalCopies": 1091,
     "maps": [
       {
         "id": "Alter/p183805Brrrr1333CrabRave",
@@ -402,7 +402,7 @@
       {
         "id": "Alter/p183805Tasukete1430Base",
         "name": "Base",
-        "copies": 336,
+        "copies": 335,
         "notes": 1430,
         "artist": "sximanes",
         "difficulty": "Tasukete"
@@ -435,7 +435,7 @@
   },
   "Demisnya": {
     "displayName": "Demisnya",
-    "totalCopies": 3153,
+    "totalCopies": 3152,
     "maps": [
       {
         "id": "DemisnyaBrrrr4240BassMonster",
@@ -520,10 +520,8 @@
       {
         "id": "DemisnyaBrrrr3858AccessGranted",
         "name": "Access Granted",
-        "copies": 117,
-        "notes": 3858,
-        "artist": "APM Music",
-        "difficulty": "Brrrr"
+        "copies": 116,
+        "notes": 3858
       },
       {
         "id": "DemisnyaBrrrr841HighSpeedLane",
@@ -1075,7 +1073,7 @@
   },
   "SheaNya": {
     "displayName": "SheaNya",
-    "totalCopies": 4324,
+    "totalCopies": 4325,
     "maps": [
       {
         "id": "SheaNyaBrrrr1558Jumpstyle",
@@ -1118,8 +1116,10 @@
       {
         "id": "SheaNyaBrrrr2220Us",
         "name": "Us",
-        "copies": 191,
-        "notes": 2220
+        "copies": 192,
+        "notes": 2220,
+        "artist": "APM Music",
+        "difficulty": "Brrrr"
       },
       {
         "id": "SheaNyaLogic344ForTheUnderdog",
