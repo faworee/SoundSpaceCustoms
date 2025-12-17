@@ -2099,7 +2099,7 @@
   },
   "sev": {
     "displayName": "sev",
-    "totalCopies": 625,
+    "totalCopies": 624,
     "maps": [
       {
         "id": "sevBrrrr4171RawHaus",
@@ -2110,7 +2110,7 @@
       {
         "id": "sevBrrrr2495AVANGARD2.0",
         "name": "AVANGARD 2.0",
-        "copies": 443,
+        "copies": 442,
         "notes": 2495,
         "artist": "Alanwaad",
         "difficulty": "Brrrr"
@@ -2617,7 +2617,7 @@
   },
   "narcissistnile": {
     "displayName": "narcissistnile",
-    "totalCopies": 1052,
+    "totalCopies": 1053,
     "maps": [
       {
         "id": "narcissistnileTasukete4186cowbellgod",
@@ -2638,7 +2638,7 @@
       {
         "id": "narcissistnileBrrrr1466Alone",
         "name": "Alone",
-        "copies": 312,
+        "copies": 313,
         "notes": 1466,
         "artist": "Lil Kuudere, sukoyomi",
         "difficulty": "Brrrr"
