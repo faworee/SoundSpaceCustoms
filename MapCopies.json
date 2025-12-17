@@ -2790,8 +2790,10 @@
       {
         "id": "FpXHarborYTLogic1513Control",
         "name": "Control",
-        "copies": 50,
-        "notes": 1513
+        "copies": 51,
+        "notes": 1513,
+        "artist": "luvbackpack x sukoyomi",
+        "difficulty": "Logic"
       },
       {
         "id": "FpXHarborYTLogic2152NewWorld",
@@ -2816,7 +2818,7 @@
       {
         "id": "fpxharborytbrrrr2425thinkingaboutyou",
         "name": "Thinking About You",
-        "copies": 10,
+        "copies": 9,
         "notes": 2425,
         "artist": "Monstercat",
         "difficulty": "Brrrr"
