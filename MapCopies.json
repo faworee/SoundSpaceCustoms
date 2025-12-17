@@ -1481,7 +1481,7 @@
   },
   "faworee": {
     "displayName": "faworee",
-    "totalCopies": 1385,
+    "totalCopies": 1386,
     "maps": [
       {
         "id": "faworeeBrrrr2526eeyuh!",
@@ -1502,8 +1502,10 @@
       {
         "id": "faworeeBrrrr2544Threshold",
         "name": "Threshold",
-        "copies": 126,
-        "notes": 2544
+        "copies": 127,
+        "notes": 2544,
+        "artist": "Underscore",
+        "difficulty": "Brrrr"
       }
     ]
   },
@@ -2729,12 +2731,12 @@
   },
   "reticentmemory": {
     "displayName": "reticentmemory",
-    "totalCopies": 10,
+    "totalCopies": 9,
     "maps": [
       {
         "id": "reticentmemoryTasukete3469FINALSTAND",
         "name": "FINAL STAND",
-        "copies": 10,
+        "copies": 9,
         "notes": 3469,
         "artist": "Underscore",
         "difficulty": "Tasukete"
