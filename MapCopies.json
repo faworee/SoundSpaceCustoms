@@ -1111,7 +1111,7 @@
   },
   "SheaNya": {
     "displayName": "SheaNya",
-    "totalCopies": 4334,
+    "totalCopies": 4333,
     "maps": [
       {
         "id": "SheaNyaBrrrr1558Jumpstyle",
@@ -1148,7 +1148,7 @@
       {
         "id": "SheaNyaTasukete2783wassa",
         "name": "wassa",
-        "copies": 469,
+        "copies": 468,
         "notes": 2783,
         "artist": "Hr",
         "difficulty": "Tasukete"
@@ -1477,12 +1477,12 @@
   },
   "OrAlex": {
     "displayName": "OrAlex",
-    "totalCopies": 1145,
+    "totalCopies": 1146,
     "maps": [
       {
         "id": "OrAlexTasukete10535realityisdecaying\\world-end.",
         "name": "reality is decaying\\world-end.",
-        "copies": 328,
+        "copies": 329,
         "notes": 10535,
         "artist": "Underscore",
         "difficulty": "Tasukete"
@@ -2463,15 +2463,13 @@
   },
   "Drako": {
     "displayName": "Drako",
-    "totalCopies": 8,
+    "totalCopies": 7,
     "maps": [
       {
         "id": "DrakoBrrrr1682SolarStrike",
         "name": "Solar Strike",
-        "copies": 8,
-        "notes": 1682,
-        "artist": "MetaHumanBoi",
-        "difficulty": "Brrrr"
+        "copies": 7,
+        "notes": 1682
       }
     ]
   },
