@@ -853,7 +853,7 @@
   },
   "Xilp": {
     "displayName": "Xilp",
-    "totalCopies": 2215,
+    "totalCopies": 2216,
     "maps": [
       {
         "id": "XilpBrrrr3215Bloom",
@@ -890,8 +890,10 @@
       {
         "id": "XilpBrrrr3501Kyzaghan",
         "name": "Kyzaghan",
-        "copies": 249,
-        "notes": 3501
+        "copies": 250,
+        "notes": 3501,
+        "artist": "Underscore",
+        "difficulty": "Brrrr"
       },
       {
         "id": "XilpTasukete3510HadronCollision",
@@ -1091,15 +1093,13 @@
   },
   "SheaNya": {
     "displayName": "SheaNya",
-    "totalCopies": 4326,
+    "totalCopies": 4325,
     "maps": [
       {
         "id": "SheaNyaBrrrr1558Jumpstyle",
         "name": "Jumpstyle",
-        "copies": 360,
-        "notes": 1558,
-        "artist": "APM Music",
-        "difficulty": "Brrrr"
+        "copies": 359,
+        "notes": 1558
       },
       {
         "id": "SheaNyaTasukete2487Dogbite",
@@ -4338,12 +4338,12 @@
   },
   "TUPPICUNOTUFFMAPPER": {
     "displayName": "TUPPICUNOTUFFMAPPER",
-    "totalCopies": 2,
+    "totalCopies": 1,
     "maps": [
       {
         "id": "tuppicunotuffmapperbrrrr2862toxic",
         "name": "toxic",
-        "copies": 2,
+        "copies": 1,
         "notes": 2862,
         "artist": "d3r & 6arelyhuman & Pröz",
         "difficulty": "Brrrr"
