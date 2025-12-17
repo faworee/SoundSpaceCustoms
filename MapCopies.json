@@ -1689,12 +1689,12 @@
   },
   "Worst Ghost Player": {
     "displayName": "Worst Ghost Player",
-    "totalCopies": 441,
+    "totalCopies": 442,
     "maps": [
       {
         "id": "WorstGhostPlayerTasukete2205SPEEDCORENIGHTLIFE",
         "name": "SPEEDCORE NIGHTLIFE",
-        "copies": 441,
+        "copies": 442,
         "notes": 2205,
         "artist": "Underscore",
         "difficulty": "Tasukete"
@@ -2415,7 +2415,7 @@
   },
   "Scxthes": {
     "displayName": "Scxthes",
-    "totalCopies": 1376,
+    "totalCopies": 1375,
     "maps": [
       {
         "id": "ScxthesLogic18224NDROMEDA",
@@ -2474,7 +2474,7 @@
       {
         "id": "ScxthesTasukete4878Expedite",
         "name": "Expedite",
-        "copies": 14,
+        "copies": 13,
         "notes": 4878,
         "artist": "Mon",
         "difficulty": "Tasukete"
