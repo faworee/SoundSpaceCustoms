@@ -1,7 +1,7 @@
 {
   "SnivyTrueForm": {
     "displayName": "SnivyTrueForm",
-    "totalCopies": 1328,
+    "totalCopies": 1329,
     "maps": [
       {
         "id": "SnivyTrueFormEasy1382MoreThanFriends",
@@ -110,8 +110,10 @@
       {
         "id": "SnivyTrueFormBrrrr5490UltraV",
         "name": "Ultra V",
-        "copies": 35,
-        "notes": 5490
+        "copies": 36,
+        "notes": 5490,
+        "artist": "ED$ANE",
+        "difficulty": "Brrrr"
       },
       {
         "id": "SnivyTrueFormHard418FarAway",
