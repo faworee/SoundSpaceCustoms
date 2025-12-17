@@ -1,7 +1,7 @@
 {
   "SnivyTrueForm": {
     "displayName": "SnivyTrueForm",
-    "totalCopies": 1323,
+    "totalCopies": 1324,
     "maps": [
       {
         "id": "SnivyTrueFormEasy1382MoreThanFriends",
@@ -274,8 +274,10 @@
       {
         "id": "SnivyTrueFormBrrrr2575Aizome",
         "name": "Aizome",
-        "copies": 9,
-        "notes": 2575
+        "copies": 10,
+        "notes": 2575,
+        "artist": "Karmadylo",
+        "difficulty": "Brrrr"
       },
       {
         "id": "SnivyTrueFormHard901Friday",
@@ -299,7 +301,7 @@
   },
   "Taco": {
     "displayName": "Taco",
-    "totalCopies": 3175,
+    "totalCopies": 3176,
     "maps": [
       {
         "id": "TacoMedium354toxic",
@@ -334,8 +336,10 @@
       {
         "id": "TacoTasukete2870HOTAKFUNK",
         "name": "HOTAKFUNK",
-        "copies": 363,
-        "notes": 2870
+        "copies": 364,
+        "notes": 2870,
+        "artist": "DJWahRA",
+        "difficulty": "Tasukete"
       },
       {
         "id": "TacoTasukete3590noescape",
@@ -2153,7 +2157,7 @@
   },
   "Orb1t": {
     "displayName": "Orb1t",
-    "totalCopies": 38,
+    "totalCopies": 37,
     "maps": [
       {
         "id": "Orb1tBrrrr884RunItBack",
@@ -2170,10 +2174,8 @@
       {
         "id": "Orb1tBrrrr1571Aizome",
         "name": "Aizome",
-        "copies": 16,
-        "notes": 1571,
-        "artist": "Karmadylo",
-        "difficulty": "Brrrr"
+        "copies": 15,
+        "notes": 1571
       }
     ]
   },
