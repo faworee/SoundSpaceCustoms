@@ -445,7 +445,7 @@
   },
   "Demisnya": {
     "displayName": "Demisnya",
-    "totalCopies": 3157,
+    "totalCopies": 3156,
     "maps": [
       {
         "id": "DemisnyaBrrrr4240BassMonster",
@@ -540,10 +540,8 @@
       {
         "id": "DemisnyaBrrrr841HighSpeedLane",
         "name": "High Speed Lane",
-        "copies": 80,
-        "notes": 841,
-        "artist": "APM Music",
-        "difficulty": "Brrrr"
+        "copies": 79,
+        "notes": 841
       },
       {
         "id": "DemisnyaBrrrr1863Handshake",
@@ -1099,7 +1097,7 @@
   },
   "SheaNya": {
     "displayName": "SheaNya",
-    "totalCopies": 4329,
+    "totalCopies": 4330,
     "maps": [
       {
         "id": "SheaNyaBrrrr1558Jumpstyle",
@@ -1176,8 +1174,10 @@
       {
         "id": "SheaNyaBrrrr1217NoMatterWhat",
         "name": "No Matter What",
-        "copies": 59,
-        "notes": 1217
+        "copies": 60,
+        "notes": 1217,
+        "artist": "APM Music",
+        "difficulty": "Brrrr"
       },
       {
         "id": "SheaNyaBrrrr2547ABassRenaissance",
