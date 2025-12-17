@@ -859,7 +859,7 @@
   },
   "Xilp": {
     "displayName": "Xilp",
-    "totalCopies": 2215,
+    "totalCopies": 2216,
     "maps": [
       {
         "id": "XilpBrrrr3215Bloom",
@@ -940,8 +940,10 @@
       {
         "id": "XilpBrrrr1678Karma",
         "name": "Karma",
-        "copies": 54,
-        "notes": 1678
+        "copies": 55,
+        "notes": 1678,
+        "artist": "Sacuna",
+        "difficulty": "Brrrr"
       },
       {
         "id": "XilpBrrrr1319rainbow",
@@ -1455,7 +1457,7 @@
   },
   "OrAlex": {
     "displayName": "OrAlex",
-    "totalCopies": 1144,
+    "totalCopies": 1143,
     "maps": [
       {
         "id": "OrAlexTasukete10535realityisdecaying\\world-end.",
@@ -1466,10 +1468,8 @@
       {
         "id": "OrAlexTasukete5098ULTIMATUM",
         "name": "ULTIMATUM",
-        "copies": 452,
-        "notes": 5098,
-        "artist": "Underscore",
-        "difficulty": "Tasukete"
+        "copies": 451,
+        "notes": 5098
       },
       {
         "id": "OrAlexTasukete3237CYBER999",
