@@ -1799,13 +1799,15 @@
   },
   "Oralex": {
     "displayName": "Oralex",
-    "totalCopies": 122,
+    "totalCopies": 123,
     "maps": [
       {
         "id": "OralexTasukete3016IntercosmicEcho2",
         "name": "Intercosmic Echo 2",
-        "copies": 122,
-        "notes": 3016
+        "copies": 123,
+        "notes": 3016,
+        "artist": "diamomd",
+        "difficulty": "Tasukete"
       }
     ]
   },
