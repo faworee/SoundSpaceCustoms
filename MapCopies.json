@@ -311,13 +311,15 @@
   },
   "Taco": {
     "displayName": "Taco",
-    "totalCopies": 3181,
+    "totalCopies": 3182,
     "maps": [
       {
         "id": "TacoMedium354toxic",
         "name": "toxic",
-        "copies": 115,
-        "notes": 354
+        "copies": 116,
+        "notes": 354,
+        "artist": "d3r & 6arelyhuman & Pröz",
+        "difficulty": "Medium"
       },
       {
         "id": "TacoTasukete3061IntercosmicEcho",
@@ -833,12 +835,12 @@
   },
   "zeroth": {
     "displayName": "zeroth",
-    "totalCopies": 2065,
+    "totalCopies": 2066,
     "maps": [
       {
         "id": "zerothBrrrr4944mymoon",
         "name": "my moon",
-        "copies": 732,
+        "copies": 733,
         "notes": 4944,
         "artist": "7ate",
         "difficulty": "Brrrr"
@@ -1117,7 +1119,7 @@
   },
   "SheaNya": {
     "displayName": "SheaNya",
-    "totalCopies": 4336,
+    "totalCopies": 4335,
     "maps": [
       {
         "id": "SheaNyaBrrrr1558Jumpstyle",
@@ -1148,10 +1150,8 @@
       {
         "id": "SheaNyaTasukete5726EXTRA!",
         "name": "EXTRA!",
-        "copies": 453,
-        "notes": 5726,
-        "artist": "Underscore",
-        "difficulty": "Tasukete"
+        "copies": 452,
+        "notes": 5726
       },
       {
         "id": "SheaNyaTasukete2783wassa",
@@ -2697,12 +2697,12 @@
   },
   "Ghefine": {
     "displayName": "Ghefine",
-    "totalCopies": 236,
+    "totalCopies": 235,
     "maps": [
       {
         "id": "GhefineBrrrr3090Fusion",
         "name": "Fusion",
-        "copies": 236,
+        "copies": 235,
         "notes": 3090,
         "artist": "red",
         "difficulty": "Brrrr"
