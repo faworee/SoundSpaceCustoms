@@ -313,12 +313,12 @@
   },
   "Taco": {
     "displayName": "Taco",
-    "totalCopies": 3189,
+    "totalCopies": 3188,
     "maps": [
       {
         "id": "TacoMedium354toxic",
         "name": "toxic",
-        "copies": 117,
+        "copies": 116,
         "notes": 354,
         "artist": "d3r & 6arelyhuman & Pröz",
         "difficulty": "Medium"
@@ -1685,12 +1685,12 @@
   },
   "Worst Ghost Player": {
     "displayName": "Worst Ghost Player",
-    "totalCopies": 442,
+    "totalCopies": 441,
     "maps": [
       {
         "id": "WorstGhostPlayerTasukete2205SPEEDCORENIGHTLIFE",
         "name": "SPEEDCORE NIGHTLIFE",
-        "copies": 442,
+        "copies": 441,
         "notes": 2205,
         "artist": "Underscore",
         "difficulty": "Tasukete"
@@ -2411,13 +2411,15 @@
   },
   "Scxthes": {
     "displayName": "Scxthes",
-    "totalCopies": 1369,
+    "totalCopies": 1370,
     "maps": [
       {
         "id": "ScxthesLogic18224NDROMEDA",
         "name": "4NDROMEDA",
-        "copies": 35,
-        "notes": 1822
+        "copies": 36,
+        "notes": 1822,
+        "artist": "Zytrx & Nstryder",
+        "difficulty": "Logic"
       },
       {
         "id": "ScxthesTasukete4383OATHBREAKER",
@@ -2763,12 +2765,12 @@
   },
   "Silva": {
     "displayName": "Silva",
-    "totalCopies": 131,
+    "totalCopies": 130,
     "maps": [
       {
         "id": "SilvaBrrrr1865Hot",
         "name": "Hot",
-        "copies": 131,
+        "copies": 130,
         "notes": 1865,
         "artist": "FWLR",
         "difficulty": "Brrrr"
