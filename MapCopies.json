@@ -845,7 +845,7 @@
   },
   "zeroth": {
     "displayName": "zeroth",
-    "totalCopies": 2068,
+    "totalCopies": 2067,
     "maps": [
       {
         "id": "zerothBrrrr4944mymoon",
@@ -880,7 +880,7 @@
       {
         "id": "zerothTasukete1763iwontgiveuponyou",
         "name": "i wont give up on you",
-        "copies": 505,
+        "copies": 504,
         "notes": 1763,
         "artist": "mon",
         "difficulty": "Tasukete"
@@ -2411,7 +2411,7 @@
   },
   "Scxthes": {
     "displayName": "Scxthes",
-    "totalCopies": 1369,
+    "totalCopies": 1370,
     "maps": [
       {
         "id": "ScxthesLogic18224NDROMEDA",
@@ -2422,7 +2422,7 @@
       {
         "id": "ScxthesTasukete4383OATHBREAKER",
         "name": "OATH BREAKER",
-        "copies": 383,
+        "copies": 384,
         "notes": 4383,
         "artist": "Underscore",
         "difficulty": "Tasukete"
@@ -2777,15 +2777,13 @@
   },
   "FpXHarborYT": {
     "displayName": "FpXHarborYT",
-    "totalCopies": 153,
+    "totalCopies": 152,
     "maps": [
       {
         "id": "FpXHarborYTLogic1513Control",
         "name": "Control",
-        "copies": 51,
-        "notes": 1513,
-        "artist": "luvbackpack x sukoyomi",
-        "difficulty": "Logic"
+        "copies": 50,
+        "notes": 1513
       },
       {
         "id": "FpXHarborYTLogic2152NewWorld",
