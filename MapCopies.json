@@ -305,7 +305,7 @@
   },
   "Taco": {
     "displayName": "Taco",
-    "totalCopies": 3178,
+    "totalCopies": 3179,
     "maps": [
       {
         "id": "TacoMedium354toxic",
@@ -368,8 +368,10 @@
       {
         "id": "TacoTasukete1107skibidifanumtax",
         "name": "skibidi fanum tax",
-        "copies": 208,
-        "notes": 1107
+        "copies": 209,
+        "notes": 1107,
+        "artist": "RizzlerBullet",
+        "difficulty": "Tasukete"
       },
       {
         "id": "TacoBrrrr2157youreyes",
@@ -819,7 +821,7 @@
   },
   "zeroth": {
     "displayName": "zeroth",
-    "totalCopies": 2065,
+    "totalCopies": 2064,
     "maps": [
       {
         "id": "zerothBrrrr4944mymoon",
@@ -838,10 +840,8 @@
       {
         "id": "zerothBrrrr3326jealous",
         "name": "jealous",
-        "copies": 453,
-        "notes": 3326,
-        "artist": "d3r & Pröz",
-        "difficulty": "Brrrr"
+        "copies": 452,
+        "notes": 3326
       },
       {
         "id": "zerothBrrrr1769H4MANIAYUH",
@@ -1457,7 +1457,7 @@
   },
   "OrAlex": {
     "displayName": "OrAlex",
-    "totalCopies": 1145,
+    "totalCopies": 1144,
     "maps": [
       {
         "id": "OrAlexTasukete10535realityisdecaying\\world-end.",
@@ -1468,7 +1468,7 @@
       {
         "id": "OrAlexTasukete5098ULTIMATUM",
         "name": "ULTIMATUM",
-        "copies": 453,
+        "copies": 452,
         "notes": 5098,
         "artist": "Underscore",
         "difficulty": "Tasukete"
