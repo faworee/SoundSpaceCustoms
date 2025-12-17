@@ -435,7 +435,7 @@
   },
   "Demisnya": {
     "displayName": "Demisnya",
-    "totalCopies": 3152,
+    "totalCopies": 3153,
     "maps": [
       {
         "id": "DemisnyaBrrrr4240BassMonster",
@@ -502,8 +502,10 @@
       {
         "id": "DemisnyaBrrrr1968SpeedOfSound",
         "name": "Speed Of Sound",
-        "copies": 188,
-        "notes": 1968
+        "copies": 189,
+        "notes": 1968,
+        "artist": "APM MUsic",
+        "difficulty": "Brrrr"
       },
       {
         "id": "DemisnyaTasukete1958//along/the/mystic/lands//",
@@ -1073,7 +1075,7 @@
   },
   "SheaNya": {
     "displayName": "SheaNya",
-    "totalCopies": 4325,
+    "totalCopies": 4324,
     "maps": [
       {
         "id": "SheaNyaBrrrr1558Jumpstyle",
@@ -1330,10 +1332,8 @@
       {
         "id": "SheaNyaBrrrr2809Grimoire",
         "name": "Grimoire",
-        "copies": 31,
-        "notes": 2809,
-        "artist": "Gardens",
-        "difficulty": "Brrrr"
+        "copies": 30,
+        "notes": 2809
       },
       {
         "id": "SheaNyaBrrrr1416istillfeelmorealonethanieverhavebeenwhenyouaren'there",
