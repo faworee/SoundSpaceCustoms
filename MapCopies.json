@@ -453,7 +453,7 @@
   },
   "Demisnya": {
     "displayName": "Demisnya",
-    "totalCopies": 3157,
+    "totalCopies": 3158,
     "maps": [
       {
         "id": "DemisnyaBrrrr4240BassMonster",
@@ -620,8 +620,10 @@
       {
         "id": "DemisnyaTasukete2842IntercosmicEcho2",
         "name": "Intercosmic Echo 2",
-        "copies": 147,
-        "notes": 2842
+        "copies": 148,
+        "notes": 2842,
+        "artist": "diamomd",
+        "difficulty": "Tasukete"
       },
       {
         "id": "DemisnyaBrrrr2238HATEDHERO",
