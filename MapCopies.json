@@ -1543,7 +1543,7 @@
   },
   "faworee": {
     "displayName": "faworee",
-    "totalCopies": 1386,
+    "totalCopies": 1387,
     "maps": [
       {
         "id": "faworeeBrrrr2526eeyuh!",
@@ -1556,7 +1556,7 @@
       {
         "id": "faworeeTasukete5424CYBER999",
         "name": "CYBER 999",
-        "copies": 946,
+        "copies": 947,
         "notes": 5424,
         "artist": "Underscore",
         "difficulty": "Tasukete"
@@ -2097,12 +2097,12 @@
   },
   "spoob": {
     "displayName": "spoob",
-    "totalCopies": 210,
+    "totalCopies": 211,
     "maps": [
       {
         "id": "spoobTasukete3193AMiserablePileOfSecrets(TheImpalerII)",
         "name": "A Miserable Pile Of Secrets (The Impaler II)",
-        "copies": 169,
+        "copies": 170,
         "notes": 3193,
         "artist": "Nstryder",
         "difficulty": "Tasukete"
@@ -2409,7 +2409,7 @@
   },
   "Scxthes": {
     "displayName": "Scxthes",
-    "totalCopies": 1367,
+    "totalCopies": 1366,
     "maps": [
       {
         "id": "ScxthesLogic18224NDROMEDA",
@@ -2434,7 +2434,7 @@
       {
         "id": "ScxthesTasukete2599WASSA",
         "name": "WASSA",
-        "copies": 222,
+        "copies": 221,
         "notes": 2599,
         "artist": "HR",
         "difficulty": "Tasukete"
