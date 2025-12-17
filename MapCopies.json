@@ -458,8 +458,10 @@
       {
         "id": "DemisnyaBrrrr4450MLGCANDYDRIVE",
         "name": "MLG CANDY DRIVE",
-        "copies": 25,
-        "notes": 4450
+        "copies": 26,
+        "notes": 4450,
+        "artist": "Zytrx",
+        "difficulty": "Brrrr"
       },
       {
         "id": "DemisnyaBrrrr2353attheendoftime",
@@ -670,7 +672,7 @@
       {
         "id": "DemisnyaBrrrr2502Grimoire",
         "name": "Grimoire",
-        "copies": 110,
+        "copies": 109,
         "notes": 2502,
         "artist": "Gardens",
         "difficulty": "Brrrr"
