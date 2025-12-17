@@ -313,12 +313,12 @@
   },
   "Taco": {
     "displayName": "Taco",
-    "totalCopies": 3188,
+    "totalCopies": 3189,
     "maps": [
       {
         "id": "TacoMedium354toxic",
         "name": "toxic",
-        "copies": 116,
+        "copies": 117,
         "notes": 354,
         "artist": "d3r & 6arelyhuman & Pröz",
         "difficulty": "Medium"
@@ -1685,12 +1685,12 @@
   },
   "Worst Ghost Player": {
     "displayName": "Worst Ghost Player",
-    "totalCopies": 441,
+    "totalCopies": 442,
     "maps": [
       {
         "id": "WorstGhostPlayerTasukete2205SPEEDCORENIGHTLIFE",
         "name": "SPEEDCORE NIGHTLIFE",
-        "copies": 441,
+        "copies": 442,
         "notes": 2205,
         "artist": "Underscore",
         "difficulty": "Tasukete"
@@ -2763,12 +2763,12 @@
   },
   "Silva": {
     "displayName": "Silva",
-    "totalCopies": 130,
+    "totalCopies": 131,
     "maps": [
       {
         "id": "SilvaBrrrr1865Hot",
         "name": "Hot",
-        "copies": 130,
+        "copies": 131,
         "notes": 1865,
         "artist": "FWLR",
         "difficulty": "Brrrr"
@@ -2777,7 +2777,7 @@
   },
   "FpXHarborYT": {
     "displayName": "FpXHarborYT",
-    "totalCopies": 154,
+    "totalCopies": 153,
     "maps": [
       {
         "id": "FpXHarborYTLogic1513Control",
@@ -2812,14 +2812,6 @@
         "notes": 2425,
         "artist": "Monstercat",
         "difficulty": "Brrrr"
-      },
-      {
-        "id": "fpxharborytlogic1153brxphonk",
-        "name": "BRX PHONK",
-        "copies": 1,
-        "notes": 1153,
-        "artist": "Alanwaad",
-        "difficulty": "Logic"
       }
     ]
   },
