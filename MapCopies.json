@@ -1,7 +1,7 @@
 {
   "SnivyTrueForm": {
     "displayName": "SnivyTrueForm",
-    "totalCopies": 1331,
+    "totalCopies": 1332,
     "maps": [
       {
         "id": "SnivyTrueFormEasy1382MoreThanFriends",
@@ -122,8 +122,10 @@
       {
         "id": "SnivyTrueFormBrrrr2254HappyCaribbeanAdventure",
         "name": "Happy Caribbean Adventure",
-        "copies": 19,
-        "notes": 2254
+        "copies": 20,
+        "notes": 2254,
+        "artist": "Korsio",
+        "difficulty": "Brrrr"
       },
       {
         "id": "SnivyTrueFormBrrrr3746Time",
@@ -1107,7 +1109,7 @@
   },
   "SheaNya": {
     "displayName": "SheaNya",
-    "totalCopies": 4332,
+    "totalCopies": 4331,
     "maps": [
       {
         "id": "SheaNyaBrrrr1558Jumpstyle",
@@ -1404,10 +1406,8 @@
       {
         "id": "SheaNyaBrrrr1908Words",
         "name": "Words",
-        "copies": 26,
-        "notes": 1908,
-        "artist": "X3ll3n",
-        "difficulty": "Brrrr"
+        "copies": 25,
+        "notes": 1908
       },
       {
         "id": "SheaNyaBrrrr2040waltzundbasse",
@@ -1639,12 +1639,12 @@
   },
   "Worst Ghost Player": {
     "displayName": "Worst Ghost Player",
-    "totalCopies": 442,
+    "totalCopies": 441,
     "maps": [
       {
         "id": "WorstGhostPlayerTasukete2205SPEEDCORENIGHTLIFE",
         "name": "SPEEDCORE NIGHTLIFE",
-        "copies": 442,
+        "copies": 441,
         "notes": 2205,
         "artist": "Underscore",
         "difficulty": "Tasukete"
