@@ -1767,7 +1767,7 @@
   },
   "Nate10993": {
     "displayName": "Nate10993",
-    "totalCopies": 119,
+    "totalCopies": 120,
     "maps": [
       {
         "id": "Nate10993Brrrr3616ComputeItWithSomeDevilishAlcoholicSteampunkEngines",
@@ -1778,8 +1778,10 @@
       {
         "id": "Nate10993Brrrr2679IntercosmicEcho2",
         "name": "Intercosmic Echo 2",
-        "copies": 89,
-        "notes": 2679
+        "copies": 90,
+        "notes": 2679,
+        "artist": "diamomd",
+        "difficulty": "Brrrr"
       }
     ]
   },
@@ -2265,7 +2267,7 @@
   },
   "Scxthes": {
     "displayName": "Scxthes",
-    "totalCopies": 1340,
+    "totalCopies": 1339,
     "maps": [
       {
         "id": "ScxthesLogic18224NDROMEDA",
@@ -2312,7 +2314,7 @@
       {
         "id": "ScxthesTasukete4878Expedite",
         "name": "Expedite",
-        "copies": 3,
+        "copies": 2,
         "notes": 4878,
         "artist": "Mon",
         "difficulty": "Tasukete"
