@@ -1757,13 +1757,15 @@
   },
   "Pyxenity, Alt": {
     "displayName": "Pyxenity, Alt",
-    "totalCopies": 98,
+    "totalCopies": 99,
     "maps": [
       {
         "id": "Pyxenity,AltTasukete6000TeraI/O",
         "name": "Tera I/O",
-        "copies": 98,
-        "notes": 6000
+        "copies": 99,
+        "notes": 6000,
+        "artist": "Camellia",
+        "difficulty": "Tasukete"
       }
     ]
   },
