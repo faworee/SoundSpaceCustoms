@@ -811,7 +811,7 @@
   },
   "zeroth": {
     "displayName": "zeroth",
-    "totalCopies": 2063,
+    "totalCopies": 2064,
     "maps": [
       {
         "id": "zerothBrrrr4944mymoon",
@@ -822,8 +822,10 @@
       {
         "id": "zerothLogic2573ily",
         "name": "ily",
-        "copies": 240,
-        "notes": 2573
+        "copies": 241,
+        "notes": 2573,
+        "artist": "kirkiimad, CG5",
+        "difficulty": "Logic"
       },
       {
         "id": "zerothBrrrr3326jealous",
@@ -849,7 +851,7 @@
   },
   "Xilp": {
     "displayName": "Xilp",
-    "totalCopies": 2216,
+    "totalCopies": 2215,
     "maps": [
       {
         "id": "XilpBrrrr3215Bloom",
@@ -886,10 +888,8 @@
       {
         "id": "XilpBrrrr3501Kyzaghan",
         "name": "Kyzaghan",
-        "copies": 250,
-        "notes": 3501,
-        "artist": "Underscore",
-        "difficulty": "Brrrr"
+        "copies": 249,
+        "notes": 3501
       },
       {
         "id": "XilpTasukete3510HadronCollision",
