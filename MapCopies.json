@@ -2225,12 +2225,12 @@
   },
   "Sdrullo": {
     "displayName": "Sdrullo",
-    "totalCopies": 340,
+    "totalCopies": 341,
     "maps": [
       {
         "id": "SdrulloBrrrr1697Darkstar",
         "name": "Darkstar",
-        "copies": 66,
+        "copies": 67,
         "notes": 1697,
         "artist": "Galaxyless & MVRLY",
         "difficulty": "Brrrr"
