@@ -24,16 +24,17 @@
 
  <div class="header-container">
         <div class="logo">sound space maps</div>
-           <div class="header-actions">
-<button class="menu-toggle"
-id="menuToggle">menu</button>
-<div class="dropdown-menu" id="headerMenu">
-<a href="https://discord.gg/872M5HPbYx" class="dropdown-item"
-target="_blank" rel="noopener">join our discord</a>
-<div class="dropdown-item" id="randomMapBtn">random map</div>
-<a href="https://faworee.com/submitmaps" class="dropdown-item">submit map</a>
-<a class="dropdown-item" href="https://faworee.com/soundspacecustoms/AudioIDs/">audio ids</a>
-<div id="updateLogBtn" class="dropdown-item">update log</div>
+                                            <div class="header-actions">
+            <button class="menu-toggle" 
+            id="menuToggle">menu</button>
+                    <div class="dropdown-menu" id="headerMenu">
+                <a href="https://discord.gg/872M5HPbYx" class="dropdown-item" 
+                target="_blank" rel="noopener">join our discord</a>
+                        <div class="dropdown-item" id="randomMapBtn">random map</div>
+                <a href="/SubmitMaps" class="dropdown-item">submit map</a>
+                <a class="dropdown-item" href="AudioIDs">audio ids</a> 
+            <div class="dropdown-item" id="addMapMenuBtn" style="display: none;">add map (admin)</div>
+                <div id="updateLogBtn" class="dropdown-item">update log</div>
                 <div class="dropdown-item" id="qualityToggle">low quality mode</div>
                 <div class="dropdown-item" 
                 id="discordAuthBtn">login with discord</div>
@@ -139,6 +140,8 @@ target="_blank" rel="noopener">join our discord</a>
                 <div class="dropdown-option" data-value="difficulty-desc">difficulty: hard to easy</div>
                 <div class="dropdown-option" data-value="star-asc">star rating: low to high</div>
                 <div class="dropdown-option" data-value="star-desc">star rating: high to low</div>
+                <div class="dropdown-option" data-value="popularity-desc">popularity: high to low</div>
+<div class="dropdown-option" data-value="popularity-asc">popularity: low to high</div>
             </div>
         </div>
         
@@ -155,6 +158,8 @@ target="_blank" rel="noopener">join our discord</a>
                 <div class="dropdown-option" data-value="star-asc">star rating: low to high</div>
                 <div class="dropdown-option" data-value="difficulty-asc">difficulty: easy to hard</div>
                 <div class="dropdown-option" data-value="difficulty-desc">difficulty: hard to easy</div>
+                <div class="dropdown-option" data-value="popularity-desc">popularity: high to low</div>
+<div class="dropdown-option" data-value="popularity-asc">popularity: low to high</div>
             </div>
         </div>
 </div>
@@ -401,7 +406,57 @@ target="_blank" rel="noopener">join our discord</a>
         </div>
     </div>
 </div>
+<div class="modal" id="addMapModal">
+    <div class="modal-content">
+        <div class="modal-header">
+            <h2 class="modal-title">add new map (admin only)</h2>
+            <button class="close-btn" onclick="closeModal('addMapModal')">x</button>
+        </div>
+        <div class="filter-section">
+            <p style="margin-bottom: 15px; color: rgba(255, 255, 255, 0.8); font-size: 0.9em;">add a new map to the database:</p>
+            <div class="username-input-container" style="display: block;">
+                <input type="text" class="username-input" id="addMapName" placeholder="map name...">
+                <input type="text" class="username-input" id="addArtist" placeholder="artist...">
+                <input type="text" class="username-input" id="addMapper" placeholder="mapper...">
+                <input type="text" class="username-input" id="addGithubLink" placeholder="github raw link...">
+                <input type="text" class="username-input" id="addInfo" placeholder="info (optional)...">
+                <input type="number" class="username-input" id="addStarRating" min="0" max="10" step="0.01" placeholder="star rating (0-10)...">
+            </div>
 
+            <div class="filter-section" style="margin-top: 20px;">
+                <h3 style="font-size: 1em; margin-bottom: 12px;">difficulty</h3>
+                <div class="filter-options" id="addDifficultyOptions">
+                    <button class="filter-option" data-difficulty="Easy">easy</button>
+                    <button class="filter-option" data-difficulty="Medium">medium</button>
+                    <button class="filter-option" data-difficulty="Hard">hard</button>
+                    <button class="filter-option" data-difficulty="Logic">logic</button>
+                    <button class="filter-option" data-difficulty="Brrrr">brrrr</button>
+                    <button class="filter-option" data-difficulty="Tasukete">tasukete</button>
+                </div>
+            </div>
+
+            <div class="filter-section" style="margin-top: 20px;">
+                <h3 style="font-size: 1em; margin-bottom: 12px;">patterns</h3>
+                <div class="filter-options" id="addPatternOptions">
+                    <button class="filter-option" data-pattern="Streams">streams</button>
+                    <button class="filter-option" data-pattern="Walls">walls</button>
+                    <button class="filter-option" data-pattern="Tech">tech</button>
+                    <button class="filter-option" data-pattern="Jumps">jumps</button>
+                    <button class="filter-option" data-pattern="Quantum">quantum</button>
+                    <button class="filter-option" data-pattern="Unconventional">unconventional</button>
+                    <button class="filter-option" data-pattern="Bursts">bursts</button>
+                    <button class="filter-option" data-pattern="Timing">timing</button>
+                    <button class="filter-option" data-pattern="Stacks">stacks</button>
+                    <button class="filter-option" data-pattern="Spins">spins</button>
+                    <button class="filter-option" data-pattern="Slides">slides</button>
+                    <button class="filter-option" data-pattern="Vibros">vibros</button>
+                </div>
+            </div>
+
+            <button class="username-submit-btn" id="addMapBtn" style="margin-top: 20px;">add map</button>
+        </div>
+    </div>
+</div>
 <script src="Mapscript.js"    ></script> 
 </body>
-</html>
+                        </html>
