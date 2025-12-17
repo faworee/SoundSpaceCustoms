@@ -2409,7 +2409,7 @@
   },
   "Scxthes": {
     "displayName": "Scxthes",
-    "totalCopies": 1368,
+    "totalCopies": 1369,
     "maps": [
       {
         "id": "ScxthesLogic18224NDROMEDA",
@@ -2442,7 +2442,7 @@
       {
         "id": "ScxthesBrrrr3408ForgettingWasMyOnlyOption",
         "name": "Forgetting Was My Only Option",
-        "copies": 110,
+        "copies": 111,
         "notes": 3408,
         "artist": "633397",
         "difficulty": "Brrrr"
@@ -2761,12 +2761,12 @@
   },
   "Silva": {
     "displayName": "Silva",
-    "totalCopies": 131,
+    "totalCopies": 130,
     "maps": [
       {
         "id": "SilvaBrrrr1865Hot",
         "name": "Hot",
-        "copies": 131,
+        "copies": 130,
         "notes": 1865,
         "artist": "FWLR",
         "difficulty": "Brrrr"
