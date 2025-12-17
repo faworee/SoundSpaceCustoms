@@ -1861,7 +1861,7 @@
   },
   "divetek": {
     "displayName": "divetek",
-    "totalCopies": 222,
+    "totalCopies": 223,
     "maps": [
       {
         "id": "divetekBrrrr1925BUTANE",
@@ -1884,7 +1884,7 @@
       {
         "id": "divetekbrrrr1963resistance",
         "name": "RESISTANCE",
-        "copies": 35,
+        "copies": 36,
         "notes": 1963,
         "artist": "Zytrx",
         "difficulty": "Brrrr"
