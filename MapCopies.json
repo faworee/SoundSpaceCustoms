@@ -1266,10 +1266,8 @@
       {
         "id": "SheaNyaBrrrr1190PhonkVol.2-Back&TheFront",
         "name": "Phonk Vol. 2 - Back & The Front",
-        "copies": 65,
-        "notes": 1190,
-        "artist": "APM Music",
-        "difficulty": "Brrrr"
+        "copies": 64,
+        "notes": 1190
       },
       {
         "id": "SheaNyaLogic1564HappyWithYou",
@@ -1286,8 +1284,10 @@
       {
         "id": "SheaNyaBrrrr1392CanCanRemix",
         "name": "Can Can Remix",
-        "copies": 87,
-        "notes": 1392
+        "copies": 88,
+        "notes": 1392,
+        "artist": "Jacques Offenbach",
+        "difficulty": "Brrrr"
       },
       {
         "id": "SheaNyaBrrrr2673BadAccess",
