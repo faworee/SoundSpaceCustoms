@@ -1435,7 +1435,7 @@
   },
   "OrAlex": {
     "displayName": "OrAlex",
-    "totalCopies": 1144,
+    "totalCopies": 1143,
     "maps": [
       {
         "id": "OrAlexTasukete10535realityisdecaying\\world-end.",
@@ -1452,16 +1452,14 @@
       {
         "id": "OrAlexTasukete3237CYBER999",
         "name": "CYBER 999",
-        "copies": 366,
-        "notes": 3237,
-        "artist": "Underscore",
-        "difficulty": "Tasukete"
+        "copies": 365,
+        "notes": 3237
       }
     ]
   },
   "faworee": {
     "displayName": "faworee",
-    "totalCopies": 1383,
+    "totalCopies": 1384,
     "maps": [
       {
         "id": "faworeeBrrrr2526eeyuh!",
@@ -1472,8 +1470,10 @@
       {
         "id": "faworeeTasukete5424CYBER999",
         "name": "CYBER 999",
-        "copies": 945,
-        "notes": 5424
+        "copies": 946,
+        "notes": 5424,
+        "artist": "Underscore",
+        "difficulty": "Tasukete"
       },
       {
         "id": "faworeeBrrrr2544Threshold",
