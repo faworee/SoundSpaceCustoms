@@ -448,8 +448,10 @@
       {
         "id": "DemisnyaBrrrr4240BassMonster",
         "name": "Bass Monster",
-        "copies": 78,
-        "notes": 4240
+        "copies": 79,
+        "notes": 4240,
+        "artist": "APM Music",
+        "difficulty": "Brrrr"
       },
       {
         "id": "DemisnyaBrrrr4450MLGCANDYDRIVE",
@@ -498,10 +500,8 @@
       {
         "id": "DemisnyaTasukete2943C0REC0NSTANT",
         "name": "C0RE C0NSTANT",
-        "copies": 198,
-        "notes": 2943,
-        "artist": "Zytrx Ft. MetaHumanBoi",
-        "difficulty": "Tasukete"
+        "copies": 197,
+        "notes": 2943
       },
       {
         "id": "DemisnyaBrrrr1956CatchMe",
