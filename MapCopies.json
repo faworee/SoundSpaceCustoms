@@ -381,7 +381,7 @@
   },
   "Alter/p183805": {
     "displayName": "Alter/p183805",
-    "totalCopies": 1090,
+    "totalCopies": 1091,
     "maps": [
       {
         "id": "Alter/p183805Brrrr1333CrabRave",
@@ -400,8 +400,10 @@
       {
         "id": "Alter/p183805Tasukete1430Base",
         "name": "Base",
-        "copies": 334,
-        "notes": 1430
+        "copies": 335,
+        "notes": 1430,
+        "artist": "sximanes",
+        "difficulty": "Tasukete"
       },
       {
         "id": "Alter/p183805Brrrr1066JET2HOLIDAYFUNK(Slowed)",
@@ -1067,7 +1069,7 @@
   },
   "SheaNya": {
     "displayName": "SheaNya",
-    "totalCopies": 4324,
+    "totalCopies": 4323,
     "maps": [
       {
         "id": "SheaNyaBrrrr1558Jumpstyle",
@@ -1102,10 +1104,8 @@
       {
         "id": "SheaNyaTasukete2783wassa",
         "name": "wassa",
-        "copies": 468,
-        "notes": 2783,
-        "artist": "Hr",
-        "difficulty": "Tasukete"
+        "copies": 467,
+        "notes": 2783
       },
       {
         "id": "SheaNyaBrrrr2220Us",
@@ -2265,7 +2265,7 @@
   },
   "Scxthes": {
     "displayName": "Scxthes",
-    "totalCopies": 1339,
+    "totalCopies": 1338,
     "maps": [
       {
         "id": "ScxthesLogic18224NDROMEDA",
@@ -2312,10 +2312,8 @@
       {
         "id": "ScxthesTasukete4878Expedite",
         "name": "Expedite",
-        "copies": 2,
-        "notes": 4878,
-        "artist": "Mon",
-        "difficulty": "Tasukete"
+        "copies": 1,
+        "notes": 4878
       }
     ]
   },
