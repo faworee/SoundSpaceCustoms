@@ -1,7 +1,7 @@
 {
   "SnivyTrueForm": {
     "displayName": "SnivyTrueForm",
-    "totalCopies": 1331,
+    "totalCopies": 1332,
     "maps": [
       {
         "id": "SnivyTrueFormEasy1382MoreThanFriends",
@@ -74,8 +74,10 @@
       {
         "id": "SnivyTrueFormBrrrr507Underscore",
         "name": "Underscore",
-        "copies": 35,
-        "notes": 507
+        "copies": 36,
+        "notes": 507,
+        "artist": "8 Bitty Kitty",
+        "difficulty": "Brrrr"
       },
       {
         "id": "SnivyTrueFormBrrrr1448Blitz",
@@ -1105,7 +1107,7 @@
   },
   "SheaNya": {
     "displayName": "SheaNya",
-    "totalCopies": 4332,
+    "totalCopies": 4331,
     "maps": [
       {
         "id": "SheaNyaBrrrr1558Jumpstyle",
@@ -1318,10 +1320,8 @@
       {
         "id": "SheaNyaBrrrr3507IWantYou",
         "name": "I Want You",
-        "copies": 82,
-        "notes": 3507,
-        "artist": "APM Music",
-        "difficulty": "Brrrr"
+        "copies": 81,
+        "notes": 3507
       },
       {
         "id": "SheaNyaBrrrr1409StepIntoIt",
