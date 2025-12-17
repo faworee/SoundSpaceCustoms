@@ -1097,7 +1097,7 @@
   },
   "SheaNya": {
     "displayName": "SheaNya",
-    "totalCopies": 4331,
+    "totalCopies": 4332,
     "maps": [
       {
         "id": "SheaNyaBrrrr1558Jumpstyle",
@@ -1422,8 +1422,10 @@
       {
         "id": "SheaNyaLogic1774FightForthepresent",
         "name": "Fight For the present",
-        "copies": 7,
-        "notes": 1774
+        "copies": 8,
+        "notes": 1774,
+        "artist": "Nstryder",
+        "difficulty": "Logic"
       },
       {
         "id": "SheaNyaBrrrr2105Tuesday",
@@ -2017,15 +2019,13 @@
   },
   "Ciem": {
     "displayName": "Ciem",
-    "totalCopies": 93,
+    "totalCopies": 92,
     "maps": [
       {
         "id": "CiemBrrrr2398BreathDeep",
         "name": "Breath Deep",
-        "copies": 93,
-        "notes": 2398,
-        "artist": "APM Music",
-        "difficulty": "Brrrr"
+        "copies": 92,
+        "notes": 2398
       }
     ]
   },
@@ -2333,7 +2333,7 @@
   },
   "Scxthes": {
     "displayName": "Scxthes",
-    "totalCopies": 1353,
+    "totalCopies": 1352,
     "maps": [
       {
         "id": "ScxthesLogic18224NDROMEDA",
@@ -2372,10 +2372,8 @@
       {
         "id": "ScxthesTasukete3884HatedHero",
         "name": "Hated Hero",
-        "copies": 255,
-        "notes": 3884,
-        "artist": "MetaHumanBoi",
-        "difficulty": "Tasukete"
+        "copies": 254,
+        "notes": 3884
       },
       {
         "id": "ScxthesTasukete2421TrustedVillainVIP",
