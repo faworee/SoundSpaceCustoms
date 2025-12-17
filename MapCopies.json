@@ -309,7 +309,7 @@
   },
   "Taco": {
     "displayName": "Taco",
-    "totalCopies": 3178,
+    "totalCopies": 3179,
     "maps": [
       {
         "id": "TacoMedium354toxic",
@@ -384,8 +384,10 @@
       {
         "id": "TacoTasukete1183TheCommunity",
         "name": "The Community",
-        "copies": 250,
-        "notes": 1183
+        "copies": 251,
+        "notes": 1183,
+        "artist": "CYRIL \\\\ i am bob",
+        "difficulty": "Tasukete"
       },
       {
         "id": "TacoLogic784Theme2(SoundSpaceLobbyTheme)",
@@ -825,7 +827,7 @@
   },
   "zeroth": {
     "displayName": "zeroth",
-    "totalCopies": 2066,
+    "totalCopies": 2065,
     "maps": [
       {
         "id": "zerothBrrrr4944mymoon",
@@ -858,7 +860,7 @@
       {
         "id": "zerothTasukete1763iwontgiveuponyou",
         "name": "i wont give up on you",
-        "copies": 505,
+        "copies": 504,
         "notes": 1763,
         "artist": "mon",
         "difficulty": "Tasukete"
