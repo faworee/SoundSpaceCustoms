@@ -558,8 +558,10 @@
       {
         "id": "DemisnyaBrrrr841HighSpeedLane",
         "name": "High Speed Lane",
-        "copies": 79,
-        "notes": 841
+        "copies": 80,
+        "notes": 841,
+        "artist": "APM Music",
+        "difficulty": "Brrrr"
       },
       {
         "id": "DemisnyaBrrrr1863Handshake",
@@ -576,10 +578,8 @@
       {
         "id": "DemisnyaBrrrr2720IntercosmicEcho",
         "name": "Intercosmic Echo",
-        "copies": 107,
-        "notes": 2720,
-        "artist": "diamomd",
-        "difficulty": "Brrrr"
+        "copies": 106,
+        "notes": 2720
       },
       {
         "id": "DemisnyaBrrrr1350IdealWorld",
@@ -2445,15 +2445,13 @@
   },
   "Noobourn": {
     "displayName": "Noobourn",
-    "totalCopies": 109,
+    "totalCopies": 108,
     "maps": [
       {
         "id": "NoobournBrrrr3800Stay(Metahumanboibootleg)",
         "name": "Stay (Metahumanboi bootleg)",
-        "copies": 109,
-        "notes": 3800,
-        "artist": "The Kid LAROI, Justin Bieber",
-        "difficulty": "Brrrr"
+        "copies": 108,
+        "notes": 3800
       }
     ]
   },
