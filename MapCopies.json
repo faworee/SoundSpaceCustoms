@@ -889,7 +889,7 @@
   },
   "Xilp": {
     "displayName": "Xilp",
-    "totalCopies": 2222,
+    "totalCopies": 2221,
     "maps": [
       {
         "id": "XilpBrrrr3215Bloom",
@@ -986,10 +986,8 @@
       {
         "id": "XilpBrrrr4097DancewithSilence",
         "name": "Dance with Silence",
-        "copies": 79,
-        "notes": 4097,
-        "artist": "Camellia",
-        "difficulty": "Brrrr"
+        "copies": 78,
+        "notes": 4097
       },
       {
         "id": "XilpBrrrr2062CORRUPTEDDATABASE",
@@ -2411,7 +2409,7 @@
   },
   "Scxthes": {
     "displayName": "Scxthes",
-    "totalCopies": 1369,
+    "totalCopies": 1368,
     "maps": [
       {
         "id": "ScxthesLogic18224NDROMEDA",
@@ -2444,7 +2442,7 @@
       {
         "id": "ScxthesBrrrr3408ForgettingWasMyOnlyOption",
         "name": "Forgetting Was My Only Option",
-        "copies": 111,
+        "copies": 110,
         "notes": 3408,
         "artist": "633397",
         "difficulty": "Brrrr"
@@ -2817,12 +2815,12 @@
   },
   "Spica": {
     "displayName": "Spica",
-    "totalCopies": 80,
+    "totalCopies": 81,
     "maps": [
       {
         "id": "SpicaBrrrr2187Uproar",
         "name": "Uproar",
-        "copies": 80,
+        "copies": 81,
         "notes": 2187,
         "artist": "Tim Besamusca",
         "difficulty": "Brrrr"
