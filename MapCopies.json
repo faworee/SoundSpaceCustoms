@@ -1091,7 +1091,7 @@
   },
   "SheaNya": {
     "displayName": "SheaNya",
-    "totalCopies": 4327,
+    "totalCopies": 4328,
     "maps": [
       {
         "id": "SheaNyaBrrrr1558Jumpstyle",
@@ -1240,8 +1240,10 @@
       {
         "id": "SheaNyaBrrrr796BeatThenScreech",
         "name": "Beat Then Screech",
-        "copies": 91,
-        "notes": 796
+        "copies": 92,
+        "notes": 796,
+        "artist": "APM Music",
+        "difficulty": "Brrrr"
       },
       {
         "id": "SheaNyaBrrrr2312Insane",
