@@ -2265,7 +2265,7 @@
   },
   "Scxthes": {
     "displayName": "Scxthes",
-    "totalCopies": 1339,
+    "totalCopies": 1340,
     "maps": [
       {
         "id": "ScxthesLogic18224NDROMEDA",
@@ -2276,8 +2276,10 @@
       {
         "id": "ScxthesTasukete4383OATHBREAKER",
         "name": "OATH BREAKER",
-        "copies": 378,
-        "notes": 4383
+        "copies": 379,
+        "notes": 4383,
+        "artist": "Underscore",
+        "difficulty": "Tasukete"
       },
       {
         "id": "ScxthesTasukete4761EXTRA!",
@@ -2577,15 +2579,13 @@
   },
   "Senternal": {
     "displayName": "Senternal",
-    "totalCopies": 157,
+    "totalCopies": 156,
     "maps": [
       {
         "id": "SenternalTasukete2091Eeyuh!",
         "name": "Eeyuh!",
-        "copies": 157,
-        "notes": 2091,
-        "artist": "hr",
-        "difficulty": "Tasukete"
+        "copies": 156,
+        "notes": 2091
       }
     ]
   },
