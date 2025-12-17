@@ -1069,12 +1069,12 @@
   },
   "Immortal": {
     "displayName": "Immortal",
-    "totalCopies": 918,
+    "totalCopies": 917,
     "maps": [
       {
         "id": "ImmortalTasukete2508Artcore",
         "name": "Artcore",
-        "copies": 556,
+        "copies": 555,
         "notes": 2508,
         "artist": "Mon",
         "difficulty": "Tasukete"
@@ -2389,7 +2389,7 @@
   },
   "Scxthes": {
     "displayName": "Scxthes",
-    "totalCopies": 1356,
+    "totalCopies": 1357,
     "maps": [
       {
         "id": "ScxthesLogic18224NDROMEDA",
@@ -2442,7 +2442,7 @@
       {
         "id": "ScxthesTasukete4878Expedite",
         "name": "Expedite",
-        "copies": 9,
+        "copies": 10,
         "notes": 4878,
         "artist": "Mon",
         "difficulty": "Tasukete"
