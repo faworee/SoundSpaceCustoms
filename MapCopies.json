@@ -381,7 +381,7 @@
   },
   "Alter/p183805": {
     "displayName": "Alter/p183805",
-    "totalCopies": 1090,
+    "totalCopies": 1091,
     "maps": [
       {
         "id": "Alter/p183805Brrrr1333CrabRave",
@@ -400,8 +400,10 @@
       {
         "id": "Alter/p183805Tasukete1430Base",
         "name": "Base",
-        "copies": 334,
-        "notes": 1430
+        "copies": 335,
+        "notes": 1430,
+        "artist": "sximanes",
+        "difficulty": "Tasukete"
       },
       {
         "id": "Alter/p183805Brrrr1066JET2HOLIDAYFUNK(Slowed)",
@@ -431,7 +433,7 @@
   },
   "Demisnya": {
     "displayName": "Demisnya",
-    "totalCopies": 3153,
+    "totalCopies": 3152,
     "maps": [
       {
         "id": "DemisnyaBrrrr4240BassMonster",
@@ -590,10 +592,8 @@
       {
         "id": "DemisnyaTasukete2842IntercosmicEcho2",
         "name": "Intercosmic Echo 2",
-        "copies": 148,
-        "notes": 2842,
-        "artist": "diamomd",
-        "difficulty": "Tasukete"
+        "copies": 147,
+        "notes": 2842
       },
       {
         "id": "DemisnyaBrrrr2238HATEDHERO",
