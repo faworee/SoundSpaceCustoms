@@ -1589,7 +1589,7 @@
   },
   "xazthenpc": {
     "displayName": "xazthenpc",
-    "totalCopies": 446,
+    "totalCopies": 447,
     "maps": [
       {
         "id": "xazthenpcBrrrr7175BadAccess",
@@ -1626,8 +1626,10 @@
       {
         "id": "xazthenpcBrrrr3278AMiserablePileOfSecrets(TheImpalerII)",
         "name": "A Miserable Pile Of Secrets (The Impaler II)",
-        "copies": 48,
-        "notes": 3278
+        "copies": 49,
+        "notes": 3278,
+        "artist": "Nstryder",
+        "difficulty": "Brrrr"
       },
       {
         "id": "xazthenpcBrrrr2781DefragmentationOfTheGlassDimension",
