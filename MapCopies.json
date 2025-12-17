@@ -1129,7 +1129,7 @@
   },
   "SheaNya": {
     "displayName": "SheaNya",
-    "totalCopies": 4338,
+    "totalCopies": 4339,
     "maps": [
       {
         "id": "SheaNyaBrrrr1558Jumpstyle",
@@ -1154,7 +1154,7 @@
       {
         "id": "SheaNyaTasukete3327DeadInside",
         "name": "Dead Inside",
-        "copies": 264,
+        "copies": 265,
         "notes": 3327,
         "artist": "WUANT X BLUNDER",
         "difficulty": "Tasukete"
@@ -1569,7 +1569,7 @@
   },
   "Matt430": {
     "displayName": "Matt430",
-    "totalCopies": 621,
+    "totalCopies": 620,
     "maps": [
       {
         "id": "Matt430Brrrr1946ETHEREALVELOCITY",
@@ -1580,7 +1580,7 @@
       {
         "id": "Matt430Tasukete29002024BPMISNOTENOUGH",
         "name": "2024 BPM IS NOT ENOUGH",
-        "copies": 501,
+        "copies": 500,
         "notes": 2900,
         "artist": "Underscore",
         "difficulty": "Tasukete"
