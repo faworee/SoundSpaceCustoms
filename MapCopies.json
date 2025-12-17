@@ -1119,7 +1119,7 @@
   },
   "SheaNya": {
     "displayName": "SheaNya",
-    "totalCopies": 4336,
+    "totalCopies": 4337,
     "maps": [
       {
         "id": "SheaNyaBrrrr1558Jumpstyle",
@@ -1336,8 +1336,10 @@
       {
         "id": "SheaNyaBrrrr3507IWantYou",
         "name": "I Want You",
-        "copies": 81,
-        "notes": 3507
+        "copies": 82,
+        "notes": 3507,
+        "artist": "APM Music",
+        "difficulty": "Brrrr"
       },
       {
         "id": "SheaNyaBrrrr1409StepIntoIt",
@@ -1891,7 +1893,7 @@
   },
   "divetek": {
     "displayName": "divetek",
-    "totalCopies": 223,
+    "totalCopies": 222,
     "maps": [
       {
         "id": "divetekBrrrr1925BUTANE",
@@ -1914,7 +1916,7 @@
       {
         "id": "divetekbrrrr1963resistance",
         "name": "RESISTANCE",
-        "copies": 36,
+        "copies": 35,
         "notes": 1963,
         "artist": "Zytrx",
         "difficulty": "Brrrr"
