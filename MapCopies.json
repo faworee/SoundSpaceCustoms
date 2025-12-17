@@ -340,7 +340,7 @@
       {
         "id": "TacoTasukete2870HOTAKFUNK",
         "name": "HOTAKFUNK",
-        "copies": 364,
+        "copies": 365,
         "notes": 2870,
         "artist": "DJWahRA",
         "difficulty": "Tasukete"
@@ -348,7 +348,7 @@
       {
         "id": "TacoTasukete3590noescape",
         "name": "no escape",
-        "copies": 754,
+        "copies": 753,
         "notes": 3590,
         "artist": "d3r & m1v & asteria",
         "difficulty": "Tasukete"
@@ -2677,7 +2677,7 @@
   },
   "FpXHarborYT": {
     "displayName": "FpXHarborYT",
-    "totalCopies": 147,
+    "totalCopies": 146,
     "maps": [
       {
         "id": "FpXHarborYTLogic1513Control",
@@ -2706,7 +2706,7 @@
       {
         "id": "fpxharborytbrrrr2425thinkingaboutyou",
         "name": "Thinking About You",
-        "copies": 3,
+        "copies": 2,
         "notes": 2425,
         "artist": "Monstercat",
         "difficulty": "Brrrr"
