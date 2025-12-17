@@ -2413,7 +2413,7 @@
   },
   "Scxthes": {
     "displayName": "Scxthes",
-    "totalCopies": 1373,
+    "totalCopies": 1372,
     "maps": [
       {
         "id": "ScxthesLogic18224NDROMEDA",
@@ -2440,7 +2440,7 @@
       {
         "id": "ScxthesTasukete2599WASSA",
         "name": "WASSA",
-        "copies": 222,
+        "copies": 221,
         "notes": 2599,
         "artist": "HR",
         "difficulty": "Tasukete"
@@ -2835,12 +2835,12 @@
   },
   "reticentmemory": {
     "displayName": "reticentmemory",
-    "totalCopies": 15,
+    "totalCopies": 16,
     "maps": [
       {
         "id": "reticentmemoryTasukete3469FINALSTAND",
         "name": "FINAL STAND",
-        "copies": 15,
+        "copies": 16,
         "notes": 3469,
         "artist": "Underscore",
         "difficulty": "Tasukete"
