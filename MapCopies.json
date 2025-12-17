@@ -839,12 +839,12 @@
   },
   "zeroth": {
     "displayName": "zeroth",
-    "totalCopies": 2068,
+    "totalCopies": 2067,
     "maps": [
       {
         "id": "zerothBrrrr4944mymoon",
         "name": "my moon",
-        "copies": 734,
+        "copies": 733,
         "notes": 4944,
         "artist": "7ate",
         "difficulty": "Brrrr"
@@ -1069,13 +1069,15 @@
   },
   "Immortal": {
     "displayName": "Immortal",
-    "totalCopies": 916,
+    "totalCopies": 917,
     "maps": [
       {
         "id": "ImmortalTasukete2508Artcore",
         "name": "Artcore",
-        "copies": 554,
-        "notes": 2508
+        "copies": 555,
+        "notes": 2508,
+        "artist": "Mon",
+        "difficulty": "Tasukete"
       },
       {
         "id": "ImmortalBrrrr8276Bloom",
