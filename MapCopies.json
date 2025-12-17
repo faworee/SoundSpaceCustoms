@@ -311,7 +311,7 @@
   },
   "Taco": {
     "displayName": "Taco",
-    "totalCopies": 3181,
+    "totalCopies": 3182,
     "maps": [
       {
         "id": "TacoMedium354toxic",
@@ -330,8 +330,10 @@
       {
         "id": "TacoBrrrr2430CUTEMAKMAKFUNK",
         "name": "CUTEMAKMAKFUNK",
-        "copies": 448,
-        "notes": 2430
+        "copies": 449,
+        "notes": 2430,
+        "artist": "DJWahRA",
+        "difficulty": "Brrrr"
       },
       {
         "id": "TacoBrrrr1293KillEverybody",
@@ -2771,12 +2773,12 @@
   },
   "reticentmemory": {
     "displayName": "reticentmemory",
-    "totalCopies": 12,
+    "totalCopies": 11,
     "maps": [
       {
         "id": "reticentmemoryTasukete3469FINALSTAND",
         "name": "FINAL STAND",
-        "copies": 12,
+        "copies": 11,
         "notes": 3469,
         "artist": "Underscore",
         "difficulty": "Tasukete"
