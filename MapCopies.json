@@ -2205,7 +2205,7 @@
   },
   "Sdrullo": {
     "displayName": "Sdrullo",
-    "totalCopies": 337,
+    "totalCopies": 338,
     "maps": [
       {
         "id": "SdrulloBrrrr1697Darkstar",
@@ -2222,8 +2222,10 @@
       {
         "id": "SdrulloBrrrr1421iwontgiveuponyou",
         "name": "i wont give up on you",
-        "copies": 234,
-        "notes": 1421
+        "copies": 235,
+        "notes": 1421,
+        "artist": "mon",
+        "difficulty": "Brrrr"
       }
     ]
   },
@@ -2617,7 +2619,7 @@
   },
   "narcissistnile": {
     "displayName": "narcissistnile",
-    "totalCopies": 1053,
+    "totalCopies": 1052,
     "maps": [
       {
         "id": "narcissistnileTasukete4186cowbellgod",
@@ -2638,7 +2640,7 @@
       {
         "id": "narcissistnileBrrrr1466Alone",
         "name": "Alone",
-        "copies": 313,
+        "copies": 312,
         "notes": 1466,
         "artist": "Lil Kuudere, sukoyomi",
         "difficulty": "Brrrr"
