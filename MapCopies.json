@@ -877,7 +877,7 @@
   },
   "Xilp": {
     "displayName": "Xilp",
-    "totalCopies": 2218,
+    "totalCopies": 2219,
     "maps": [
       {
         "id": "XilpBrrrr3215Bloom",
@@ -958,8 +958,10 @@
       {
         "id": "XilpBrrrr1678Karma",
         "name": "Karma",
-        "copies": 54,
-        "notes": 1678
+        "copies": 55,
+        "notes": 1678,
+        "artist": "Sacuna",
+        "difficulty": "Brrrr"
       },
       {
         "id": "XilpBrrrr1319rainbow",
@@ -2189,7 +2191,7 @@
   },
   "Sdrullo": {
     "displayName": "Sdrullo",
-    "totalCopies": 338,
+    "totalCopies": 337,
     "maps": [
       {
         "id": "SdrulloBrrrr1697Darkstar",
@@ -2200,10 +2202,8 @@
       {
         "id": "SdrulloBrrrr2532TheImpaler",
         "name": "The Impaler",
-        "copies": 39,
-        "notes": 2532,
-        "artist": "Nstryder",
-        "difficulty": "Brrrr"
+        "copies": 38,
+        "notes": 2532
       },
       {
         "id": "SdrulloBrrrr1421iwontgiveuponyou",
