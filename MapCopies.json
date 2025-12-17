@@ -833,12 +833,12 @@
   },
   "zeroth": {
     "displayName": "zeroth",
-    "totalCopies": 2066,
+    "totalCopies": 2065,
     "maps": [
       {
         "id": "zerothBrrrr4944mymoon",
         "name": "my moon",
-        "copies": 733,
+        "copies": 732,
         "notes": 4944,
         "artist": "7ate",
         "difficulty": "Brrrr"
@@ -1148,8 +1148,10 @@
       {
         "id": "SheaNyaTasukete5726EXTRA!",
         "name": "EXTRA!",
-        "copies": 452,
-        "notes": 5726
+        "copies": 453,
+        "notes": 5726,
+        "artist": "Underscore",
+        "difficulty": "Tasukete"
       },
       {
         "id": "SheaNyaTasukete2783wassa",
@@ -1214,10 +1216,8 @@
       {
         "id": "SheaNyaLogic1426control(prod.shinjin)",
         "name": "control (prod. shinjin)",
-        "copies": 62,
-        "notes": 1426,
-        "artist": "luvbackpack",
-        "difficulty": "Logic"
+        "copies": 61,
+        "notes": 1426
       },
       {
         "id": "SheaNyaBrrrr2802Juggernaut",
