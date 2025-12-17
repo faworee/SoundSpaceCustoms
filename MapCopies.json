@@ -457,7 +457,7 @@
   },
   "Demisnya": {
     "displayName": "Demisnya",
-    "totalCopies": 3159,
+    "totalCopies": 3158,
     "maps": [
       {
         "id": "DemisnyaBrrrr4240BassMonster",
@@ -732,10 +732,8 @@
       {
         "id": "DemisnyaBrrrr1624死にゆく自然(DyingNature)",
         "name": "死にゆく自然 (Dying Nature)",
-        "copies": 25,
-        "notes": 1624,
-        "artist": "diamond",
-        "difficulty": "Brrrr"
+        "copies": 24,
+        "notes": 1624
       },
       {
         "id": "DemisnyaBrrrr1330ChartreuseGreen",
@@ -1121,7 +1119,7 @@
   },
   "SheaNya": {
     "displayName": "SheaNya",
-    "totalCopies": 4336,
+    "totalCopies": 4337,
     "maps": [
       {
         "id": "SheaNyaBrrrr1558Jumpstyle",
@@ -1392,8 +1390,10 @@
       {
         "id": "SheaNyaBrrrr2809Grimoire",
         "name": "Grimoire",
-        "copies": 30,
-        "notes": 2809
+        "copies": 31,
+        "notes": 2809,
+        "artist": "Gardens",
+        "difficulty": "Brrrr"
       },
       {
         "id": "SheaNyaBrrrr1416istillfeelmorealonethanieverhavebeenwhenyouaren'there",
