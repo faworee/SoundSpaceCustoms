@@ -466,10 +466,8 @@
       {
         "id": "DemisnyaTasukete2010AAUGHH",
         "name": "AAUGHH",
-        "copies": 121,
-        "notes": 2010,
-        "artist": "Rutra",
-        "difficulty": "Tasukete"
+        "copies": 120,
+        "notes": 2010
       },
       {
         "id": "demisnyabrrrr1734fortalice",
@@ -518,8 +516,10 @@
       {
         "id": "DemisnyaTasukete1958//along/the/mystic/lands//",
         "name": "//along/the/mystic/lands//",
-        "copies": 93,
-        "notes": 1958
+        "copies": 94,
+        "notes": 1958,
+        "artist": "vizunavé",
+        "difficulty": "Tasukete"
       },
       {
         "id": "DemisnyaBrrrr2374Dogbite",
