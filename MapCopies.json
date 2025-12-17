@@ -2681,7 +2681,7 @@
   },
   "FpXHarborYT": {
     "displayName": "FpXHarborYT",
-    "totalCopies": 147,
+    "totalCopies": 146,
     "maps": [
       {
         "id": "FpXHarborYTLogic1513Control",
@@ -2698,7 +2698,7 @@
       {
         "id": "FpXHarborYTLogic912Alanwaad",
         "name": "Alanwaad ",
-        "copies": 35,
+        "copies": 34,
         "notes": 912
       },
       {
@@ -2731,12 +2731,12 @@
   },
   "reticentmemory": {
     "displayName": "reticentmemory",
-    "totalCopies": 9,
+    "totalCopies": 10,
     "maps": [
       {
         "id": "reticentmemoryTasukete3469FINALSTAND",
         "name": "FINAL STAND",
-        "copies": 9,
+        "copies": 10,
         "notes": 3469,
         "artist": "Underscore",
         "difficulty": "Tasukete"
