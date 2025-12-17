@@ -2599,7 +2599,7 @@
   },
   "FpXHarborYT": {
     "displayName": "FpXHarborYT",
-    "totalCopies": 144,
+    "totalCopies": 145,
     "maps": [
       {
         "id": "FpXHarborYTLogic1513Control",
@@ -2624,6 +2624,14 @@
         "name": "Protostar New Horizons",
         "copies": 2,
         "notes": 1859
+      },
+      {
+        "id": "fpxharborytbrrrr2425thinkingaboutyou",
+        "name": "Thinking About You",
+        "copies": 1,
+        "notes": 2425,
+        "artist": "Monstercat",
+        "difficulty": "Brrrr"
       }
     ]
   },
