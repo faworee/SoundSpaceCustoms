@@ -1829,12 +1829,12 @@
   },
   "Kappa": {
     "displayName": "Kappa",
-    "totalCopies": 503,
+    "totalCopies": 502,
     "maps": [
       {
         "id": "KappaBrrrr2234cyborgworkout",
         "name": "cyborg workout",
-        "copies": 122,
+        "copies": 121,
         "notes": 2234,
         "artist": "APM Music",
         "difficulty": "Brrrr"
@@ -2415,7 +2415,7 @@
   },
   "Scxthes": {
     "displayName": "Scxthes",
-    "totalCopies": 1377,
+    "totalCopies": 1378,
     "maps": [
       {
         "id": "ScxthesLogic18224NDROMEDA",
@@ -2458,7 +2458,7 @@
       {
         "id": "ScxthesTasukete3884HatedHero",
         "name": "Hated Hero",
-        "copies": 255,
+        "copies": 256,
         "notes": 3884,
         "artist": "MetaHumanBoi",
         "difficulty": "Tasukete"
