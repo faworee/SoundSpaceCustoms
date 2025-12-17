@@ -1439,15 +1439,13 @@
   },
   "OrAlex": {
     "displayName": "OrAlex",
-    "totalCopies": 1144,
+    "totalCopies": 1143,
     "maps": [
       {
         "id": "OrAlexTasukete10535realityisdecaying\\world-end.",
         "name": "reality is decaying\\world-end.",
-        "copies": 328,
-        "notes": 10535,
-        "artist": "Underscore",
-        "difficulty": "Tasukete"
+        "copies": 327,
+        "notes": 10535
       },
       {
         "id": "OrAlexTasukete5098ULTIMATUM",
@@ -1491,13 +1489,15 @@
   },
   "Xilp & OrAlex": {
     "displayName": "Xilp & OrAlex",
-    "totalCopies": 293,
+    "totalCopies": 294,
     "maps": [
       {
         "id": "Xilp&OrAlexBrrrr3551FINALHOPE",
         "name": "FINAL HOPE",
-        "copies": 293,
-        "notes": 3551
+        "copies": 294,
+        "notes": 3551,
+        "artist": "Underscore",
+        "difficulty": "Brrrr"
       }
     ]
   },
