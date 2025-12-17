@@ -407,13 +407,15 @@
   },
   "Alter/p183805": {
     "displayName": "Alter/p183805",
-    "totalCopies": 1091,
+    "totalCopies": 1092,
     "maps": [
       {
         "id": "Alter/p183805Brrrr1333CrabRave",
         "name": "Crab Rave",
-        "copies": 183,
-        "notes": 1333
+        "copies": 184,
+        "notes": 1333,
+        "artist": "Noisestorm",
+        "difficulty": "Brrrr"
       },
       {
         "id": "alterp183805brrrr2368outofmyhead",
@@ -883,15 +885,13 @@
   },
   "Xilp": {
     "displayName": "Xilp",
-    "totalCopies": 2221,
+    "totalCopies": 2220,
     "maps": [
       {
         "id": "XilpBrrrr3215Bloom",
         "name": "Bloom",
-        "copies": 174,
-        "notes": 3215,
-        "artist": "Throttle",
-        "difficulty": "Brrrr"
+        "copies": 173,
+        "notes": 3215
       },
       {
         "id": "XilpTasukete6297TeraI/O",
