@@ -1121,7 +1121,7 @@
   },
   "SheaNya": {
     "displayName": "SheaNya",
-    "totalCopies": 4336,
+    "totalCopies": 4337,
     "maps": [
       {
         "id": "SheaNyaBrrrr1558Jumpstyle",
@@ -1360,8 +1360,10 @@
       {
         "id": "SheaNyaBrrrr841Militiaforce",
         "name": "Militia force",
-        "copies": 55,
-        "notes": 841
+        "copies": 56,
+        "notes": 841,
+        "artist": "APM Music",
+        "difficulty": "Brrrr"
       },
       {
         "id": "SheaNyaLogic1090LatinRumble",
