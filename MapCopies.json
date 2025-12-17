@@ -1,7 +1,7 @@
 {
   "SnivyTrueForm": {
     "displayName": "SnivyTrueForm",
-    "totalCopies": 1321,
+    "totalCopies": 1322,
     "maps": [
       {
         "id": "SnivyTrueFormEasy1382MoreThanFriends",
@@ -14,8 +14,10 @@
       {
         "id": "SnivyTrueFormEasy499ここはどこ...?(Whereisthis...?)",
         "name": "ここはどこ...? (Where is this...?)",
-        "copies": 135,
-        "notes": 499
+        "copies": 136,
+        "notes": 499,
+        "artist": "Rizum",
+        "difficulty": "Easy"
       },
       {
         "id": "SnivyTrueFormBrrrr1760CatchMe",
@@ -379,7 +381,7 @@
   },
   "Alter/p183805": {
     "displayName": "Alter/p183805",
-    "totalCopies": 1091,
+    "totalCopies": 1090,
     "maps": [
       {
         "id": "Alter/p183805Brrrr1333CrabRave",
@@ -410,10 +412,8 @@
       {
         "id": "Alter/p183805Tasukete290MonkeysParty",
         "name": "Monkeys Party",
-        "copies": 223,
-        "notes": 290,
-        "artist": "Alex Tschallener",
-        "difficulty": "Tasukete"
+        "copies": 222,
+        "notes": 290
       }
     ]
   },
