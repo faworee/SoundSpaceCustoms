@@ -1,12 +1,12 @@
 {
   "SnivyTrueForm": {
     "displayName": "SnivyTrueForm",
-    "totalCopies": 1332,
+    "totalCopies": 1331,
     "maps": [
       {
         "id": "SnivyTrueFormEasy1382MoreThanFriends",
         "name": "More Than Friends",
-        "copies": 115,
+        "copies": 114,
         "notes": 1382,
         "artist": "Kazuya",
         "difficulty": "Easy"
@@ -1107,7 +1107,7 @@
   },
   "SheaNya": {
     "displayName": "SheaNya",
-    "totalCopies": 4331,
+    "totalCopies": 4332,
     "maps": [
       {
         "id": "SheaNyaBrrrr1558Jumpstyle",
@@ -1404,8 +1404,10 @@
       {
         "id": "SheaNyaBrrrr1908Words",
         "name": "Words",
-        "copies": 25,
-        "notes": 1908
+        "copies": 26,
+        "notes": 1908,
+        "artist": "X3ll3n",
+        "difficulty": "Brrrr"
       },
       {
         "id": "SheaNyaBrrrr2040waltzundbasse",
