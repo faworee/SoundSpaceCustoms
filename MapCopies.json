@@ -303,7 +303,7 @@
   },
   "Taco": {
     "displayName": "Taco",
-    "totalCopies": 3177,
+    "totalCopies": 3176,
     "maps": [
       {
         "id": "TacoMedium354toxic",
@@ -346,7 +346,7 @@
       {
         "id": "TacoTasukete3590noescape",
         "name": "no escape",
-        "copies": 753,
+        "copies": 752,
         "notes": 3590,
         "artist": "d3r & m1v & asteria",
         "difficulty": "Tasukete"
@@ -443,7 +443,7 @@
   },
   "Demisnya": {
     "displayName": "Demisnya",
-    "totalCopies": 3152,
+    "totalCopies": 3153,
     "maps": [
       {
         "id": "DemisnyaBrrrr4240BassMonster",
@@ -602,8 +602,10 @@
       {
         "id": "DemisnyaTasukete2842IntercosmicEcho2",
         "name": "Intercosmic Echo 2",
-        "copies": 147,
-        "notes": 2842
+        "copies": 148,
+        "notes": 2842,
+        "artist": "diamomd",
+        "difficulty": "Tasukete"
       },
       {
         "id": "DemisnyaBrrrr2238HATEDHERO",
