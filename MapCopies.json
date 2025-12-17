@@ -1097,7 +1097,7 @@
   },
   "SheaNya": {
     "displayName": "SheaNya",
-    "totalCopies": 4329,
+    "totalCopies": 4330,
     "maps": [
       {
         "id": "SheaNyaBrrrr1558Jumpstyle",
@@ -1266,8 +1266,10 @@
       {
         "id": "SheaNyaBrrrr1190PhonkVol.2-Back&TheFront",
         "name": "Phonk Vol. 2 - Back & The Front",
-        "copies": 64,
-        "notes": 1190
+        "copies": 65,
+        "notes": 1190,
+        "artist": "APM Music",
+        "difficulty": "Brrrr"
       },
       {
         "id": "SheaNyaLogic1564HappyWithYou",
@@ -2731,12 +2733,12 @@
   },
   "reticentmemory": {
     "displayName": "reticentmemory",
-    "totalCopies": 10,
+    "totalCopies": 9,
     "maps": [
       {
         "id": "reticentmemoryTasukete3469FINALSTAND",
         "name": "FINAL STAND",
-        "copies": 10,
+        "copies": 9,
         "notes": 3469,
         "artist": "Underscore",
         "difficulty": "Tasukete"
