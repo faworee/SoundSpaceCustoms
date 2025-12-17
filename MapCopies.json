@@ -1,7 +1,7 @@
 {
   "SnivyTrueForm": {
     "displayName": "SnivyTrueForm",
-    "totalCopies": 1335,
+    "totalCopies": 1334,
     "maps": [
       {
         "id": "SnivyTrueFormEasy1382MoreThanFriends",
@@ -36,7 +36,7 @@
       {
         "id": "SnivyTrueFormBrrrr2780Santa-chansWinterWonderlandAdventure",
         "name": "Santa-chans Winter Wonderland Adventure",
-        "copies": 53,
+        "copies": 52,
         "notes": 2780,
         "artist": "Nstryder",
         "difficulty": "Brrrr"
@@ -459,7 +459,7 @@
   },
   "Demisnya": {
     "displayName": "Demisnya",
-    "totalCopies": 3159,
+    "totalCopies": 3160,
     "maps": [
       {
         "id": "DemisnyaBrrrr4240BassMonster",
@@ -764,8 +764,10 @@
       {
         "id": "DemisnyaBrrrr1956Lexay",
         "name": "Lexay",
-        "copies": 59,
-        "notes": 1956
+        "copies": 60,
+        "notes": 1956,
+        "artist": "BossRush",
+        "difficulty": "Brrrr"
       },
       {
         "id": "DemisnyaBrrrr28411nputThis2Y0urSpine",
@@ -2743,7 +2745,7 @@
   },
   "FpXHarborYT": {
     "displayName": "FpXHarborYT",
-    "totalCopies": 148,
+    "totalCopies": 149,
     "maps": [
       {
         "id": "FpXHarborYTLogic1513Control",
@@ -2772,7 +2774,7 @@
       {
         "id": "fpxharborytbrrrr2425thinkingaboutyou",
         "name": "Thinking About You",
-        "copies": 4,
+        "copies": 5,
         "notes": 2425,
         "artist": "Monstercat",
         "difficulty": "Brrrr"
