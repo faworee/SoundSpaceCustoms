@@ -2499,13 +2499,15 @@
   },
   "JulienTheRoo": {
     "displayName": "JulienTheRoo",
-    "totalCopies": 28,
+    "totalCopies": 29,
     "maps": [
       {
         "id": "JulienTheRooBrrrr1614istillfeelmorealonethanieverhavebeenwhenyouaren'there",
         "name": "i still feel more alone than i ever have been when you aren't here",
-        "copies": 28,
-        "notes": 1614
+        "copies": 29,
+        "notes": 1614,
+        "artist": "633397",
+        "difficulty": "Brrrr"
       }
     ]
   },
