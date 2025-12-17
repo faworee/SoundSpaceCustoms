@@ -313,7 +313,7 @@
   },
   "Taco": {
     "displayName": "Taco",
-    "totalCopies": 3188,
+    "totalCopies": 3189,
     "maps": [
       {
         "id": "TacoMedium354toxic",
@@ -348,8 +348,10 @@
       {
         "id": "TacoLogic1804PLAY",
         "name": "PLAY",
-        "copies": 90,
-        "notes": 1804
+        "copies": 91,
+        "notes": 1804,
+        "artist": "Tokyo Machine",
+        "difficulty": "Logic"
       },
       {
         "id": "TacoTasukete2870HOTAKFUNK",
