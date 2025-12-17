@@ -407,7 +407,7 @@
   },
   "Alter/p183805": {
     "displayName": "Alter/p183805",
-    "totalCopies": 1092,
+    "totalCopies": 1091,
     "maps": [
       {
         "id": "Alter/p183805Brrrr1333CrabRave",
@@ -434,10 +434,8 @@
       {
         "id": "Alter/p183805Brrrr1066JET2HOLIDAYFUNK(Slowed)",
         "name": "JET 2 HOLIDAY FUNK (Slowed)",
-        "copies": 233,
-        "notes": 1066,
-        "artist": " jugsta",
-        "difficulty": "Brrrr"
+        "copies": 232,
+        "notes": 1066
       },
       {
         "id": "Alter/p183805Tasukete290MonkeysParty",
@@ -1595,7 +1593,7 @@
   },
   "xazthenpc": {
     "displayName": "xazthenpc",
-    "totalCopies": 446,
+    "totalCopies": 447,
     "maps": [
       {
         "id": "xazthenpcBrrrr7175BadAccess",
@@ -1606,8 +1604,10 @@
       {
         "id": "xazthenpcBrrrr6300死にゆく自然(DyingNature)",
         "name": "死にゆく自然 (Dying Nature)",
-        "copies": 44,
-        "notes": 6300
+        "copies": 45,
+        "notes": 6300,
+        "artist": "Diamond",
+        "difficulty": "Brrrr"
       },
       {
         "id": "xazthenpcBrrrr1077LoveSick!ft.Isabel",
