@@ -457,7 +457,7 @@
   },
   "Demisnya": {
     "displayName": "Demisnya",
-    "totalCopies": 3158,
+    "totalCopies": 3159,
     "maps": [
       {
         "id": "DemisnyaBrrrr4240BassMonster",
@@ -718,7 +718,7 @@
       {
         "id": "DemisnyaBrrrr3002AMiserablePileOfSecrets(TheImpalerII)",
         "name": "A Miserable Pile Of Secrets (The Impaler II)",
-        "copies": 49,
+        "copies": 50,
         "notes": 3002,
         "artist": "Nstryder",
         "difficulty": "Brrrr"
