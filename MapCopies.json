@@ -1125,7 +1125,7 @@
   },
   "SheaNya": {
     "displayName": "SheaNya",
-    "totalCopies": 4339,
+    "totalCopies": 4338,
     "maps": [
       {
         "id": "SheaNyaBrrrr1558Jumpstyle",
@@ -1230,10 +1230,8 @@
       {
         "id": "SheaNyaBrrrr2802Juggernaut",
         "name": "Juggernaut",
-        "copies": 119,
-        "notes": 2802,
-        "artist": "APM Music",
-        "difficulty": "Brrrr"
+        "copies": 118,
+        "notes": 2802
       },
       {
         "id": "SheaNyaBrrrr2514Chaos",
@@ -1807,7 +1805,7 @@
   },
   "Kappa": {
     "displayName": "Kappa",
-    "totalCopies": 499,
+    "totalCopies": 500,
     "maps": [
       {
         "id": "KappaBrrrr2234cyborgworkout",
@@ -1824,7 +1822,7 @@
       {
         "id": "KappaBrrrr3401plexus",
         "name": "plexus",
-        "copies": 147,
+        "copies": 148,
         "notes": 3401,
         "artist": "APM Music",
         "difficulty": "Brrrr"
