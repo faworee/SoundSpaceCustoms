@@ -2771,12 +2771,12 @@
   },
   "Silva": {
     "displayName": "Silva",
-    "totalCopies": 132,
+    "totalCopies": 131,
     "maps": [
       {
         "id": "SilvaBrrrr1865Hot",
         "name": "Hot",
-        "copies": 132,
+        "copies": 131,
         "notes": 1865,
         "artist": "FWLR",
         "difficulty": "Brrrr"
@@ -2825,12 +2825,12 @@
   },
   "Spica": {
     "displayName": "Spica",
-    "totalCopies": 80,
+    "totalCopies": 81,
     "maps": [
       {
         "id": "SpicaBrrrr2187Uproar",
         "name": "Uproar",
-        "copies": 80,
+        "copies": 81,
         "notes": 2187,
         "artist": "Tim Besamusca",
         "difficulty": "Brrrr"
