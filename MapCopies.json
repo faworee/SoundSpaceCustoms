@@ -340,7 +340,7 @@
       {
         "id": "TacoTasukete2870HOTAKFUNK",
         "name": "HOTAKFUNK",
-        "copies": 365,
+        "copies": 364,
         "notes": 2870,
         "artist": "DJWahRA",
         "difficulty": "Tasukete"
@@ -348,7 +348,7 @@
       {
         "id": "TacoTasukete3590noescape",
         "name": "no escape",
-        "copies": 753,
+        "copies": 754,
         "notes": 3590,
         "artist": "d3r & m1v & asteria",
         "difficulty": "Tasukete"
@@ -2637,13 +2637,15 @@
   },
   "Senternal": {
     "displayName": "Senternal",
-    "totalCopies": 156,
+    "totalCopies": 157,
     "maps": [
       {
         "id": "SenternalTasukete2091Eeyuh!",
         "name": "Eeyuh!",
-        "copies": 156,
-        "notes": 2091
+        "copies": 157,
+        "notes": 2091,
+        "artist": "hr",
+        "difficulty": "Tasukete"
       }
     ]
   },
