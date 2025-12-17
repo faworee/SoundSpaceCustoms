@@ -1721,13 +1721,15 @@
   },
   "Xilp & porshii": {
     "displayName": "Xilp & porshii",
-    "totalCopies": 66,
+    "totalCopies": 67,
     "maps": [
       {
         "id": "Xilp&porshiiBrrrr3751WhatAreYouWaitingFor",
         "name": "What Are You Waiting For",
-        "copies": 66,
-        "notes": 3751
+        "copies": 67,
+        "notes": 3751,
+        "artist": "Stonebank",
+        "difficulty": "Brrrr"
       }
     ]
   },
@@ -2443,15 +2445,13 @@
   },
   "Noobourn": {
     "displayName": "Noobourn",
-    "totalCopies": 109,
+    "totalCopies": 108,
     "maps": [
       {
         "id": "NoobournBrrrr3800Stay(Metahumanboibootleg)",
         "name": "Stay (Metahumanboi bootleg)",
-        "copies": 109,
-        "notes": 3800,
-        "artist": "The Kid LAROI, Justin Bieber",
-        "difficulty": "Brrrr"
+        "copies": 108,
+        "notes": 3800
       }
     ]
   },
@@ -4422,12 +4422,12 @@
   },
   "TUPPICUNOTUFFMAPPER": {
     "displayName": "TUPPICUNOTUFFMAPPER",
-    "totalCopies": 3,
+    "totalCopies": 2,
     "maps": [
       {
         "id": "tuppicunotuffmapperbrrrr2862toxic",
         "name": "toxic",
-        "copies": 3,
+        "copies": 2,
         "notes": 2862,
         "artist": "d3r & 6arelyhuman & Pröz",
         "difficulty": "Brrrr"
