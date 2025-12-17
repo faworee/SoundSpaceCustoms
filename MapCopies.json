@@ -437,7 +437,7 @@
   },
   "Demisnya": {
     "displayName": "Demisnya",
-    "totalCopies": 3153,
+    "totalCopies": 3152,
     "maps": [
       {
         "id": "DemisnyaBrrrr4240BassMonster",
@@ -534,10 +534,8 @@
       {
         "id": "DemisnyaBrrrr1863Handshake",
         "name": "Handshake",
-        "copies": 67,
-        "notes": 1863,
-        "artist": "APM Music",
-        "difficulty": "Brrrr"
+        "copies": 66,
+        "notes": 1863
       },
       {
         "id": "DemisnyaBrrrr3491+ERABY+ECONNEC+10N",
@@ -805,7 +803,7 @@
   },
   "zeroth": {
     "displayName": "zeroth",
-    "totalCopies": 2062,
+    "totalCopies": 2063,
     "maps": [
       {
         "id": "zerothBrrrr4944mymoon",
@@ -834,8 +832,10 @@
       {
         "id": "zerothTasukete1763iwontgiveuponyou",
         "name": "i wont give up on you",
-        "copies": 503,
-        "notes": 1763
+        "copies": 504,
+        "notes": 1763,
+        "artist": "mon",
+        "difficulty": "Tasukete"
       }
     ]
   },
