@@ -459,7 +459,7 @@
   },
   "Demisnya": {
     "displayName": "Demisnya",
-    "totalCopies": 3160,
+    "totalCopies": 3159,
     "maps": [
       {
         "id": "DemisnyaBrrrr4240BassMonster",
@@ -564,10 +564,8 @@
       {
         "id": "DemisnyaBrrrr1863Handshake",
         "name": "Handshake",
-        "copies": 67,
-        "notes": 1863,
-        "artist": "APM Music",
-        "difficulty": "Brrrr"
+        "copies": 66,
+        "notes": 1863
       },
       {
         "id": "DemisnyaBrrrr3491+ERABY+ECONNEC+10N",
@@ -1127,7 +1125,7 @@
   },
   "SheaNya": {
     "displayName": "SheaNya",
-    "totalCopies": 4338,
+    "totalCopies": 4339,
     "maps": [
       {
         "id": "SheaNyaBrrrr1558Jumpstyle",
@@ -1344,8 +1342,10 @@
       {
         "id": "SheaNyaBrrrr3507IWantYou",
         "name": "I Want You",
-        "copies": 81,
-        "notes": 3507
+        "copies": 82,
+        "notes": 3507,
+        "artist": "APM Music",
+        "difficulty": "Brrrr"
       },
       {
         "id": "SheaNyaBrrrr1409StepIntoIt",
