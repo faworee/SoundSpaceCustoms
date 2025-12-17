@@ -1575,12 +1575,12 @@
   },
   "Xilp & OrAlex": {
     "displayName": "Xilp & OrAlex",
-    "totalCopies": 294,
+    "totalCopies": 295,
     "maps": [
       {
         "id": "Xilp&OrAlexBrrrr3551FINALHOPE",
         "name": "FINAL HOPE",
-        "copies": 294,
+        "copies": 295,
         "notes": 3551,
         "artist": "Underscore",
         "difficulty": "Brrrr"
@@ -2415,7 +2415,7 @@
   },
   "Scxthes": {
     "displayName": "Scxthes",
-    "totalCopies": 1375,
+    "totalCopies": 1374,
     "maps": [
       {
         "id": "ScxthesLogic18224NDROMEDA",
@@ -2428,7 +2428,7 @@
       {
         "id": "ScxthesTasukete4383OATHBREAKER",
         "name": "OATH BREAKER",
-        "copies": 385,
+        "copies": 384,
         "notes": 4383,
         "artist": "Underscore",
         "difficulty": "Tasukete"
