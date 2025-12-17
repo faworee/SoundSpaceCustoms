@@ -1701,12 +1701,12 @@
   },
   "Xazthenpc": {
     "displayName": "Xazthenpc",
-    "totalCopies": 52,
+    "totalCopies": 51,
     "maps": [
       {
         "id": "XazthenpcBrrrr5238Virus",
         "name": "Virus",
-        "copies": 52,
+        "copies": 51,
         "notes": 5238,
         "artist": "Galaxyless",
         "difficulty": "Brrrr"
@@ -2393,7 +2393,7 @@
   },
   "Scxthes": {
     "displayName": "Scxthes",
-    "totalCopies": 1362,
+    "totalCopies": 1363,
     "maps": [
       {
         "id": "ScxthesLogic18224NDROMEDA",
@@ -2426,7 +2426,7 @@
       {
         "id": "ScxthesBrrrr3408ForgettingWasMyOnlyOption",
         "name": "Forgetting Was My Only Option",
-        "copies": 110,
+        "copies": 111,
         "notes": 3408,
         "artist": "633397",
         "difficulty": "Brrrr"
@@ -2745,12 +2745,12 @@
   },
   "Silva": {
     "displayName": "Silva",
-    "totalCopies": 130,
+    "totalCopies": 129,
     "maps": [
       {
         "id": "SilvaBrrrr1865Hot",
         "name": "Hot",
-        "copies": 130,
+        "copies": 129,
         "notes": 1865,
         "artist": "FWLR",
         "difficulty": "Brrrr"
