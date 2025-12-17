@@ -2607,15 +2607,13 @@
   },
   "Senternal": {
     "displayName": "Senternal",
-    "totalCopies": 157,
+    "totalCopies": 156,
     "maps": [
       {
         "id": "SenternalTasukete2091Eeyuh!",
         "name": "Eeyuh!",
-        "copies": 157,
-        "notes": 2091,
-        "artist": "hr",
-        "difficulty": "Tasukete"
+        "copies": 156,
+        "notes": 2091
       }
     ]
   },
@@ -2647,7 +2645,7 @@
   },
   "FpXHarborYT": {
     "displayName": "FpXHarborYT",
-    "totalCopies": 146,
+    "totalCopies": 147,
     "maps": [
       {
         "id": "FpXHarborYTLogic1513Control",
@@ -2676,7 +2674,7 @@
       {
         "id": "fpxharborytbrrrr2425thinkingaboutyou",
         "name": "Thinking About You",
-        "copies": 2,
+        "copies": 3,
         "notes": 2425,
         "artist": "Monstercat",
         "difficulty": "Brrrr"
