@@ -1,7 +1,7 @@
 {
   "SnivyTrueForm": {
     "displayName": "SnivyTrueForm",
-    "totalCopies": 1322,
+    "totalCopies": 1321,
     "maps": [
       {
         "id": "SnivyTrueFormEasy1382MoreThanFriends",
@@ -172,10 +172,8 @@
       {
         "id": "SnivyTrueFormHard768onedayinyourbed",
         "name": "one day in your bed",
-        "copies": 27,
-        "notes": 768,
-        "artist": "jackuw",
-        "difficulty": "Hard"
+        "copies": 26,
+        "notes": 768
       },
       {
         "id": "SnivyTrueFormHard1083Overclocked",
@@ -297,13 +295,15 @@
   },
   "Taco": {
     "displayName": "Taco",
-    "totalCopies": 3174,
+    "totalCopies": 3175,
     "maps": [
       {
         "id": "TacoMedium354toxic",
         "name": "toxic",
-        "copies": 115,
-        "notes": 354
+        "copies": 116,
+        "notes": 354,
+        "artist": "d3r & 6arelyhuman & Pröz",
+        "difficulty": "Medium"
       },
       {
         "id": "TacoTasukete3061IntercosmicEcho",
