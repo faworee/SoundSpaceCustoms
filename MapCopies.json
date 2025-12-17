@@ -2269,7 +2269,7 @@
   },
   "Scxthes": {
     "displayName": "Scxthes",
-    "totalCopies": 1345,
+    "totalCopies": 1346,
     "maps": [
       {
         "id": "ScxthesLogic18224NDROMEDA",
@@ -2322,7 +2322,7 @@
       {
         "id": "ScxthesTasukete4878Expedite",
         "name": "Expedite",
-        "copies": 4,
+        "copies": 5,
         "notes": 4878,
         "artist": "Mon",
         "difficulty": "Tasukete"
@@ -4300,12 +4300,12 @@
   },
   "TUPPICUNOTUFFMAPPER": {
     "displayName": "TUPPICUNOTUFFMAPPER",
-    "totalCopies": 2,
+    "totalCopies": 1,
     "maps": [
       {
         "id": "tuppicunotuffmapperbrrrr2862toxic",
         "name": "toxic",
-        "copies": 2,
+        "copies": 1,
         "notes": 2862,
         "artist": "d3r & 6arelyhuman & Pröz",
         "difficulty": "Brrrr"
