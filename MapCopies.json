@@ -1063,7 +1063,7 @@
   },
   "SheaNya": {
     "displayName": "SheaNya",
-    "totalCopies": 4320,
+    "totalCopies": 4321,
     "maps": [
       {
         "id": "SheaNyaBrrrr1558Jumpstyle",
@@ -1256,8 +1256,10 @@
       {
         "id": "SheaNyaBrrrr2569epicrace",
         "name": "epic race",
-        "copies": 86,
-        "notes": 2569
+        "copies": 87,
+        "notes": 2569,
+        "artist": "APM Music",
+        "difficulty": "Brrrr"
       },
       {
         "id": "SheaNyaBrrrr3507IWantYou",
@@ -2499,15 +2501,13 @@
   },
   "JulienTheRoo": {
     "displayName": "JulienTheRoo",
-    "totalCopies": 29,
+    "totalCopies": 28,
     "maps": [
       {
         "id": "JulienTheRooBrrrr1614istillfeelmorealonethanieverhavebeenwhenyouaren'there",
         "name": "i still feel more alone than i ever have been when you aren't here",
-        "copies": 29,
-        "notes": 1614,
-        "artist": "633397",
-        "difficulty": "Brrrr"
+        "copies": 28,
+        "notes": 1614
       }
     ]
   },
