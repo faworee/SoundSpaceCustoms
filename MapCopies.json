@@ -1256,8 +1256,10 @@
       {
         "id": "SheaNyaBrrrr2541PhonkVol.1-BellPepper",
         "name": "Phonk Vol. 1 - Bell Pepper",
-        "copies": 51,
-        "notes": 2541
+        "copies": 52,
+        "notes": 2541,
+        "artist": "APM Music",
+        "difficulty": "Brrrr"
       },
       {
         "id": "SheaNyaBrrrr1190PhonkVol.2-Back&TheFront",
@@ -1312,10 +1314,8 @@
       {
         "id": "SheaNyaBrrrr1409StepIntoIt",
         "name": "Step Into It",
-        "copies": 56,
-        "notes": 1409,
-        "artist": "APM Music",
-        "difficulty": "Brrrr"
+        "copies": 55,
+        "notes": 1409
       },
       {
         "id": "sheanyabrrrr2263vulture2",
