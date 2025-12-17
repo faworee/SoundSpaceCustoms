@@ -407,7 +407,7 @@
   },
   "Alter/p183805": {
     "displayName": "Alter/p183805",
-    "totalCopies": 1092,
+    "totalCopies": 1091,
     "maps": [
       {
         "id": "Alter/p183805Brrrr1333CrabRave",
@@ -426,7 +426,7 @@
       {
         "id": "Alter/p183805Tasukete1430Base",
         "name": "Base",
-        "copies": 336,
+        "copies": 335,
         "notes": 1430,
         "artist": "sximanes",
         "difficulty": "Tasukete"
@@ -879,7 +879,7 @@
   },
   "Xilp": {
     "displayName": "Xilp",
-    "totalCopies": 2219,
+    "totalCopies": 2220,
     "maps": [
       {
         "id": "XilpBrrrr3215Bloom",
@@ -922,8 +922,10 @@
       {
         "id": "XilpTasukete3510HadronCollision",
         "name": "Hadron Collision",
-        "copies": 253,
-        "notes": 3510
+        "copies": 254,
+        "notes": 3510,
+        "artist": "Zytrx",
+        "difficulty": "Tasukete"
       },
       {
         "id": "XilpBrrrr3050SolarStrike",
@@ -1901,7 +1903,7 @@
   },
   "divetek": {
     "displayName": "divetek",
-    "totalCopies": 223,
+    "totalCopies": 222,
     "maps": [
       {
         "id": "divetekBrrrr1925BUTANE",
@@ -1924,7 +1926,7 @@
       {
         "id": "divetekbrrrr1963resistance",
         "name": "RESISTANCE",
-        "copies": 36,
+        "copies": 35,
         "notes": 1963,
         "artist": "Zytrx",
         "difficulty": "Brrrr"
@@ -2727,12 +2729,12 @@
   },
   "Silva": {
     "displayName": "Silva",
-    "totalCopies": 129,
+    "totalCopies": 130,
     "maps": [
       {
         "id": "SilvaBrrrr1865Hot",
         "name": "Hot",
-        "copies": 129,
+        "copies": 130,
         "notes": 1865,
         "artist": "FWLR",
         "difficulty": "Brrrr"
