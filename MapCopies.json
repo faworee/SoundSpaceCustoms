@@ -1969,15 +1969,13 @@
   },
   "spoob": {
     "displayName": "spoob",
-    "totalCopies": 210,
+    "totalCopies": 209,
     "maps": [
       {
         "id": "spoobTasukete3193AMiserablePileOfSecrets(TheImpalerII)",
         "name": "A Miserable Pile Of Secrets (The Impaler II)",
-        "copies": 169,
-        "notes": 3193,
-        "artist": "Nstryder",
-        "difficulty": "Tasukete"
+        "copies": 168,
+        "notes": 3193
       },
       {
         "id": "spoobTasukete5437TeraI/O",
@@ -2267,7 +2265,7 @@
   },
   "Scxthes": {
     "displayName": "Scxthes",
-    "totalCopies": 1340,
+    "totalCopies": 1341,
     "maps": [
       {
         "id": "ScxthesLogic18224NDROMEDA",
@@ -2316,7 +2314,7 @@
       {
         "id": "ScxthesTasukete4878Expedite",
         "name": "Expedite",
-        "copies": 2,
+        "copies": 3,
         "notes": 4878,
         "artist": "Mon",
         "difficulty": "Tasukete"
@@ -2669,12 +2667,12 @@
   },
   "reticentmemory": {
     "displayName": "reticentmemory",
-    "totalCopies": 3,
+    "totalCopies": 4,
     "maps": [
       {
         "id": "reticentmemoryTasukete3469FINALSTAND",
         "name": "FINAL STAND",
-        "copies": 3,
+        "copies": 4,
         "notes": 3469,
         "artist": "Underscore",
         "difficulty": "Tasukete"
@@ -4294,12 +4292,12 @@
   },
   "TUPPICUNOTUFFMAPPER": {
     "displayName": "TUPPICUNOTUFFMAPPER",
-    "totalCopies": 1,
+    "totalCopies": 2,
     "maps": [
       {
         "id": "tuppicunotuffmapperbrrrr2862toxic",
         "name": "toxic",
-        "copies": 1,
+        "copies": 2,
         "notes": 2862,
         "artist": "d3r & 6arelyhuman & Pröz",
         "difficulty": "Brrrr"
