@@ -431,7 +431,7 @@
   },
   "Demisnya": {
     "displayName": "Demisnya",
-    "totalCopies": 3151,
+    "totalCopies": 3152,
     "maps": [
       {
         "id": "DemisnyaBrrrr4240BassMonster",
@@ -582,8 +582,10 @@
       {
         "id": "DemisnyaTasukete1463002:DIVINEINQUISITION",
         "name": "002: DIVINE INQUISITION",
-        "copies": 86,
-        "notes": 1463
+        "copies": 87,
+        "notes": 1463,
+        "artist": "SPIRIT GARDEN *",
+        "difficulty": "Tasukete"
       },
       {
         "id": "DemisnyaTasukete2842IntercosmicEcho2",
@@ -2265,7 +2267,7 @@
   },
   "Scxthes": {
     "displayName": "Scxthes",
-    "totalCopies": 1346,
+    "totalCopies": 1345,
     "maps": [
       {
         "id": "ScxthesLogic18224NDROMEDA",
@@ -2318,7 +2320,7 @@
       {
         "id": "ScxthesTasukete4878Expedite",
         "name": "Expedite",
-        "copies": 5,
+        "copies": 4,
         "notes": 4878,
         "artist": "Mon",
         "difficulty": "Tasukete"
