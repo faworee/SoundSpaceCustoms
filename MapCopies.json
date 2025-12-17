@@ -431,7 +431,7 @@
   },
   "Demisnya": {
     "displayName": "Demisnya",
-    "totalCopies": 3153,
+    "totalCopies": 3152,
     "maps": [
       {
         "id": "DemisnyaBrrrr4240BassMonster",
@@ -540,10 +540,8 @@
       {
         "id": "DemisnyaBrrrr2720IntercosmicEcho",
         "name": "Intercosmic Echo",
-        "copies": 107,
-        "notes": 2720,
-        "artist": "diamomd",
-        "difficulty": "Brrrr"
+        "copies": 106,
+        "notes": 2720
       },
       {
         "id": "DemisnyaBrrrr1350IdealWorld",
@@ -2271,7 +2269,7 @@
   },
   "Scxthes": {
     "displayName": "Scxthes",
-    "totalCopies": 1346,
+    "totalCopies": 1345,
     "maps": [
       {
         "id": "ScxthesLogic18224NDROMEDA",
@@ -2324,7 +2322,7 @@
       {
         "id": "ScxthesTasukete4878Expedite",
         "name": "Expedite",
-        "copies": 5,
+        "copies": 4,
         "notes": 4878,
         "artist": "Mon",
         "difficulty": "Tasukete"
@@ -4302,12 +4300,12 @@
   },
   "TUPPICUNOTUFFMAPPER": {
     "displayName": "TUPPICUNOTUFFMAPPER",
-    "totalCopies": 1,
+    "totalCopies": 2,
     "maps": [
       {
         "id": "tuppicunotuffmapperbrrrr2862toxic",
         "name": "toxic",
-        "copies": 1,
+        "copies": 2,
         "notes": 2862,
         "artist": "d3r & 6arelyhuman & Pröz",
         "difficulty": "Brrrr"
