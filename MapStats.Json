@@ -1,0 +1,4259 @@
+{
+    "SnivyTrueForm": {
+        "displayName": "SnivyTrueForm",
+        "totalCopies": 1319,
+        "maps": [
+            {
+                "id": "SnivyTrueFormEasy1382MoreThanFriends",
+                "name": "More Than Friends",
+                "copies": 111,
+                "notes": 1382
+            },
+            {
+                "id": "SnivyTrueFormEasy499ここはどこ...?(Whereisthis...?)",
+                "name": "ここはどこ...? (Where is this...?)",
+                "copies": 135,
+                "notes": 499
+            },
+            {
+                "id": "SnivyTrueFormBrrrr1760CatchMe",
+                "name": "Catch Me",
+                "copies": 40,
+                "notes": 1760
+            },
+            {
+                "id": "snivytrueformbrrrr2260mach874939",
+                "name": "MACH 874939",
+                "copies": 36,
+                "notes": 2260,
+                "artist": "Zytrx",
+                "difficulty": "Brrrr"
+            },
+            {
+                "id": "SnivyTrueFormBrrrr2780Santa-chansWinterWonderlandAdventure",
+                "name": "Santa-chans Winter Wonderland Adventure",
+                "copies": 50,
+                "notes": 2780
+            },
+            {
+                "id": "SnivyTrueFormTasukete3325StuffedJackal",
+                "name": "Stuffed Jackal",
+                "copies": 92,
+                "notes": 3325
+            },
+            {
+                "id": "SnivyTrueFormHard1543AtTheEndOfTime",
+                "name": "At The End Of Time",
+                "copies": 20,
+                "notes": 1543
+            },
+            {
+                "id": "SnivyTrueFormBrrrr1304PsychedFevereiro",
+                "name": "Psyched Fevereiro",
+                "copies": 38,
+                "notes": 1304
+            },
+            {
+                "id": "SnivyTrueFormBrrrr1995waltzundbasse",
+                "name": "waltz und basse",
+                "copies": 28,
+                "notes": 1995
+            },
+            {
+                "id": "SnivyTrueFormHard1111Grimoire",
+                "name": "Grimoire",
+                "copies": 12,
+                "notes": 1111
+            },
+            {
+                "id": "SnivyTrueFormBrrrr507Underscore",
+                "name": "Underscore",
+                "copies": 35,
+                "notes": 507
+            },
+            {
+                "id": "SnivyTrueFormBrrrr1448Blitz",
+                "name": "Blitz",
+                "copies": 27,
+                "notes": 1448
+            },
+            {
+                "id": "SnivyTrueFormLogic1940GlowMind",
+                "name": "Glow Mind",
+                "copies": 19,
+                "notes": 1940
+            },
+            {
+                "id": "SnivyTrueFormLogic807Propulsion",
+                "name": "Propulsion",
+                "copies": 18,
+                "notes": 807
+            },
+            {
+                "id": "SnivyTrueFormLogic2932IntercosmicEcho",
+                "name": "Intercosmic Echo",
+                "copies": 34,
+                "notes": 2932
+            },
+            {
+                "id": "SnivyTrueFormLogic1106Monday",
+                "name": "Monday",
+                "copies": 9,
+                "notes": 1106
+            },
+            {
+                "id": "SnivyTrueFormBrrrr5490UltraV",
+                "name": "Ultra V",
+                "copies": 35,
+                "notes": 5490
+            },
+            {
+                "id": "SnivyTrueFormHard418FarAway",
+                "name": "Far Away",
+                "copies": 9,
+                "notes": 418
+            },
+            {
+                "id": "SnivyTrueFormBrrrr2254HappyCaribbeanAdventure",
+                "name": "Happy Caribbean Adventure",
+                "copies": 19,
+                "notes": 2254
+            },
+            {
+                "id": "SnivyTrueFormBrrrr3746Time",
+                "name": "Time",
+                "copies": 22,
+                "notes": 3746
+            },
+            {
+                "id": "SnivyTrueFormBrrrr1832Home",
+                "name": "Home",
+                "copies": 20,
+                "notes": 1832
+            },
+            {
+                "id": "SnivyTrueFormLogic759LoveSick!ft.Isabel",
+                "name": "LoveSick! ft. Isabel",
+                "copies": 19,
+                "notes": 759
+            },
+            {
+                "id": "SnivyTrueFormBrrrr1788BlueCorgi",
+                "name": "Blue Corgi",
+                "copies": 38,
+                "notes": 1788
+            },
+            {
+                "id": "SnivyTrueFormBrrrr1326palette(りずむ-パレット)",
+                "name": "palette (りずむ - パレット)",
+                "copies": 16,
+                "notes": 1326
+            },
+            {
+                "id": "SnivyTrueFormBrrrr2352Feelthesame",
+                "name": "Feel the same",
+                "copies": 27,
+                "notes": 2352
+            },
+            {
+                "id": "SnivyTrueFormBrrrr1378PastelWaltz",
+                "name": "Pastel Waltz",
+                "copies": 26,
+                "notes": 1378
+            },
+            {
+                "id": "SnivyTrueFormHard545RainyNights",
+                "name": "Rainy Nights",
+                "copies": 20,
+                "notes": 545
+            },
+            {
+                "id": "SnivyTrueFormHard768onedayinyourbed",
+                "name": "one day in your bed",
+                "copies": 26,
+                "notes": 768
+            },
+            {
+                "id": "SnivyTrueFormHard1083Overclocked",
+                "name": "Overclocked",
+                "copies": 13,
+                "notes": 1083
+            },
+            {
+                "id": "SnivyTrueFormBrrrr3779AMiserablePileOfSecrets(TheImpalerII)",
+                "name": "A Miserable Pile Of Secrets (The Impaler II)",
+                "copies": 14,
+                "notes": 3779
+            },
+            {
+                "id": "snivytrueformbrrrr2135madness2022",
+                "name": "Madness 2022",
+                "copies": 23,
+                "notes": 2135,
+                "artist": "X3ll3n",
+                "difficulty": "Brrrr"
+            },
+            {
+                "id": "SnivyTrueFormLogic1917Wednesday",
+                "name": "Wednesday",
+                "copies": 5,
+                "notes": 1917
+            },
+            {
+                "id": "SnivyTrueFormBrrrr1212RunItBack",
+                "name": "Run It Back",
+                "copies": 11,
+                "notes": 1212
+            },
+            {
+                "id": "SnivyTrueFormLogic1204Words",
+                "name": "Words",
+                "copies": 16,
+                "notes": 1204
+            },
+            {
+                "id": "SnivyTrueFormBrrrr1297Cthulu",
+                "name": "Cthulu",
+                "copies": 87,
+                "notes": 1297
+            },
+            {
+                "id": "SnivyTrueFormHard702Color",
+                "name": "Color",
+                "copies": 4,
+                "notes": 702
+            },
+            {
+                "id": "SnivyTrueFormLogic605Twilightyears",
+                "name": "Twilight years",
+                "copies": 12,
+                "notes": 605
+            },
+            {
+                "id": "SnivyTrueFormBrrrr1618Execute",
+                "name": "Execute",
+                "copies": 46,
+                "notes": 1618
+            },
+            {
+                "id": "SnivyTrueFormHard659002:DIVINEINQUISITION",
+                "name": "002: DIVINE INQUISITION",
+                "copies": 7,
+                "notes": 659
+            },
+            {
+                "id": "SnivyTrueFormLogic1030iwishwehadmoretimetogether",
+                "name": "i wish we had more time together",
+                "copies": 46,
+                "notes": 1030
+            },
+            {
+                "id": "SnivyTrueFormBrrrr2272ChipHeaven",
+                "name": "Chip Heaven",
+                "copies": 10,
+                "notes": 2272
+            },
+            {
+                "id": "SnivyTrueFormHard841AAUGHH",
+                "name": "AAUGHH",
+                "copies": 10,
+                "notes": 841
+            },
+            {
+                "id": "SnivyTrueFormHard738SaveYou",
+                "name": "Save You",
+                "copies": 11,
+                "notes": 738
+            },
+            {
+                "id": "SnivyTrueFormBrrrr2575Aizome",
+                "name": "Aizome",
+                "copies": 9,
+                "notes": 2575
+            },
+            {
+                "id": "SnivyTrueFormHard901Friday",
+                "name": "Friday",
+                "copies": 10,
+                "notes": 901
+            },
+            {
+                "id": "SnivyTrueFormLogic1434Tuesday",
+                "name": "Tuesday",
+                "copies": 1,
+                "notes": 1434
+            },
+            {
+                "id": "SnivyTrueFormLogic2120Thursday",
+                "name": "Thursday",
+                "copies": 3,
+                "notes": 2120
+            }
+        ]
+    },
+    "Taco": {
+        "displayName": "Taco",
+        "totalCopies": 3174,
+        "maps": [
+            {
+                "id": "TacoMedium354toxic",
+                "name": "toxic",
+                "copies": 115,
+                "notes": 354
+            },
+            {
+                "id": "TacoTasukete3061IntercosmicEcho",
+                "name": "Intercosmic Echo",
+                "copies": 334,
+                "notes": 3061
+            },
+            {
+                "id": "TacoBrrrr2430CUTEMAKMAKFUNK",
+                "name": "CUTEMAKMAKFUNK",
+                "copies": 448,
+                "notes": 2430
+            },
+            {
+                "id": "TacoBrrrr1293KillEverybody",
+                "name": "Kill Everybody",
+                "copies": 70,
+                "notes": 1293
+            },
+            {
+                "id": "TacoLogic1804PLAY",
+                "name": "PLAY",
+                "copies": 90,
+                "notes": 1804
+            },
+            {
+                "id": "TacoTasukete2870HOTAKFUNK",
+                "name": "HOTAKFUNK",
+                "copies": 363,
+                "notes": 2870
+            },
+            {
+                "id": "TacoTasukete3590noescape",
+                "name": "no escape",
+                "copies": 751,
+                "notes": 3590
+            },
+            {
+                "id": "TacoTasukete2339CHWYKU",
+                "name": "CHWYKU",
+                "copies": 285,
+                "notes": 2339
+            },
+            {
+                "id": "TacoLogic2719Madness2022",
+                "name": "Madness 2022",
+                "copies": 95,
+                "notes": 2719
+            },
+            {
+                "id": "TacoTasukete1107skibidifanumtax",
+                "name": "skibidi fanum tax",
+                "copies": 208,
+                "notes": 1107
+            },
+            {
+                "id": "TacoBrrrr2157youreyes",
+                "name": "your eyes",
+                "copies": 127,
+                "notes": 2157
+            },
+            {
+                "id": "TacoTasukete1183TheCommunity",
+                "name": "The Community",
+                "copies": 250,
+                "notes": 1183
+            },
+            {
+                "id": "TacoLogic784Theme2(SoundSpaceLobbyTheme)",
+                "name": "Theme 2 (Sound Space Lobby Theme)",
+                "copies": 38,
+                "notes": 784
+            }
+        ]
+    },
+    "Alter\/p183805": {
+        "displayName": "Alter\/p183805",
+        "totalCopies": 1090,
+        "maps": [
+            {
+                "id": "Alter\/p183805Brrrr1333CrabRave",
+                "name": "Crab Rave",
+                "copies": 183,
+                "notes": 1333
+            },
+            {
+                "id": "alterp183805brrrr2368outofmyhead",
+                "name": "oUt oF mY HEad",
+                "copies": 119,
+                "notes": 2368,
+                "artist": "WUANT x BLUNDER",
+                "difficulty": "Brrrr"
+            },
+            {
+                "id": "Alter\/p183805Tasukete1430Base",
+                "name": "Base",
+                "copies": 334,
+                "notes": 1430
+            },
+            {
+                "id": "Alter\/p183805Brrrr1066JET2HOLIDAYFUNK(Slowed)",
+                "name": "JET 2 HOLIDAY FUNK (Slowed)",
+                "copies": 232,
+                "notes": 1066
+            },
+            {
+                "id": "Alter\/p183805Tasukete290MonkeysParty",
+                "name": "Monkeys Party",
+                "copies": 222,
+                "notes": 290
+            }
+        ]
+    },
+    "taco": {
+        "displayName": "taco",
+        "totalCopies": 1,
+        "maps": [
+            {
+                "id": "tacoBrrrr2157youreyes",
+                "name": "your eyes",
+                "copies": 1,
+                "notes": 2157
+            }
+        ]
+    },
+    "Demisnya": {
+        "displayName": "Demisnya",
+        "totalCopies": 3150,
+        "maps": [
+            {
+                "id": "DemisnyaBrrrr4240BassMonster",
+                "name": "Bass Monster",
+                "copies": 78,
+                "notes": 4240
+            },
+            {
+                "id": "DemisnyaBrrrr4450MLGCANDYDRIVE",
+                "name": "MLG CANDY DRIVE",
+                "copies": 25,
+                "notes": 4450
+            },
+            {
+                "id": "DemisnyaBrrrr2353attheendoftime",
+                "name": "at the end of time",
+                "copies": 58,
+                "notes": 2353
+            },
+            {
+                "id": "DemisnyaTasukete2010AAUGHH",
+                "name": "AAUGHH",
+                "copies": 120,
+                "notes": 2010
+            },
+            {
+                "id": "demisnyabrrrr1734fortalice",
+                "name": "FORTALiCE",
+                "copies": 17,
+                "notes": 1734,
+                "artist": "Zxnx",
+                "difficulty": "Brrrr"
+            },
+            {
+                "id": "DemisnyaBrrrr586ExtinctionWaltz",
+                "name": "Extinction Waltz",
+                "copies": 37,
+                "notes": 586
+            },
+            {
+                "id": "DemisnyaBrrrr2047Aizome",
+                "name": "Aizome",
+                "copies": 37,
+                "notes": 2047
+            },
+            {
+                "id": "DemisnyaBrrrr1032Nightune",
+                "name": "Nightune",
+                "copies": 37,
+                "notes": 1032
+            },
+            {
+                "id": "DemisnyaTasukete2943C0REC0NSTANT",
+                "name": "C0RE C0NSTANT",
+                "copies": 197,
+                "notes": 2943
+            },
+            {
+                "id": "DemisnyaBrrrr1956CatchMe",
+                "name": "Catch Me",
+                "copies": 23,
+                "notes": 1956
+            },
+            {
+                "id": "DemisnyaBrrrr1968SpeedOfSound",
+                "name": "Speed Of Sound",
+                "copies": 188,
+                "notes": 1968
+            },
+            {
+                "id": "DemisnyaTasukete1958\/\/along\/the\/mystic\/lands\/\/",
+                "name": "\/\/along\/the\/mystic\/lands\/\/",
+                "copies": 93,
+                "notes": 1958
+            },
+            {
+                "id": "DemisnyaBrrrr2374Dogbite",
+                "name": "Dogbite",
+                "copies": 38,
+                "notes": 2374
+            },
+            {
+                "id": "DemisnyaBrrrr3858AccessGranted",
+                "name": "Access Granted",
+                "copies": 116,
+                "notes": 3858
+            },
+            {
+                "id": "DemisnyaBrrrr841HighSpeedLane",
+                "name": "High Speed Lane",
+                "copies": 79,
+                "notes": 841
+            },
+            {
+                "id": "DemisnyaBrrrr1863Handshake",
+                "name": "Handshake",
+                "copies": 66,
+                "notes": 1863
+            },
+            {
+                "id": "DemisnyaBrrrr3491+ERABY+ECONNEC+10N",
+                "name": "+ERABY+E CONNEC+10N",
+                "copies": 79,
+                "notes": 3491
+            },
+            {
+                "id": "DemisnyaBrrrr2720IntercosmicEcho",
+                "name": "Intercosmic Echo",
+                "copies": 106,
+                "notes": 2720
+            },
+            {
+                "id": "DemisnyaBrrrr1350IdealWorld",
+                "name": "Ideal World",
+                "copies": 54,
+                "notes": 1350
+            },
+            {
+                "id": "DemisnyaBrrrr2853SunshineGroove",
+                "name": "Sunshine Groove",
+                "copies": 43,
+                "notes": 2853
+            },
+            {
+                "id": "DemisnyaLogic1675Rose-ColouredGlasses",
+                "name": "Rose-Coloured Glasses",
+                "copies": 39,
+                "notes": 1675
+            },
+            {
+                "id": "DemisnyaBrrrr2190StuffedJackal",
+                "name": "Stuffed Jackal",
+                "copies": 13,
+                "notes": 2190
+            },
+            {
+                "id": "DemisnyaBrrrr4993HardcoreUproar",
+                "name": "Hardcore Uproar",
+                "copies": 66,
+                "notes": 4993
+            },
+            {
+                "id": "DemisnyaBrrrr1518TrustedVillainVIP",
+                "name": "Trusted Villain VIP",
+                "copies": 34,
+                "notes": 1518
+            },
+            {
+                "id": "DemisnyaTasukete1463002:DIVINEINQUISITION",
+                "name": "002: DIVINE INQUISITION",
+                "copies": 86,
+                "notes": 1463
+            },
+            {
+                "id": "DemisnyaTasukete2842IntercosmicEcho2",
+                "name": "Intercosmic Echo 2",
+                "copies": 147,
+                "notes": 2842
+            },
+            {
+                "id": "DemisnyaBrrrr2238HATEDHERO",
+                "name": "HATED HERO",
+                "copies": 107,
+                "notes": 2238
+            },
+            {
+                "id": "DemisnyaBrrrr4654EmbraceTheNihil",
+                "name": "Embrace The Nihil",
+                "copies": 79,
+                "notes": 4654
+            },
+            {
+                "id": "DemisnyaBrrrr1758DanceInMyDigitalGarden",
+                "name": "Dance In My Digital Garden",
+                "copies": 27,
+                "notes": 1758
+            },
+            {
+                "id": "DemisnyaBrrrr1953Insane",
+                "name": "Insane",
+                "copies": 51,
+                "notes": 1953
+            },
+            {
+                "id": "DemisnyaBrrrr2146FeelTheSame",
+                "name": "Feel The Same",
+                "copies": 15,
+                "notes": 2146
+            },
+            {
+                "id": "DemisnyaBrrrr3405Flywitme",
+                "name": "Fly wit me",
+                "copies": 67,
+                "notes": 3405
+            },
+            {
+                "id": "DemisnyaBrrrr2420BadAccess",
+                "name": "Bad Access",
+                "copies": 37,
+                "notes": 2420
+            },
+            {
+                "id": "DemisnyaBrrrr1648MyFuture",
+                "name": "My Future",
+                "copies": 54,
+                "notes": 1648
+            },
+            {
+                "id": "DemisnyaBrrrr4999MoreThanFriends",
+                "name": "More Than Friends",
+                "copies": 57,
+                "notes": 4999
+            },
+            {
+                "id": "DemisnyaBrrrr2502Grimoire",
+                "name": "Grimoire",
+                "copies": 108,
+                "notes": 2502
+            },
+            {
+                "id": "DemisnyaBrrrr1473LoveSick!ft.Isabel",
+                "name": "LoveSick! ft. Isabel",
+                "copies": 24,
+                "notes": 1473
+            },
+            {
+                "id": "DemisnyaBrrrr3226Flamewall",
+                "name": "Flamewall",
+                "copies": 33,
+                "notes": 3226
+            },
+            {
+                "id": "DemisnyaBrrrr2310Gaea'sFeast",
+                "name": "Gaea's Feast",
+                "copies": 59,
+                "notes": 2310
+            },
+            {
+                "id": "DemisnyaBrrrr2181Achiga",
+                "name": "Achiga",
+                "copies": 16,
+                "notes": 2181
+            },
+            {
+                "id": "DemisnyaBrrrr3002AMiserablePileOfSecrets(TheImpalerII)",
+                "name": "A Miserable Pile Of Secrets (The Impaler II)",
+                "copies": 48,
+                "notes": 3002
+            },
+            {
+                "id": "DemisnyaBrrrr1942Overclocked",
+                "name": "Overclocked",
+                "copies": 16,
+                "notes": 1942
+            },
+            {
+                "id": "DemisnyaBrrrr1624死にゆく自然(DyingNature)",
+                "name": "死にゆく自然 (Dying Nature)",
+                "copies": 24,
+                "notes": 1624
+            },
+            {
+                "id": "DemisnyaBrrrr1330ChartreuseGreen",
+                "name": "Chartreuse Green",
+                "copies": 16,
+                "notes": 1330
+            },
+            {
+                "id": "DemisnyaBrrrr4998M1LLI0NPP",
+                "name": "M1LLI0N PP",
+                "copies": 46,
+                "notes": 4998
+            },
+            {
+                "id": "DemisnyaBrrrr2486RESISTANCE",
+                "name": "RESISTANCE",
+                "copies": 43,
+                "notes": 2486
+            },
+            {
+                "id": "DemisnyaBrrrr3723ClaíomhSolais'",
+                "name": "Claíomh Solais'",
+                "copies": 31,
+                "notes": 3723
+            },
+            {
+                "id": "DemisnyaBrrrr1956Lexay",
+                "name": "Lexay",
+                "copies": 59,
+                "notes": 1956
+            },
+            {
+                "id": "DemisnyaBrrrr28411nputThis2Y0urSpine",
+                "name": "1nput This 2 Y0ur Spine",
+                "copies": 35,
+                "notes": 2841
+            },
+            {
+                "id": "DemisnyaBrrrr2175Singularity",
+                "name": "Singularity",
+                "copies": 24,
+                "notes": 2175
+            },
+            {
+                "id": "DemisnyaBrrrr1989Project",
+                "name": "Project",
+                "copies": 9,
+                "notes": 1989
+            },
+            {
+                "id": "DemisnyaBrrrr2188BPM=RT",
+                "name": "BPM=RT",
+                "copies": 19,
+                "notes": 2188
+            },
+            {
+                "id": "DemisnyaBrrrr1398you'llfigureitout,youalwaysdo",
+                "name": "you'll figure it out, you always do",
+                "copies": 42,
+                "notes": 1398
+            },
+            {
+                "id": "DemisnyaBrrrr1210PanicDoggoFestival",
+                "name": "Panic Doggo Festival",
+                "copies": 22,
+                "notes": 1210
+            },
+            {
+                "id": "DemisnyaBrrrr1233istillfeelmorealonethanieverhavebeenwhenyouaren'there",
+                "name": "i still feel more alone than i ever have been when you aren't here",
+                "copies": 47,
+                "notes": 1233
+            },
+            {
+                "id": "DemisnyaBrrrr1967FightForThePresent",
+                "name": "Fight For The Present",
+                "copies": 16,
+                "notes": 1967
+            },
+            {
+                "id": "DemisnyaBrrrr2971VenturingintotheUnknown",
+                "name": "Venturing into the Unknown",
+                "copies": 29,
+                "notes": 2971
+            },
+            {
+                "id": "DemisnyaBrrrr2763GlowMind",
+                "name": "Glow Mind",
+                "copies": 5,
+                "notes": 2763
+            },
+            {
+                "id": "DemisnyaBrrrr1982DefragmentationOfTheGlassDimension",
+                "name": "Defragmentation Of The Glass Dimension",
+                "copies": 9,
+                "notes": 1982
+            }
+        ]
+    },
+    "zeroth": {
+        "displayName": "zeroth",
+        "totalCopies": 2062,
+        "maps": [
+            {
+                "id": "zerothBrrrr4944mymoon",
+                "name": "my moon",
+                "copies": 731,
+                "notes": 4944
+            },
+            {
+                "id": "zerothLogic2573ily",
+                "name": "ily",
+                "copies": 240,
+                "notes": 2573
+            },
+            {
+                "id": "zerothBrrrr3326jealous",
+                "name": "jealous",
+                "copies": 452,
+                "notes": 3326
+            },
+            {
+                "id": "zerothBrrrr1769H4MANIAYUH",
+                "name": "H4MANIA YUH",
+                "copies": 136,
+                "notes": 1769
+            },
+            {
+                "id": "zerothTasukete1763iwontgiveuponyou",
+                "name": "i wont give up on you",
+                "copies": 503,
+                "notes": 1763
+            }
+        ]
+    },
+    "Xilp": {
+        "displayName": "Xilp",
+        "totalCopies": 2214,
+        "maps": [
+            {
+                "id": "XilpBrrrr3215Bloom",
+                "name": "Bloom",
+                "copies": 173,
+                "notes": 3215
+            },
+            {
+                "id": "XilpTasukete6297TeraI\/O",
+                "name": "Tera I\/O",
+                "copies": 134,
+                "notes": 6297
+            },
+            {
+                "id": "xilpbrrrr2514mach874939",
+                "name": "MACH 874939",
+                "copies": 42,
+                "notes": 2514,
+                "artist": "Zytrx",
+                "difficulty": "Brrrr"
+            },
+            {
+                "id": "XilpBrrrr3012Moshi",
+                "name": "Moshi",
+                "copies": 75,
+                "notes": 3012
+            },
+            {
+                "id": "XilpBrrrr1545UltraV",
+                "name": "Ultra V",
+                "copies": 32,
+                "notes": 1545
+            },
+            {
+                "id": "XilpBrrrr3501Kyzaghan",
+                "name": "Kyzaghan",
+                "copies": 249,
+                "notes": 3501
+            },
+            {
+                "id": "XilpTasukete3510HadronCollision",
+                "name": "Hadron Collision",
+                "copies": 253,
+                "notes": 3510
+            },
+            {
+                "id": "XilpBrrrr3050SolarStrike",
+                "name": "Solar Strike",
+                "copies": 47,
+                "notes": 3050
+            },
+            {
+                "id": "XilpBrrrr1961onedayinyourbed",
+                "name": "one day in your bed",
+                "copies": 32,
+                "notes": 1961
+            },
+            {
+                "id": "XilpBrrrr2553TokyoDrift",
+                "name": "Tokyo Drift",
+                "copies": 131,
+                "notes": 2553
+            },
+            {
+                "id": "XilpBrrrr2128Machination",
+                "name": "Machination",
+                "copies": 127,
+                "notes": 2128
+            },
+            {
+                "id": "XilpBrrrr1673ChocolateShotgun",
+                "name": "Chocolate Shotgun",
+                "copies": 33,
+                "notes": 1673
+            },
+            {
+                "id": "XilpBrrrr1678Karma",
+                "name": "Karma",
+                "copies": 54,
+                "notes": 1678
+            },
+            {
+                "id": "XilpBrrrr1319rainbow",
+                "name": "rainbow",
+                "copies": 33,
+                "notes": 1319
+            },
+            {
+                "id": "XilpBrrrr4097DancewithSilence",
+                "name": "Dance with Silence",
+                "copies": 78,
+                "notes": 4097
+            },
+            {
+                "id": "XilpBrrrr2062CORRUPTEDDATABASE",
+                "name": "CORRUPTED DATABASE",
+                "copies": 52,
+                "notes": 2062
+            },
+            {
+                "id": "XilpBrrrr2200HappyCaribbeanAdventure",
+                "name": "Happy Caribbean Adventure",
+                "copies": 11,
+                "notes": 2200
+            },
+            {
+                "id": "XilpBrrrr1398AetheRKingdom",
+                "name": "AetheR Kingdom",
+                "copies": 45,
+                "notes": 1398
+            },
+            {
+                "id": "XilpBrrrr2308BUTANE",
+                "name": "BUTANE",
+                "copies": 51,
+                "notes": 2308
+            },
+            {
+                "id": "XilpBrrrr1958racetothelight",
+                "name": "race to the light",
+                "copies": 29,
+                "notes": 1958
+            },
+            {
+                "id": "XilpBrrrr1490RunItBack",
+                "name": "Run It Back",
+                "copies": 8,
+                "notes": 1490
+            },
+            {
+                "id": "XilpBrrrr1066Blitz",
+                "name": "Blitz",
+                "copies": 24,
+                "notes": 1066
+            },
+            {
+                "id": "XilpLogic1994Project",
+                "name": "Project",
+                "copies": 17,
+                "notes": 1994
+            },
+            {
+                "id": "XilpBrrrr2419GravitySwitch",
+                "name": "Gravity Switch",
+                "copies": 67,
+                "notes": 2419
+            },
+            {
+                "id": "XilpBrrrr3530ClaíomhSolais'",
+                "name": "Claíomh Solais'",
+                "copies": 20,
+                "notes": 3530
+            },
+            {
+                "id": "XilpBrrrr2713ComputeItWithSomeDevilishAlcoholicSteampunkEngines",
+                "name": "Compute It With Some Devilish Alcoholic Steampunk Engines",
+                "copies": 19,
+                "notes": 2713
+            },
+            {
+                "id": "XilpBrrrr1610UnknownLight",
+                "name": "Unknown Light",
+                "copies": 28,
+                "notes": 1610
+            },
+            {
+                "id": "XilpTasukete3187CYBER999",
+                "name": "CYBER 999",
+                "copies": 350,
+                "notes": 3187
+            }
+        ]
+    },
+    "Immortal": {
+        "displayName": "Immortal",
+        "totalCopies": 916,
+        "maps": [
+            {
+                "id": "ImmortalTasukete2508Artcore",
+                "name": "Artcore",
+                "copies": 554,
+                "notes": 2508
+            },
+            {
+                "id": "ImmortalBrrrr8276Bloom",
+                "name": "Bloom",
+                "copies": 362,
+                "notes": 8276
+            }
+        ]
+    },
+    "Pyxenity": {
+        "displayName": "Pyxenity",
+        "totalCopies": 439,
+        "maps": [
+            {
+                "id": "PyxenityBrrrr4876+ERABY+ECONNEC+10N",
+                "name": "+ERABY+E CONNEC+10N",
+                "copies": 84,
+                "notes": 4876
+            },
+            {
+                "id": "PyxenityBrrrr5566BadAccess",
+                "name": "Bad Access",
+                "copies": 79,
+                "notes": 5566
+            },
+            {
+                "id": "PyxenityBrrrr4665DancewithSilence",
+                "name": "Dance with Silence",
+                "copies": 107,
+                "notes": 4665
+            },
+            {
+                "id": "PyxenityTasukete2974DefragmentationOfTheGlassDimension",
+                "name": "Defragmentation Of The Glass Dimension",
+                "copies": 86,
+                "notes": 2974
+            },
+            {
+                "id": "PyxenityBrrrr1234ClassicChase",
+                "name": "Classic Chase",
+                "copies": 56,
+                "notes": 1234
+            },
+            {
+                "id": "PyxenityBrrrr2031002:DIVINEINQUISITION",
+                "name": "002: DIVINE INQUISITION",
+                "copies": 27,
+                "notes": 2031
+            }
+        ]
+    },
+    "SheaNya": {
+        "displayName": "SheaNya",
+        "totalCopies": 4320,
+        "maps": [
+            {
+                "id": "SheaNyaBrrrr1558Jumpstyle",
+                "name": "Jumpstyle",
+                "copies": 359,
+                "notes": 1558
+            },
+            {
+                "id": "SheaNyaTasukete2487Dogbite",
+                "name": "Dogbite",
+                "copies": 296,
+                "notes": 2487
+            },
+            {
+                "id": "SheaNyaBrrrr2668UltraV",
+                "name": "Ultra V",
+                "copies": 55,
+                "notes": 2668
+            },
+            {
+                "id": "SheaNyaTasukete3327DeadInside",
+                "name": "Dead Inside",
+                "copies": 263,
+                "notes": 3327
+            },
+            {
+                "id": "SheaNyaTasukete5726EXTRA!",
+                "name": "EXTRA!",
+                "copies": 452,
+                "notes": 5726
+            },
+            {
+                "id": "SheaNyaTasukete2783wassa",
+                "name": "wassa",
+                "copies": 467,
+                "notes": 2783
+            },
+            {
+                "id": "SheaNyaBrrrr2220Us",
+                "name": "Us",
+                "copies": 191,
+                "notes": 2220
+            },
+            {
+                "id": "SheaNyaLogic344ForTheUnderdog",
+                "name": "For The Underdog",
+                "copies": 19,
+                "notes": 344
+            },
+            {
+                "id": "SheaNyaBrrrr2155Lexay",
+                "name": "Lexay",
+                "copies": 33,
+                "notes": 2155
+            },
+            {
+                "id": "SheaNyaBrrrr1417AlarmForDoomsday",
+                "name": "Alarm For Doomsday",
+                "copies": 82,
+                "notes": 1417
+            },
+            {
+                "id": "SheaNyaBrrrr1405GreenEmerald",
+                "name": "Green Emerald",
+                "copies": 64,
+                "notes": 1405
+            },
+            {
+                "id": "SheaNyaBrrrr1217NoMatterWhat",
+                "name": "No Matter What",
+                "copies": 59,
+                "notes": 1217
+            },
+            {
+                "id": "SheaNyaBrrrr2547ABassRenaissance",
+                "name": "A Bass Renaissance",
+                "copies": 164,
+                "notes": 2547
+            },
+            {
+                "id": "SheaNyaBrrrr1226HeartAttack",
+                "name": "Heart Attack",
+                "copies": 89,
+                "notes": 1226
+            },
+            {
+                "id": "SheaNyaLogic1426control(prod.shinjin)",
+                "name": "control (prod. shinjin)",
+                "copies": 61,
+                "notes": 1426
+            },
+            {
+                "id": "SheaNyaBrrrr2802Juggernaut",
+                "name": "Juggernaut",
+                "copies": 118,
+                "notes": 2802
+            },
+            {
+                "id": "SheaNyaBrrrr2514Chaos",
+                "name": "Chaos",
+                "copies": 103,
+                "notes": 2514
+            },
+            {
+                "id": "SheaNyaBrrrr2242BPM=RT",
+                "name": "BPM=RT",
+                "copies": 85,
+                "notes": 2242
+            },
+            {
+                "id": "SheaNyaBrrrr2782Starspangledbanner",
+                "name": "Star spangled banner",
+                "copies": 101,
+                "notes": 2782
+            },
+            {
+                "id": "sheanyabrrrr1437wewishyouamerrychristmas",
+                "name": "We Wish You A Merry Christmas",
+                "copies": 30,
+                "notes": 1437,
+                "artist": "APM Music",
+                "difficulty": "Brrrr"
+            },
+            {
+                "id": "SheaNyaBrrrr2274BreathDeep",
+                "name": "Breath Deep",
+                "copies": 142,
+                "notes": 2274
+            },
+            {
+                "id": "SheaNyaLogic1580AAUGHH",
+                "name": "AAUGHH",
+                "copies": 20,
+                "notes": 1580
+            },
+            {
+                "id": "SheaNyaBrrrr796BeatThenScreech",
+                "name": "Beat Then Screech",
+                "copies": 91,
+                "notes": 796
+            },
+            {
+                "id": "SheaNyaBrrrr2312Insane",
+                "name": "Insane",
+                "copies": 17,
+                "notes": 2312
+            },
+            {
+                "id": "SheaNyaBrrrr2541PhonkVol.1-BellPepper",
+                "name": "Phonk Vol. 1 - Bell Pepper",
+                "copies": 51,
+                "notes": 2541
+            },
+            {
+                "id": "SheaNyaBrrrr1190PhonkVol.2-Back&TheFront",
+                "name": "Phonk Vol. 2 - Back & The Front",
+                "copies": 64,
+                "notes": 1190
+            },
+            {
+                "id": "SheaNyaLogic1564HappyWithYou",
+                "name": "Happy With You",
+                "copies": 37,
+                "notes": 1564
+            },
+            {
+                "id": "SheaNyaBrrrr1241Junglists",
+                "name": "Junglists",
+                "copies": 30,
+                "notes": 1241
+            },
+            {
+                "id": "SheaNyaBrrrr1392CanCanRemix",
+                "name": "Can Can Remix",
+                "copies": 87,
+                "notes": 1392
+            },
+            {
+                "id": "SheaNyaBrrrr2673BadAccess",
+                "name": "Bad Access",
+                "copies": 20,
+                "notes": 2673
+            },
+            {
+                "id": "SheaNyaBrrrr2157Home",
+                "name": "Home",
+                "copies": 25,
+                "notes": 2157
+            },
+            {
+                "id": "SheaNyaBrrrr2569epicrace",
+                "name": "epic race",
+                "copies": 86,
+                "notes": 2569
+            },
+            {
+                "id": "SheaNyaBrrrr3507IWantYou",
+                "name": "I Want You",
+                "copies": 81,
+                "notes": 3507
+            },
+            {
+                "id": "SheaNyaBrrrr1409StepIntoIt",
+                "name": "Step Into It",
+                "copies": 55,
+                "notes": 1409
+            },
+            {
+                "id": "sheanyabrrrr2263vulture2",
+                "name": "Vulture 2",
+                "copies": 13,
+                "notes": 2263,
+                "artist": "Rutra",
+                "difficulty": "Brrrr"
+            },
+            {
+                "id": "SheaNyaBrrrr841Militiaforce",
+                "name": "Militia force",
+                "copies": 55,
+                "notes": 841
+            },
+            {
+                "id": "SheaNyaLogic1090LatinRumble",
+                "name": "Latin Rumble",
+                "copies": 19,
+                "notes": 1090
+            },
+            {
+                "id": "SheaNyaBrrrr1410SeaWaves",
+                "name": "Sea Waves",
+                "copies": 44,
+                "notes": 1410
+            },
+            {
+                "id": "sheanyabrrrr3049outofmyhead",
+                "name": "oUt oF mY HEad",
+                "copies": 50,
+                "notes": 3049,
+                "artist": "WUANT x BLUNDER",
+                "difficulty": "Brrrr"
+            },
+            {
+                "id": "SheaNyaTasukete4329TeraI\/O",
+                "name": "Tera I\/O",
+                "copies": 42,
+                "notes": 4329
+            },
+            {
+                "id": "SheaNyaBrrrr2809Grimoire",
+                "name": "Grimoire",
+                "copies": 30,
+                "notes": 2809
+            },
+            {
+                "id": "SheaNyaBrrrr1416istillfeelmorealonethanieverhavebeenwhenyouaren'there",
+                "name": "i still feel more alone than i ever have been when you aren't here",
+                "copies": 24,
+                "notes": 1416
+            },
+            {
+                "id": "SheaNyaBrrrr1152LoveSick!ft.Isabel",
+                "name": "LoveSick! ft. Isabel",
+                "copies": 8,
+                "notes": 1152
+            },
+            {
+                "id": "SheaNyaBrrrr2284SolarStrike",
+                "name": "Solar Strike",
+                "copies": 13,
+                "notes": 2284
+            },
+            {
+                "id": "SheaNyaBrrrr2423thursday",
+                "name": "thursday",
+                "copies": 12,
+                "notes": 2423
+            },
+            {
+                "id": "SheaNyaBrrrr1908Words",
+                "name": "Words",
+                "copies": 25,
+                "notes": 1908
+            },
+            {
+                "id": "SheaNyaBrrrr2040waltzundbasse",
+                "name": "waltz und basse",
+                "copies": 20,
+                "notes": 2040
+            },
+            {
+                "id": "SheaNyaBrrrr1373WildTemple",
+                "name": "Wild Temple",
+                "copies": 5,
+                "notes": 1373
+            },
+            {
+                "id": "SheaNyaBrrrr1338PhonkVol.I-Phonk'tOut",
+                "name": "Phonk Vol. I - Phonk't Out",
+                "copies": 53,
+                "notes": 1338
+            },
+            {
+                "id": "SheaNyaLogic1774FightForthepresent",
+                "name": "Fight For the present",
+                "copies": 7,
+                "notes": 1774
+            },
+            {
+                "id": "SheaNyaBrrrr2105Tuesday",
+                "name": "Tuesday",
+                "copies": 3,
+                "notes": 2105
+            }
+        ]
+    },
+    "dillish": {
+        "displayName": "dillish",
+        "totalCopies": 74,
+        "maps": [
+            {
+                "id": "dillishBrrrr2079TrustedVillainVIP",
+                "name": "Trusted Villain VIP",
+                "copies": 74,
+                "notes": 2079
+            }
+        ]
+    },
+    "Unknown": {
+        "displayName": "Unknown",
+        "totalCopies": 36,
+        "maps": [
+            {
+                "id": "UnknownBrrrr4182RESISTANCE",
+                "name": "RESISTANCE",
+                "copies": 36,
+                "notes": 4182
+            }
+        ]
+    },
+    "OrAlex": {
+        "displayName": "OrAlex",
+        "totalCopies": 1143,
+        "maps": [
+            {
+                "id": "OrAlexTasukete10535realityisdecaying\\world-end.",
+                "name": "reality is decaying\\world-end.",
+                "copies": 327,
+                "notes": 10535
+            },
+            {
+                "id": "OrAlexTasukete5098ULTIMATUM",
+                "name": "ULTIMATUM",
+                "copies": 451,
+                "notes": 5098
+            },
+            {
+                "id": "OrAlexTasukete3237CYBER999",
+                "name": "CYBER 999",
+                "copies": 365,
+                "notes": 3237
+            }
+        ]
+    },
+    "faworee": {
+        "displayName": "faworee",
+        "totalCopies": 1383,
+        "maps": [
+            {
+                "id": "faworeeBrrrr2526eeyuh!",
+                "name": "eeyuh!",
+                "copies": 312,
+                "notes": 2526
+            },
+            {
+                "id": "faworeeTasukete5424CYBER999",
+                "name": "CYBER 999",
+                "copies": 945,
+                "notes": 5424
+            },
+            {
+                "id": "faworeeBrrrr2544Threshold",
+                "name": "Threshold",
+                "copies": 126,
+                "notes": 2544
+            }
+        ]
+    },
+    "Xilp & OrAlex": {
+        "displayName": "Xilp & OrAlex",
+        "totalCopies": 293,
+        "maps": [
+            {
+                "id": "Xilp&OrAlexBrrrr3551FINALHOPE",
+                "name": "FINAL HOPE",
+                "copies": 293,
+                "notes": 3551
+            }
+        ]
+    },
+    "Matt430": {
+        "displayName": "Matt430",
+        "totalCopies": 617,
+        "maps": [
+            {
+                "id": "Matt430Brrrr1946ETHEREALVELOCITY",
+                "name": "ETHEREAL VELOCITY",
+                "copies": 120,
+                "notes": 1946
+            },
+            {
+                "id": "Matt430Tasukete29002024BPMISNOTENOUGH",
+                "name": "2024 BPM IS NOT ENOUGH",
+                "copies": 497,
+                "notes": 2900
+            }
+        ]
+    },
+    "xazthenpc": {
+        "displayName": "xazthenpc",
+        "totalCopies": 445,
+        "maps": [
+            {
+                "id": "xazthenpcBrrrr7175BadAccess",
+                "name": "Bad Access",
+                "copies": 123,
+                "notes": 7175
+            },
+            {
+                "id": "xazthenpcBrrrr6300死にゆく自然(DyingNature)",
+                "name": "死にゆく自然 (Dying Nature)",
+                "copies": 44,
+                "notes": 6300
+            },
+            {
+                "id": "xazthenpcBrrrr1077LoveSick!ft.Isabel",
+                "name": "LoveSick! ft. Isabel",
+                "copies": 93,
+                "notes": 1077
+            },
+            {
+                "id": "xazthenpcBrrrr1771RunItBack",
+                "name": "Run It Back",
+                "copies": 16,
+                "notes": 1771
+            },
+            {
+                "id": "xazthenpcBrrrr2240BreathDeep",
+                "name": "Breath Deep",
+                "copies": 104,
+                "notes": 2240
+            },
+            {
+                "id": "xazthenpcBrrrr3278AMiserablePileOfSecrets(TheImpalerII)",
+                "name": "A Miserable Pile Of Secrets (The Impaler II)",
+                "copies": 48,
+                "notes": 3278
+            },
+            {
+                "id": "xazthenpcBrrrr2781DefragmentationOfTheGlassDimension",
+                "name": "Defragmentation Of The Glass Dimension",
+                "copies": 17,
+                "notes": 2781
+            }
+        ]
+    },
+    "canteloupe3727": {
+        "displayName": "canteloupe3727",
+        "totalCopies": 145,
+        "maps": [
+            {
+                "id": "canteloupe3727Brrrr5593M1LLI0NPP",
+                "name": "M1LLI0N PP",
+                "copies": 51,
+                "notes": 5593
+            },
+            {
+                "id": "canteloupe3727Brrrr1675Flowers",
+                "name": "Flowers",
+                "copies": 54,
+                "notes": 1675
+            },
+            {
+                "id": "canteloupe3727Brrrr2107ComputeItWithSomeDevilishAlcoholicSteampunkEngines",
+                "name": "Compute It With Some Devilish Alcoholic Steampunk Engines",
+                "copies": 22,
+                "notes": 2107
+            },
+            {
+                "id": "canteloupe3727Brrrr2084Hoshizora",
+                "name": "Hoshizora",
+                "copies": 18,
+                "notes": 2084
+            }
+        ]
+    },
+    "Worst Ghost Player": {
+        "displayName": "Worst Ghost Player",
+        "totalCopies": 440,
+        "maps": [
+            {
+                "id": "WorstGhostPlayerTasukete2205SPEEDCORENIGHTLIFE",
+                "name": "SPEEDCORE NIGHTLIFE",
+                "copies": 440,
+                "notes": 2205
+            }
+        ]
+    },
+    "jIMMYcSP": {
+        "displayName": "jIMMYcSP",
+        "totalCopies": 66,
+        "maps": [
+            {
+                "id": "jIMMYcSPBrrrr6312M1LLI0NPP",
+                "name": "M1LLI0N PP",
+                "copies": 66,
+                "notes": 6312
+            }
+        ]
+    },
+    "Xazthenpc": {
+        "displayName": "Xazthenpc",
+        "totalCopies": 50,
+        "maps": [
+            {
+                "id": "XazthenpcBrrrr5238Virus",
+                "name": "Virus",
+                "copies": 50,
+                "notes": 5238
+            }
+        ]
+    },
+    "China_Lightliz": {
+        "displayName": "China_Lightliz",
+        "totalCopies": 45,
+        "maps": [
+            {
+                "id": "China_LightlizBrrrr1584SolarStrike",
+                "name": "Solar Strike",
+                "copies": 45,
+                "notes": 1584
+            }
+        ]
+    },
+    "Xilp & porshii": {
+        "displayName": "Xilp & porshii",
+        "totalCopies": 66,
+        "maps": [
+            {
+                "id": "Xilp&porshiiBrrrr3751WhatAreYouWaitingFor",
+                "name": "What Are You Waiting For",
+                "copies": 66,
+                "notes": 3751
+            }
+        ]
+    },
+    "Llykae2009": {
+        "displayName": "Llykae2009",
+        "totalCopies": 71,
+        "maps": [
+            {
+                "id": "Llykae2009Brrrr2905Hijacked",
+                "name": "Hijacked",
+                "copies": 71,
+                "notes": 2905
+            }
+        ]
+    },
+    "h4z3fyx (gabrysj2012)": {
+        "displayName": "h4z3fyx (gabrysj2012)",
+        "totalCopies": 30,
+        "maps": [
+            {
+                "id": "h4z3fyx(gabrysj2012)Hard1049The13th",
+                "name": "The 13th",
+                "copies": 30,
+                "notes": 1049
+            }
+        ]
+    },
+    "Faworee": {
+        "displayName": "Faworee",
+        "totalCopies": 33,
+        "maps": [
+            {
+                "id": "FaworeeLogic1086Space",
+                "name": "Space",
+                "copies": 33,
+                "notes": 1086
+            }
+        ]
+    },
+    "curtival": {
+        "displayName": "curtival",
+        "totalCopies": 242,
+        "maps": [
+            {
+                "id": "curtivalTasukete6618africantribe",
+                "name": "african tribe",
+                "copies": 242,
+                "notes": 6618
+            }
+        ]
+    },
+    "azurlexx": {
+        "displayName": "azurlexx",
+        "totalCopies": 27,
+        "maps": [
+            {
+                "id": "azurlexxLogic2426+ERABY+ECONNEC+10N",
+                "name": "+ERABY+E CONNEC+10N",
+                "copies": 27,
+                "notes": 2426
+            }
+        ]
+    },
+    "Xilp & canteloupe3727": {
+        "displayName": "Xilp & canteloupe3727",
+        "totalCopies": 39,
+        "maps": [
+            {
+                "id": "Xilp&canteloupe3727Brrrr3127Ultradrive",
+                "name": "Ultradrive",
+                "copies": 39,
+                "notes": 3127
+            }
+        ]
+    },
+    "Kappa": {
+        "displayName": "Kappa",
+        "totalCopies": 495,
+        "maps": [
+            {
+                "id": "KappaBrrrr2234cyborgworkout",
+                "name": "cyborg workout",
+                "copies": 119,
+                "notes": 2234
+            },
+            {
+                "id": "KappaBrrrr1789behindmasks",
+                "name": "behind masks",
+                "copies": 122,
+                "notes": 1789
+            },
+            {
+                "id": "KappaBrrrr3401plexus",
+                "name": "plexus",
+                "copies": 144,
+                "notes": 3401
+            },
+            {
+                "id": "KappaBrrrr1116IntenseChase",
+                "name": "Intense Chase",
+                "copies": 39,
+                "notes": 1116
+            },
+            {
+                "id": "KappaBrrrr1213AssaultComplex",
+                "name": "Assault Complex",
+                "copies": 71,
+                "notes": 1213
+            }
+        ]
+    },
+    "Oralex": {
+        "displayName": "Oralex",
+        "totalCopies": 122,
+        "maps": [
+            {
+                "id": "OralexTasukete3016IntercosmicEcho2",
+                "name": "Intercosmic Echo 2",
+                "copies": 122,
+                "notes": 3016
+            }
+        ]
+    },
+    "Pyxenity, Alt": {
+        "displayName": "Pyxenity, Alt",
+        "totalCopies": 98,
+        "maps": [
+            {
+                "id": "Pyxenity,AltTasukete6000TeraI\/O",
+                "name": "Tera I\/O",
+                "copies": 98,
+                "notes": 6000
+            }
+        ]
+    },
+    "Nate10993": {
+        "displayName": "Nate10993",
+        "totalCopies": 119,
+        "maps": [
+            {
+                "id": "Nate10993Brrrr3616ComputeItWithSomeDevilishAlcoholicSteampunkEngines",
+                "name": "Compute It With Some Devilish Alcoholic Steampunk Engines",
+                "copies": 30,
+                "notes": 3616
+            },
+            {
+                "id": "Nate10993Brrrr2679IntercosmicEcho2",
+                "name": "Intercosmic Echo 2",
+                "copies": 89,
+                "notes": 2679
+            }
+        ]
+    },
+    "MrSoundSpace": {
+        "displayName": "MrSoundSpace",
+        "totalCopies": 22,
+        "maps": [
+            {
+                "id": "MrSoundSpaceBrrrr4594Flamewall",
+                "name": "Flamewall",
+                "copies": 22,
+                "notes": 4594
+            }
+        ]
+    },
+    "divetek": {
+        "displayName": "divetek",
+        "totalCopies": 222,
+        "maps": [
+            {
+                "id": "divetekBrrrr1925BUTANE",
+                "name": "BUTANE",
+                "copies": 98,
+                "notes": 1925
+            },
+            {
+                "id": "divetekBrrrr2761IntercosmicEcho",
+                "name": "Intercosmic Echo",
+                "copies": 68,
+                "notes": 2761
+            },
+            {
+                "id": "divetekBrrrr2347Polybreak",
+                "name": "Polybreak",
+                "copies": 21,
+                "notes": 2347
+            },
+            {
+                "id": "divetekbrrrr1963resistance",
+                "name": "RESISTANCE",
+                "copies": 35,
+                "notes": 1963,
+                "artist": "Zytrx",
+                "difficulty": "Brrrr"
+            }
+        ]
+    },
+    "Flvxify": {
+        "displayName": "Flvxify",
+        "totalCopies": 163,
+        "maps": [
+            {
+                "id": "FlvxifyLogic4914M1LLI0NPP",
+                "name": "M1LLI0N PP",
+                "copies": 75,
+                "notes": 4914
+            },
+            {
+                "id": "FlvxifyBrrrr1172CrystalCaves",
+                "name": "Crystal Caves",
+                "copies": 28,
+                "notes": 1172
+            },
+            {
+                "id": "FlvxifyBrrrr1040ChartreuseGreen",
+                "name": "Chartreuse Green",
+                "copies": 6,
+                "notes": 1040
+            },
+            {
+                "id": "FlvxifyBrrrr1360Dogbite",
+                "name": "Dogbite",
+                "copies": 16,
+                "notes": 1360
+            },
+            {
+                "id": "FlvxifyLogic1175\/\/along\/the\/mystic\/lands\/\/",
+                "name": "\/\/along\/the\/mystic\/lands\/\/",
+                "copies": 16,
+                "notes": 1175
+            },
+            {
+                "id": "flvxifybrrrr1627fortalice",
+                "name": "FORTALiCE",
+                "copies": 12,
+                "notes": 1627,
+                "artist": "Zxnx",
+                "difficulty": "Brrrr"
+            },
+            {
+                "id": "FlvxifyBrrrr1447RESISTANCE",
+                "name": "RESISTANCE",
+                "copies": 10,
+                "notes": 1447
+            }
+        ]
+    },
+    "ciem": {
+        "displayName": "ciem",
+        "totalCopies": 379,
+        "maps": [
+            {
+                "id": "ciemBrrrr2822freewings",
+                "name": "free wings",
+                "copies": 99,
+                "notes": 2822
+            },
+            {
+                "id": "ciemBrrrr695JobApplicationPhonk",
+                "name": "Job Application Phonk",
+                "copies": 74,
+                "notes": 695
+            },
+            {
+                "id": "ciemBrrrr1388theenragedfighters",
+                "name": "the enraged fighters",
+                "copies": 116,
+                "notes": 1388
+            },
+            {
+                "id": "ciemBrrrr1413SpeedMetaloverturn",
+                "name": "Speed Metal overturn",
+                "copies": 90,
+                "notes": 1413
+            }
+        ]
+    },
+    "porshii": {
+        "displayName": "porshii",
+        "totalCopies": 113,
+        "maps": [
+            {
+                "id": "porshiiBrrrr1415Wonderland",
+                "name": "Wonderland",
+                "copies": 30,
+                "notes": 1415
+            },
+            {
+                "id": "porshiiBrrrr2403HadronCollission",
+                "name": "Hadron Collission",
+                "copies": 40,
+                "notes": 2403
+            },
+            {
+                "id": "porshiiBrrrr603skibidifanumtax",
+                "name": "skibidi fanum tax",
+                "copies": 43,
+                "notes": 603
+            }
+        ]
+    },
+    "unknown": {
+        "displayName": "unknown",
+        "totalCopies": 38,
+        "maps": [
+            {
+                "id": "unknownLogic2403CalmVelocityB",
+                "name": "Calm Velocity B",
+                "copies": 38,
+                "notes": 2403
+            }
+        ]
+    },
+    "angy18gc": {
+        "displayName": "angy18gc",
+        "totalCopies": 46,
+        "maps": [
+            {
+                "id": "angy18gcBrrrr1956Lexay",
+                "name": "Lexay",
+                "copies": 46,
+                "notes": 1956
+            }
+        ]
+    },
+    "Ciem": {
+        "displayName": "Ciem",
+        "totalCopies": 92,
+        "maps": [
+            {
+                "id": "CiemBrrrr2398BreathDeep",
+                "name": "Breath Deep",
+                "copies": 92,
+                "notes": 2398
+            }
+        ]
+    },
+    "spoob": {
+        "displayName": "spoob",
+        "totalCopies": 209,
+        "maps": [
+            {
+                "id": "spoobTasukete3193AMiserablePileOfSecrets(TheImpalerII)",
+                "name": "A Miserable Pile Of Secrets (The Impaler II)",
+                "copies": 168,
+                "notes": 3193
+            },
+            {
+                "id": "spoobTasukete5437TeraI\/O",
+                "name": "Tera I\/O",
+                "copies": 41,
+                "notes": 5437
+            }
+        ]
+    },
+    "sev": {
+        "displayName": "sev",
+        "totalCopies": 623,
+        "maps": [
+            {
+                "id": "sevBrrrr4171RawHaus",
+                "name": "RawHaus",
+                "copies": 182,
+                "notes": 4171
+            },
+            {
+                "id": "sevBrrrr2495AVANGARD2.0",
+                "name": "AVANGARD 2.0",
+                "copies": 441,
+                "notes": 2495
+            }
+        ]
+    },
+    "kappa": {
+        "displayName": "kappa",
+        "totalCopies": 81,
+        "maps": [
+            {
+                "id": "kappaBrrrr3814Logicbomb",
+                "name": "Logic bomb",
+                "copies": 81,
+                "notes": 3814
+            }
+        ]
+    },
+    "Cake": {
+        "displayName": "Cake",
+        "totalCopies": 42,
+        "maps": [
+            {
+                "id": "CakeBrrrr1467The13th",
+                "name": "The 13th",
+                "copies": 42,
+                "notes": 1467
+            }
+        ]
+    },
+    "clvssicist": {
+        "displayName": "clvssicist",
+        "totalCopies": 170,
+        "maps": [
+            {
+                "id": "clvssicistBrrrr1162PsychedFevereiro",
+                "name": "Psyched Fevereiro",
+                "copies": 38,
+                "notes": 1162
+            },
+            {
+                "id": "clvssicistHard514afinalglance",
+                "name": "a final glance",
+                "copies": 36,
+                "notes": 514
+            },
+            {
+                "id": "clvssicistBrrrr1457\/\/along\/the\/mystic\/lands\/\/",
+                "name": "\/\/along\/the\/mystic\/lands\/\/",
+                "copies": 16,
+                "notes": 1457
+            },
+            {
+                "id": "clvssicistBrrrr2422NoMoreShinikuen",
+                "name": "No More Shinikuen",
+                "copies": 19,
+                "notes": 2422
+            },
+            {
+                "id": "clvssicistLogic1351Insane",
+                "name": "Insane",
+                "copies": 15,
+                "notes": 1351
+            },
+            {
+                "id": "clvssicistLogic941Dogbite",
+                "name": "Dogbite",
+                "copies": 21,
+                "notes": 941
+            },
+            {
+                "id": "clvssicistLogic1495BrokenFaith",
+                "name": "Broken Faith",
+                "copies": 25,
+                "notes": 1495
+            }
+        ]
+    },
+    "FuSe Omega & Pinchyl": {
+        "displayName": "FuSe Omega & Pinchyl",
+        "totalCopies": 56,
+        "maps": [
+            {
+                "id": "FuSeOmega&PinchylBrrrr1779HATEDHERO",
+                "name": "HATED HERO",
+                "copies": 56,
+                "notes": 1779
+            }
+        ]
+    },
+    "Sdrullo": {
+        "displayName": "Sdrullo",
+        "totalCopies": 337,
+        "maps": [
+            {
+                "id": "SdrulloBrrrr1697Darkstar",
+                "name": "Darkstar",
+                "copies": 65,
+                "notes": 1697
+            },
+            {
+                "id": "SdrulloBrrrr2532TheImpaler",
+                "name": "The Impaler",
+                "copies": 38,
+                "notes": 2532
+            },
+            {
+                "id": "SdrulloBrrrr1421iwontgiveuponyou",
+                "name": "i wont give up on you",
+                "copies": 234,
+                "notes": 1421
+            }
+        ]
+    },
+    "MattD430": {
+        "displayName": "MattD430",
+        "totalCopies": 49,
+        "maps": [
+            {
+                "id": "MattD430Brrrr1720CatchMe",
+                "name": "Catch Me",
+                "copies": 49,
+                "notes": 1720
+            }
+        ]
+    },
+    "goldenwatre": {
+        "displayName": "goldenwatre",
+        "totalCopies": 31,
+        "maps": [
+            {
+                "id": "goldenwatreBrrrr988thereforyou",
+                "name": "there for you",
+                "copies": 31,
+                "notes": 988
+            }
+        ]
+    },
+    "Orb1t": {
+        "displayName": "Orb1t",
+        "totalCopies": 37,
+        "maps": [
+            {
+                "id": "Orb1tBrrrr884RunItBack",
+                "name": "Run It Back",
+                "copies": 13,
+                "notes": 884
+            },
+            {
+                "id": "Orb1tBrrrr1679Project",
+                "name": "Project",
+                "copies": 9,
+                "notes": 1679
+            },
+            {
+                "id": "Orb1tBrrrr1571Aizome",
+                "name": "Aizome",
+                "copies": 15,
+                "notes": 1571
+            }
+        ]
+    },
+    "ZitroNitro & Azurlexx": {
+        "displayName": "ZitroNitro & Azurlexx",
+        "totalCopies": 31,
+        "maps": [
+            {
+                "id": "zitronitroazurlexxbrrrr1750fortalice",
+                "name": "FORTALiCE",
+                "copies": 18,
+                "notes": 1750,
+                "artist": "Zxnx",
+                "difficulty": "Brrrr"
+            },
+            {
+                "id": "ZitroNitro&AzurlexxBrrrr2137Aizome",
+                "name": "Aizome",
+                "copies": 13,
+                "notes": 2137
+            }
+        ]
+    },
+    "FuSe Omega and Pinchyl": {
+        "displayName": "FuSe Omega and Pinchyl",
+        "totalCopies": 23,
+        "maps": [
+            {
+                "id": "FuSeOmegaandPinchylBrrrr1218TrustedVillainVIP",
+                "name": "Trusted Villain VIP",
+                "copies": 23,
+                "notes": 1218
+            }
+        ]
+    },
+    "divetek & wasteful": {
+        "displayName": "divetek & wasteful",
+        "totalCopies": 30,
+        "maps": [
+            {
+                "id": "divetek&wastefulLogic15754ndromeda",
+                "name": "4ndromeda",
+                "copies": 30,
+                "notes": 1575
+            }
+        ]
+    },
+    "Fuse omega": {
+        "displayName": "Fuse omega",
+        "totalCopies": 10,
+        "maps": [
+            {
+                "id": "FuseomegaBrrrr978LoveSick!ft.Isabel",
+                "name": "LoveSick! ft. Isabel",
+                "copies": 10,
+                "notes": 978
+            }
+        ]
+    },
+    "Dyamodash": {
+        "displayName": "Dyamodash",
+        "totalCopies": 52,
+        "maps": [
+            {
+                "id": "DyamodashLogic2932sonicblaster",
+                "name": "sonic blaster",
+                "copies": 52,
+                "notes": 2932
+            }
+        ]
+    },
+    "MAttD430": {
+        "displayName": "MAttD430",
+        "totalCopies": 18,
+        "maps": [
+            {
+                "id": "MAttD430Brrrr4594Flamewall",
+                "name": "Flamewall",
+                "copies": 18,
+                "notes": 4594
+            }
+        ]
+    },
+    "teft2oo": {
+        "displayName": "teft2oo",
+        "totalCopies": 46,
+        "maps": [
+            {
+                "id": "teft2ooBrrrr1926FORTALiCE",
+                "name": "FORTALiCE",
+                "copies": 17,
+                "notes": 1926
+            },
+            {
+                "id": "teft2ooBrrrr1295ChartreuseGreen",
+                "name": "Chartreuse Green",
+                "copies": 15,
+                "notes": 1295
+            },
+            {
+                "id": "teft2ooBrrrr2500Feelthesame",
+                "name": "Feel the same",
+                "copies": 14,
+                "notes": 2500
+            }
+        ]
+    },
+    "Scxthes": {
+        "displayName": "Scxthes",
+        "totalCopies": 1338,
+        "maps": [
+            {
+                "id": "ScxthesLogic18224NDROMEDA",
+                "name": "4NDROMEDA",
+                "copies": 35,
+                "notes": 1822
+            },
+            {
+                "id": "ScxthesTasukete4383OATHBREAKER",
+                "name": "OATH BREAKER",
+                "copies": 378,
+                "notes": 4383
+            },
+            {
+                "id": "ScxthesTasukete4761EXTRA!",
+                "name": "EXTRA!",
+                "copies": 155,
+                "notes": 4761
+            },
+            {
+                "id": "ScxthesTasukete2599WASSA",
+                "name": "WASSA",
+                "copies": 219,
+                "notes": 2599
+            },
+            {
+                "id": "ScxthesBrrrr3408ForgettingWasMyOnlyOption",
+                "name": "Forgetting Was My Only Option",
+                "copies": 99,
+                "notes": 3408
+            },
+            {
+                "id": "ScxthesTasukete3884HatedHero",
+                "name": "Hated Hero",
+                "copies": 254,
+                "notes": 3884
+            },
+            {
+                "id": "ScxthesTasukete2421TrustedVillainVIP",
+                "name": "Trusted Villain VIP",
+                "copies": 197,
+                "notes": 2421
+            },
+            {
+                "id": "ScxthesTasukete4878Expedite",
+                "name": "Expedite",
+                "copies": 1,
+                "notes": 4878
+            }
+        ]
+    },
+    "Noobourn": {
+        "displayName": "Noobourn",
+        "totalCopies": 108,
+        "maps": [
+            {
+                "id": "NoobournBrrrr3800Stay(Metahumanboibootleg)",
+                "name": "Stay (Metahumanboi bootleg)",
+                "copies": 108,
+                "notes": 3800
+            }
+        ]
+    },
+    "Azurlexx": {
+        "displayName": "Azurlexx",
+        "totalCopies": 14,
+        "maps": [
+            {
+                "id": "AzurlexxBrrrr1950DanceInMyDigitalGarden",
+                "name": "Dance In My Digital Garden",
+                "copies": 14,
+                "notes": 1950
+            }
+        ]
+    },
+    "Rumine-reverie": {
+        "displayName": "Rumine-reverie",
+        "totalCopies": 14,
+        "maps": [
+            {
+                "id": "Rumine-reverieBrrrr1631Nevergiveup",
+                "name": "Never give up",
+                "copies": 14,
+                "notes": 1631
+            }
+        ]
+    },
+    "Crucru03": {
+        "displayName": "Crucru03",
+        "totalCopies": 26,
+        "maps": [
+            {
+                "id": "Crucru03Logic1944BrokenFaith",
+                "name": "Broken Faith",
+                "copies": 26,
+                "notes": 1944
+            }
+        ]
+    },
+    "Drako": {
+        "displayName": "Drako",
+        "totalCopies": 7,
+        "maps": [
+            {
+                "id": "DrakoBrrrr1682SolarStrike",
+                "name": "Solar Strike",
+                "copies": 7,
+                "notes": 1682
+            }
+        ]
+    },
+    "aMAZINGrIANO": {
+        "displayName": "aMAZINGrIANO",
+        "totalCopies": 39,
+        "maps": [
+            {
+                "id": "aMAZINGrIANOBrrrr3398IntercosmicEcho",
+                "name": "Intercosmic Echo",
+                "copies": 39,
+                "notes": 3398
+            }
+        ]
+    },
+    "Dataverg": {
+        "displayName": "Dataverg",
+        "totalCopies": 22,
+        "maps": [
+            {
+                "id": "DatavergBrrrr4545Flamewall",
+                "name": "Flamewall",
+                "copies": 22,
+                "notes": 4545
+            }
+        ]
+    },
+    "FuSe Omega": {
+        "displayName": "FuSe Omega",
+        "totalCopies": 27,
+        "maps": [
+            {
+                "id": "FuSeOmegaBrrrr1550Aizome",
+                "name": "Aizome",
+                "copies": 27,
+                "notes": 1550
+            }
+        ]
+    },
+    "Koneko": {
+        "displayName": "Koneko",
+        "totalCopies": 11,
+        "maps": [
+            {
+                "id": "KonekoBrrrr3530GlowMind",
+                "name": "Glow Mind",
+                "copies": 11,
+                "notes": 3530
+            }
+        ]
+    },
+    "allusionist": {
+        "displayName": "allusionist",
+        "totalCopies": 47,
+        "maps": [
+            {
+                "id": "allusionistBrrrr3000AMiserablePileOfSecrets(TheImpalerII)",
+                "name": "A Miserable Pile Of Secrets (The Impaler II)",
+                "copies": 47,
+                "notes": 3000
+            }
+        ]
+    },
+    "wot": {
+        "displayName": "wot",
+        "totalCopies": 22,
+        "maps": [
+            {
+                "id": "wotLogic3001+ERABY+ECONNECT10N",
+                "name": "+ERABY+E CONNECT10N",
+                "copies": 22,
+                "notes": 3001
+            }
+        ]
+    },
+    "cruwev": {
+        "displayName": "cruwev",
+        "totalCopies": 17,
+        "maps": [
+            {
+                "id": "cruwevBrrrr1571Dogbite",
+                "name": "Dogbite",
+                "copies": 17,
+                "notes": 1571
+            }
+        ]
+    },
+    "DyamoDash": {
+        "displayName": "DyamoDash",
+        "totalCopies": 30,
+        "maps": [
+            {
+                "id": "dyamodashbrrrr1935bpmrt",
+                "name": "BPM=RT",
+                "copies": 30,
+                "notes": 1935,
+                "artist": "t+pazolite",
+                "difficulty": "Brrrr"
+            }
+        ]
+    },
+    "🥺Pinchyl🥺": {
+        "displayName": "🥺Pinchyl🥺",
+        "totalCopies": 99,
+        "maps": [
+            {
+                "id": "🥺Pinchyl🥺Brrrr1194SolarStrike",
+                "name": "Solar Strike",
+                "copies": 99,
+                "notes": 1194
+            }
+        ]
+    },
+    "narcissistnile": {
+        "displayName": "narcissistnile",
+        "totalCopies": 1047,
+        "maps": [
+            {
+                "id": "narcissistnileTasukete4186cowbellgod",
+                "name": "cowbell god",
+                "copies": 369,
+                "notes": 4186
+            },
+            {
+                "id": "narcissistnileTasukete3581wheni'mgone",
+                "name": "when i'm gone",
+                "copies": 368,
+                "notes": 3581
+            },
+            {
+                "id": "narcissistnileBrrrr1466Alone",
+                "name": "Alone",
+                "copies": 310,
+                "notes": 1466
+            }
+        ]
+    },
+    "JulienTheRoo": {
+        "displayName": "JulienTheRoo",
+        "totalCopies": 28,
+        "maps": [
+            {
+                "id": "JulienTheRooBrrrr1614istillfeelmorealonethanieverhavebeenwhenyouaren'there",
+                "name": "i still feel more alone than i ever have been when you aren't here",
+                "copies": 28,
+                "notes": 1614
+            }
+        ]
+    },
+    "Endeysmendy": {
+        "displayName": "Endeysmendy",
+        "totalCopies": 20,
+        "maps": [
+            {
+                "id": "EndeysmendyBrrrr3531Flamewall",
+                "name": "Flamewall",
+                "copies": 20,
+                "notes": 3531
+            }
+        ]
+    },
+    "jackuw": {
+        "displayName": "jackuw",
+        "totalCopies": 13,
+        "maps": [
+            {
+                "id": "jackuwHard1593ultimatum",
+                "name": "ultimatum",
+                "copies": 13,
+                "notes": 1593
+            }
+        ]
+    },
+    "GarlicDog1": {
+        "displayName": "GarlicDog1",
+        "totalCopies": 11,
+        "maps": [
+            {
+                "id": "GarlicDog1Brrrr1624Aizome",
+                "name": "Aizome",
+                "copies": 11,
+                "notes": 1624
+            }
+        ]
+    },
+    "xXxZzYtPvPyTxYzYxXx": {
+        "displayName": "xXxZzYtPvPyTxYzYxXx",
+        "totalCopies": 97,
+        "maps": [
+            {
+                "id": "xXxZzYtPvPyTxYzYxXxBrrrr3756Vulture2",
+                "name": "Vulture 2",
+                "copies": 97,
+                "notes": 3756
+            }
+        ]
+    },
+    "Senternal": {
+        "displayName": "Senternal",
+        "totalCopies": 156,
+        "maps": [
+            {
+                "id": "SenternalTasukete2091Eeyuh!",
+                "name": "Eeyuh!",
+                "copies": 156,
+                "notes": 2091
+            }
+        ]
+    },
+    "Ghefine": {
+        "displayName": "Ghefine",
+        "totalCopies": 232,
+        "maps": [
+            {
+                "id": "GhefineBrrrr3090Fusion",
+                "name": "Fusion",
+                "copies": 232,
+                "notes": 3090
+            }
+        ]
+    },
+    "Silva": {
+        "displayName": "Silva",
+        "totalCopies": 128,
+        "maps": [
+            {
+                "id": "SilvaBrrrr1865Hot",
+                "name": "Hot",
+                "copies": 128,
+                "notes": 1865
+            }
+        ]
+    },
+    "FpXHarborYT": {
+        "displayName": "FpXHarborYT",
+        "totalCopies": 144,
+        "maps": [
+            {
+                "id": "FpXHarborYTLogic1513Control",
+                "name": "Control",
+                "copies": 50,
+                "notes": 1513
+            },
+            {
+                "id": "FpXHarborYTLogic2152NewWorld",
+                "name": "New World",
+                "copies": 58,
+                "notes": 2152
+            },
+            {
+                "id": "FpXHarborYTLogic912Alanwaad",
+                "name": "Alanwaad ",
+                "copies": 34,
+                "notes": 912
+            },
+            {
+                "id": "FpXHarborYTBrrrr1859ProtostarNewHorizons",
+                "name": "Protostar New Horizons",
+                "copies": 2,
+                "notes": 1859
+            }
+        ]
+    },
+    "Spica": {
+        "displayName": "Spica",
+        "totalCopies": 79,
+        "maps": [
+            {
+                "id": "SpicaBrrrr2187Uproar",
+                "name": "Uproar",
+                "copies": 79,
+                "notes": 2187
+            }
+        ]
+    },
+    "reticentmemory": {
+        "displayName": "reticentmemory",
+        "totalCopies": 2,
+        "maps": [
+            {
+                "id": "reticentmemoryTasukete3469FINALSTAND",
+                "name": "FINAL STAND",
+                "copies": 2,
+                "notes": 3469
+            }
+        ]
+    },
+    "divetekbrrrr2347polybreak": {
+        "id": "divetekbrrrr2347polybreak",
+        "mapper": "divetek",
+        "name": "Polybreak",
+        "notes": 2347,
+        "artist": "Zytrx",
+        "difficulty": "Brrrr",
+        "copies": 1
+    },
+    "divetekbrrrr1963resistance": {
+        "id": "divetekbrrrr1963resistance",
+        "mapper": "divetek",
+        "name": "RESISTANCE",
+        "notes": 1963,
+        "artist": "Zytrx",
+        "difficulty": "Brrrr",
+        "copies": 2
+    },
+    "fuseomegaandpinchylbrrrr1218trustedvillainvip": {
+        "id": "fuseomegaandpinchylbrrrr1218trustedvillainvip",
+        "mapper": "FuSe Omega and Pinchyl",
+        "name": "Trusted Villain VIP",
+        "notes": 1218,
+        "artist": "Zytrx",
+        "difficulty": "Brrrr",
+        "copies": 1
+    },
+    "porshiibrrrr603skibidifanumtax": {
+        "id": "porshiibrrrr603skibidifanumtax",
+        "mapper": "porshii",
+        "name": "skibidi fanum tax",
+        "notes": 603,
+        "artist": "RizzlerBullet",
+        "difficulty": "Brrrr",
+        "copies": 2
+    },
+    "demisnyatasukete2943c0rec0nstant": {
+        "id": "demisnyatasukete2943c0rec0nstant",
+        "mapper": "Demisnya",
+        "name": "C0RE C0NSTANT",
+        "notes": 2943,
+        "artist": "Zytrx Ft. MetaHumanBoi",
+        "difficulty": "Tasukete",
+        "copies": 4
+    },
+    "porshiibrrrr2403hadroncollission": {
+        "id": "porshiibrrrr2403hadroncollission",
+        "mapper": "porshii",
+        "name": "Hadron Collission",
+        "notes": 2403,
+        "artist": "Zytrx",
+        "difficulty": "Brrrr",
+        "copies": 2
+    },
+    "xilporalexbrrrr3551finalhope": {
+        "id": "xilporalexbrrrr3551finalhope",
+        "mapper": "Xilp & OrAlex",
+        "name": "FINAL HOPE",
+        "notes": 3551,
+        "artist": "Underscore",
+        "difficulty": "Brrrr",
+        "copies": 8
+    },
+    "matt430brrrr1946etherealvelocity": {
+        "id": "matt430brrrr1946etherealvelocity",
+        "mapper": "Matt430",
+        "name": "ETHEREAL VELOCITY",
+        "notes": 1946,
+        "artist": "Underscore",
+        "difficulty": "Brrrr",
+        "copies": 4
+    },
+    "alterp183805brrrr1066jet2holidayfunkslowed": {
+        "id": "alterp183805brrrr1066jet2holidayfunkslowed",
+        "mapper": "Alter\/p183805",
+        "name": "JET 2 HOLIDAY FUNK (Slowed)",
+        "notes": 1066,
+        "artist": "jugsta",
+        "difficulty": "Brrrr",
+        "copies": 3
+    },
+    "tacobrrrr1293killeverybody": {
+        "id": "tacobrrrr1293killeverybody",
+        "mapper": "Taco",
+        "name": "Kill Everybody",
+        "notes": 1293,
+        "artist": "Sacuna",
+        "difficulty": "Brrrr",
+        "copies": 2
+    },
+    "chinalightlizbrrrr1584solarstrike": {
+        "id": "chinalightlizbrrrr1584solarstrike",
+        "mapper": "China_Lightliz",
+        "name": "Solar Strike",
+        "notes": 1584,
+        "artist": "MetaHumanBoi",
+        "difficulty": "Brrrr",
+        "copies": 1
+    },
+    "sevbrrrr2495avangard20": {
+        "id": "sevbrrrr2495avangard20",
+        "mapper": "sev",
+        "name": "AVANGARD 2.0",
+        "notes": 2495,
+        "artist": "Alanwaad",
+        "difficulty": "Brrrr",
+        "copies": 2
+    },
+    "senternaltasukete2091eeyuh": {
+        "id": "senternaltasukete2091eeyuh",
+        "mapper": "Senternal",
+        "name": "Eeyuh!",
+        "notes": 2091,
+        "artist": "hr",
+        "difficulty": "Tasukete",
+        "copies": 8
+    },
+    "scxthestasukete4383oathbreaker": {
+        "id": "scxthestasukete4383oathbreaker",
+        "mapper": "Scxthes",
+        "name": "OATH BREAKER",
+        "notes": 4383,
+        "artist": "Underscore",
+        "difficulty": "Tasukete",
+        "copies": 14
+    },
+    "demisnyatasukete1463002divineinquisition": {
+        "id": "demisnyatasukete1463002divineinquisition",
+        "mapper": "Demisnya",
+        "name": "002: DIVINE INQUISITION",
+        "notes": 1463,
+        "artist": "SPIRIT GARDEN *",
+        "difficulty": "Tasukete",
+        "copies": 1
+    },
+    "sheanyatasukete2487dogbite": {
+        "id": "sheanyatasukete2487dogbite",
+        "mapper": "SheaNya",
+        "name": "Dogbite",
+        "notes": 2487,
+        "artist": "t+pazolite",
+        "difficulty": "Tasukete",
+        "copies": 4
+    },
+    "sheanyatasukete3327deadinside": {
+        "id": "sheanyatasukete3327deadinside",
+        "mapper": "SheaNya",
+        "name": "Dead Inside",
+        "notes": 3327,
+        "artist": "WUANT X BLUNDER",
+        "difficulty": "Tasukete",
+        "copies": 3
+    },
+    "tacotasukete2339chwyku": {
+        "id": "tacotasukete2339chwyku",
+        "mapper": "Taco",
+        "name": "CHWYKU",
+        "notes": 2339,
+        "artist": "DJWahRA",
+        "difficulty": "Tasukete",
+        "copies": 7
+    },
+    "xilptasukete3510hadroncollision": {
+        "id": "xilptasukete3510hadroncollision",
+        "mapper": "Xilp",
+        "name": "Hadron Collision",
+        "notes": 3510,
+        "artist": "Zytrx",
+        "difficulty": "Tasukete",
+        "copies": 2
+    },
+    "faworeetasukete5424cyber999": {
+        "id": "faworeetasukete5424cyber999",
+        "mapper": "faworee",
+        "name": "CYBER 999",
+        "notes": 5424,
+        "artist": "Underscore",
+        "difficulty": "Tasukete",
+        "copies": 16
+    },
+    "oralextasukete3237cyber999": {
+        "id": "oralextasukete3237cyber999",
+        "mapper": "OrAlex",
+        "name": "CYBER 999",
+        "notes": 3237,
+        "artist": "Underscore",
+        "difficulty": "Tasukete",
+        "copies": 3
+    },
+    "immortaltasukete2508artcore": {
+        "id": "immortaltasukete2508artcore",
+        "mapper": "Immortal",
+        "name": "Artcore",
+        "notes": 2508,
+        "artist": "Mon",
+        "difficulty": "Tasukete",
+        "copies": 7
+    },
+    "xilptasukete3187cyber999": {
+        "id": "xilptasukete3187cyber999",
+        "mapper": "Xilp",
+        "name": "CYBER 999",
+        "notes": 3187,
+        "artist": "Underscore",
+        "difficulty": "Tasukete",
+        "copies": 2
+    },
+    "drakobrrrr1682solarstrike": {
+        "id": "drakobrrrr1682solarstrike",
+        "mapper": "Drako",
+        "name": "Solar Strike",
+        "notes": 1682,
+        "artist": "MetaHumanBoi",
+        "difficulty": "Brrrr",
+        "copies": 1
+    },
+    "sheanyabrrrr2105tuesday": {
+        "id": "sheanyabrrrr2105tuesday",
+        "mapper": "SheaNya",
+        "name": "Tuesday",
+        "notes": 2105,
+        "artist": "Rutra",
+        "difficulty": "Brrrr",
+        "copies": 1
+    },
+    "alterp183805brrrr2368outofmyhead": {
+        "id": "alterp183805brrrr2368outofmyhead",
+        "mapper": "Alter\/p183805",
+        "name": "oUt oF mY HEad",
+        "notes": 2368,
+        "artist": "WUANT x BLUNDER",
+        "difficulty": "Brrrr",
+        "copies": 1
+    },
+    "sheanyabrrrr3049outofmyhead": {
+        "id": "sheanyabrrrr3049outofmyhead",
+        "mapper": "SheaNya",
+        "name": "oUt oF mY HEad",
+        "notes": 3049,
+        "artist": "WUANT x BLUNDER",
+        "difficulty": "Brrrr",
+        "copies": 1
+    },
+    "flvxifybrrrr1627fortalice": {
+        "id": "flvxifybrrrr1627fortalice",
+        "mapper": "Flvxify",
+        "name": "FORTALiCE",
+        "notes": 1627,
+        "artist": "Zxnx",
+        "difficulty": "Brrrr",
+        "copies": 1
+    },
+    "snivytrueformbrrrr2260mach874939": {
+        "id": "snivytrueformbrrrr2260mach874939",
+        "mapper": "SnivyTrueForm",
+        "name": "MACH 874939",
+        "notes": 2260,
+        "artist": "Zytrx",
+        "difficulty": "Brrrr",
+        "copies": 1
+    },
+    "demisnyabrrrr2238hatedhero": {
+        "id": "demisnyabrrrr2238hatedhero",
+        "mapper": "Demisnya",
+        "name": "HATED HERO",
+        "notes": 2238,
+        "artist": "Zytrx",
+        "difficulty": "Brrrr",
+        "copies": 2
+    },
+    "zerothtasukete1763iwontgiveuponyou": {
+        "id": "zerothtasukete1763iwontgiveuponyou",
+        "mapper": "zeroth",
+        "name": "i wont give up on you",
+        "notes": 1763,
+        "artist": "mon",
+        "difficulty": "Tasukete",
+        "copies": 3
+    },
+    "alterp183805tasukete290monkeysparty": {
+        "id": "alterp183805tasukete290monkeysparty",
+        "mapper": "Alter\/p183805",
+        "name": "Monkeys Party",
+        "notes": 290,
+        "artist": "Alex Tschallener",
+        "difficulty": "Tasukete",
+        "copies": 4
+    },
+    "fpxharborytlogic1153brxphonk": {
+        "id": "fpxharborytlogic1153brxphonk",
+        "mapper": "FpXHarborYT",
+        "name": "BRX PHONK",
+        "notes": 1153,
+        "artist": "Alanwaad",
+        "difficulty": "Logic",
+        "copies": 4
+    },
+    "scxthestasukete2599wassa": {
+        "id": "scxthestasukete2599wassa",
+        "mapper": "Scxthes",
+        "name": "WASSA",
+        "notes": 2599,
+        "artist": "HR",
+        "difficulty": "Tasukete",
+        "copies": 3
+    },
+    "scxthestasukete2421trustedvillainvip": {
+        "id": "scxthestasukete2421trustedvillainvip",
+        "mapper": "Scxthes",
+        "name": "Trusted Villain VIP",
+        "notes": 2421,
+        "artist": "MetaHumanBoi",
+        "difficulty": "Tasukete",
+        "copies": 4
+    },
+    "sheanyabrrrr1392cancanremix": {
+        "id": "sheanyabrrrr1392cancanremix",
+        "mapper": "SheaNya",
+        "name": "Can Can Remix",
+        "notes": 1392,
+        "artist": "Jacques Offenbach",
+        "difficulty": "Brrrr",
+        "copies": 3
+    },
+    "sheanyabrrrr2782starspangledbanner": {
+        "id": "sheanyabrrrr2782starspangledbanner",
+        "mapper": "SheaNya",
+        "name": "Star spangled banner",
+        "notes": 2782,
+        "artist": "APM Music",
+        "difficulty": "Brrrr",
+        "copies": 1
+    },
+    "sheanyabrrrr1417alarmfordoomsday": {
+        "id": "sheanyabrrrr1417alarmfordoomsday",
+        "mapper": "SheaNya",
+        "name": "Alarm For Doomsday",
+        "notes": 1417,
+        "artist": "APM Music",
+        "difficulty": "Brrrr",
+        "copies": 3
+    },
+    "dillishbrrrr2079trustedvillainvip": {
+        "id": "dillishbrrrr2079trustedvillainvip",
+        "mapper": "dillish",
+        "name": "Trusted Villain VIP",
+        "notes": 2079,
+        "artist": "Zytrx",
+        "difficulty": "Brrrr",
+        "copies": 1
+    },
+    "ciembrrrr2398breathdeep": {
+        "id": "ciembrrrr2398breathdeep",
+        "mapper": "Ciem",
+        "name": "Breath Deep",
+        "notes": 2398,
+        "artist": "APM Music",
+        "difficulty": "Brrrr",
+        "copies": 1
+    },
+    "h4z3fyxgabrysj2012hard1049the13th": {
+        "id": "h4z3fyxgabrysj2012hard1049the13th",
+        "mapper": "h4z3fyx (gabrysj2012)",
+        "name": "The 13th",
+        "notes": 1049,
+        "artist": "ED$ANE",
+        "difficulty": "Hard",
+        "copies": 2
+    },
+    "tacomedium354toxic": {
+        "id": "tacomedium354toxic",
+        "mapper": "Taco",
+        "name": "toxic",
+        "notes": 354,
+        "artist": "d3r & 6arelyhuman & Pröz",
+        "difficulty": "Medium",
+        "copies": 3
+    },
+    "clvssicisthard514afinalglance": {
+        "id": "clvssicisthard514afinalglance",
+        "mapper": "clvssicist",
+        "name": "a final glance",
+        "notes": 514,
+        "artist": "633397",
+        "difficulty": "Hard",
+        "copies": 1
+    },
+    "goldenwatrebrrrr988thereforyou": {
+        "id": "goldenwatrebrrrr988thereforyou",
+        "mapper": "goldenwatre",
+        "name": "there for you",
+        "notes": 988,
+        "artist": "kuNarU",
+        "difficulty": "Brrrr",
+        "copies": 2
+    },
+    "sheanyalogic1564happywithyou": {
+        "id": "sheanyalogic1564happywithyou",
+        "mapper": "SheaNya",
+        "name": "Happy With You",
+        "notes": 1564,
+        "artist": "APM Music",
+        "difficulty": "Logic",
+        "copies": 2
+    },
+    "xilpbrrrr3501kyzaghan": {
+        "id": "xilpbrrrr3501kyzaghan",
+        "mapper": "Xilp",
+        "name": "Kyzaghan",
+        "notes": 3501,
+        "artist": "Underscore",
+        "difficulty": "Brrrr",
+        "copies": 4
+    },
+    "flvxifybrrrr1447resistance": {
+        "id": "flvxifybrrrr1447resistance",
+        "mapper": "Flvxify",
+        "name": "RESISTANCE",
+        "notes": 1447,
+        "artist": "Zytrx",
+        "difficulty": "Brrrr",
+        "copies": 1
+    },
+    "tacotasukete3590noescape": {
+        "id": "tacotasukete3590noescape",
+        "mapper": "Taco",
+        "name": "no escape",
+        "notes": 3590,
+        "artist": "d3r & m1v & asteria",
+        "difficulty": "Tasukete",
+        "copies": 10
+    },
+    "fpxharborytunknown0alanwaad": {
+        "id": "fpxharborytunknown0alanwaad",
+        "mapper": "FpXHarborYT",
+        "name": "Alanwaad ",
+        "notes": 0,
+        "artist": "Unknown Artist",
+        "difficulty": "Unknown",
+        "copies": 2
+    },
+    "tacologic784theme2soundspacelobbytheme": {
+        "id": "tacologic784theme2soundspacelobbytheme",
+        "mapper": "Taco",
+        "name": "Theme 2 (Sound Space Lobby Theme)",
+        "notes": 784,
+        "artist": "MetaHumanBoi",
+        "difficulty": "Logic",
+        "copies": 1
+    },
+    "scxthestasukete3884hatedhero": {
+        "id": "scxthestasukete3884hatedhero",
+        "mapper": "Scxthes",
+        "name": "Hated Hero",
+        "notes": 3884,
+        "artist": "MetaHumanBoi",
+        "difficulty": "Tasukete",
+        "copies": 1
+    },
+    "dyamodashlogic2932sonicblaster": {
+        "id": "dyamodashlogic2932sonicblaster",
+        "mapper": "Dyamodash",
+        "name": "sonic blaster",
+        "notes": 2932,
+        "artist": "f-777",
+        "difficulty": "Logic",
+        "copies": 1
+    },
+    "oralextasukete5098ultimatum": {
+        "id": "oralextasukete5098ultimatum",
+        "mapper": "OrAlex",
+        "name": "ULTIMATUM",
+        "notes": 5098,
+        "artist": "Underscore",
+        "difficulty": "Tasukete",
+        "copies": 4
+    },
+    "snivytrueformlogic1030iwishwehadmoretimetogether": {
+        "id": "snivytrueformlogic1030iwishwehadmoretimetogether",
+        "mapper": "SnivyTrueForm",
+        "name": "i wish we had more time together",
+        "notes": 1030,
+        "artist": "jackuw",
+        "difficulty": "Logic",
+        "copies": 1
+    },
+    "tacobrrrr2430cutemakmakfunk": {
+        "id": "tacobrrrr2430cutemakmakfunk",
+        "mapper": "Taco",
+        "name": "CUTEMAKMAKFUNK",
+        "notes": 2430,
+        "artist": "DJWahRA",
+        "difficulty": "Brrrr",
+        "copies": 5
+    },
+    "sheanyatasukete4329teraio": {
+        "id": "sheanyatasukete4329teraio",
+        "mapper": "SheaNya",
+        "name": "Tera I\/O",
+        "notes": 4329,
+        "artist": "Camellia",
+        "difficulty": "Tasukete",
+        "copies": 3
+    },
+    "xilptasukete6297teraio": {
+        "id": "xilptasukete6297teraio",
+        "mapper": "Xilp",
+        "name": "Tera I\/O",
+        "notes": 6297,
+        "artist": "Camellia",
+        "difficulty": "Tasukete",
+        "copies": 1
+    },
+    "snivytrueformtasukete3325stuffedjackal": {
+        "id": "snivytrueformtasukete3325stuffedjackal",
+        "mapper": "SnivyTrueForm",
+        "name": "Stuffed Jackal",
+        "notes": 3325,
+        "artist": "Korsio",
+        "difficulty": "Tasukete",
+        "copies": 3
+    },
+    "demisnyatasukete1958alongthemysticlands": {
+        "id": "demisnyatasukete1958alongthemysticlands",
+        "mapper": "Demisnya",
+        "name": "\/\/along\/the\/mystic\/lands\/\/",
+        "notes": 1958,
+        "artist": "vizunavé",
+        "difficulty": "Tasukete",
+        "copies": 1
+    },
+    "worstghostplayertasukete2205speedcorenightlife": {
+        "id": "worstghostplayertasukete2205speedcorenightlife",
+        "mapper": "Worst Ghost Player",
+        "name": "SPEEDCORE NIGHTLIFE",
+        "notes": 2205,
+        "artist": "Underscore",
+        "difficulty": "Tasukete",
+        "copies": 9
+    },
+    "demisnyabrrrr1233istillfeelmorealonethanieverhavebeenwhenyouarenthere": {
+        "id": "demisnyabrrrr1233istillfeelmorealonethanieverhavebeenwhenyouarenthere",
+        "mapper": "Demisnya",
+        "name": "i still feel more alone than i ever have been when you aren't here",
+        "notes": 1233,
+        "artist": "633397",
+        "difficulty": "Brrrr",
+        "copies": 1
+    },
+    "zerothlogic2573ily": {
+        "id": "zerothlogic2573ily",
+        "mapper": "zeroth",
+        "name": "ily",
+        "notes": 2573,
+        "artist": "kirkiimad, CG5",
+        "difficulty": "Logic",
+        "copies": 6
+    },
+    "scxthestasukete4761extra": {
+        "id": "scxthestasukete4761extra",
+        "mapper": "Scxthes",
+        "name": "EXTRA!",
+        "notes": 4761,
+        "artist": "Underscore",
+        "difficulty": "Tasukete",
+        "copies": 4
+    },
+    "zerothbrrrr1769h4maniayuh": {
+        "id": "zerothbrrrr1769h4maniayuh",
+        "mapper": "zeroth",
+        "name": "H4MANIA YUH",
+        "notes": 1769,
+        "artist": "darskuu",
+        "difficulty": "Brrrr",
+        "copies": 2
+    },
+    "oralextasukete3016intercosmicecho2": {
+        "id": "oralextasukete3016intercosmicecho2",
+        "mapper": "Oralex",
+        "name": "Intercosmic Echo 2",
+        "notes": 3016,
+        "artist": "diamomd",
+        "difficulty": "Tasukete",
+        "copies": 2
+    },
+    "xilpbrrrr4097dancewithsilence": {
+        "id": "xilpbrrrr4097dancewithsilence",
+        "mapper": "Xilp",
+        "name": "Dance with Silence",
+        "notes": 4097,
+        "artist": "Camellia",
+        "difficulty": "Brrrr",
+        "copies": 2
+    },
+    "xilpbrrrr2514mach874939": {
+        "id": "xilpbrrrr2514mach874939",
+        "mapper": "Xilp",
+        "name": "MACH 874939",
+        "notes": 2514,
+        "artist": "Zytrx",
+        "difficulty": "Brrrr",
+        "copies": 1
+    },
+    "sdrullobrrrr1697darkstar": {
+        "id": "sdrullobrrrr1697darkstar",
+        "mapper": "Sdrullo",
+        "name": "Darkstar",
+        "notes": 1697,
+        "artist": "Galaxyless & MVRLY",
+        "difficulty": "Brrrr",
+        "copies": 1
+    },
+    "xilpporshiibrrrr3751whatareyouwaitingfor": {
+        "id": "xilpporshiibrrrr3751whatareyouwaitingfor",
+        "mapper": "Xilp & porshii",
+        "name": "What Are You Waiting For",
+        "notes": 3751,
+        "artist": "Stonebank",
+        "difficulty": "Brrrr",
+        "copies": 2
+    },
+    "scxthesbrrrr3408forgettingwasmyonlyoption": {
+        "id": "scxthesbrrrr3408forgettingwasmyonlyoption",
+        "mapper": "Scxthes",
+        "name": "Forgetting Was My Only Option",
+        "notes": 3408,
+        "artist": "633397",
+        "difficulty": "Brrrr",
+        "copies": 2
+    },
+    "sheanyabrrrr1226heartattack": {
+        "id": "sheanyabrrrr1226heartattack",
+        "mapper": "SheaNya",
+        "name": "Heart Attack",
+        "notes": 1226,
+        "artist": "APM Music",
+        "difficulty": "Brrrr",
+        "copies": 3
+    },
+    "tacotasukete2870hotakfunk": {
+        "id": "tacotasukete2870hotakfunk",
+        "mapper": "Taco",
+        "name": "HOTAKFUNK",
+        "notes": 2870,
+        "artist": "DJWahRA",
+        "difficulty": "Tasukete",
+        "copies": 6
+    },
+    "demisnyabrrrr1968speedofsound": {
+        "id": "demisnyabrrrr1968speedofsound",
+        "mapper": "Demisnya",
+        "name": "Speed Of Sound",
+        "notes": 1968,
+        "artist": "APM MUsic",
+        "difficulty": "Brrrr",
+        "copies": 2
+    },
+    "kappabrrrr1789behindmasks": {
+        "id": "kappabrrrr1789behindmasks",
+        "mapper": "Kappa",
+        "name": "behind masks",
+        "notes": 1789,
+        "artist": "APM Music",
+        "difficulty": "Brrrr",
+        "copies": 2
+    },
+    "tacotasukete1183thecommunity": {
+        "id": "tacotasukete1183thecommunity",
+        "mapper": "Taco",
+        "name": "The Community",
+        "notes": 1183,
+        "artist": "CYRIL \\\\ i am bob",
+        "difficulty": "Tasukete",
+        "copies": 1
+    },
+    "tacotasukete1107skibidifanumtax": {
+        "id": "tacotasukete1107skibidifanumtax",
+        "mapper": "Taco",
+        "name": "skibidi fanum tax",
+        "notes": 1107,
+        "artist": "RizzlerBullet",
+        "difficulty": "Tasukete",
+        "copies": 2
+    },
+    "sheanyabrrrr2541phonkvol1bellpepper": {
+        "id": "sheanyabrrrr2541phonkvol1bellpepper",
+        "mapper": "SheaNya",
+        "name": "Phonk Vol. 1 - Bell Pepper",
+        "notes": 2541,
+        "artist": "APM Music",
+        "difficulty": "Brrrr",
+        "copies": 1
+    },
+    "sheanyatasukete2783wassa": {
+        "id": "sheanyatasukete2783wassa",
+        "mapper": "SheaNya",
+        "name": "wassa",
+        "notes": 2783,
+        "artist": "Hr",
+        "difficulty": "Tasukete",
+        "copies": 6
+    },
+    "sheanyabrrrr1190phonkvol2backthefront": {
+        "id": "sheanyabrrrr1190phonkvol2backthefront",
+        "mapper": "SheaNya",
+        "name": "Phonk Vol. 2 - Back & The Front",
+        "notes": 1190,
+        "artist": "APM Music",
+        "difficulty": "Brrrr",
+        "copies": 2
+    },
+    "reticentmemorytasukete3469finalstand": {
+        "id": "reticentmemorytasukete3469finalstand",
+        "mapper": "reticentmemory",
+        "name": "FINAL STAND",
+        "notes": 3469,
+        "artist": "Underscore",
+        "difficulty": "Tasukete",
+        "copies": 8
+    },
+    "spoobtasukete3193amiserablepileofsecretstheimpalerii": {
+        "id": "spoobtasukete3193amiserablepileofsecretstheimpalerii",
+        "mapper": "spoob",
+        "name": "A Miserable Pile Of Secrets (The Impaler II)",
+        "notes": 3193,
+        "artist": "Nstryder",
+        "difficulty": "Tasukete",
+        "copies": 2
+    },
+    "tacologic2719madness2022": {
+        "id": "tacologic2719madness2022",
+        "mapper": "Taco",
+        "name": "Madness 2022",
+        "notes": 2719,
+        "artist": "X3ll3n",
+        "difficulty": "Logic",
+        "copies": 3
+    },
+    "ghefinebrrrr3090fusion": {
+        "id": "ghefinebrrrr3090fusion",
+        "mapper": "Ghefine",
+        "name": "Fusion",
+        "notes": 3090,
+        "artist": "red",
+        "difficulty": "Brrrr",
+        "copies": 5
+    },
+    "matt430tasukete29002024bpmisnotenough": {
+        "id": "matt430tasukete29002024bpmisnotenough",
+        "mapper": "Matt430",
+        "name": "2024 BPM IS NOT ENOUGH",
+        "notes": 2900,
+        "artist": "Underscore",
+        "difficulty": "Tasukete",
+        "copies": 4
+    },
+    "xilpbrrrr2419gravityswitch": {
+        "id": "xilpbrrrr2419gravityswitch",
+        "mapper": "Xilp",
+        "name": "Gravity Switch",
+        "notes": 2419,
+        "artist": "Sound Space X Velocity Music",
+        "difficulty": "Brrrr",
+        "copies": 1
+    },
+    "narcissistniletasukete3581whenimgone": {
+        "id": "narcissistniletasukete3581whenimgone",
+        "mapper": "narcissistnile",
+        "name": "when i'm gone",
+        "notes": 3581,
+        "artist": "jugsta",
+        "difficulty": "Tasukete",
+        "copies": 3
+    },
+    "sheanyatasukete5726extra": {
+        "id": "sheanyatasukete5726extra",
+        "mapper": "SheaNya",
+        "name": "EXTRA!",
+        "notes": 5726,
+        "artist": "Underscore",
+        "difficulty": "Tasukete",
+        "copies": 7
+    },
+    "sheanyabrrrr1558jumpstyle": {
+        "id": "sheanyabrrrr1558jumpstyle",
+        "mapper": "SheaNya",
+        "name": "Jumpstyle",
+        "notes": 1558,
+        "artist": "APM Music",
+        "difficulty": "Brrrr",
+        "copies": 3
+    },
+    "kappabrrrr1213assaultcomplex": {
+        "id": "kappabrrrr1213assaultcomplex",
+        "mapper": "Kappa",
+        "name": "Assault Complex",
+        "notes": 1213,
+        "artist": "APM Music",
+        "difficulty": "Brrrr",
+        "copies": 2
+    },
+    "demisnyabrrrr2853sunshinegroove": {
+        "id": "demisnyabrrrr2853sunshinegroove",
+        "mapper": "Demisnya",
+        "name": "Sunshine Groove",
+        "notes": 2853,
+        "artist": "APM Music",
+        "difficulty": "Brrrr",
+        "copies": 2
+    },
+    "fpxharborytlogic1513control": {
+        "id": "fpxharborytlogic1513control",
+        "mapper": "FpXHarborYT",
+        "name": "Control",
+        "notes": 1513,
+        "artist": "luvbackpack x sukoyomi",
+        "difficulty": "Logic",
+        "copies": 2
+    },
+    "demisnyabrrrr4654embracethenihil": {
+        "id": "demisnyabrrrr4654embracethenihil",
+        "mapper": "Demisnya",
+        "name": "Embrace The Nihil",
+        "notes": 4654,
+        "artist": "APM Music",
+        "difficulty": "Brrrr",
+        "copies": 4
+    },
+    "snivytrueformlogic2120thursday": {
+        "id": "snivytrueformlogic2120thursday",
+        "mapper": "SnivyTrueForm",
+        "name": "Thursday",
+        "notes": 2120,
+        "artist": "Rutra",
+        "difficulty": "Logic",
+        "copies": 1
+    },
+    "demisnyabrrrr1648myfuture": {
+        "id": "demisnyabrrrr1648myfuture",
+        "mapper": "Demisnya",
+        "name": "My Future",
+        "notes": 1648,
+        "artist": "APM Music",
+        "difficulty": "Brrrr",
+        "copies": 2
+    },
+    "sheanyalogic1580aaughh": {
+        "id": "sheanyalogic1580aaughh",
+        "mapper": "SheaNya",
+        "name": "AAUGHH",
+        "notes": 1580,
+        "artist": "Rutra",
+        "difficulty": "Logic",
+        "copies": 1
+    },
+    "demisnyabrrrr4993hardcoreuproar": {
+        "id": "demisnyabrrrr4993hardcoreuproar",
+        "mapper": "Demisnya",
+        "name": "Hardcore Uproar",
+        "notes": 4993,
+        "artist": "APM Music",
+        "difficulty": "Brrrr",
+        "copies": 1
+    },
+    "angy18gcbrrrr1956lexay": {
+        "id": "angy18gcbrrrr1956lexay",
+        "mapper": "angy18gc",
+        "name": "Lexay",
+        "notes": 1956,
+        "artist": "BossRush",
+        "difficulty": "Brrrr",
+        "copies": 1
+    },
+    "clvssicistlogic1351insane": {
+        "id": "clvssicistlogic1351insane",
+        "mapper": "clvssicist",
+        "name": "Insane",
+        "notes": 1351,
+        "artist": "Sacuna",
+        "difficulty": "Logic",
+        "copies": 1
+    },
+    "demisnyabrrrr28411nputthis2y0urspine": {
+        "id": "demisnyabrrrr28411nputthis2y0urspine",
+        "mapper": "Demisnya",
+        "name": "1nput This 2 Y0ur Spine",
+        "notes": 2841,
+        "artist": "Camellia",
+        "difficulty": "Brrrr",
+        "copies": 1
+    },
+    "alterp183805tasukete1430base": {
+        "id": "alterp183805tasukete1430base",
+        "mapper": "Alter\/p183805",
+        "name": "Base",
+        "notes": 1430,
+        "artist": "sximanes",
+        "difficulty": "Tasukete",
+        "copies": 1
+    },
+    "oralextasukete10535realityisdecayingworldend": {
+        "id": "oralextasukete10535realityisdecayingworldend",
+        "mapper": "OrAlex",
+        "name": "reality is decaying\\world-end.",
+        "notes": 10535,
+        "artist": "Underscore",
+        "difficulty": "Tasukete",
+        "copies": 4
+    },
+    "xazthenpcbrrrr7175badaccess": {
+        "id": "xazthenpcbrrrr7175badaccess",
+        "mapper": "xazthenpc",
+        "name": "Bad Access",
+        "notes": 7175,
+        "artist": "Camellia",
+        "difficulty": "Brrrr",
+        "copies": 2
+    },
+    "xazthenpcbrrrr2240breathdeep": {
+        "id": "xazthenpcbrrrr2240breathdeep",
+        "mapper": "xazthenpc",
+        "name": "Breath Deep",
+        "notes": 2240,
+        "artist": "APM Music",
+        "difficulty": "Brrrr",
+        "copies": 1
+    },
+    "pyxenitybrrrr5566badaccess": {
+        "id": "pyxenitybrrrr5566badaccess",
+        "mapper": "Pyxenity",
+        "name": "Bad Access",
+        "notes": 5566,
+        "artist": "Camellia",
+        "difficulty": "Brrrr",
+        "copies": 1
+    },
+    "pyxenitybrrrr1234classicchase": {
+        "id": "pyxenitybrrrr1234classicchase",
+        "mapper": "Pyxenity",
+        "name": "Classic Chase",
+        "notes": 1234,
+        "artist": "APM Music",
+        "difficulty": "Brrrr",
+        "copies": 1
+    },
+    "silvabrrrr1865hot": {
+        "id": "silvabrrrr1865hot",
+        "mapper": "Silva",
+        "name": "Hot",
+        "notes": 1865,
+        "artist": "FWLR",
+        "difficulty": "Brrrr",
+        "copies": 1
+    },
+    "zerothbrrrr4944mymoon": {
+        "id": "zerothbrrrr4944mymoon",
+        "mapper": "zeroth",
+        "name": "my moon",
+        "notes": 4944,
+        "artist": "7ate",
+        "difficulty": "Brrrr",
+        "copies": 6
+    },
+    "demisnyalogic1675rosecolouredglasses": {
+        "id": "demisnyalogic1675rosecolouredglasses",
+        "mapper": "Demisnya",
+        "name": "Rose-Coloured Glasses",
+        "notes": 1675,
+        "artist": "APM Music",
+        "difficulty": "Logic",
+        "copies": 3
+    },
+    "clvssicistlogic941dogbite": {
+        "id": "clvssicistlogic941dogbite",
+        "mapper": "clvssicist",
+        "name": "Dogbite",
+        "notes": 941,
+        "artist": "t+pazolite",
+        "difficulty": "Logic",
+        "copies": 2
+    },
+    "sheanyabrrrr2547abassrenaissance": {
+        "id": "sheanyabrrrr2547abassrenaissance",
+        "mapper": "SheaNya",
+        "name": "A Bass Renaissance",
+        "notes": 2547,
+        "artist": "APM Music",
+        "difficulty": "Brrrr",
+        "copies": 7
+    },
+    "spicabrrrr2187uproar": {
+        "id": "spicabrrrr2187uproar",
+        "mapper": "Spica",
+        "name": "Uproar",
+        "notes": 2187,
+        "artist": "Tim Besamusca",
+        "difficulty": "Brrrr",
+        "copies": 2
+    },
+    "kappabrrrr2234cyborgworkout": {
+        "id": "kappabrrrr2234cyborgworkout",
+        "mapper": "Kappa",
+        "name": "cyborg workout",
+        "notes": 2234,
+        "artist": "APM Music",
+        "difficulty": "Brrrr",
+        "copies": 1
+    },
+    "sdrullobrrrr1421iwontgiveuponyou": {
+        "id": "sdrullobrrrr1421iwontgiveuponyou",
+        "mapper": "Sdrullo",
+        "name": "i wont give up on you",
+        "notes": 1421,
+        "artist": "mon",
+        "difficulty": "Brrrr",
+        "copies": 3
+    },
+    "demisnyatasukete2010aaughh": {
+        "id": "demisnyatasukete2010aaughh",
+        "mapper": "Demisnya",
+        "name": "AAUGHH",
+        "notes": 2010,
+        "artist": "Rutra",
+        "difficulty": "Tasukete",
+        "copies": 1
+    },
+    "azurlexxlogic2426erabyeconnec10n": {
+        "id": "azurlexxlogic2426erabyeconnec10n",
+        "mapper": "azurlexx",
+        "name": "+ERABY+E CONNEC+10N",
+        "notes": 2426,
+        "artist": "Camellia",
+        "difficulty": "Logic",
+        "copies": 2
+    },
+    "snivytrueformlogic2932intercosmicecho": {
+        "id": "snivytrueformlogic2932intercosmicecho",
+        "mapper": "SnivyTrueForm",
+        "name": "Intercosmic Echo",
+        "notes": 2932,
+        "artist": "diamomd",
+        "difficulty": "Logic",
+        "copies": 1
+    },
+    "demisnyabrrrr1032nightune": {
+        "id": "demisnyabrrrr1032nightune",
+        "mapper": "Demisnya",
+        "name": "Nightune",
+        "notes": 1032,
+        "artist": "Morphox",
+        "difficulty": "Brrrr",
+        "copies": 2
+    },
+    "demisnyabrrrr2502grimoire": {
+        "id": "demisnyabrrrr2502grimoire",
+        "mapper": "Demisnya",
+        "name": "Grimoire",
+        "notes": 2502,
+        "artist": "Gardens",
+        "difficulty": "Brrrr",
+        "copies": 3
+    },
+    "pyxenitytasukete2974defragmentationoftheglassdimension": {
+        "id": "pyxenitytasukete2974defragmentationoftheglassdimension",
+        "mapper": "Pyxenity",
+        "name": "Defragmentation Of The Glass Dimension",
+        "notes": 2974,
+        "artist": "vizunavé",
+        "difficulty": "Tasukete",
+        "copies": 2
+    },
+    "porshiibrrrr1415wonderland": {
+        "id": "porshiibrrrr1415wonderland",
+        "mapper": "porshii",
+        "name": "Wonderland",
+        "notes": 1415,
+        "artist": "X3ll3n",
+        "difficulty": "Brrrr",
+        "copies": 2
+    },
+    "demisnyabrrrr3226flamewall": {
+        "id": "demisnyabrrrr3226flamewall",
+        "mapper": "Demisnya",
+        "name": "Flamewall",
+        "notes": 3226,
+        "artist": "Camellia",
+        "difficulty": "Brrrr",
+        "copies": 1
+    },
+    "mattd430brrrr4594flamewall": {
+        "id": "mattd430brrrr4594flamewall",
+        "mapper": "MAttD430",
+        "name": "Flamewall",
+        "notes": 4594,
+        "artist": "Camellia",
+        "difficulty": "Brrrr",
+        "copies": 1
+    },
+    "flvxifylogic4914m1lli0npp": {
+        "id": "flvxifylogic4914m1lli0npp",
+        "mapper": "Flvxify",
+        "name": "M1LLI0N PP",
+        "notes": 4914,
+        "artist": "Camellia",
+        "difficulty": "Logic",
+        "copies": 1
+    },
+    "kappabrrrr3401plexus": {
+        "id": "kappabrrrr3401plexus",
+        "mapper": "Kappa",
+        "name": "plexus",
+        "notes": 3401,
+        "artist": "APM Music",
+        "difficulty": "Brrrr",
+        "copies": 1
+    },
+    "demisnyabrrrr4240bassmonster": {
+        "id": "demisnyabrrrr4240bassmonster",
+        "mapper": "Demisnya",
+        "name": "Bass Monster",
+        "notes": 4240,
+        "artist": "APM Music",
+        "difficulty": "Brrrr",
+        "copies": 1
+    },
+    "sheanyabrrrr1338phonkvoliphonktout": {
+        "id": "sheanyabrrrr1338phonkvoliphonktout",
+        "mapper": "SheaNya",
+        "name": "Phonk Vol. I - Phonk't Out",
+        "notes": 1338,
+        "artist": "APM Music",
+        "difficulty": "Brrrr",
+        "copies": 1
+    },
+    "ciembrrrr695jobapplicationphonk": {
+        "id": "ciembrrrr695jobapplicationphonk",
+        "mapper": "ciem",
+        "name": "Job Application Phonk",
+        "notes": 695,
+        "artist": "Blanka",
+        "difficulty": "Brrrr",
+        "copies": 1
+    },
+    "snivytrueformbrrrr2780santachanswinterwonderlandadventure": {
+        "id": "snivytrueformbrrrr2780santachanswinterwonderlandadventure",
+        "mapper": "SnivyTrueForm",
+        "name": "Santa-chans Winter Wonderland Adventure",
+        "notes": 2780,
+        "artist": "Nstryder",
+        "difficulty": "Brrrr",
+        "copies": 1
+    },
+    "divetekwastefullogic15754ndromeda": {
+        "id": "divetekwastefullogic15754ndromeda",
+        "mapper": "divetek & wasteful",
+        "name": "4ndromeda",
+        "notes": 1575,
+        "artist": "zytrx",
+        "difficulty": "Logic",
+        "copies": 1
+    },
+    "sheanyabrrrr2802juggernaut": {
+        "id": "sheanyabrrrr2802juggernaut",
+        "mapper": "SheaNya",
+        "name": "Juggernaut",
+        "notes": 2802,
+        "artist": "APM Music",
+        "difficulty": "Brrrr",
+        "copies": 1
+    },
+    "scxthestasukete4878expedite": {
+        "id": "scxthestasukete4878expedite",
+        "mapper": "Scxthes",
+        "name": "Expedite",
+        "notes": 4878,
+        "artist": "Mon",
+        "difficulty": "Tasukete",
+        "copies": 5
+    },
+    "sevbrrrr4171rawhaus": {
+        "id": "sevbrrrr4171rawhaus",
+        "mapper": "sev",
+        "name": "RawHaus",
+        "notes": 4171,
+        "artist": "Underscore",
+        "difficulty": "Brrrr",
+        "copies": 3
+    },
+    "sheanyabrrrr2668ultrav": {
+        "id": "sheanyabrrrr2668ultrav",
+        "mapper": "SheaNya",
+        "name": "Ultra V",
+        "notes": 2668,
+        "artist": "ED$ANE",
+        "difficulty": "Brrrr",
+        "copies": 1
+    },
+    "snivytrueformbrrrr5490ultrav": {
+        "id": "snivytrueformbrrrr5490ultrav",
+        "mapper": "SnivyTrueForm",
+        "name": "Ultra V",
+        "notes": 5490,
+        "artist": "ED$ANE",
+        "difficulty": "Brrrr",
+        "copies": 1
+    },
+    "xilpbrrrr2553tokyodrift": {
+        "id": "xilpbrrrr2553tokyodrift",
+        "mapper": "Xilp",
+        "name": "Tokyo Drift",
+        "notes": 2553,
+        "artist": "Fumitake Igarashi",
+        "difficulty": "Brrrr",
+        "copies": 2
+    },
+    "snivytrueformbrrrr1326palette": {
+        "id": "snivytrueformbrrrr1326palette",
+        "mapper": "SnivyTrueForm",
+        "name": "palette (りずむ - パレット)",
+        "notes": 1326,
+        "artist": "Rizum",
+        "difficulty": "Brrrr",
+        "copies": 1
+    },
+    "curtivaltasukete6618africantribe": {
+        "id": "curtivaltasukete6618africantribe",
+        "mapper": "curtival",
+        "name": "african tribe",
+        "notes": 6618,
+        "artist": "APM Music",
+        "difficulty": "Tasukete",
+        "copies": 3
+    },
+    "fpxharborytbrrrr1859protostarnewhorizons": {
+        "id": "fpxharborytbrrrr1859protostarnewhorizons",
+        "mapper": "FpXHarborYT",
+        "name": "Protostar New Horizons",
+        "notes": 1859,
+        "artist": "Monstercat",
+        "difficulty": "Brrrr",
+        "copies": 2
+    },
+    "nate10993brrrr2679intercosmicecho2": {
+        "id": "nate10993brrrr2679intercosmicecho2",
+        "mapper": "Nate10993",
+        "name": "Intercosmic Echo 2",
+        "notes": 2679,
+        "artist": "diamomd",
+        "difficulty": "Brrrr",
+        "copies": 2
+    },
+    "demisnyabrrrr3405flywitme": {
+        "id": "demisnyabrrrr3405flywitme",
+        "mapper": "Demisnya",
+        "name": "Fly wit me",
+        "notes": 3405,
+        "artist": "Camellia",
+        "difficulty": "Brrrr",
+        "copies": 1
+    },
+    "sheanyalogic1426controlprodshinjin": {
+        "id": "sheanyalogic1426controlprodshinjin",
+        "mapper": "SheaNya",
+        "name": "control (prod. shinjin)",
+        "notes": 1426,
+        "artist": "luvbackpack",
+        "difficulty": "Logic",
+        "copies": 1
+    },
+    "ciembrrrr1413speedmetaloverturn": {
+        "id": "ciembrrrr1413speedmetaloverturn",
+        "mapper": "ciem",
+        "name": "Speed Metal overturn",
+        "notes": 1413,
+        "artist": "APM Music",
+        "difficulty": "Brrrr",
+        "copies": 1
+    },
+    "sheanyabrrrr1437wewishyouamerrychristmas": {
+        "id": "sheanyabrrrr1437wewishyouamerrychristmas",
+        "mapper": "SheaNya",
+        "name": "We Wish You A Merry Christmas",
+        "notes": 1437,
+        "artist": "APM Music",
+        "difficulty": "Brrrr",
+        "copies": 1
+    },
+    "xilpbrrrr2128machination": {
+        "id": "xilpbrrrr2128machination",
+        "mapper": "Xilp",
+        "name": "Machination",
+        "notes": 2128,
+        "artist": "Underscore",
+        "difficulty": "Brrrr",
+        "copies": 1
+    },
+    "snivytrueformbrrrr1995waltzundbasse": {
+        "id": "snivytrueformbrrrr1995waltzundbasse",
+        "mapper": "SnivyTrueForm",
+        "name": "waltz und basse",
+        "notes": 1995,
+        "artist": "Nstryder",
+        "difficulty": "Brrrr",
+        "copies": 1
+    },
+    "demisnyabrrrr2181achiga": {
+        "id": "demisnyabrrrr2181achiga",
+        "mapper": "Demisnya",
+        "name": "Achiga",
+        "notes": 2181,
+        "artist": "睡眠",
+        "difficulty": "Brrrr",
+        "copies": 1
+    },
+    "xilpcanteloupe3727brrrr3127ultradrive": {
+        "id": "xilpcanteloupe3727brrrr3127ultradrive",
+        "mapper": "Xilp & canteloupe3727",
+        "name": "Ultradrive",
+        "notes": 3127,
+        "artist": "MetaHumanBoi",
+        "difficulty": "Brrrr",
+        "copies": 2
+    },
+    "sheanyabrrrr2155lexay": {
+        "id": "sheanyabrrrr2155lexay",
+        "mapper": "SheaNya",
+        "name": "Lexay",
+        "notes": 2155,
+        "artist": "BossRush",
+        "difficulty": "Brrrr",
+        "copies": 1
+    },
+    "snivytrueformbrrrr2135madness2022": {
+        "id": "snivytrueformbrrrr2135madness2022",
+        "mapper": "SnivyTrueForm",
+        "name": "Madness 2022",
+        "notes": 2135,
+        "artist": "X3ll3n",
+        "difficulty": "Brrrr",
+        "copies": 1
+    },
+    "zerothbrrrr3326jealous": {
+        "id": "zerothbrrrr3326jealous",
+        "mapper": "zeroth",
+        "name": "jealous",
+        "notes": 3326,
+        "artist": "d3r & Pröz",
+        "difficulty": "Brrrr",
+        "copies": 2
+    },
+    "narcissistniletasukete4186cowbellgod": {
+        "id": "narcissistniletasukete4186cowbellgod",
+        "mapper": "narcissistnile",
+        "name": "cowbell god",
+        "notes": 4186,
+        "artist": "Din1c X dxstrxcted! X QWERRXR",
+        "difficulty": "Tasukete",
+        "copies": 1
+    },
+    "demisnyabrrrr2763glowmind": {
+        "id": "demisnyabrrrr2763glowmind",
+        "mapper": "Demisnya",
+        "name": "Glow Mind",
+        "notes": 2763,
+        "artist": "Rutra",
+        "difficulty": "Brrrr",
+        "copies": 1
+    },
+    "xilpbrrrr1398aetherkingdom": {
+        "id": "xilpbrrrr1398aetherkingdom",
+        "mapper": "Xilp",
+        "name": "AetheR Kingdom",
+        "notes": 1398,
+        "artist": "Nstryder",
+        "difficulty": "Brrrr",
+        "copies": 1
+    },
+    "demisnyabrrrr586extinctionwaltz": {
+        "id": "demisnyabrrrr586extinctionwaltz",
+        "mapper": "Demisnya",
+        "name": "Extinction Waltz",
+        "notes": 586,
+        "artist": "APM Music",
+        "difficulty": "Brrrr",
+        "copies": 1
+    },
+    "demisnyabrrrr1350idealworld": {
+        "id": "demisnyabrrrr1350idealworld",
+        "mapper": "Demisnya",
+        "name": "Ideal World",
+        "notes": 1350,
+        "artist": "APM Music",
+        "difficulty": "Brrrr",
+        "copies": 1
+    },
+    "tacotasukete3061intercosmicecho": {
+        "id": "tacotasukete3061intercosmicecho",
+        "mapper": "Taco",
+        "name": "Intercosmic Echo",
+        "notes": 3061,
+        "artist": "Diamomd",
+        "difficulty": "Tasukete",
+        "copies": 2
+    },
+    "xxxzzytpvpytxyzyxxxbrrrr3756vulture2": {
+        "id": "xxxzzytpvpytxyzyxxxbrrrr3756vulture2",
+        "mapper": "xXxZzYtPvPyTxYzYxXx",
+        "name": "Vulture 2",
+        "notes": 3756,
+        "artist": "Rutra",
+        "difficulty": "Brrrr",
+        "copies": 1
+    },
+    "demisnyabrrrr4450mlgcandydrive": {
+        "id": "demisnyabrrrr4450mlgcandydrive",
+        "mapper": "Demisnya",
+        "name": "MLG CANDY DRIVE",
+        "notes": 4450,
+        "artist": "Zytrx",
+        "difficulty": "Brrrr",
+        "copies": 1
+    },
+    "fpxharborytlogic2152newworld": {
+        "id": "fpxharborytlogic2152newworld",
+        "mapper": "FpXHarborYT",
+        "name": "New World",
+        "notes": 2152,
+        "artist": "Hoaprox",
+        "difficulty": "Logic",
+        "copies": 1
+    },
+    "noobournbrrrr3800staymetahumanboibootleg": {
+        "id": "noobournbrrrr3800staymetahumanboibootleg",
+        "mapper": "Noobourn",
+        "name": "Stay (Metahumanboi bootleg)",
+        "notes": 3800,
+        "artist": "The Kid LAROI, Justin Bieber",
+        "difficulty": "Brrrr",
+        "copies": 1
+    },
+    "sheanyabrrrr2274breathdeep": {
+        "id": "sheanyabrrrr2274breathdeep",
+        "mapper": "SheaNya",
+        "name": "Breath Deep",
+        "notes": 2274,
+        "artist": "APM Music",
+        "difficulty": "Brrrr",
+        "copies": 2
+    },
+    "ciembrrrr2822freewings": {
+        "id": "ciembrrrr2822freewings",
+        "mapper": "ciem",
+        "name": "free wings",
+        "notes": 2822,
+        "artist": "APM Music",
+        "difficulty": "Brrrr",
+        "copies": 1
+    },
+    "sheanyabrrrr1405greenemerald": {
+        "id": "sheanyabrrrr1405greenemerald",
+        "mapper": "SheaNya",
+        "name": "Green Emerald",
+        "notes": 1405,
+        "artist": "APM Music",
+        "difficulty": "Brrrr",
+        "copies": 1
+    },
+    "immortalbrrrr8276bloom": {
+        "id": "immortalbrrrr8276bloom",
+        "mapper": "Immortal",
+        "name": "Bloom",
+        "notes": 8276,
+        "artist": "-Throttle-",
+        "difficulty": "Brrrr",
+        "copies": 1
+    },
+    "sheanyabrrrr2514chaos": {
+        "id": "sheanyabrrrr2514chaos",
+        "mapper": "SheaNya",
+        "name": "Chaos",
+        "notes": 2514,
+        "artist": "APM Music",
+        "difficulty": "Brrrr",
+        "copies": 1
+    },
+    "sheanyabrrrr796beatthenscreech": {
+        "id": "sheanyabrrrr796beatthenscreech",
+        "mapper": "SheaNya",
+        "name": "Beat Then Screech",
+        "notes": 796,
+        "artist": "APM Music",
+        "difficulty": "Brrrr",
+        "copies": 1
+    },
+    "sheanyabrrrr1410seawaves": {
+        "id": "sheanyabrrrr1410seawaves",
+        "mapper": "SheaNya",
+        "name": "Sea Waves",
+        "notes": 1410,
+        "artist": "APM Music",
+        "difficulty": "Brrrr",
+        "copies": 2
+    },
+    "demisnyabrrrr3491erabyeconnec10n": {
+        "id": "demisnyabrrrr3491erabyeconnec10n",
+        "mapper": "Demisnya",
+        "name": "+ERABY+E CONNEC+10N",
+        "notes": 3491,
+        "artist": "Camellia",
+        "difficulty": "Brrrr",
+        "copies": 1
+    },
+    "snivytrueformbrrrr1760catchme": {
+        "id": "snivytrueformbrrrr1760catchme",
+        "mapper": "SnivyTrueForm",
+        "name": "Catch Me",
+        "notes": 1760,
+        "artist": "Luvnyte",
+        "difficulty": "Brrrr",
+        "copies": 1
+    },
+    "sheanyabrrrr1241junglists": {
+        "id": "sheanyabrrrr1241junglists",
+        "mapper": "SheaNya",
+        "name": "Junglists",
+        "notes": 1241,
+        "artist": "APM Music",
+        "difficulty": "Brrrr",
+        "copies": 1
+    },
+    "xilpbrrrr1961onedayinyourbed": {
+        "id": "xilpbrrrr1961onedayinyourbed",
+        "mapper": "Xilp",
+        "name": "one day in your bed",
+        "notes": 1961,
+        "artist": "Jackuw",
+        "difficulty": "Brrrr",
+        "copies": 1
+    },
+    "allusionistbrrrr3000amiserablepileofsecretstheimpalerii": {
+        "id": "allusionistbrrrr3000amiserablepileofsecretstheimpalerii",
+        "mapper": "allusionist",
+        "name": "A Miserable Pile Of Secrets (The Impaler II)",
+        "notes": 3000,
+        "artist": "Nstryder",
+        "difficulty": "Brrrr",
+        "copies": 1
+    },
+    "sheanyabrrrr1217nomatterwhat": {
+        "id": "sheanyabrrrr1217nomatterwhat",
+        "mapper": "SheaNya",
+        "name": "No Matter What",
+        "notes": 1217,
+        "artist": "APM Music",
+        "difficulty": "Brrrr",
+        "copies": 1
+    },
+    "kappabrrrr3814logicbomb": {
+        "id": "kappabrrrr3814logicbomb",
+        "mapper": "kappa",
+        "name": "Logic bomb",
+        "notes": 3814,
+        "artist": "APM Music",
+        "difficulty": "Brrrr",
+        "copies": 1
+    },
+    "snivytrueformbrrrr2352feelthesame": {
+        "id": "snivytrueformbrrrr2352feelthesame",
+        "mapper": "SnivyTrueForm",
+        "name": "Feel the same",
+        "notes": 2352,
+        "artist": "Gardens",
+        "difficulty": "Brrrr",
+        "copies": 1
+    },
+    "azurlexxbrrrr1950danceinmydigitalgarden": {
+        "id": "azurlexxbrrrr1950danceinmydigitalgarden",
+        "mapper": "Azurlexx",
+        "name": "Dance In My Digital Garden",
+        "notes": 1950,
+        "artist": "Nstryder",
+        "difficulty": "Brrrr",
+        "copies": 1
+    },
+    "xilpbrrrr3012moshi": {
+        "id": "xilpbrrrr3012moshi",
+        "mapper": "Xilp",
+        "name": "Moshi",
+        "notes": 3012,
+        "artist": "Pegboard Nerds & Tokyo Machine",
+        "difficulty": "Brrrr",
+        "copies": 1
+    },
+    "tacologic1804play": {
+        "id": "tacologic1804play",
+        "mapper": "Taco",
+        "name": "PLAY",
+        "notes": 1804,
+        "artist": "Tokyo Machine",
+        "difficulty": "Logic",
+        "copies": 1
+    },
+    "sheanyabrrrr3507iwantyou": {
+        "id": "sheanyabrrrr3507iwantyou",
+        "mapper": "SheaNya",
+        "name": "I Want You",
+        "notes": 3507,
+        "artist": "APM Music",
+        "difficulty": "Brrrr",
+        "copies": 1
+    }
+}
