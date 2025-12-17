@@ -791,7 +791,7 @@
   },
   "zeroth": {
     "displayName": "zeroth",
-    "totalCopies": 2063,
+    "totalCopies": 2062,
     "maps": [
       {
         "id": "zerothBrrrr4944mymoon",
@@ -808,10 +808,8 @@
       {
         "id": "zerothBrrrr3326jealous",
         "name": "jealous",
-        "copies": 453,
-        "notes": 3326,
-        "artist": "d3r & Pröz",
-        "difficulty": "Brrrr"
+        "copies": 452,
+        "notes": 3326
       },
       {
         "id": "zerothBrrrr1769H4MANIAYUH",
@@ -2601,7 +2599,7 @@
   },
   "FpXHarborYT": {
     "displayName": "FpXHarborYT",
-    "totalCopies": 144,
+    "totalCopies": 145,
     "maps": [
       {
         "id": "FpXHarborYTLogic1513Control",
@@ -2626,6 +2624,14 @@
         "name": "Protostar New Horizons",
         "copies": 2,
         "notes": 1859
+      },
+      {
+        "id": "fpxharborytbrrrr2425thinkingaboutyou",
+        "name": "Thinking About You",
+        "copies": 1,
+        "notes": 2425,
+        "artist": "Monstercat",
+        "difficulty": "Brrrr"
       }
     ]
   },
