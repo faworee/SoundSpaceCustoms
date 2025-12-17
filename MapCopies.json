@@ -1679,15 +1679,13 @@
   },
   "curtival": {
     "displayName": "curtival",
-    "totalCopies": 243,
+    "totalCopies": 242,
     "maps": [
       {
         "id": "curtivalTasukete6618africantribe",
         "name": "african tribe",
-        "copies": 243,
-        "notes": 6618,
-        "artist": "APM Music",
-        "difficulty": "Tasukete"
+        "copies": 242,
+        "notes": 6618
       }
     ]
   },
@@ -1983,13 +1981,15 @@
   },
   "spoob": {
     "displayName": "spoob",
-    "totalCopies": 209,
+    "totalCopies": 210,
     "maps": [
       {
         "id": "spoobTasukete3193AMiserablePileOfSecrets(TheImpalerII)",
         "name": "A Miserable Pile Of Secrets (The Impaler II)",
-        "copies": 168,
-        "notes": 3193
+        "copies": 169,
+        "notes": 3193,
+        "artist": "Nstryder",
+        "difficulty": "Tasukete"
       },
       {
         "id": "spoobTasukete5437TeraI/O",
