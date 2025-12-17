@@ -1909,13 +1909,15 @@
   },
   "divetek": {
     "displayName": "divetek",
-    "totalCopies": 222,
+    "totalCopies": 223,
     "maps": [
       {
         "id": "divetekBrrrr1925BUTANE",
         "name": "BUTANE",
-        "copies": 98,
-        "notes": 1925
+        "copies": 99,
+        "notes": 1925,
+        "artist": "Astra",
+        "difficulty": "Brrrr"
       },
       {
         "id": "divetekBrrrr2761IntercosmicEcho",
