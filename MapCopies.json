@@ -2295,13 +2295,15 @@
   },
   "Dyamodash": {
     "displayName": "Dyamodash",
-    "totalCopies": 52,
+    "totalCopies": 53,
     "maps": [
       {
         "id": "DyamodashLogic2932sonicblaster",
         "name": "sonic blaster",
-        "copies": 52,
-        "notes": 2932
+        "copies": 53,
+        "notes": 2932,
+        "artist": "f-777",
+        "difficulty": "Logic"
       }
     ]
   },
