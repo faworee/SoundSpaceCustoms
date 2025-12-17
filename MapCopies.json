@@ -2211,13 +2211,15 @@
   },
   "Sdrullo": {
     "displayName": "Sdrullo",
-    "totalCopies": 339,
+    "totalCopies": 340,
     "maps": [
       {
         "id": "SdrulloBrrrr1697Darkstar",
         "name": "Darkstar",
-        "copies": 65,
-        "notes": 1697
+        "copies": 66,
+        "notes": 1697,
+        "artist": "Galaxyless & MVRLY",
+        "difficulty": "Brrrr"
       },
       {
         "id": "SdrulloBrrrr2532TheImpaler",
@@ -2393,7 +2395,7 @@
   },
   "Scxthes": {
     "displayName": "Scxthes",
-    "totalCopies": 1363,
+    "totalCopies": 1362,
     "maps": [
       {
         "id": "ScxthesLogic18224NDROMEDA",
@@ -2418,7 +2420,7 @@
       {
         "id": "ScxthesTasukete2599WASSA",
         "name": "WASSA",
-        "copies": 221,
+        "copies": 220,
         "notes": 2599,
         "artist": "HR",
         "difficulty": "Tasukete"
@@ -2745,12 +2747,12 @@
   },
   "Silva": {
     "displayName": "Silva",
-    "totalCopies": 129,
+    "totalCopies": 130,
     "maps": [
       {
         "id": "SilvaBrrrr1865Hot",
         "name": "Hot",
-        "copies": 129,
+        "copies": 130,
         "notes": 1865,
         "artist": "FWLR",
         "difficulty": "Brrrr"
