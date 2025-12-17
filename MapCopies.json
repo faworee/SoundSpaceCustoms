@@ -845,7 +845,7 @@
   },
   "zeroth": {
     "displayName": "zeroth",
-    "totalCopies": 2068,
+    "totalCopies": 2067,
     "maps": [
       {
         "id": "zerothBrrrr4944mymoon",
@@ -880,7 +880,7 @@
       {
         "id": "zerothTasukete1763iwontgiveuponyou",
         "name": "i wont give up on you",
-        "copies": 505,
+        "copies": 504,
         "notes": 1763,
         "artist": "mon",
         "difficulty": "Tasukete"
@@ -1825,12 +1825,12 @@
   },
   "Kappa": {
     "displayName": "Kappa",
-    "totalCopies": 501,
+    "totalCopies": 502,
     "maps": [
       {
         "id": "KappaBrrrr2234cyborgworkout",
         "name": "cyborg workout",
-        "copies": 120,
+        "copies": 121,
         "notes": 2234,
         "artist": "APM Music",
         "difficulty": "Brrrr"
@@ -2411,7 +2411,7 @@
   },
   "Scxthes": {
     "displayName": "Scxthes",
-    "totalCopies": 1370,
+    "totalCopies": 1369,
     "maps": [
       {
         "id": "ScxthesLogic18224NDROMEDA",
@@ -2436,7 +2436,7 @@
       {
         "id": "ScxthesTasukete2599WASSA",
         "name": "WASSA",
-        "copies": 222,
+        "copies": 221,
         "notes": 2599,
         "artist": "HR",
         "difficulty": "Tasukete"
@@ -2777,7 +2777,7 @@
   },
   "FpXHarborYT": {
     "displayName": "FpXHarborYT",
-    "totalCopies": 152,
+    "totalCopies": 153,
     "maps": [
       {
         "id": "FpXHarborYTLogic1513Control",
@@ -2808,7 +2808,7 @@
       {
         "id": "fpxharborytbrrrr2425thinkingaboutyou",
         "name": "Thinking About You",
-        "copies": 7,
+        "copies": 8,
         "notes": 2425,
         "artist": "Monstercat",
         "difficulty": "Brrrr"
