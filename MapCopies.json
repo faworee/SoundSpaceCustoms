@@ -825,13 +825,15 @@
   },
   "zeroth": {
     "displayName": "zeroth",
-    "totalCopies": 2064,
+    "totalCopies": 2065,
     "maps": [
       {
         "id": "zerothBrrrr4944mymoon",
         "name": "my moon",
-        "copies": 731,
-        "notes": 4944
+        "copies": 732,
+        "notes": 4944,
+        "artist": "7ate",
+        "difficulty": "Brrrr"
       },
       {
         "id": "zerothLogic2573ily",
@@ -865,7 +867,7 @@
   },
   "Xilp": {
     "displayName": "Xilp",
-    "totalCopies": 2217,
+    "totalCopies": 2216,
     "maps": [
       {
         "id": "XilpBrrrr3215Bloom",
@@ -926,10 +928,8 @@
       {
         "id": "XilpBrrrr2553TokyoDrift",
         "name": "Tokyo Drift",
-        "copies": 132,
-        "notes": 2553,
-        "artist": "Fumitake Igarashi",
-        "difficulty": "Brrrr"
+        "copies": 131,
+        "notes": 2553
       },
       {
         "id": "XilpBrrrr2128Machination",
@@ -2755,12 +2755,12 @@
   },
   "reticentmemory": {
     "displayName": "reticentmemory",
-    "totalCopies": 9,
+    "totalCopies": 10,
     "maps": [
       {
         "id": "reticentmemoryTasukete3469FINALSTAND",
         "name": "FINAL STAND",
-        "copies": 9,
+        "copies": 10,
         "notes": 3469,
         "artist": "Underscore",
         "difficulty": "Tasukete"
