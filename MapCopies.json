@@ -1543,7 +1543,7 @@
   },
   "faworee": {
     "displayName": "faworee",
-    "totalCopies": 1387,
+    "totalCopies": 1386,
     "maps": [
       {
         "id": "faworeeBrrrr2526eeyuh!",
@@ -1556,7 +1556,7 @@
       {
         "id": "faworeeTasukete5424CYBER999",
         "name": "CYBER 999",
-        "copies": 947,
+        "copies": 946,
         "notes": 5424,
         "artist": "Underscore",
         "difficulty": "Tasukete"
@@ -2434,7 +2434,7 @@
       {
         "id": "ScxthesTasukete2599WASSA",
         "name": "WASSA",
-        "copies": 221,
+        "copies": 222,
         "notes": 2599,
         "artist": "HR",
         "difficulty": "Tasukete"
@@ -2464,7 +2464,7 @@
       {
         "id": "ScxthesTasukete4878Expedite",
         "name": "Expedite",
-        "copies": 11,
+        "copies": 10,
         "notes": 4878,
         "artist": "Mon",
         "difficulty": "Tasukete"
@@ -4454,12 +4454,12 @@
   },
   "TUPPICUNOTUFFMAPPER": {
     "displayName": "TUPPICUNOTUFFMAPPER",
-    "totalCopies": 3,
+    "totalCopies": 2,
     "maps": [
       {
         "id": "tuppicunotuffmapperbrrrr2862toxic",
         "name": "toxic",
-        "copies": 3,
+        "copies": 2,
         "notes": 2862,
         "artist": "d3r & 6arelyhuman & Pröz",
         "difficulty": "Brrrr"
