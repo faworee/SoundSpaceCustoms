@@ -879,7 +879,7 @@
   },
   "Xilp": {
     "displayName": "Xilp",
-    "totalCopies": 2221,
+    "totalCopies": 2220,
     "maps": [
       {
         "id": "XilpBrrrr3215Bloom",
@@ -922,7 +922,7 @@
       {
         "id": "XilpTasukete3510HadronCollision",
         "name": "Hadron Collision",
-        "copies": 255,
+        "copies": 254,
         "notes": 3510,
         "artist": "Zytrx",
         "difficulty": "Tasukete"
@@ -2743,7 +2743,7 @@
   },
   "FpXHarborYT": {
     "displayName": "FpXHarborYT",
-    "totalCopies": 147,
+    "totalCopies": 148,
     "maps": [
       {
         "id": "FpXHarborYTLogic1513Control",
@@ -2772,7 +2772,7 @@
       {
         "id": "fpxharborytbrrrr2425thinkingaboutyou",
         "name": "Thinking About You",
-        "copies": 3,
+        "copies": 4,
         "notes": 2425,
         "artist": "Monstercat",
         "difficulty": "Brrrr"
