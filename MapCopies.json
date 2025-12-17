@@ -1125,7 +1125,7 @@
   },
   "SheaNya": {
     "displayName": "SheaNya",
-    "totalCopies": 4339,
+    "totalCopies": 4338,
     "maps": [
       {
         "id": "SheaNyaBrrrr1558Jumpstyle",
@@ -1172,7 +1172,7 @@
       {
         "id": "SheaNyaBrrrr2220Us",
         "name": "Us",
-        "copies": 194,
+        "copies": 193,
         "notes": 2220,
         "artist": "APM Music",
         "difficulty": "Brrrr"
@@ -1985,13 +1985,15 @@
   },
   "ciem": {
     "displayName": "ciem",
-    "totalCopies": 379,
+    "totalCopies": 380,
     "maps": [
       {
         "id": "ciemBrrrr2822freewings",
         "name": "free wings",
-        "copies": 99,
-        "notes": 2822
+        "copies": 100,
+        "notes": 2822,
+        "artist": "APM Music",
+        "difficulty": "Brrrr"
       },
       {
         "id": "ciemBrrrr695JobApplicationPhonk",
