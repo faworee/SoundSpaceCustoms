@@ -1089,7 +1089,7 @@
   },
   "Pyxenity": {
     "displayName": "Pyxenity",
-    "totalCopies": 439,
+    "totalCopies": 440,
     "maps": [
       {
         "id": "PyxenityBrrrr4876+ERABY+ECONNEC+10N",
@@ -1112,8 +1112,10 @@
       {
         "id": "PyxenityTasukete2974DefragmentationOfTheGlassDimension",
         "name": "Defragmentation Of The Glass Dimension",
-        "copies": 86,
-        "notes": 2974
+        "copies": 87,
+        "notes": 2974,
+        "artist": "vizunavé",
+        "difficulty": "Tasukete"
       },
       {
         "id": "PyxenityBrrrr1234ClassicChase",
@@ -1853,12 +1855,12 @@
   },
   "Oralex": {
     "displayName": "Oralex",
-    "totalCopies": 124,
+    "totalCopies": 123,
     "maps": [
       {
         "id": "OralexTasukete3016IntercosmicEcho2",
         "name": "Intercosmic Echo 2",
-        "copies": 124,
+        "copies": 123,
         "notes": 3016,
         "artist": "diamomd",
         "difficulty": "Tasukete"
