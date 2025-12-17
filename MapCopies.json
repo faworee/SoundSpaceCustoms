@@ -1105,7 +1105,7 @@
   },
   "SheaNya": {
     "displayName": "SheaNya",
-    "totalCopies": 4331,
+    "totalCopies": 4332,
     "maps": [
       {
         "id": "SheaNyaBrrrr1558Jumpstyle",
@@ -1318,8 +1318,10 @@
       {
         "id": "SheaNyaBrrrr3507IWantYou",
         "name": "I Want You",
-        "copies": 81,
-        "notes": 3507
+        "copies": 82,
+        "notes": 3507,
+        "artist": "APM Music",
+        "difficulty": "Brrrr"
       },
       {
         "id": "SheaNyaBrrrr1409StepIntoIt",
@@ -2341,7 +2343,7 @@
   },
   "Scxthes": {
     "displayName": "Scxthes",
-    "totalCopies": 1353,
+    "totalCopies": 1352,
     "maps": [
       {
         "id": "ScxthesLogic18224NDROMEDA",
@@ -2366,10 +2368,8 @@
       {
         "id": "ScxthesTasukete2599WASSA",
         "name": "WASSA",
-        "copies": 220,
-        "notes": 2599,
-        "artist": "HR",
-        "difficulty": "Tasukete"
+        "copies": 219,
+        "notes": 2599
       },
       {
         "id": "ScxthesBrrrr3408ForgettingWasMyOnlyOption",
