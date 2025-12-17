@@ -849,7 +849,7 @@
   },
   "Xilp": {
     "displayName": "Xilp",
-    "totalCopies": 2215,
+    "totalCopies": 2216,
     "maps": [
       {
         "id": "XilpBrrrr3215Bloom",
@@ -886,8 +886,10 @@
       {
         "id": "XilpBrrrr3501Kyzaghan",
         "name": "Kyzaghan",
-        "copies": 249,
-        "notes": 3501
+        "copies": 250,
+        "notes": 3501,
+        "artist": "Underscore",
+        "difficulty": "Brrrr"
       },
       {
         "id": "XilpTasukete3510HadronCollision",
@@ -1489,15 +1491,13 @@
   },
   "Xilp & OrAlex": {
     "displayName": "Xilp & OrAlex",
-    "totalCopies": 294,
+    "totalCopies": 293,
     "maps": [
       {
         "id": "Xilp&OrAlexBrrrr3551FINALHOPE",
         "name": "FINAL HOPE",
-        "copies": 294,
-        "notes": 3551,
-        "artist": "Underscore",
-        "difficulty": "Brrrr"
+        "copies": 293,
+        "notes": 3551
       }
     ]
   },
@@ -2659,7 +2659,7 @@
   },
   "FpXHarborYT": {
     "displayName": "FpXHarborYT",
-    "totalCopies": 147,
+    "totalCopies": 146,
     "maps": [
       {
         "id": "FpXHarborYTLogic1513Control",
@@ -2688,7 +2688,7 @@
       {
         "id": "fpxharborytbrrrr2425thinkingaboutyou",
         "name": "Thinking About You",
-        "copies": 3,
+        "copies": 2,
         "notes": 2425,
         "artist": "Monstercat",
         "difficulty": "Brrrr"
