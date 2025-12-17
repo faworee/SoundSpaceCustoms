@@ -1802,10 +1802,8 @@
       {
         "id": "KappaBrrrr2234cyborgworkout",
         "name": "cyborg workout",
-        "copies": 120,
-        "notes": 2234,
-        "artist": "APM Music",
-        "difficulty": "Brrrr"
+        "copies": 119,
+        "notes": 2234
       },
       {
         "id": "KappaBrrrr1789behindmasks",
@@ -1830,8 +1828,10 @@
       {
         "id": "KappaBrrrr1213AssaultComplex",
         "name": "Assault Complex",
-        "copies": 71,
-        "notes": 1213
+        "copies": 72,
+        "notes": 1213,
+        "artist": "APM Music",
+        "difficulty": "Brrrr"
       }
     ]
   },
