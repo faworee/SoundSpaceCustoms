@@ -459,12 +459,12 @@
   },
   "Demisnya": {
     "displayName": "Demisnya",
-    "totalCopies": 3160,
+    "totalCopies": 3161,
     "maps": [
       {
         "id": "DemisnyaBrrrr4240BassMonster",
         "name": "Bass Monster",
-        "copies": 79,
+        "copies": 80,
         "notes": 4240,
         "artist": "APM Music",
         "difficulty": "Brrrr"
@@ -2745,7 +2745,7 @@
   },
   "FpXHarborYT": {
     "displayName": "FpXHarborYT",
-    "totalCopies": 149,
+    "totalCopies": 148,
     "maps": [
       {
         "id": "FpXHarborYTLogic1513Control",
@@ -2774,7 +2774,7 @@
       {
         "id": "fpxharborytbrrrr2425thinkingaboutyou",
         "name": "Thinking About You",
-        "copies": 5,
+        "copies": 4,
         "notes": 2425,
         "artist": "Monstercat",
         "difficulty": "Brrrr"
