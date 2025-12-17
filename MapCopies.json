@@ -313,12 +313,12 @@
   },
   "Taco": {
     "displayName": "Taco",
-    "totalCopies": 3190,
+    "totalCopies": 3188,
     "maps": [
       {
         "id": "TacoMedium354toxic",
         "name": "toxic",
-        "copies": 117,
+        "copies": 116,
         "notes": 354,
         "artist": "d3r & 6arelyhuman & Pröz",
         "difficulty": "Medium"
@@ -334,10 +334,8 @@
       {
         "id": "TacoBrrrr2430CUTEMAKMAKFUNK",
         "name": "CUTEMAKMAKFUNK",
-        "copies": 449,
-        "notes": 2430,
-        "artist": "DJWahRA",
-        "difficulty": "Brrrr"
+        "copies": 448,
+        "notes": 2430
       },
       {
         "id": "TacoBrrrr1293KillEverybody",
@@ -2169,7 +2167,7 @@
   },
   "clvssicist": {
     "displayName": "clvssicist",
-    "totalCopies": 170,
+    "totalCopies": 171,
     "maps": [
       {
         "id": "clvssicistBrrrr1162PsychedFevereiro",
@@ -2180,8 +2178,10 @@
       {
         "id": "clvssicistHard514afinalglance",
         "name": "a final glance",
-        "copies": 36,
-        "notes": 514
+        "copies": 37,
+        "notes": 514,
+        "artist": "633397",
+        "difficulty": "Hard"
       },
       {
         "id": "clvssicistBrrrr1457//along/the/mystic/lands//",
