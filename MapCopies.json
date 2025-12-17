@@ -1,7 +1,7 @@
 {
   "SnivyTrueForm": {
     "displayName": "SnivyTrueForm",
-    "totalCopies": 1326,
+    "totalCopies": 1325,
     "maps": [
       {
         "id": "SnivyTrueFormEasy1382MoreThanFriends",
@@ -36,7 +36,7 @@
       {
         "id": "SnivyTrueFormBrrrr2780Santa-chansWinterWonderlandAdventure",
         "name": "Santa-chans Winter Wonderland Adventure",
-        "copies": 52,
+        "copies": 51,
         "notes": 2780,
         "artist": "Nstryder",
         "difficulty": "Brrrr"
@@ -1085,7 +1085,7 @@
   },
   "SheaNya": {
     "displayName": "SheaNya",
-    "totalCopies": 4325,
+    "totalCopies": 4324,
     "maps": [
       {
         "id": "SheaNyaBrrrr1558Jumpstyle",
@@ -1128,10 +1128,8 @@
       {
         "id": "SheaNyaBrrrr2220Us",
         "name": "Us",
-        "copies": 192,
-        "notes": 2220,
-        "artist": "APM Music",
-        "difficulty": "Brrrr"
+        "copies": 191,
+        "notes": 2220
       },
       {
         "id": "SheaNyaLogic344ForTheUnderdog",
@@ -1461,13 +1459,15 @@
   },
   "faworee": {
     "displayName": "faworee",
-    "totalCopies": 1384,
+    "totalCopies": 1385,
     "maps": [
       {
         "id": "faworeeBrrrr2526eeyuh!",
         "name": "eeyuh!",
-        "copies": 312,
-        "notes": 2526
+        "copies": 313,
+        "notes": 2526,
+        "artist": "HR",
+        "difficulty": "Brrrr"
       },
       {
         "id": "faworeeTasukete5424CYBER999",
@@ -2293,7 +2293,7 @@
   },
   "Scxthes": {
     "displayName": "Scxthes",
-    "totalCopies": 1348,
+    "totalCopies": 1347,
     "maps": [
       {
         "id": "ScxthesLogic18224NDROMEDA",
@@ -2324,7 +2324,7 @@
       {
         "id": "ScxthesBrrrr3408ForgettingWasMyOnlyOption",
         "name": "Forgetting Was My Only Option",
-        "copies": 102,
+        "copies": 101,
         "notes": 3408,
         "artist": "633397",
         "difficulty": "Brrrr"
@@ -2703,12 +2703,12 @@
   },
   "reticentmemory": {
     "displayName": "reticentmemory",
-    "totalCopies": 9,
+    "totalCopies": 8,
     "maps": [
       {
         "id": "reticentmemoryTasukete3469FINALSTAND",
         "name": "FINAL STAND",
-        "copies": 9,
+        "copies": 8,
         "notes": 3469,
         "artist": "Underscore",
         "difficulty": "Tasukete"
