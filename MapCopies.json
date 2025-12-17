@@ -449,7 +449,7 @@
   },
   "Demisnya": {
     "displayName": "Demisnya",
-    "totalCopies": 3158,
+    "totalCopies": 3157,
     "maps": [
       {
         "id": "DemisnyaBrrrr4240BassMonster",
@@ -794,10 +794,8 @@
       {
         "id": "DemisnyaBrrrr1233istillfeelmorealonethanieverhavebeenwhenyouaren'there",
         "name": "i still feel more alone than i ever have been when you aren't here",
-        "copies": 48,
-        "notes": 1233,
-        "artist": "633397",
-        "difficulty": "Brrrr"
+        "copies": 47,
+        "notes": 1233
       },
       {
         "id": "DemisnyaBrrrr1967FightForThePresent",
@@ -2343,7 +2341,7 @@
   },
   "Scxthes": {
     "displayName": "Scxthes",
-    "totalCopies": 1352,
+    "totalCopies": 1353,
     "maps": [
       {
         "id": "ScxthesLogic18224NDROMEDA",
@@ -2368,8 +2366,10 @@
       {
         "id": "ScxthesTasukete2599WASSA",
         "name": "WASSA",
-        "copies": 219,
-        "notes": 2599
+        "copies": 220,
+        "notes": 2599,
+        "artist": "HR",
+        "difficulty": "Tasukete"
       },
       {
         "id": "ScxthesBrrrr3408ForgettingWasMyOnlyOption",
