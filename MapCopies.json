@@ -459,7 +459,7 @@
   },
   "Demisnya": {
     "displayName": "Demisnya",
-    "totalCopies": 3160,
+    "totalCopies": 3159,
     "maps": [
       {
         "id": "DemisnyaBrrrr4240BassMonster",
@@ -764,10 +764,8 @@
       {
         "id": "DemisnyaBrrrr1956Lexay",
         "name": "Lexay",
-        "copies": 60,
-        "notes": 1956,
-        "artist": "BossRush",
-        "difficulty": "Brrrr"
+        "copies": 59,
+        "notes": 1956
       },
       {
         "id": "DemisnyaBrrrr28411nputThis2Y0urSpine",
@@ -881,7 +879,7 @@
   },
   "Xilp": {
     "displayName": "Xilp",
-    "totalCopies": 2221,
+    "totalCopies": 2220,
     "maps": [
       {
         "id": "XilpBrrrr3215Bloom",
@@ -944,10 +942,8 @@
       {
         "id": "XilpBrrrr2553TokyoDrift",
         "name": "Tokyo Drift",
-        "copies": 132,
-        "notes": 2553,
-        "artist": "Fumitake Igarashi",
-        "difficulty": "Brrrr"
+        "copies": 131,
+        "notes": 2553
       },
       {
         "id": "XilpBrrrr2128Machination",
@@ -2445,13 +2441,15 @@
   },
   "Noobourn": {
     "displayName": "Noobourn",
-    "totalCopies": 108,
+    "totalCopies": 109,
     "maps": [
       {
         "id": "NoobournBrrrr3800Stay(Metahumanboibootleg)",
         "name": "Stay (Metahumanboi bootleg)",
-        "copies": 108,
-        "notes": 3800
+        "copies": 109,
+        "notes": 3800,
+        "artist": "The Kid LAROI, Justin Bieber",
+        "difficulty": "Brrrr"
       }
     ]
   },
