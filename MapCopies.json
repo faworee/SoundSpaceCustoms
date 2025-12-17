@@ -445,7 +445,7 @@
   },
   "Demisnya": {
     "displayName": "Demisnya",
-    "totalCopies": 3156,
+    "totalCopies": 3157,
     "maps": [
       {
         "id": "DemisnyaBrrrr4240BassMonster",
@@ -484,8 +484,10 @@
       {
         "id": "DemisnyaBrrrr586ExtinctionWaltz",
         "name": "Extinction Waltz",
-        "copies": 37,
-        "notes": 586
+        "copies": 38,
+        "notes": 586,
+        "artist": "APM Music",
+        "difficulty": "Brrrr"
       },
       {
         "id": "DemisnyaBrrrr2047Aizome",
@@ -1929,7 +1931,7 @@
   },
   "ciem": {
     "displayName": "ciem",
-    "totalCopies": 380,
+    "totalCopies": 379,
     "maps": [
       {
         "id": "ciemBrrrr2822freewings",
@@ -1940,10 +1942,8 @@
       {
         "id": "ciemBrrrr695JobApplicationPhonk",
         "name": "Job Application Phonk",
-        "copies": 75,
-        "notes": 695,
-        "artist": "Blanka",
-        "difficulty": "Brrrr"
+        "copies": 74,
+        "notes": 695
       },
       {
         "id": "ciemBrrrr1388theenragedfighters",
