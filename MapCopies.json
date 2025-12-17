@@ -1,7 +1,7 @@
 {
   "SnivyTrueForm": {
     "displayName": "SnivyTrueForm",
-    "totalCopies": 1327,
+    "totalCopies": 1326,
     "maps": [
       {
         "id": "SnivyTrueFormEasy1382MoreThanFriends",
@@ -146,10 +146,8 @@
       {
         "id": "SnivyTrueFormBrrrr1788BlueCorgi",
         "name": "Blue Corgi",
-        "copies": 39,
-        "notes": 1788,
-        "artist": "Korsio",
-        "difficulty": "Brrrr"
+        "copies": 38,
+        "notes": 1788
       },
       {
         "id": "SnivyTrueFormBrrrr1326palette(りずむ-パレット)",
@@ -445,7 +443,7 @@
   },
   "Demisnya": {
     "displayName": "Demisnya",
-    "totalCopies": 3153,
+    "totalCopies": 3152,
     "maps": [
       {
         "id": "DemisnyaBrrrr4240BassMonster",
@@ -524,10 +522,8 @@
       {
         "id": "DemisnyaBrrrr2374Dogbite",
         "name": "Dogbite",
-        "copies": 39,
-        "notes": 2374,
-        "artist": "t+pazolite",
-        "difficulty": "Brrrr"
+        "copies": 38,
+        "notes": 2374
       },
       {
         "id": "DemisnyaBrrrr3858AccessGranted",
@@ -2297,7 +2293,7 @@
   },
   "Scxthes": {
     "displayName": "Scxthes",
-    "totalCopies": 1349,
+    "totalCopies": 1348,
     "maps": [
       {
         "id": "ScxthesLogic18224NDROMEDA",
@@ -2328,7 +2324,7 @@
       {
         "id": "ScxthesBrrrr3408ForgettingWasMyOnlyOption",
         "name": "Forgetting Was My Only Option",
-        "copies": 103,
+        "copies": 102,
         "notes": 3408,
         "artist": "633397",
         "difficulty": "Brrrr"
@@ -4332,12 +4328,12 @@
   },
   "TUPPICUNOTUFFMAPPER": {
     "displayName": "TUPPICUNOTUFFMAPPER",
-    "totalCopies": 1,
+    "totalCopies": 2,
     "maps": [
       {
         "id": "tuppicunotuffmapperbrrrr2862toxic",
         "name": "toxic",
-        "copies": 1,
+        "copies": 2,
         "notes": 2862,
         "artist": "d3r & 6arelyhuman & Pröz",
         "difficulty": "Brrrr"
