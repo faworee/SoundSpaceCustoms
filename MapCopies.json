@@ -1,7 +1,7 @@
 {
   "SnivyTrueForm": {
     "displayName": "SnivyTrueForm",
-    "totalCopies": 1326,
+    "totalCopies": 1327,
     "maps": [
       {
         "id": "SnivyTrueFormEasy1382MoreThanFriends",
@@ -184,8 +184,10 @@
       {
         "id": "SnivyTrueFormHard1083Overclocked",
         "name": "Overclocked",
-        "copies": 13,
-        "notes": 1083
+        "copies": 14,
+        "notes": 1083,
+        "artist": "DeBisco",
+        "difficulty": "Hard"
       },
       {
         "id": "SnivyTrueFormBrrrr3779AMiserablePileOfSecrets(TheImpalerII)",
