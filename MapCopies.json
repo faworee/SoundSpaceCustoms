@@ -313,7 +313,7 @@
   },
   "Taco": {
     "displayName": "Taco",
-    "totalCopies": 3189,
+    "totalCopies": 3190,
     "maps": [
       {
         "id": "TacoMedium354toxic",
@@ -356,7 +356,7 @@
       {
         "id": "TacoTasukete2870HOTAKFUNK",
         "name": "HOTAKFUNK",
-        "copies": 364,
+        "copies": 365,
         "notes": 2870,
         "artist": "DJWahRA",
         "difficulty": "Tasukete"
