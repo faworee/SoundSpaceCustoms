@@ -1,7 +1,7 @@
 {
   "SnivyTrueForm": {
     "displayName": "SnivyTrueForm",
-    "totalCopies": 1331,
+    "totalCopies": 1332,
     "maps": [
       {
         "id": "SnivyTrueFormEasy1382MoreThanFriends",
@@ -44,8 +44,10 @@
       {
         "id": "SnivyTrueFormTasukete3325StuffedJackal",
         "name": "Stuffed Jackal",
-        "copies": 92,
-        "notes": 3325
+        "copies": 93,
+        "notes": 3325,
+        "artist": "Korsio",
+        "difficulty": "Tasukete"
       },
       {
         "id": "SnivyTrueFormHard1543AtTheEndOfTime",
@@ -309,7 +311,7 @@
   },
   "Taco": {
     "displayName": "Taco",
-    "totalCopies": 3180,
+    "totalCopies": 3181,
     "maps": [
       {
         "id": "TacoMedium354toxic",
@@ -320,8 +322,10 @@
       {
         "id": "TacoTasukete3061IntercosmicEcho",
         "name": "Intercosmic Echo",
-        "copies": 334,
-        "notes": 3061
+        "copies": 335,
+        "notes": 3061,
+        "artist": "Diamomd",
+        "difficulty": "Tasukete"
       },
       {
         "id": "TacoBrrrr2430CUTEMAKMAKFUNK",
@@ -451,7 +455,7 @@
   },
   "Demisnya": {
     "displayName": "Demisnya",
-    "totalCopies": 3157,
+    "totalCopies": 3158,
     "maps": [
       {
         "id": "DemisnyaBrrrr4240BassMonster",
@@ -470,8 +474,10 @@
       {
         "id": "DemisnyaBrrrr2353attheendoftime",
         "name": "at the end of time",
-        "copies": 58,
-        "notes": 2353
+        "copies": 59,
+        "notes": 2353,
+        "artist": "diamomd",
+        "difficulty": "Brrrr"
       },
       {
         "id": "DemisnyaTasukete2010AAUGHH",
@@ -827,12 +833,12 @@
   },
   "zeroth": {
     "displayName": "zeroth",
-    "totalCopies": 2066,
+    "totalCopies": 2065,
     "maps": [
       {
         "id": "zerothBrrrr4944mymoon",
         "name": "my moon",
-        "copies": 733,
+        "copies": 732,
         "notes": 4944,
         "artist": "7ate",
         "difficulty": "Brrrr"
