@@ -1073,7 +1073,7 @@
   },
   "SheaNya": {
     "displayName": "SheaNya",
-    "totalCopies": 4325,
+    "totalCopies": 4324,
     "maps": [
       {
         "id": "SheaNyaBrrrr1558Jumpstyle",
@@ -1116,10 +1116,8 @@
       {
         "id": "SheaNyaBrrrr2220Us",
         "name": "Us",
-        "copies": 192,
-        "notes": 2220,
-        "artist": "APM Music",
-        "difficulty": "Brrrr"
+        "copies": 191,
+        "notes": 2220
       },
       {
         "id": "SheaNyaLogic344ForTheUnderdog",
@@ -2015,13 +2013,15 @@
   },
   "kappa": {
     "displayName": "kappa",
-    "totalCopies": 81,
+    "totalCopies": 82,
     "maps": [
       {
         "id": "kappaBrrrr3814Logicbomb",
         "name": "Logic bomb",
-        "copies": 81,
-        "notes": 3814
+        "copies": 82,
+        "notes": 3814,
+        "artist": "APM Music",
+        "difficulty": "Brrrr"
       }
     ]
   },
