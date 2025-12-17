@@ -299,7 +299,7 @@
   },
   "Taco": {
     "displayName": "Taco",
-    "totalCopies": 3176,
+    "totalCopies": 3175,
     "maps": [
       {
         "id": "TacoMedium354toxic",
@@ -340,7 +340,7 @@
       {
         "id": "TacoTasukete3590noescape",
         "name": "no escape",
-        "copies": 753,
+        "copies": 752,
         "notes": 3590,
         "artist": "d3r & m1v & asteria",
         "difficulty": "Tasukete"
@@ -1677,13 +1677,15 @@
   },
   "curtival": {
     "displayName": "curtival",
-    "totalCopies": 242,
+    "totalCopies": 243,
     "maps": [
       {
         "id": "curtivalTasukete6618africantribe",
         "name": "african tribe",
-        "copies": 242,
-        "notes": 6618
+        "copies": 243,
+        "notes": 6618,
+        "artist": "APM Music",
+        "difficulty": "Tasukete"
       }
     ]
   },
