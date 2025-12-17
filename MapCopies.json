@@ -795,7 +795,7 @@
   },
   "zeroth": {
     "displayName": "zeroth",
-    "totalCopies": 2062,
+    "totalCopies": 2063,
     "maps": [
       {
         "id": "zerothBrrrr4944mymoon",
@@ -806,8 +806,10 @@
       {
         "id": "zerothLogic2573ily",
         "name": "ily",
-        "copies": 240,
-        "notes": 2573
+        "copies": 241,
+        "notes": 2573,
+        "artist": "kirkiimad, CG5",
+        "difficulty": "Logic"
       },
       {
         "id": "zerothBrrrr3326jealous",
