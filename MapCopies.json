@@ -313,12 +313,12 @@
   },
   "Taco": {
     "displayName": "Taco",
-    "totalCopies": 3188,
+    "totalCopies": 3189,
     "maps": [
       {
         "id": "TacoMedium354toxic",
         "name": "toxic",
-        "copies": 116,
+        "copies": 117,
         "notes": 354,
         "artist": "d3r & 6arelyhuman & Pröz",
         "difficulty": "Medium"
