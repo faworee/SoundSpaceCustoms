@@ -1,7 +1,7 @@
 {
   "SnivyTrueForm": {
     "displayName": "SnivyTrueForm",
-    "totalCopies": 1332,
+    "totalCopies": 1333,
     "maps": [
       {
         "id": "SnivyTrueFormEasy1382MoreThanFriends",
@@ -142,7 +142,7 @@
       {
         "id": "SnivyTrueFormLogic759LoveSick!ft.Isabel",
         "name": "LoveSick! ft. Isabel",
-        "copies": 20,
+        "copies": 21,
         "notes": 759,
         "artist": "kuNarU",
         "difficulty": "Logic"
@@ -311,7 +311,7 @@
   },
   "Taco": {
     "displayName": "Taco",
-    "totalCopies": 3183,
+    "totalCopies": 3182,
     "maps": [
       {
         "id": "TacoMedium354toxic",
@@ -358,7 +358,7 @@
       {
         "id": "TacoTasukete3590noescape",
         "name": "no escape",
-        "copies": 756,
+        "copies": 755,
         "notes": 3590,
         "artist": "d3r & m1v & asteria",
         "difficulty": "Tasukete"
@@ -2777,12 +2777,12 @@
   },
   "reticentmemory": {
     "displayName": "reticentmemory",
-    "totalCopies": 11,
+    "totalCopies": 12,
     "maps": [
       {
         "id": "reticentmemoryTasukete3469FINALSTAND",
         "name": "FINAL STAND",
-        "copies": 11,
+        "copies": 12,
         "notes": 3469,
         "artist": "Underscore",
         "difficulty": "Tasukete"
