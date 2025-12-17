@@ -1,7 +1,7 @@
 {
   "SnivyTrueForm": {
     "displayName": "SnivyTrueForm",
-    "totalCopies": 1326,
+    "totalCopies": 1325,
     "maps": [
       {
         "id": "SnivyTrueFormEasy1382MoreThanFriends",
@@ -36,7 +36,7 @@
       {
         "id": "SnivyTrueFormBrrrr2780Santa-chansWinterWonderlandAdventure",
         "name": "Santa-chans Winter Wonderland Adventure",
-        "copies": 52,
+        "copies": 51,
         "notes": 2780,
         "artist": "Nstryder",
         "difficulty": "Brrrr"
@@ -443,7 +443,7 @@
   },
   "Demisnya": {
     "displayName": "Demisnya",
-    "totalCopies": 3153,
+    "totalCopies": 3152,
     "maps": [
       {
         "id": "DemisnyaBrrrr4240BassMonster",
@@ -662,7 +662,7 @@
       {
         "id": "DemisnyaBrrrr2502Grimoire",
         "name": "Grimoire",
-        "copies": 110,
+        "copies": 109,
         "notes": 2502,
         "artist": "Gardens",
         "difficulty": "Brrrr"
@@ -1108,8 +1108,10 @@
       {
         "id": "SheaNyaTasukete3327DeadInside",
         "name": "Dead Inside",
-        "copies": 263,
-        "notes": 3327
+        "copies": 264,
+        "notes": 3327,
+        "artist": "WUANT X BLUNDER",
+        "difficulty": "Tasukete"
       },
       {
         "id": "SheaNyaTasukete5726EXTRA!",
@@ -1128,10 +1130,8 @@
       {
         "id": "SheaNyaBrrrr2220Us",
         "name": "Us",
-        "copies": 192,
-        "notes": 2220,
-        "artist": "APM Music",
-        "difficulty": "Brrrr"
+        "copies": 191,
+        "notes": 2220
       },
       {
         "id": "SheaNyaLogic344ForTheUnderdog",
@@ -2293,7 +2293,7 @@
   },
   "Scxthes": {
     "displayName": "Scxthes",
-    "totalCopies": 1349,
+    "totalCopies": 1347,
     "maps": [
       {
         "id": "ScxthesLogic18224NDROMEDA",
@@ -2324,7 +2324,7 @@
       {
         "id": "ScxthesBrrrr3408ForgettingWasMyOnlyOption",
         "name": "Forgetting Was My Only Option",
-        "copies": 103,
+        "copies": 101,
         "notes": 3408,
         "artist": "633397",
         "difficulty": "Brrrr"
@@ -2513,13 +2513,15 @@
   },
   "🥺Pinchyl🥺": {
     "displayName": "🥺Pinchyl🥺",
-    "totalCopies": 99,
+    "totalCopies": 100,
     "maps": [
       {
         "id": "🥺Pinchyl🥺Brrrr1194SolarStrike",
         "name": "Solar Strike",
-        "copies": 99,
-        "notes": 1194
+        "copies": 100,
+        "notes": 1194,
+        "artist": "Metahumanboi ",
+        "difficulty": "Brrrr"
       }
     ]
   },
@@ -2703,12 +2705,12 @@
   },
   "reticentmemory": {
     "displayName": "reticentmemory",
-    "totalCopies": 9,
+    "totalCopies": 8,
     "maps": [
       {
         "id": "reticentmemoryTasukete3469FINALSTAND",
         "name": "FINAL STAND",
-        "copies": 9,
+        "copies": 8,
         "notes": 3469,
         "artist": "Underscore",
         "difficulty": "Tasukete"
