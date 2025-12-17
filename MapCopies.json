@@ -2103,7 +2103,7 @@
   },
   "sev": {
     "displayName": "sev",
-    "totalCopies": 624,
+    "totalCopies": 625,
     "maps": [
       {
         "id": "sevBrrrr4171RawHaus",
@@ -2114,7 +2114,7 @@
       {
         "id": "sevBrrrr2495AVANGARD2.0",
         "name": "AVANGARD 2.0",
-        "copies": 442,
+        "copies": 443,
         "notes": 2495,
         "artist": "Alanwaad",
         "difficulty": "Brrrr"
