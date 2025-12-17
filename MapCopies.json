@@ -313,12 +313,12 @@
   },
   "Taco": {
     "displayName": "Taco",
-    "totalCopies": 3188,
+    "totalCopies": 3189,
     "maps": [
       {
         "id": "TacoMedium354toxic",
         "name": "toxic",
-        "copies": 116,
+        "copies": 117,
         "notes": 354,
         "artist": "d3r & 6arelyhuman & Pröz",
         "difficulty": "Medium"
@@ -1685,12 +1685,12 @@
   },
   "Worst Ghost Player": {
     "displayName": "Worst Ghost Player",
-    "totalCopies": 441,
+    "totalCopies": 442,
     "maps": [
       {
         "id": "WorstGhostPlayerTasukete2205SPEEDCORENIGHTLIFE",
         "name": "SPEEDCORE NIGHTLIFE",
-        "copies": 441,
+        "copies": 442,
         "notes": 2205,
         "artist": "Underscore",
         "difficulty": "Tasukete"
@@ -2411,15 +2411,13 @@
   },
   "Scxthes": {
     "displayName": "Scxthes",
-    "totalCopies": 1370,
+    "totalCopies": 1369,
     "maps": [
       {
         "id": "ScxthesLogic18224NDROMEDA",
         "name": "4NDROMEDA",
-        "copies": 36,
-        "notes": 1822,
-        "artist": "Zytrx & Nstryder",
-        "difficulty": "Logic"
+        "copies": 35,
+        "notes": 1822
       },
       {
         "id": "ScxthesTasukete4383OATHBREAKER",
@@ -2739,26 +2737,24 @@
   },
   "Senternal": {
     "displayName": "Senternal",
-    "totalCopies": 157,
+    "totalCopies": 156,
     "maps": [
       {
         "id": "SenternalTasukete2091Eeyuh!",
         "name": "Eeyuh!",
-        "copies": 157,
-        "notes": 2091,
-        "artist": "hr",
-        "difficulty": "Tasukete"
+        "copies": 156,
+        "notes": 2091
       }
     ]
   },
   "Ghefine": {
     "displayName": "Ghefine",
-    "totalCopies": 237,
+    "totalCopies": 238,
     "maps": [
       {
         "id": "GhefineBrrrr3090Fusion",
         "name": "Fusion",
-        "copies": 237,
+        "copies": 238,
         "notes": 3090,
         "artist": "red",
         "difficulty": "Brrrr"
