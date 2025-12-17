@@ -1,7 +1,7 @@
 {
   "SnivyTrueForm": {
     "displayName": "SnivyTrueForm",
-    "totalCopies": 1323,
+    "totalCopies": 1324,
     "maps": [
       {
         "id": "SnivyTrueFormEasy1382MoreThanFriends",
@@ -274,8 +274,10 @@
       {
         "id": "SnivyTrueFormBrrrr2575Aizome",
         "name": "Aizome",
-        "copies": 9,
-        "notes": 2575
+        "copies": 10,
+        "notes": 2575,
+        "artist": "Karmadylo",
+        "difficulty": "Brrrr"
       },
       {
         "id": "SnivyTrueFormHard901Friday",
