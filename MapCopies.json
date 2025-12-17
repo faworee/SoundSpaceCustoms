@@ -2641,13 +2641,15 @@
   },
   "Senternal": {
     "displayName": "Senternal",
-    "totalCopies": 156,
+    "totalCopies": 157,
     "maps": [
       {
         "id": "SenternalTasukete2091Eeyuh!",
         "name": "Eeyuh!",
-        "copies": 156,
-        "notes": 2091
+        "copies": 157,
+        "notes": 2091,
+        "artist": "hr",
+        "difficulty": "Tasukete"
       }
     ]
   },
