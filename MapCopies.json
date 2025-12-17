@@ -443,7 +443,7 @@
   },
   "Demisnya": {
     "displayName": "Demisnya",
-    "totalCopies": 3153,
+    "totalCopies": 3152,
     "maps": [
       {
         "id": "DemisnyaBrrrr4240BassMonster",
@@ -602,10 +602,8 @@
       {
         "id": "DemisnyaTasukete2842IntercosmicEcho2",
         "name": "Intercosmic Echo 2",
-        "copies": 148,
-        "notes": 2842,
-        "artist": "diamomd",
-        "difficulty": "Tasukete"
+        "copies": 147,
+        "notes": 2842
       },
       {
         "id": "DemisnyaBrrrr2238HATEDHERO",
@@ -1110,10 +1108,8 @@
       {
         "id": "SheaNyaTasukete3327DeadInside",
         "name": "Dead Inside",
-        "copies": 264,
-        "notes": 3327,
-        "artist": "WUANT X BLUNDER",
-        "difficulty": "Tasukete"
+        "copies": 263,
+        "notes": 3327
       },
       {
         "id": "SheaNyaTasukete5726EXTRA!",
@@ -1346,8 +1342,10 @@
       {
         "id": "SheaNyaBrrrr2809Grimoire",
         "name": "Grimoire",
-        "copies": 30,
-        "notes": 2809
+        "copies": 31,
+        "notes": 2809,
+        "artist": "Gardens",
+        "difficulty": "Brrrr"
       },
       {
         "id": "SheaNyaBrrrr1416istillfeelmorealonethanieverhavebeenwhenyouaren'there",
@@ -2705,12 +2703,12 @@
   },
   "reticentmemory": {
     "displayName": "reticentmemory",
-    "totalCopies": 8,
+    "totalCopies": 9,
     "maps": [
       {
         "id": "reticentmemoryTasukete3469FINALSTAND",
         "name": "FINAL STAND",
-        "copies": 8,
+        "copies": 9,
         "notes": 3469,
         "artist": "Underscore",
         "difficulty": "Tasukete"
