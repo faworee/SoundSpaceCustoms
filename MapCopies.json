@@ -1115,7 +1115,7 @@
   },
   "SheaNya": {
     "displayName": "SheaNya",
-    "totalCopies": 4334,
+    "totalCopies": 4335,
     "maps": [
       {
         "id": "SheaNyaBrrrr1558Jumpstyle",
@@ -1280,8 +1280,10 @@
       {
         "id": "SheaNyaBrrrr2541PhonkVol.1-BellPepper",
         "name": "Phonk Vol. 1 - Bell Pepper",
-        "copies": 51,
-        "notes": 2541
+        "copies": 52,
+        "notes": 2541,
+        "artist": "APM Music",
+        "difficulty": "Brrrr"
       },
       {
         "id": "SheaNyaBrrrr1190PhonkVol.2-Back&TheFront",
