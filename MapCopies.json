@@ -2155,12 +2155,12 @@
   },
   "Cake": {
     "displayName": "Cake",
-    "totalCopies": 43,
+    "totalCopies": 44,
     "maps": [
       {
         "id": "CakeBrrrr1467The13th",
         "name": "The 13th",
-        "copies": 43,
+        "copies": 44,
         "notes": 1467,
         "artist": "ED$ANE",
         "difficulty": "Brrrr"
@@ -2413,7 +2413,7 @@
   },
   "Scxthes": {
     "displayName": "Scxthes",
-    "totalCopies": 1373,
+    "totalCopies": 1372,
     "maps": [
       {
         "id": "ScxthesLogic18224NDROMEDA",
@@ -2440,7 +2440,7 @@
       {
         "id": "ScxthesTasukete2599WASSA",
         "name": "WASSA",
-        "copies": 222,
+        "copies": 221,
         "notes": 2599,
         "artist": "HR",
         "difficulty": "Tasukete"
