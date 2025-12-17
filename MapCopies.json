@@ -431,7 +431,7 @@
   },
   "Demisnya": {
     "displayName": "Demisnya",
-    "totalCopies": 3151,
+    "totalCopies": 3152,
     "maps": [
       {
         "id": "DemisnyaBrrrr4240BassMonster",
@@ -656,8 +656,10 @@
       {
         "id": "DemisnyaBrrrr1473LoveSick!ft.Isabel",
         "name": "LoveSick! ft. Isabel",
-        "copies": 24,
-        "notes": 1473
+        "copies": 25,
+        "notes": 1473,
+        "artist": "kuNarU x Kitsune",
+        "difficulty": "Brrrr"
       },
       {
         "id": "DemisnyaBrrrr3226Flamewall",
