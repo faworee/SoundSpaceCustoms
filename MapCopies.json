@@ -443,7 +443,7 @@
   },
   "Demisnya": {
     "displayName": "Demisnya",
-    "totalCopies": 3154,
+    "totalCopies": 3153,
     "maps": [
       {
         "id": "DemisnyaBrrrr4240BassMonster",
@@ -516,10 +516,8 @@
       {
         "id": "DemisnyaTasukete1958//along/the/mystic/lands//",
         "name": "//along/the/mystic/lands//",
-        "copies": 94,
-        "notes": 1958,
-        "artist": "vizunavé",
-        "difficulty": "Tasukete"
+        "copies": 93,
+        "notes": 1958
       },
       {
         "id": "DemisnyaBrrrr2374Dogbite",
@@ -813,7 +811,7 @@
   },
   "zeroth": {
     "displayName": "zeroth",
-    "totalCopies": 2063,
+    "totalCopies": 2064,
     "maps": [
       {
         "id": "zerothBrrrr4944mymoon",
@@ -842,7 +840,7 @@
       {
         "id": "zerothTasukete1763iwontgiveuponyou",
         "name": "i wont give up on you",
-        "copies": 504,
+        "copies": 505,
         "notes": 1763,
         "artist": "mon",
         "difficulty": "Tasukete"
