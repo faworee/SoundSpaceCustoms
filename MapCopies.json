@@ -839,7 +839,7 @@
   },
   "zeroth": {
     "displayName": "zeroth",
-    "totalCopies": 2066,
+    "totalCopies": 2067,
     "maps": [
       {
         "id": "zerothBrrrr4944mymoon",
@@ -866,8 +866,10 @@
       {
         "id": "zerothBrrrr1769H4MANIAYUH",
         "name": "H4MANIA YUH",
-        "copies": 136,
-        "notes": 1769
+        "copies": 137,
+        "notes": 1769,
+        "artist": "darskuu",
+        "difficulty": "Brrrr"
       },
       {
         "id": "zerothTasukete1763iwontgiveuponyou",
@@ -881,7 +883,7 @@
   },
   "Xilp": {
     "displayName": "Xilp",
-    "totalCopies": 2221,
+    "totalCopies": 2220,
     "maps": [
       {
         "id": "XilpBrrrr3215Bloom",
@@ -918,10 +920,8 @@
       {
         "id": "XilpBrrrr3501Kyzaghan",
         "name": "Kyzaghan",
-        "copies": 250,
-        "notes": 3501,
-        "artist": "Underscore",
-        "difficulty": "Brrrr"
+        "copies": 249,
+        "notes": 3501
       },
       {
         "id": "XilpTasukete3510HadronCollision",
