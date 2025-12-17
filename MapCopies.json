@@ -2627,7 +2627,7 @@
   },
   "FpXHarborYT": {
     "displayName": "FpXHarborYT",
-    "totalCopies": 147,
+    "totalCopies": 146,
     "maps": [
       {
         "id": "FpXHarborYTLogic1513Control",
@@ -2650,10 +2650,8 @@
       {
         "id": "FpXHarborYTBrrrr1859ProtostarNewHorizons",
         "name": "Protostar New Horizons",
-        "copies": 3,
-        "notes": 1859,
-        "artist": "Monstercat",
-        "difficulty": "Brrrr"
+        "copies": 2,
+        "notes": 1859
       },
       {
         "id": "fpxharborytbrrrr2425thinkingaboutyou",
