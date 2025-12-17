@@ -1,4 +1,4 @@
- [
+[
   [
     "https://raw.githubusercontent.com/Faworee/faworee_Converts_soundspacecustoms/refs/heads/main/alt-_pixenity_camellia_-_tera_io",
     "Tera I/O",
@@ -1399,20 +1399,6 @@
     9.272298631360563,
     "No Info Provided",
     "0"
-  ],
-  [
-    "https://raw.githubusercontent.com/Demikuu/post-audio-update-maps/main/super%20charge!",
-    "Super Charge",
-    "Chase Carpenter",
-    "Demisnya",
-    "Brrrr",
-    [
-      "No Data"
-    ],
-    false,
-    4.40483751815419,
-    "No Info Provided",
-    "366297045213904899"
   ],
   [
     "https://raw.githubusercontent.com/Demikuu/post-audio-update-maps/main/overclocked",
@@ -5451,5 +5437,90 @@
     2.25,
     "Check your maps",
     "701888431667544255"
+  ],
+  [
+    "https://raw.githubusercontent.com/Scxthes/Expedite/main/Expedite",
+    "Expedite",
+    "Mon",
+    "Scxthes",
+    "Tasukete",
+    [
+      "Slides",
+      "Streams",
+      "Walls",
+      "Unconventional"
+    ],
+    true,
+    10.06,
+    "No Info Provided",
+    "1096628295967187004"
+  ],
+  [
+    "https://raw.githubusercontent.com/goobertown67/soundspizzle-maps/refs/heads/main/underscore%20-%20FINAL%20STAND",
+    "FINAL STAND",
+    "Underscore",
+    "reticentmemory",
+    "Tasukete",
+    [
+      "Streams",
+      "Walls",
+      "Jumps",
+      "Quantum",
+      "Stacks",
+      "Spins",
+      "Slides"
+    ],
+    true,
+    10.24,
+    "grahhh",
+    "1089323752996753559"
+  ],
+  [
+    "https://raw.githubusercontent.com/FpXHarborYT123/Sound-Space-Maps/refs/heads/main/Protostar%20New%20Horizons%20BRRR",
+    "Protostar New Horizons",
+    "Monstercat",
+    "FpXHarborYT",
+    "Brrrr",
+    [
+      "Streams",
+      "Walls",
+      "Jumps",
+      "Stacks"
+    ],
+    true,
+    5.65,
+    "No Info Provided",
+    "574561731301343232"
+  ],
+  [
+    "https://raw.githubusercontent.com/FpXHarborYT123/Sound-Space-Maps/refs/heads/main/Alanwaad%20-%20BRX%20PHONK%20--%20BRR",
+    "BRX PHONK",
+    "Alanwaad",
+    "FpXHarborYT",
+    "Logic",
+    [
+      "Walls",
+      "Jumps",
+      "Stacks",
+      "Slides"
+    ],
+    true,
+    4.85,
+    "No Info Provided",
+    "574561731301343232"
+  ],
+  [
+    "test",
+    "test",
+    "test",
+    "test",
+    "Easy",
+    [
+      "Slides"
+    ],
+    true,
+    1,
+    "test",
+    "1449901571264745557"
   ]
 ]
