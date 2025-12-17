@@ -1,7 +1,7 @@
 {
   "SnivyTrueForm": {
     "displayName": "SnivyTrueForm",
-    "totalCopies": 1330,
+    "totalCopies": 1329,
     "maps": [
       {
         "id": "SnivyTrueFormEasy1382MoreThanFriends",
@@ -178,10 +178,8 @@
       {
         "id": "SnivyTrueFormHard768onedayinyourbed",
         "name": "one day in your bed",
-        "copies": 27,
-        "notes": 768,
-        "artist": "jackuw",
-        "difficulty": "Hard"
+        "copies": 26,
+        "notes": 768
       },
       {
         "id": "SnivyTrueFormHard1083Overclocked",
@@ -2337,7 +2335,7 @@
   },
   "Scxthes": {
     "displayName": "Scxthes",
-    "totalCopies": 1352,
+    "totalCopies": 1353,
     "maps": [
       {
         "id": "ScxthesLogic18224NDROMEDA",
@@ -2390,7 +2388,7 @@
       {
         "id": "ScxthesTasukete4878Expedite",
         "name": "Expedite",
-        "copies": 7,
+        "copies": 8,
         "notes": 4878,
         "artist": "Mon",
         "difficulty": "Tasukete"
