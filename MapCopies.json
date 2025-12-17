@@ -1073,7 +1073,7 @@
   },
   "SheaNya": {
     "displayName": "SheaNya",
-    "totalCopies": 4325,
+    "totalCopies": 4324,
     "maps": [
       {
         "id": "SheaNyaBrrrr1558Jumpstyle",
@@ -1152,7 +1152,7 @@
       {
         "id": "SheaNyaBrrrr2547ABassRenaissance",
         "name": "A Bass Renaissance",
-        "copies": 166,
+        "copies": 165,
         "notes": 2547,
         "artist": "APM Music",
         "difficulty": "Brrrr"
@@ -1501,7 +1501,7 @@
   },
   "xazthenpc": {
     "displayName": "xazthenpc",
-    "totalCopies": 445,
+    "totalCopies": 446,
     "maps": [
       {
         "id": "xazthenpcBrrrr7175BadAccess",
@@ -1530,8 +1530,10 @@
       {
         "id": "xazthenpcBrrrr2240BreathDeep",
         "name": "Breath Deep",
-        "copies": 104,
-        "notes": 2240
+        "copies": 105,
+        "notes": 2240,
+        "artist": "APM Music",
+        "difficulty": "Brrrr"
       },
       {
         "id": "xazthenpcBrrrr3278AMiserablePileOfSecrets(TheImpalerII)",
