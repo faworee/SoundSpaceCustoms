@@ -1117,7 +1117,7 @@
   },
   "SheaNya": {
     "displayName": "SheaNya",
-    "totalCopies": 4335,
+    "totalCopies": 4336,
     "maps": [
       {
         "id": "SheaNyaBrrrr1558Jumpstyle",
@@ -1214,8 +1214,10 @@
       {
         "id": "SheaNyaLogic1426control(prod.shinjin)",
         "name": "control (prod. shinjin)",
-        "copies": 61,
-        "notes": 1426
+        "copies": 62,
+        "notes": 1426,
+        "artist": "luvbackpack",
+        "difficulty": "Logic"
       },
       {
         "id": "SheaNyaBrrrr2802Juggernaut",
