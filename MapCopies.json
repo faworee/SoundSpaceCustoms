@@ -1,7 +1,7 @@
 {
   "SnivyTrueForm": {
     "displayName": "SnivyTrueForm",
-    "totalCopies": 1334,
+    "totalCopies": 1335,
     "maps": [
       {
         "id": "SnivyTrueFormEasy1382MoreThanFriends",
@@ -36,7 +36,7 @@
       {
         "id": "SnivyTrueFormBrrrr2780Santa-chansWinterWonderlandAdventure",
         "name": "Santa-chans Winter Wonderland Adventure",
-        "copies": 52,
+        "copies": 53,
         "notes": 2780,
         "artist": "Nstryder",
         "difficulty": "Brrrr"
@@ -459,7 +459,7 @@
   },
   "Demisnya": {
     "displayName": "Demisnya",
-    "totalCopies": 3161,
+    "totalCopies": 3159,
     "maps": [
       {
         "id": "DemisnyaBrrrr4240BassMonster",
@@ -606,7 +606,7 @@
       {
         "id": "DemisnyaBrrrr4993HardcoreUproar",
         "name": "Hardcore Uproar",
-        "copies": 68,
+        "copies": 67,
         "notes": 4993,
         "artist": "APM Music",
         "difficulty": "Brrrr"
@@ -764,10 +764,8 @@
       {
         "id": "DemisnyaBrrrr1956Lexay",
         "name": "Lexay",
-        "copies": 60,
-        "notes": 1956,
-        "artist": "BossRush",
-        "difficulty": "Brrrr"
+        "copies": 59,
+        "notes": 1956
       },
       {
         "id": "DemisnyaBrrrr28411nputThis2Y0urSpine",
