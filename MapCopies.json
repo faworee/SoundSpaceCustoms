@@ -1097,12 +1097,12 @@
   },
   "SheaNya": {
     "displayName": "SheaNya",
-    "totalCopies": 4330,
+    "totalCopies": 4329,
     "maps": [
       {
         "id": "SheaNyaBrrrr1558Jumpstyle",
         "name": "Jumpstyle",
-        "copies": 361,
+        "copies": 360,
         "notes": 1558,
         "artist": "APM Music",
         "difficulty": "Brrrr"
@@ -2553,7 +2553,7 @@
   },
   "narcissistnile": {
     "displayName": "narcissistnile",
-    "totalCopies": 1049,
+    "totalCopies": 1050,
     "maps": [
       {
         "id": "narcissistnileTasukete4186cowbellgod",
@@ -2572,7 +2572,7 @@
       {
         "id": "narcissistnileBrrrr1466Alone",
         "name": "Alone",
-        "copies": 311,
+        "copies": 312,
         "notes": 1466,
         "artist": "Lil Kuudere, sukoyomi",
         "difficulty": "Brrrr"
