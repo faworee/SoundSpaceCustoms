@@ -827,7 +827,7 @@
   },
   "Xilp": {
     "displayName": "Xilp",
-    "totalCopies": 2214,
+    "totalCopies": 2215,
     "maps": [
       {
         "id": "XilpBrrrr3215Bloom",
@@ -882,8 +882,10 @@
       {
         "id": "XilpBrrrr1961onedayinyourbed",
         "name": "one day in your bed",
-        "copies": 32,
-        "notes": 1961
+        "copies": 33,
+        "notes": 1961,
+        "artist": "Jackuw",
+        "difficulty": "Brrrr"
       },
       {
         "id": "XilpBrrrr2553TokyoDrift",
@@ -1063,7 +1065,7 @@
   },
   "SheaNya": {
     "displayName": "SheaNya",
-    "totalCopies": 4320,
+    "totalCopies": 4321,
     "maps": [
       {
         "id": "SheaNyaBrrrr1558Jumpstyle",
@@ -1256,8 +1258,10 @@
       {
         "id": "SheaNyaBrrrr2569epicrace",
         "name": "epic race",
-        "copies": 86,
-        "notes": 2569
+        "copies": 87,
+        "notes": 2569,
+        "artist": "APM Music",
+        "difficulty": "Brrrr"
       },
       {
         "id": "SheaNyaBrrrr3507IWantYou",
