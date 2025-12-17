@@ -867,7 +867,7 @@
   },
   "Xilp": {
     "displayName": "Xilp",
-    "totalCopies": 2217,
+    "totalCopies": 2218,
     "maps": [
       {
         "id": "XilpBrrrr3215Bloom",
@@ -1040,7 +1040,7 @@
       {
         "id": "XilpTasukete3187CYBER999",
         "name": "CYBER 999",
-        "copies": 351,
+        "copies": 352,
         "notes": 3187,
         "artist": "Underscore",
         "difficulty": "Tasukete"
@@ -2351,7 +2351,7 @@
   },
   "Scxthes": {
     "displayName": "Scxthes",
-    "totalCopies": 1355,
+    "totalCopies": 1354,
     "maps": [
       {
         "id": "ScxthesLogic18224NDROMEDA",
@@ -2376,10 +2376,8 @@
       {
         "id": "ScxthesTasukete2599WASSA",
         "name": "WASSA",
-        "copies": 220,
-        "notes": 2599,
-        "artist": "HR",
-        "difficulty": "Tasukete"
+        "copies": 219,
+        "notes": 2599
       },
       {
         "id": "ScxthesBrrrr3408ForgettingWasMyOnlyOption",
