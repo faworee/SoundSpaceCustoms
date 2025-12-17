@@ -1284,10 +1284,8 @@
       {
         "id": "SheaNyaBrrrr1392CanCanRemix",
         "name": "Can Can Remix",
-        "copies": 88,
-        "notes": 1392,
-        "artist": "Jacques Offenbach",
-        "difficulty": "Brrrr"
+        "copies": 87,
+        "notes": 1392
       },
       {
         "id": "SheaNyaBrrrr2673BadAccess",
@@ -1332,8 +1330,10 @@
       {
         "id": "SheaNyaBrrrr841Militiaforce",
         "name": "Militia force",
-        "copies": 55,
-        "notes": 841
+        "copies": 56,
+        "notes": 841,
+        "artist": "APM Music",
+        "difficulty": "Brrrr"
       },
       {
         "id": "SheaNyaLogic1090LatinRumble",
