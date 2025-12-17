@@ -1067,7 +1067,7 @@
   },
   "SheaNya": {
     "displayName": "SheaNya",
-    "totalCopies": 4322,
+    "totalCopies": 4323,
     "maps": [
       {
         "id": "SheaNyaBrrrr1558Jumpstyle",
@@ -1358,8 +1358,10 @@
       {
         "id": "SheaNyaBrrrr2040waltzundbasse",
         "name": "waltz und basse",
-        "copies": 20,
-        "notes": 2040
+        "copies": 21,
+        "notes": 2040,
+        "artist": "Nstryder",
+        "difficulty": "Brrrr"
       },
       {
         "id": "SheaNyaBrrrr1373WildTemple",
