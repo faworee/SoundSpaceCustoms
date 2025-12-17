@@ -2653,13 +2653,15 @@
   },
   "Spica": {
     "displayName": "Spica",
-    "totalCopies": 79,
+    "totalCopies": 80,
     "maps": [
       {
         "id": "SpicaBrrrr2187Uproar",
         "name": "Uproar",
-        "copies": 79,
-        "notes": 2187
+        "copies": 80,
+        "notes": 2187,
+        "artist": "Tim Besamusca",
+        "difficulty": "Brrrr"
       }
     ]
   },
