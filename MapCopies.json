@@ -407,15 +407,13 @@
   },
   "Alter/p183805": {
     "displayName": "Alter/p183805",
-    "totalCopies": 1092,
+    "totalCopies": 1091,
     "maps": [
       {
         "id": "Alter/p183805Brrrr1333CrabRave",
         "name": "Crab Rave",
-        "copies": 184,
-        "notes": 1333,
-        "artist": "Noisestorm",
-        "difficulty": "Brrrr"
+        "copies": 183,
+        "notes": 1333
       },
       {
         "id": "alterp183805brrrr2368outofmyhead",
@@ -2101,7 +2099,7 @@
   },
   "sev": {
     "displayName": "sev",
-    "totalCopies": 624,
+    "totalCopies": 625,
     "maps": [
       {
         "id": "sevBrrrr4171RawHaus",
@@ -2112,7 +2110,7 @@
       {
         "id": "sevBrrrr2495AVANGARD2.0",
         "name": "AVANGARD 2.0",
-        "copies": 442,
+        "copies": 443,
         "notes": 2495,
         "artist": "Alanwaad",
         "difficulty": "Brrrr"
@@ -2749,7 +2747,7 @@
   },
   "FpXHarborYT": {
     "displayName": "FpXHarborYT",
-    "totalCopies": 149,
+    "totalCopies": 148,
     "maps": [
       {
         "id": "FpXHarborYTLogic1513Control",
@@ -2778,7 +2776,7 @@
       {
         "id": "fpxharborytbrrrr2425thinkingaboutyou",
         "name": "Thinking About You",
-        "copies": 5,
+        "copies": 4,
         "notes": 2425,
         "artist": "Monstercat",
         "difficulty": "Brrrr"
