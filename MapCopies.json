@@ -311,7 +311,7 @@
   },
   "Taco": {
     "displayName": "Taco",
-    "totalCopies": 3189,
+    "totalCopies": 3188,
     "maps": [
       {
         "id": "TacoMedium354toxic",
@@ -382,10 +382,8 @@
       {
         "id": "TacoTasukete1107skibidifanumtax",
         "name": "skibidi fanum tax",
-        "copies": 209,
-        "notes": 1107,
-        "artist": "RizzlerBullet",
-        "difficulty": "Tasukete"
+        "copies": 208,
+        "notes": 1107
       },
       {
         "id": "TacoBrrrr2157youreyes",
@@ -1095,7 +1093,7 @@
   },
   "Pyxenity": {
     "displayName": "Pyxenity",
-    "totalCopies": 440,
+    "totalCopies": 441,
     "maps": [
       {
         "id": "PyxenityBrrrr4876+ERABY+ECONNEC+10N",
@@ -1112,8 +1110,10 @@
       {
         "id": "PyxenityBrrrr4665DancewithSilence",
         "name": "Dance with Silence",
-        "copies": 107,
-        "notes": 4665
+        "copies": 108,
+        "notes": 4665,
+        "artist": "Camellia",
+        "difficulty": "Brrrr"
       },
       {
         "id": "PyxenityTasukete2974DefragmentationOfTheGlassDimension",
@@ -1139,7 +1139,7 @@
   },
   "SheaNya": {
     "displayName": "SheaNya",
-    "totalCopies": 4342,
+    "totalCopies": 4341,
     "maps": [
       {
         "id": "SheaNyaBrrrr1558Jumpstyle",
@@ -1282,10 +1282,8 @@
       {
         "id": "SheaNyaBrrrr2274BreathDeep",
         "name": "Breath Deep",
-        "copies": 143,
-        "notes": 2274,
-        "artist": "APM Music",
-        "difficulty": "Brrrr"
+        "copies": 142,
+        "notes": 2274
       },
       {
         "id": "SheaNyaLogic1580AAUGHH",
