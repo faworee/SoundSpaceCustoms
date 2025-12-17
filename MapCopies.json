@@ -889,7 +889,7 @@
   },
   "Xilp": {
     "displayName": "Xilp",
-    "totalCopies": 2222,
+    "totalCopies": 2221,
     "maps": [
       {
         "id": "XilpBrrrr3215Bloom",
@@ -952,10 +952,8 @@
       {
         "id": "XilpBrrrr2553TokyoDrift",
         "name": "Tokyo Drift",
-        "copies": 132,
-        "notes": 2553,
-        "artist": "Fumitake Igarashi",
-        "difficulty": "Brrrr"
+        "copies": 131,
+        "notes": 2553
       },
       {
         "id": "XilpBrrrr2128Machination",
@@ -2413,7 +2411,7 @@
   },
   "Scxthes": {
     "displayName": "Scxthes",
-    "totalCopies": 1371,
+    "totalCopies": 1370,
     "maps": [
       {
         "id": "ScxthesLogic18224NDROMEDA",
@@ -2470,7 +2468,7 @@
       {
         "id": "ScxthesTasukete4878Expedite",
         "name": "Expedite",
-        "copies": 12,
+        "copies": 11,
         "notes": 4878,
         "artist": "Mon",
         "difficulty": "Tasukete"
@@ -2741,13 +2739,15 @@
   },
   "Senternal": {
     "displayName": "Senternal",
-    "totalCopies": 156,
+    "totalCopies": 157,
     "maps": [
       {
         "id": "SenternalTasukete2091Eeyuh!",
         "name": "Eeyuh!",
-        "copies": 156,
-        "notes": 2091
+        "copies": 157,
+        "notes": 2091,
+        "artist": "hr",
+        "difficulty": "Tasukete"
       }
     ]
   },
