@@ -835,7 +835,7 @@
   },
   "zeroth": {
     "displayName": "zeroth",
-    "totalCopies": 2066,
+    "totalCopies": 2067,
     "maps": [
       {
         "id": "zerothBrrrr4944mymoon",
@@ -856,8 +856,10 @@
       {
         "id": "zerothBrrrr3326jealous",
         "name": "jealous",
-        "copies": 452,
-        "notes": 3326
+        "copies": 453,
+        "notes": 3326,
+        "artist": "d3r & Pröz",
+        "difficulty": "Brrrr"
       },
       {
         "id": "zerothBrrrr1769H4MANIAYUH",
