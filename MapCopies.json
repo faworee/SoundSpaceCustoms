@@ -1,7 +1,7 @@
 {
   "SnivyTrueForm": {
     "displayName": "SnivyTrueForm",
-    "totalCopies": 1332,
+    "totalCopies": 1331,
     "maps": [
       {
         "id": "SnivyTrueFormEasy1382MoreThanFriends",
@@ -44,10 +44,8 @@
       {
         "id": "SnivyTrueFormTasukete3325StuffedJackal",
         "name": "Stuffed Jackal",
-        "copies": 93,
-        "notes": 3325,
-        "artist": "Korsio",
-        "difficulty": "Tasukete"
+        "copies": 92,
+        "notes": 3325
       },
       {
         "id": "SnivyTrueFormHard1543AtTheEndOfTime",
@@ -311,7 +309,7 @@
   },
   "Taco": {
     "displayName": "Taco",
-    "totalCopies": 3181,
+    "totalCopies": 3180,
     "maps": [
       {
         "id": "TacoMedium354toxic",
@@ -322,10 +320,8 @@
       {
         "id": "TacoTasukete3061IntercosmicEcho",
         "name": "Intercosmic Echo",
-        "copies": 335,
-        "notes": 3061,
-        "artist": "Diamomd",
-        "difficulty": "Tasukete"
+        "copies": 334,
+        "notes": 3061
       },
       {
         "id": "TacoBrrrr2430CUTEMAKMAKFUNK",
@@ -831,12 +827,12 @@
   },
   "zeroth": {
     "displayName": "zeroth",
-    "totalCopies": 2065,
+    "totalCopies": 2066,
     "maps": [
       {
         "id": "zerothBrrrr4944mymoon",
         "name": "my moon",
-        "copies": 732,
+        "copies": 733,
         "notes": 4944,
         "artist": "7ate",
         "difficulty": "Brrrr"
@@ -1115,7 +1111,7 @@
   },
   "SheaNya": {
     "displayName": "SheaNya",
-    "totalCopies": 4335,
+    "totalCopies": 4334,
     "maps": [
       {
         "id": "SheaNyaBrrrr1558Jumpstyle",
@@ -1436,7 +1432,7 @@
       {
         "id": "SheaNyaBrrrr1338PhonkVol.I-Phonk'tOut",
         "name": "Phonk Vol. I - Phonk't Out",
-        "copies": 55,
+        "copies": 54,
         "notes": 1338,
         "artist": "APM Music",
         "difficulty": "Brrrr"
