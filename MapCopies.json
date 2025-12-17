@@ -1,7 +1,7 @@
 {
   "SnivyTrueForm": {
     "displayName": "SnivyTrueForm",
-    "totalCopies": 1324,
+    "totalCopies": 1325,
     "maps": [
       {
         "id": "SnivyTrueFormEasy1382MoreThanFriends",
@@ -36,8 +36,10 @@
       {
         "id": "SnivyTrueFormBrrrr2780Santa-chansWinterWonderlandAdventure",
         "name": "Santa-chans Winter Wonderland Adventure",
-        "copies": 50,
-        "notes": 2780
+        "copies": 51,
+        "notes": 2780,
+        "artist": "Nstryder",
+        "difficulty": "Brrrr"
       },
       {
         "id": "SnivyTrueFormTasukete3325StuffedJackal",
@@ -2633,19 +2635,21 @@
   },
   "Silva": {
     "displayName": "Silva",
-    "totalCopies": 128,
+    "totalCopies": 129,
     "maps": [
       {
         "id": "SilvaBrrrr1865Hot",
         "name": "Hot",
-        "copies": 128,
-        "notes": 1865
+        "copies": 129,
+        "notes": 1865,
+        "artist": "FWLR",
+        "difficulty": "Brrrr"
       }
     ]
   },
   "FpXHarborYT": {
     "displayName": "FpXHarborYT",
-    "totalCopies": 147,
+    "totalCopies": 146,
     "maps": [
       {
         "id": "FpXHarborYTLogic1513Control",
@@ -2674,7 +2678,7 @@
       {
         "id": "fpxharborytbrrrr2425thinkingaboutyou",
         "name": "Thinking About You",
-        "copies": 3,
+        "copies": 2,
         "notes": 2425,
         "artist": "Monstercat",
         "difficulty": "Brrrr"
