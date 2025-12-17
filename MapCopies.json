@@ -383,7 +383,7 @@
   },
   "Alter/p183805": {
     "displayName": "Alter/p183805",
-    "totalCopies": 1091,
+    "totalCopies": 1092,
     "maps": [
       {
         "id": "Alter/p183805Brrrr1333CrabRave",
@@ -402,7 +402,7 @@
       {
         "id": "Alter/p183805Tasukete1430Base",
         "name": "Base",
-        "copies": 335,
+        "copies": 336,
         "notes": 1430,
         "artist": "sximanes",
         "difficulty": "Tasukete"
@@ -1075,7 +1075,7 @@
   },
   "SheaNya": {
     "displayName": "SheaNya",
-    "totalCopies": 4325,
+    "totalCopies": 4324,
     "maps": [
       {
         "id": "SheaNyaBrrrr1558Jumpstyle",
@@ -1110,7 +1110,7 @@
       {
         "id": "SheaNyaTasukete2783wassa",
         "name": "wassa",
-        "copies": 469,
+        "copies": 468,
         "notes": 2783,
         "artist": "Hr",
         "difficulty": "Tasukete"
