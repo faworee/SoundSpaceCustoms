@@ -1055,7 +1055,7 @@
   },
   "Pyxenity": {
     "displayName": "Pyxenity",
-    "totalCopies": 439,
+    "totalCopies": 440,
     "maps": [
       {
         "id": "PyxenityBrrrr4876+ERABY+ECONNEC+10N",
@@ -1084,8 +1084,10 @@
       {
         "id": "PyxenityBrrrr1234ClassicChase",
         "name": "Classic Chase",
-        "copies": 56,
-        "notes": 1234
+        "copies": 57,
+        "notes": 1234,
+        "artist": "APM Music",
+        "difficulty": "Brrrr"
       },
       {
         "id": "PyxenityBrrrr2031002:DIVINEINQUISITION",
@@ -1097,7 +1099,7 @@
   },
   "SheaNya": {
     "displayName": "SheaNya",
-    "totalCopies": 4330,
+    "totalCopies": 4329,
     "maps": [
       {
         "id": "SheaNyaBrrrr1558Jumpstyle",
@@ -1330,10 +1332,8 @@
       {
         "id": "SheaNyaBrrrr841Militiaforce",
         "name": "Militia force",
-        "copies": 56,
-        "notes": 841,
-        "artist": "APM Music",
-        "difficulty": "Brrrr"
+        "copies": 55,
+        "notes": 841
       },
       {
         "id": "SheaNyaLogic1090LatinRumble",
@@ -1525,7 +1525,7 @@
   },
   "Matt430": {
     "displayName": "Matt430",
-    "totalCopies": 620,
+    "totalCopies": 619,
     "maps": [
       {
         "id": "Matt430Brrrr1946ETHEREALVELOCITY",
@@ -1536,7 +1536,7 @@
       {
         "id": "Matt430Tasukete29002024BPMISNOTENOUGH",
         "name": "2024 BPM IS NOT ENOUGH",
-        "copies": 500,
+        "copies": 499,
         "notes": 2900,
         "artist": "Underscore",
         "difficulty": "Tasukete"
@@ -2323,7 +2323,7 @@
   },
   "Scxthes": {
     "displayName": "Scxthes",
-    "totalCopies": 1353,
+    "totalCopies": 1352,
     "maps": [
       {
         "id": "ScxthesLogic18224NDROMEDA",
@@ -2348,10 +2348,8 @@
       {
         "id": "ScxthesTasukete2599WASSA",
         "name": "WASSA",
-        "copies": 220,
-        "notes": 2599,
-        "artist": "HR",
-        "difficulty": "Tasukete"
+        "copies": 219,
+        "notes": 2599
       },
       {
         "id": "ScxthesBrrrr3408ForgettingWasMyOnlyOption",
