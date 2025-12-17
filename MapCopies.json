@@ -2617,7 +2617,7 @@
   },
   "FpXHarborYT": {
     "displayName": "FpXHarborYT",
-    "totalCopies": 146,
+    "totalCopies": 147,
     "maps": [
       {
         "id": "FpXHarborYTLogic1513Control",
@@ -2640,8 +2640,10 @@
       {
         "id": "FpXHarborYTBrrrr1859ProtostarNewHorizons",
         "name": "Protostar New Horizons",
-        "copies": 2,
-        "notes": 1859
+        "copies": 3,
+        "notes": 1859,
+        "artist": "Monstercat",
+        "difficulty": "Brrrr"
       },
       {
         "id": "fpxharborytbrrrr2425thinkingaboutyou",
@@ -4292,12 +4294,12 @@
   },
   "TUPPICUNOTUFFMAPPER": {
     "displayName": "TUPPICUNOTUFFMAPPER",
-    "totalCopies": 2,
+    "totalCopies": 1,
     "maps": [
       {
         "id": "tuppicunotuffmapperbrrrr2862toxic",
         "name": "toxic",
-        "copies": 2,
+        "copies": 1,
         "notes": 2862,
         "artist": "d3r & 6arelyhuman & Pröz",
         "difficulty": "Brrrr"
