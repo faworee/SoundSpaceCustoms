@@ -303,7 +303,7 @@
   },
   "Taco": {
     "displayName": "Taco",
-    "totalCopies": 3177,
+    "totalCopies": 3176,
     "maps": [
       {
         "id": "TacoMedium354toxic",
@@ -346,7 +346,7 @@
       {
         "id": "TacoTasukete3590noescape",
         "name": "no escape",
-        "copies": 753,
+        "copies": 752,
         "notes": 3590,
         "artist": "d3r & m1v & asteria",
         "difficulty": "Tasukete"
@@ -1091,13 +1091,15 @@
   },
   "SheaNya": {
     "displayName": "SheaNya",
-    "totalCopies": 4325,
+    "totalCopies": 4326,
     "maps": [
       {
         "id": "SheaNyaBrrrr1558Jumpstyle",
         "name": "Jumpstyle",
-        "copies": 359,
-        "notes": 1558
+        "copies": 360,
+        "notes": 1558,
+        "artist": "APM Music",
+        "difficulty": "Brrrr"
       },
       {
         "id": "SheaNyaTasukete2487Dogbite",
