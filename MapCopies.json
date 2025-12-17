@@ -811,7 +811,7 @@
   },
   "zeroth": {
     "displayName": "zeroth",
-    "totalCopies": 2064,
+    "totalCopies": 2063,
     "maps": [
       {
         "id": "zerothBrrrr4944mymoon",
@@ -828,10 +828,8 @@
       {
         "id": "zerothBrrrr3326jealous",
         "name": "jealous",
-        "copies": 453,
-        "notes": 3326,
-        "artist": "d3r & Pröz",
-        "difficulty": "Brrrr"
+        "copies": 452,
+        "notes": 3326
       },
       {
         "id": "zerothBrrrr1769H4MANIAYUH",
@@ -1441,13 +1439,15 @@
   },
   "OrAlex": {
     "displayName": "OrAlex",
-    "totalCopies": 1143,
+    "totalCopies": 1144,
     "maps": [
       {
         "id": "OrAlexTasukete10535realityisdecaying\\world-end.",
         "name": "reality is decaying\\world-end.",
-        "copies": 327,
-        "notes": 10535
+        "copies": 328,
+        "notes": 10535,
+        "artist": "Underscore",
+        "difficulty": "Tasukete"
       },
       {
         "id": "OrAlexTasukete5098ULTIMATUM",
