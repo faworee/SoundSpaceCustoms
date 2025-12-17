@@ -1067,7 +1067,7 @@
   },
   "SheaNya": {
     "displayName": "SheaNya",
-    "totalCopies": 4323,
+    "totalCopies": 4324,
     "maps": [
       {
         "id": "SheaNyaBrrrr1558Jumpstyle",
@@ -1102,8 +1102,10 @@
       {
         "id": "SheaNyaTasukete2783wassa",
         "name": "wassa",
-        "copies": 467,
-        "notes": 2783
+        "copies": 468,
+        "notes": 2783,
+        "artist": "Hr",
+        "difficulty": "Tasukete"
       },
       {
         "id": "SheaNyaBrrrr2220Us",
