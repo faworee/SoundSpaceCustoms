@@ -1117,7 +1117,7 @@
   },
   "SheaNya": {
     "displayName": "SheaNya",
-    "totalCopies": 4334,
+    "totalCopies": 4335,
     "maps": [
       {
         "id": "SheaNyaBrrrr1558Jumpstyle",
@@ -1372,7 +1372,7 @@
       {
         "id": "sheanyabrrrr3049outofmyhead",
         "name": "oUt oF mY HEad",
-        "copies": 50,
+        "copies": 51,
         "notes": 3049,
         "artist": "WUANT x BLUNDER",
         "difficulty": "Brrrr"
@@ -2707,12 +2707,12 @@
   },
   "Silva": {
     "displayName": "Silva",
-    "totalCopies": 130,
+    "totalCopies": 129,
     "maps": [
       {
         "id": "SilvaBrrrr1865Hot",
         "name": "Hot",
-        "copies": 130,
+        "copies": 129,
         "notes": 1865,
         "artist": "FWLR",
         "difficulty": "Brrrr"
@@ -2771,12 +2771,12 @@
   },
   "reticentmemory": {
     "displayName": "reticentmemory",
-    "totalCopies": 11,
+    "totalCopies": 12,
     "maps": [
       {
         "id": "reticentmemoryTasukete3469FINALSTAND",
         "name": "FINAL STAND",
-        "copies": 11,
+        "copies": 12,
         "notes": 3469,
         "artist": "Underscore",
         "difficulty": "Tasukete"
