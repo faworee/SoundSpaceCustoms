@@ -1669,12 +1669,12 @@
   },
   "Worst Ghost Player": {
     "displayName": "Worst Ghost Player",
-    "totalCopies": 442,
+    "totalCopies": 441,
     "maps": [
       {
         "id": "WorstGhostPlayerTasukete2205SPEEDCORENIGHTLIFE",
         "name": "SPEEDCORE NIGHTLIFE",
-        "copies": 442,
+        "copies": 441,
         "notes": 2205,
         "artist": "Underscore",
         "difficulty": "Tasukete"
@@ -2205,7 +2205,7 @@
   },
   "Sdrullo": {
     "displayName": "Sdrullo",
-    "totalCopies": 338,
+    "totalCopies": 339,
     "maps": [
       {
         "id": "SdrulloBrrrr1697Darkstar",
@@ -2222,7 +2222,7 @@
       {
         "id": "SdrulloBrrrr1421iwontgiveuponyou",
         "name": "i wont give up on you",
-        "copies": 235,
+        "copies": 236,
         "notes": 1421,
         "artist": "mon",
         "difficulty": "Brrrr"
