@@ -1057,7 +1057,7 @@
   },
   "Immortal": {
     "displayName": "Immortal",
-    "totalCopies": 917,
+    "totalCopies": 916,
     "maps": [
       {
         "id": "ImmortalTasukete2508Artcore",
@@ -1068,10 +1068,8 @@
       {
         "id": "ImmortalBrrrr8276Bloom",
         "name": "Bloom",
-        "copies": 363,
-        "notes": 8276,
-        "artist": "-Throttle-",
-        "difficulty": "Brrrr"
+        "copies": 362,
+        "notes": 8276
       }
     ]
   },
@@ -1681,13 +1679,15 @@
   },
   "Xazthenpc": {
     "displayName": "Xazthenpc",
-    "totalCopies": 50,
+    "totalCopies": 51,
     "maps": [
       {
         "id": "XazthenpcBrrrr5238Virus",
         "name": "Virus",
-        "copies": 50,
-        "notes": 5238
+        "copies": 51,
+        "notes": 5238,
+        "artist": "Galaxyless",
+        "difficulty": "Brrrr"
       }
     ]
   },
