@@ -1,7 +1,7 @@
 {
   "SnivyTrueForm": {
     "displayName": "SnivyTrueForm",
-    "totalCopies": 1329,
+    "totalCopies": 1330,
     "maps": [
       {
         "id": "SnivyTrueFormEasy1382MoreThanFriends",
@@ -272,8 +272,10 @@
       {
         "id": "SnivyTrueFormHard738SaveYou",
         "name": "Save You",
-        "copies": 11,
-        "notes": 738
+        "copies": 12,
+        "notes": 738,
+        "artist": "Wuant X Blunder",
+        "difficulty": "Hard"
       },
       {
         "id": "SnivyTrueFormBrrrr2575Aizome",
@@ -2335,7 +2337,7 @@
   },
   "Scxthes": {
     "displayName": "Scxthes",
-    "totalCopies": 1353,
+    "totalCopies": 1352,
     "maps": [
       {
         "id": "ScxthesLogic18224NDROMEDA",
@@ -2388,7 +2390,7 @@
       {
         "id": "ScxthesTasukete4878Expedite",
         "name": "Expedite",
-        "copies": 8,
+        "copies": 7,
         "notes": 4878,
         "artist": "Mon",
         "difficulty": "Tasukete"
