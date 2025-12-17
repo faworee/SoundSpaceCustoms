@@ -1,7 +1,7 @@
 {
   "SnivyTrueForm": {
     "displayName": "SnivyTrueForm",
-    "totalCopies": 1327,
+    "totalCopies": 1326,
     "maps": [
       {
         "id": "SnivyTrueFormEasy1382MoreThanFriends",
@@ -184,10 +184,8 @@
       {
         "id": "SnivyTrueFormHard1083Overclocked",
         "name": "Overclocked",
-        "copies": 14,
-        "notes": 1083,
-        "artist": "DeBisco",
-        "difficulty": "Hard"
+        "copies": 13,
+        "notes": 1083
       },
       {
         "id": "SnivyTrueFormBrrrr3779AMiserablePileOfSecrets(TheImpalerII)",
@@ -2641,12 +2639,12 @@
   },
   "Ghefine": {
     "displayName": "Ghefine",
-    "totalCopies": 233,
+    "totalCopies": 234,
     "maps": [
       {
         "id": "GhefineBrrrr3090Fusion",
         "name": "Fusion",
-        "copies": 233,
+        "copies": 234,
         "notes": 3090,
         "artist": "red",
         "difficulty": "Brrrr"
