@@ -1531,12 +1531,12 @@
   },
   "faworee": {
     "displayName": "faworee",
-    "totalCopies": 1385,
+    "totalCopies": 1386,
     "maps": [
       {
         "id": "faworeeBrrrr2526eeyuh!",
         "name": "eeyuh!",
-        "copies": 313,
+        "copies": 314,
         "notes": 2526,
         "artist": "HR",
         "difficulty": "Brrrr"
@@ -1593,7 +1593,7 @@
   },
   "xazthenpc": {
     "displayName": "xazthenpc",
-    "totalCopies": 447,
+    "totalCopies": 446,
     "maps": [
       {
         "id": "xazthenpcBrrrr7175BadAccess",
@@ -1604,10 +1604,8 @@
       {
         "id": "xazthenpcBrrrr6300死にゆく自然(DyingNature)",
         "name": "死にゆく自然 (Dying Nature)",
-        "copies": 45,
-        "notes": 6300,
-        "artist": "Diamond",
-        "difficulty": "Brrrr"
+        "copies": 44,
+        "notes": 6300
       },
       {
         "id": "xazthenpcBrrrr1077LoveSick!ft.Isabel",
