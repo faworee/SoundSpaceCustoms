@@ -839,12 +839,12 @@
   },
   "zeroth": {
     "displayName": "zeroth",
-    "totalCopies": 2068,
+    "totalCopies": 2067,
     "maps": [
       {
         "id": "zerothBrrrr4944mymoon",
         "name": "my moon",
-        "copies": 734,
+        "copies": 733,
         "notes": 4944,
         "artist": "7ate",
         "difficulty": "Brrrr"
@@ -2395,7 +2395,7 @@
   },
   "Scxthes": {
     "displayName": "Scxthes",
-    "totalCopies": 1362,
+    "totalCopies": 1363,
     "maps": [
       {
         "id": "ScxthesLogic18224NDROMEDA",
@@ -2406,7 +2406,7 @@
       {
         "id": "ScxthesTasukete4383OATHBREAKER",
         "name": "OATH BREAKER",
-        "copies": 380,
+        "copies": 381,
         "notes": 4383,
         "artist": "Underscore",
         "difficulty": "Tasukete"
