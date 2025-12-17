@@ -1,7 +1,7 @@
 {
   "SnivyTrueForm": {
     "displayName": "SnivyTrueForm",
-    "totalCopies": 1333,
+    "totalCopies": 1334,
     "maps": [
       {
         "id": "SnivyTrueFormEasy1382MoreThanFriends",
@@ -238,8 +238,10 @@
       {
         "id": "SnivyTrueFormLogic605Twilightyears",
         "name": "Twilight years",
-        "copies": 12,
-        "notes": 605
+        "copies": 13,
+        "notes": 605,
+        "artist": "jackuw",
+        "difficulty": "Logic"
       },
       {
         "id": "SnivyTrueFormBrrrr1618Execute",
@@ -835,7 +837,7 @@
   },
   "zeroth": {
     "displayName": "zeroth",
-    "totalCopies": 2067,
+    "totalCopies": 2066,
     "maps": [
       {
         "id": "zerothBrrrr4944mymoon",
@@ -856,10 +858,8 @@
       {
         "id": "zerothBrrrr3326jealous",
         "name": "jealous",
-        "copies": 453,
-        "notes": 3326,
-        "artist": "d3r & Pröz",
-        "difficulty": "Brrrr"
+        "copies": 452,
+        "notes": 3326
       },
       {
         "id": "zerothBrrrr1769H4MANIAYUH",
