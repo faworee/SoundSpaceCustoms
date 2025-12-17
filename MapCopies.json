@@ -827,7 +827,7 @@
   },
   "Xilp": {
     "displayName": "Xilp",
-    "totalCopies": 2215,
+    "totalCopies": 2214,
     "maps": [
       {
         "id": "XilpBrrrr3215Bloom",
@@ -882,10 +882,8 @@
       {
         "id": "XilpBrrrr1961onedayinyourbed",
         "name": "one day in your bed",
-        "copies": 33,
-        "notes": 1961,
-        "artist": "Jackuw",
-        "difficulty": "Brrrr"
+        "copies": 32,
+        "notes": 1961
       },
       {
         "id": "XilpBrrrr2553TokyoDrift",
@@ -1565,15 +1563,13 @@
   },
   "Worst Ghost Player": {
     "displayName": "Worst Ghost Player",
-    "totalCopies": 441,
+    "totalCopies": 440,
     "maps": [
       {
         "id": "WorstGhostPlayerTasukete2205SPEEDCORENIGHTLIFE",
         "name": "SPEEDCORE NIGHTLIFE",
-        "copies": 441,
-        "notes": 2205,
-        "artist": "Underscore",
-        "difficulty": "Tasukete"
+        "copies": 440,
+        "notes": 2205
       }
     ]
   },
@@ -1699,7 +1695,7 @@
   },
   "Kappa": {
     "displayName": "Kappa",
-    "totalCopies": 495,
+    "totalCopies": 496,
     "maps": [
       {
         "id": "KappaBrrrr2234cyborgworkout",
@@ -1716,8 +1712,10 @@
       {
         "id": "KappaBrrrr3401plexus",
         "name": "plexus",
-        "copies": 144,
-        "notes": 3401
+        "copies": 145,
+        "notes": 3401,
+        "artist": "APM Music",
+        "difficulty": "Brrrr"
       },
       {
         "id": "KappaBrrrr1116IntenseChase",
@@ -2481,13 +2479,15 @@
   },
   "narcissistnile": {
     "displayName": "narcissistnile",
-    "totalCopies": 1047,
+    "totalCopies": 1048,
     "maps": [
       {
         "id": "narcissistnileTasukete4186cowbellgod",
         "name": "cowbell god",
-        "copies": 369,
-        "notes": 4186
+        "copies": 370,
+        "notes": 4186,
+        "artist": "Din1c X dxstrxcted! X QWERRXR",
+        "difficulty": "Tasukete"
       },
       {
         "id": "narcissistnileTasukete3581wheni'mgone",
@@ -2577,13 +2577,15 @@
   },
   "Ghefine": {
     "displayName": "Ghefine",
-    "totalCopies": 232,
+    "totalCopies": 233,
     "maps": [
       {
         "id": "GhefineBrrrr3090Fusion",
         "name": "Fusion",
-        "copies": 232,
-        "notes": 3090
+        "copies": 233,
+        "notes": 3090,
+        "artist": "red",
+        "difficulty": "Brrrr"
       }
     ]
   },
