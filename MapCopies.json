@@ -303,7 +303,7 @@
   },
   "Taco": {
     "displayName": "Taco",
-    "totalCopies": 3176,
+    "totalCopies": 3177,
     "maps": [
       {
         "id": "TacoMedium354toxic",
@@ -346,7 +346,7 @@
       {
         "id": "TacoTasukete3590noescape",
         "name": "no escape",
-        "copies": 752,
+        "copies": 753,
         "notes": 3590,
         "artist": "d3r & m1v & asteria",
         "difficulty": "Tasukete"
