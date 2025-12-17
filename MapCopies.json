@@ -459,7 +459,7 @@
   },
   "Demisnya": {
     "displayName": "Demisnya",
-    "totalCopies": 3159,
+    "totalCopies": 3160,
     "maps": [
       {
         "id": "DemisnyaBrrrr4240BassMonster",
@@ -764,8 +764,10 @@
       {
         "id": "DemisnyaBrrrr1956Lexay",
         "name": "Lexay",
-        "copies": 59,
-        "notes": 1956
+        "copies": 60,
+        "notes": 1956,
+        "artist": "BossRush",
+        "difficulty": "Brrrr"
       },
       {
         "id": "DemisnyaBrrrr28411nputThis2Y0urSpine",
