@@ -1575,12 +1575,12 @@
   },
   "Xilp & OrAlex": {
     "displayName": "Xilp & OrAlex",
-    "totalCopies": 295,
+    "totalCopies": 294,
     "maps": [
       {
         "id": "Xilp&OrAlexBrrrr3551FINALHOPE",
         "name": "FINAL HOPE",
-        "copies": 295,
+        "copies": 294,
         "notes": 3551,
         "artist": "Underscore",
         "difficulty": "Brrrr"
@@ -1589,7 +1589,7 @@
   },
   "Matt430": {
     "displayName": "Matt430",
-    "totalCopies": 622,
+    "totalCopies": 623,
     "maps": [
       {
         "id": "Matt430Brrrr1946ETHEREALVELOCITY",
@@ -1600,7 +1600,7 @@
       {
         "id": "Matt430Tasukete29002024BPMISNOTENOUGH",
         "name": "2024 BPM IS NOT ENOUGH",
-        "copies": 502,
+        "copies": 503,
         "notes": 2900,
         "artist": "Underscore",
         "difficulty": "Tasukete"
