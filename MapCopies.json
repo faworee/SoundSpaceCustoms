@@ -6,7 +6,7 @@
       {
         "id": "SnivyTrueFormEasy1382MoreThanFriends",
         "name": "More Than Friends",
-        "copies": 114,
+        "copies": 115,
         "notes": 1382,
         "artist": "Kazuya",
         "difficulty": "Easy"
@@ -44,10 +44,8 @@
       {
         "id": "SnivyTrueFormTasukete3325StuffedJackal",
         "name": "Stuffed Jackal",
-        "copies": 93,
-        "notes": 3325,
-        "artist": "Korsio",
-        "difficulty": "Tasukete"
+        "copies": 92,
+        "notes": 3325
       },
       {
         "id": "SnivyTrueFormHard1543AtTheEndOfTime",
@@ -453,7 +451,7 @@
   },
   "Demisnya": {
     "displayName": "Demisnya",
-    "totalCopies": 3158,
+    "totalCopies": 3157,
     "maps": [
       {
         "id": "DemisnyaBrrrr4240BassMonster",
@@ -620,10 +618,8 @@
       {
         "id": "DemisnyaTasukete2842IntercosmicEcho2",
         "name": "Intercosmic Echo 2",
-        "copies": 148,
-        "notes": 2842,
-        "artist": "diamomd",
-        "difficulty": "Tasukete"
+        "copies": 147,
+        "notes": 2842
       },
       {
         "id": "DemisnyaBrrrr2238HATEDHERO",
