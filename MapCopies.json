@@ -2290,10 +2290,8 @@
       {
         "id": "ScxthesTasukete2599WASSA",
         "name": "WASSA",
-        "copies": 220,
-        "notes": 2599,
-        "artist": "HR",
-        "difficulty": "Tasukete"
+        "copies": 219,
+        "notes": 2599
       },
       {
         "id": "ScxthesBrrrr3408ForgettingWasMyOnlyOption",
@@ -2316,7 +2314,7 @@
       {
         "id": "ScxthesTasukete4878Expedite",
         "name": "Expedite",
-        "copies": 2,
+        "copies": 3,
         "notes": 4878,
         "artist": "Mon",
         "difficulty": "Tasukete"
