@@ -311,7 +311,7 @@
   },
   "Taco": {
     "displayName": "Taco",
-    "totalCopies": 3188,
+    "totalCopies": 3189,
     "maps": [
       {
         "id": "TacoMedium354toxic",
@@ -388,8 +388,10 @@
       {
         "id": "TacoBrrrr2157youreyes",
         "name": "your eyes",
-        "copies": 127,
-        "notes": 2157
+        "copies": 128,
+        "notes": 2157,
+        "artist": "Kibi",
+        "difficulty": "Brrrr"
       },
       {
         "id": "TacoTasukete1183TheCommunity",
