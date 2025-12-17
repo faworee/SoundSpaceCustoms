@@ -1,7 +1,7 @@
 {
   "SnivyTrueForm": {
     "displayName": "SnivyTrueForm",
-    "totalCopies": 1334,
+    "totalCopies": 1333,
     "maps": [
       {
         "id": "SnivyTrueFormEasy1382MoreThanFriends",
@@ -14,7 +14,7 @@
       {
         "id": "SnivyTrueFormEasy499ここはどこ...?(Whereisthis...?)",
         "name": "ここはどこ...? (Where is this...?)",
-        "copies": 137,
+        "copies": 136,
         "notes": 499,
         "artist": "Rizum",
         "difficulty": "Easy"
@@ -1119,7 +1119,7 @@
   },
   "SheaNya": {
     "displayName": "SheaNya",
-    "totalCopies": 4337,
+    "totalCopies": 4336,
     "maps": [
       {
         "id": "SheaNyaBrrrr1558Jumpstyle",
@@ -1158,7 +1158,7 @@
       {
         "id": "SheaNyaTasukete2783wassa",
         "name": "wassa",
-        "copies": 470,
+        "copies": 469,
         "notes": 2783,
         "artist": "Hr",
         "difficulty": "Tasukete"
@@ -2365,7 +2365,7 @@
   },
   "Scxthes": {
     "displayName": "Scxthes",
-    "totalCopies": 1355,
+    "totalCopies": 1356,
     "maps": [
       {
         "id": "ScxthesLogic18224NDROMEDA",
@@ -2376,7 +2376,7 @@
       {
         "id": "ScxthesTasukete4383OATHBREAKER",
         "name": "OATH BREAKER",
-        "copies": 380,
+        "copies": 381,
         "notes": 4383,
         "artist": "Underscore",
         "difficulty": "Tasukete"
