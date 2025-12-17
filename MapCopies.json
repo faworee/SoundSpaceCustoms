@@ -1675,13 +1675,15 @@
   },
   "jIMMYcSP": {
     "displayName": "jIMMYcSP",
-    "totalCopies": 66,
+    "totalCopies": 67,
     "maps": [
       {
         "id": "jIMMYcSPBrrrr6312M1LLI0NPP",
         "name": "M1LLI0N PP",
-        "copies": 66,
-        "notes": 6312
+        "copies": 67,
+        "notes": 6312,
+        "artist": "Camellia",
+        "difficulty": "Brrrr"
       }
     ]
   },
