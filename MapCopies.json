@@ -1057,7 +1057,7 @@
   },
   "Immortal": {
     "displayName": "Immortal",
-    "totalCopies": 916,
+    "totalCopies": 917,
     "maps": [
       {
         "id": "ImmortalTasukete2508Artcore",
@@ -1068,8 +1068,10 @@
       {
         "id": "ImmortalBrrrr8276Bloom",
         "name": "Bloom",
-        "copies": 362,
-        "notes": 8276
+        "copies": 363,
+        "notes": 8276,
+        "artist": "-Throttle-",
+        "difficulty": "Brrrr"
       }
     ]
   },
