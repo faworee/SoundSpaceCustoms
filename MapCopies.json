@@ -1103,7 +1103,7 @@
   },
   "SheaNya": {
     "displayName": "SheaNya",
-    "totalCopies": 4331,
+    "totalCopies": 4332,
     "maps": [
       {
         "id": "SheaNyaBrrrr1558Jumpstyle",
@@ -1246,8 +1246,10 @@
       {
         "id": "SheaNyaLogic1580AAUGHH",
         "name": "AAUGHH",
-        "copies": 20,
-        "notes": 1580
+        "copies": 21,
+        "notes": 1580,
+        "artist": "Rutra",
+        "difficulty": "Logic"
       },
       {
         "id": "SheaNyaBrrrr796BeatThenScreech",
@@ -2103,7 +2105,7 @@
   },
   "clvssicist": {
     "displayName": "clvssicist",
-    "totalCopies": 171,
+    "totalCopies": 170,
     "maps": [
       {
         "id": "clvssicistBrrrr1162PsychedFevereiro",
@@ -2138,10 +2140,8 @@
       {
         "id": "clvssicistLogic941Dogbite",
         "name": "Dogbite",
-        "copies": 22,
-        "notes": 941,
-        "artist": "t+pazolite",
-        "difficulty": "Logic"
+        "copies": 21,
+        "notes": 941
       },
       {
         "id": "clvssicistLogic1495BrokenFaith",
