@@ -313,7 +313,7 @@
   },
   "Taco": {
     "displayName": "Taco",
-    "totalCopies": 3189,
+    "totalCopies": 3188,
     "maps": [
       {
         "id": "TacoMedium354toxic",
@@ -362,7 +362,7 @@
       {
         "id": "TacoTasukete3590noescape",
         "name": "no escape",
-        "copies": 760,
+        "copies": 759,
         "notes": 3590,
         "artist": "d3r & m1v & asteria",
         "difficulty": "Tasukete"
@@ -1543,7 +1543,7 @@
   },
   "faworee": {
     "displayName": "faworee",
-    "totalCopies": 1386,
+    "totalCopies": 1387,
     "maps": [
       {
         "id": "faworeeBrrrr2526eeyuh!",
@@ -1556,7 +1556,7 @@
       {
         "id": "faworeeTasukete5424CYBER999",
         "name": "CYBER 999",
-        "copies": 946,
+        "copies": 947,
         "notes": 5424,
         "artist": "Underscore",
         "difficulty": "Tasukete"
@@ -2409,7 +2409,7 @@
   },
   "Scxthes": {
     "displayName": "Scxthes",
-    "totalCopies": 1366,
+    "totalCopies": 1368,
     "maps": [
       {
         "id": "ScxthesLogic18224NDROMEDA",
@@ -2434,7 +2434,7 @@
       {
         "id": "ScxthesTasukete2599WASSA",
         "name": "WASSA",
-        "copies": 221,
+        "copies": 222,
         "notes": 2599,
         "artist": "HR",
         "difficulty": "Tasukete"
@@ -2464,7 +2464,7 @@
       {
         "id": "ScxthesTasukete4878Expedite",
         "name": "Expedite",
-        "copies": 10,
+        "copies": 11,
         "notes": 4878,
         "artist": "Mon",
         "difficulty": "Tasukete"
