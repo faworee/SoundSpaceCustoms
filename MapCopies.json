@@ -1073,7 +1073,7 @@
   },
   "SheaNya": {
     "displayName": "SheaNya",
-    "totalCopies": 4324,
+    "totalCopies": 4325,
     "maps": [
       {
         "id": "SheaNyaBrrrr1558Jumpstyle",
@@ -1172,8 +1172,10 @@
       {
         "id": "SheaNyaBrrrr2802Juggernaut",
         "name": "Juggernaut",
-        "copies": 118,
-        "notes": 2802
+        "copies": 119,
+        "notes": 2802,
+        "artist": "APM Music",
+        "difficulty": "Brrrr"
       },
       {
         "id": "SheaNyaBrrrr2514Chaos",
