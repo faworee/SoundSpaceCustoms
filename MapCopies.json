@@ -1,7 +1,7 @@
 {
   "SnivyTrueForm": {
     "displayName": "SnivyTrueForm",
-    "totalCopies": 1331,
+    "totalCopies": 1332,
     "maps": [
       {
         "id": "SnivyTrueFormEasy1382MoreThanFriends",
@@ -86,8 +86,10 @@
       {
         "id": "SnivyTrueFormLogic1940GlowMind",
         "name": "Glow Mind",
-        "copies": 19,
-        "notes": 1940
+        "copies": 20,
+        "notes": 1940,
+        "artist": "Rutra",
+        "difficulty": "Logic"
       },
       {
         "id": "SnivyTrueFormLogic807Propulsion",
@@ -2295,15 +2297,13 @@
   },
   "Dyamodash": {
     "displayName": "Dyamodash",
-    "totalCopies": 53,
+    "totalCopies": 52,
     "maps": [
       {
         "id": "DyamodashLogic2932sonicblaster",
         "name": "sonic blaster",
-        "copies": 53,
-        "notes": 2932,
-        "artist": "f-777",
-        "difficulty": "Logic"
+        "copies": 52,
+        "notes": 2932
       }
     ]
   },
