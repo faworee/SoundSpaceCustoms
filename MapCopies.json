@@ -1473,13 +1473,15 @@
   },
   "faworee": {
     "displayName": "faworee",
-    "totalCopies": 1384,
+    "totalCopies": 1385,
     "maps": [
       {
         "id": "faworeeBrrrr2526eeyuh!",
         "name": "eeyuh!",
-        "copies": 312,
-        "notes": 2526
+        "copies": 313,
+        "notes": 2526,
+        "artist": "HR",
+        "difficulty": "Brrrr"
       },
       {
         "id": "faworeeTasukete5424CYBER999",
@@ -1609,15 +1611,13 @@
   },
   "Worst Ghost Player": {
     "displayName": "Worst Ghost Player",
-    "totalCopies": 441,
+    "totalCopies": 440,
     "maps": [
       {
         "id": "WorstGhostPlayerTasukete2205SPEEDCORENIGHTLIFE",
         "name": "SPEEDCORE NIGHTLIFE",
-        "copies": 441,
-        "notes": 2205,
-        "artist": "Underscore",
-        "difficulty": "Tasukete"
+        "copies": 440,
+        "notes": 2205
       }
     ]
   },
