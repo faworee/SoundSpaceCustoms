@@ -467,7 +467,7 @@
   },
   "Demisnya": {
     "displayName": "Demisnya",
-    "totalCopies": 3164,
+    "totalCopies": 3163,
     "maps": [
       {
         "id": "DemisnyaBrrrr4240BassMonster",
@@ -650,10 +650,8 @@
       {
         "id": "DemisnyaBrrrr4654EmbraceTheNihil",
         "name": "Embrace The Nihil",
-        "copies": 80,
-        "notes": 4654,
-        "artist": "APM Music",
-        "difficulty": "Brrrr"
+        "copies": 79,
+        "notes": 4654
       },
       {
         "id": "DemisnyaBrrrr1758DanceInMyDigitalGarden",
@@ -897,7 +895,7 @@
   },
   "Xilp": {
     "displayName": "Xilp",
-    "totalCopies": 2221,
+    "totalCopies": 2222,
     "maps": [
       {
         "id": "XilpBrrrr3215Bloom",
@@ -1074,7 +1072,7 @@
       {
         "id": "XilpTasukete3187CYBER999",
         "name": "CYBER 999",
-        "copies": 352,
+        "copies": 353,
         "notes": 3187,
         "artist": "Underscore",
         "difficulty": "Tasukete"
