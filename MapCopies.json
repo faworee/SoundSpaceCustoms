@@ -467,7 +467,7 @@
   },
   "Demisnya": {
     "displayName": "Demisnya",
-    "totalCopies": 3163,
+    "totalCopies": 3164,
     "maps": [
       {
         "id": "DemisnyaBrrrr4240BassMonster",
@@ -650,8 +650,10 @@
       {
         "id": "DemisnyaBrrrr4654EmbraceTheNihil",
         "name": "Embrace The Nihil",
-        "copies": 79,
-        "notes": 4654
+        "copies": 80,
+        "notes": 4654,
+        "artist": "APM Music",
+        "difficulty": "Brrrr"
       },
       {
         "id": "DemisnyaBrrrr1758DanceInMyDigitalGarden",
