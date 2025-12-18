@@ -895,7 +895,7 @@
   },
   "Xilp": {
     "displayName": "Xilp",
-    "totalCopies": 2222,
+    "totalCopies": 2221,
     "maps": [
       {
         "id": "XilpBrrrr3215Bloom",
@@ -978,7 +978,7 @@
       {
         "id": "XilpBrrrr1678Karma",
         "name": "Karma",
-        "copies": 56,
+        "copies": 55,
         "notes": 1678,
         "artist": "Sacuna",
         "difficulty": "Brrrr"
@@ -1147,7 +1147,7 @@
   },
   "SheaNya": {
     "displayName": "SheaNya",
-    "totalCopies": 4342,
+    "totalCopies": 4343,
     "maps": [
       {
         "id": "SheaNyaBrrrr1558Jumpstyle",
@@ -1312,8 +1312,10 @@
       {
         "id": "SheaNyaBrrrr2312Insane",
         "name": "Insane",
-        "copies": 17,
-        "notes": 2312
+        "copies": 18,
+        "notes": 2312,
+        "artist": "Sacuna",
+        "difficulty": "Brrrr"
       },
       {
         "id": "SheaNyaBrrrr2541PhonkVol.1-BellPepper",
