@@ -851,7 +851,7 @@
   },
   "zeroth": {
     "displayName": "zeroth",
-    "totalCopies": 2071,
+    "totalCopies": 2070,
     "maps": [
       {
         "id": "zerothBrrrr4944mymoon",
@@ -872,10 +872,8 @@
       {
         "id": "zerothBrrrr3326jealous",
         "name": "jealous",
-        "copies": 453,
-        "notes": 3326,
-        "artist": "d3r & Pröz",
-        "difficulty": "Brrrr"
+        "copies": 452,
+        "notes": 3326
       },
       {
         "id": "zerothBrrrr1769H4MANIAYUH",
@@ -4470,12 +4468,12 @@
   },
   "TUPPICUNOTUFFMAPPER": {
     "displayName": "TUPPICUNOTUFFMAPPER",
-    "totalCopies": 2,
+    "totalCopies": 3,
     "maps": [
       {
         "id": "tuppicunotuffmapperbrrrr2862toxic",
         "name": "toxic",
-        "copies": 2,
+        "copies": 3,
         "notes": 2862,
         "artist": "d3r & 6arelyhuman & Pröz",
         "difficulty": "Brrrr"
