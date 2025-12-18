@@ -2530,7 +2530,7 @@ async function loadMapData() {
 async function loadMapCopies() {
     try {
         const timestamp = Date.now();
-        const response = await fetch(`MapCopies.json?v=${timestamp}`);
+        const response = await fetch(`https://faworee.com/soundspacecustoms/MapCopies.json?v=${timestamp}`);
         if (!response.ok) throw new Error('Failed to load map copies data');
         
         mapCopiesData = await response.json();
