@@ -1147,7 +1147,7 @@
   },
   "SheaNya": {
     "displayName": "SheaNya",
-    "totalCopies": 4344,
+    "totalCopies": 4345,
     "maps": [
       {
         "id": "SheaNyaBrrrr1558Jumpstyle",
@@ -1370,8 +1370,10 @@
       {
         "id": "SheaNyaBrrrr3507IWantYou",
         "name": "I Want You",
-        "copies": 81,
-        "notes": 3507
+        "copies": 82,
+        "notes": 3507,
+        "artist": "APM Music",
+        "difficulty": "Brrrr"
       },
       {
         "id": "SheaNyaBrrrr1409StepIntoIt",
