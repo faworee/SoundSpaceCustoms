@@ -1325,6 +1325,16 @@ if (randomMapBtn) {
     });
 }
 
+function getEventPosition(e) {
+    if (e.touches && e.touches.length > 0) {
+        return e.touches[0].clientX;
+    }
+    if (e.changedTouches && e.changedTouches.length > 0) {
+        return e.changedTouches[0].clientX;
+    }
+    return e.clientX;
+}
+
 function initRangeSliders() {
     if (!durationMinThumb || !durationMaxThumb || !notesMinThumb || !notesMaxThumb) return;
     
@@ -1344,22 +1354,22 @@ function initRangeSliders() {
         durationMaxInput.value = formatDuration(currentDurationRange.max);
     }
     
-    function handleDurationMouseDown(e, thumb) {
+    function handleDurationStart(e, thumb) {
         e.preventDefault();
         isDraggingDuration = true;
         currentDurationThumb = thumb;
         thumb.classList.add('active');
-        document.addEventListener('mousemove', handleDurationMouseMove);
-        document.addEventListener('mouseup', handleDurationMouseUp);
+        document.body.style.userSelect = 'none';
     }
     
-    function handleDurationMouseMove(e) {
+    function handleDurationMove(e) {
         if (!isDraggingDuration || !currentDurationThumb) return;
         e.preventDefault();
         
         const slider = currentDurationThumb.parentElement;
         const rect = slider.getBoundingClientRect();
-        const percent = Math.max(0, Math.min(100, ((e.clientX - rect.left) / rect.width) * 100));
+        const clientX = getEventPosition(e);
+        const percent = Math.max(0, Math.min(100, ((clientX - rect.left) / rect.width) * 100));
         const value = (percent / 100) * durationRange.max;
         
         if (currentDurationThumb === durationMinThumb) {
@@ -1372,18 +1382,47 @@ function initRangeSliders() {
         filterAndRenderMaps();
     }
     
-    function handleDurationMouseUp() {
+    function handleDurationEnd(e) {
         if (isDraggingDuration && currentDurationThumb) {
+            if (e) e.preventDefault();
             currentDurationThumb.classList.remove('active');
             isDraggingDuration = false;
             currentDurationThumb = null;
-            document.removeEventListener('mousemove', handleDurationMouseMove);
-            document.removeEventListener('mouseup', handleDurationMouseUp);
+            document.body.style.userSelect = '';
+            
+            document.removeEventListener('mousemove', handleDurationMove);
+            document.removeEventListener('mouseup', handleDurationEnd);
+            document.removeEventListener('touchmove', handleDurationMove);
+            document.removeEventListener('touchend', handleDurationEnd);
+            document.removeEventListener('touchcancel', handleDurationEnd);
         }
     }
     
-    durationMinThumb.addEventListener('mousedown', (e) => handleDurationMouseDown(e, durationMinThumb));
-    durationMaxThumb.addEventListener('mousedown', (e) => handleDurationMouseDown(e, durationMaxThumb));
+    durationMinThumb.addEventListener('mousedown', (e) => {
+        handleDurationStart(e, durationMinThumb);
+        document.addEventListener('mousemove', handleDurationMove);
+        document.addEventListener('mouseup', handleDurationEnd);
+    });
+    
+    durationMaxThumb.addEventListener('mousedown', (e) => {
+        handleDurationStart(e, durationMaxThumb);
+        document.addEventListener('mousemove', handleDurationMove);
+        document.addEventListener('mouseup', handleDurationEnd);
+    });
+    
+    durationMinThumb.addEventListener('touchstart', (e) => {
+        handleDurationStart(e, durationMinThumb);
+        document.addEventListener('touchmove', handleDurationMove, { passive: false });
+        document.addEventListener('touchend', handleDurationEnd);
+        document.addEventListener('touchcancel', handleDurationEnd);
+    }, { passive: false });
+    
+    durationMaxThumb.addEventListener('touchstart', (e) => {
+        handleDurationStart(e, durationMaxThumb);
+        document.addEventListener('touchmove', handleDurationMove, { passive: false });
+        document.addEventListener('touchend', handleDurationEnd);
+        document.addEventListener('touchcancel', handleDurationEnd);
+    }, { passive: false });
     
     let isDraggingNotes = false;
     let currentNotesThumb = null;
@@ -1401,22 +1440,22 @@ function initRangeSliders() {
         notesMaxInput.value = Math.round(currentNotesRange.max);
     }
     
-    function handleNotesMouseDown(e, thumb) {
+    function handleNotesStart(e, thumb) {
         e.preventDefault();
         isDraggingNotes = true;
         currentNotesThumb = thumb;
         thumb.classList.add('active');
-        document.addEventListener('mousemove', handleNotesMouseMove);
-        document.addEventListener('mouseup', handleNotesMouseUp);
+        document.body.style.userSelect = 'none';
     }
     
-    function handleNotesMouseMove(e) {
+    function handleNotesMove(e) {
         if (!isDraggingNotes || !currentNotesThumb) return;
         e.preventDefault();
         
         const slider = currentNotesThumb.parentElement;
         const rect = slider.getBoundingClientRect();
-        const percent = Math.max(0, Math.min(100, ((e.clientX - rect.left) / rect.width) * 100));
+        const clientX = getEventPosition(e);
+        const percent = Math.max(0, Math.min(100, ((clientX - rect.left) / rect.width) * 100));
         const value = (percent / 100) * notesRange.max;
         
         if (currentNotesThumb === notesMinThumb) {
@@ -1429,22 +1468,52 @@ function initRangeSliders() {
         filterAndRenderMaps();
     }
     
-    function handleNotesMouseUp() {
+    function handleNotesEnd(e) {
         if (isDraggingNotes && currentNotesThumb) {
+            if (e) e.preventDefault();
             currentNotesThumb.classList.remove('active');
             isDraggingNotes = false;
             currentNotesThumb = null;
-            document.removeEventListener('mousemove', handleNotesMouseMove);
-            document.removeEventListener('mouseup', handleNotesMouseUp);
+            document.body.style.userSelect = '';
+            
+            document.removeEventListener('mousemove', handleNotesMove);
+            document.removeEventListener('mouseup', handleNotesEnd);
+            document.removeEventListener('touchmove', handleNotesMove);
+            document.removeEventListener('touchend', handleNotesEnd);
+            document.removeEventListener('touchcancel', handleNotesEnd);
         }
     }
     
-    notesMinThumb.addEventListener('mousedown', (e) => handleNotesMouseDown(e, notesMinThumb));
-    notesMaxThumb.addEventListener('mousedown', (e) => handleNotesMouseDown(e, notesMaxThumb));
+    notesMinThumb.addEventListener('mousedown', (e) => {
+        handleNotesStart(e, notesMinThumb);
+        document.addEventListener('mousemove', handleNotesMove);
+        document.addEventListener('mouseup', handleNotesEnd);
+    });
+    
+    notesMaxThumb.addEventListener('mousedown', (e) => {
+        handleNotesStart(e, notesMaxThumb);
+        document.addEventListener('mousemove', handleNotesMove);
+        document.addEventListener('mouseup', handleNotesEnd);
+    });
+    
+    notesMinThumb.addEventListener('touchstart', (e) => {
+        handleNotesStart(e, notesMinThumb);
+        document.addEventListener('touchmove', handleNotesMove, { passive: false });
+        document.addEventListener('touchend', handleNotesEnd);
+        document.addEventListener('touchcancel', handleNotesEnd);
+    }, { passive: false });
+    
+    notesMaxThumb.addEventListener('touchstart', (e) => {
+        handleNotesStart(e, notesMaxThumb);
+        document.addEventListener('touchmove', handleNotesMove, { passive: false });
+        document.addEventListener('touchend', handleNotesEnd);
+        document.addEventListener('touchcancel', handleNotesEnd);
+    }, { passive: false });
     
     updateDurationSlider();
     updateNotesSlider();
 }
+
 
 function updateActiveFiltersDisplay() {
     const content = document.getElementById('activeFiltersContent');
@@ -1847,9 +1916,14 @@ document.getElementById('deleteMapBtn')?.addEventListener('click', async functio
     }
 });
 
-window.openStartFrom = async function(link) {
+window.openStartFrom = async function(link, event) {
     try {
-        const dropdown = event.target.closest('.more-actions-dropdown');
+        if (event) {
+            event.stopPropagation();
+            event.preventDefault();
+        }
+        
+        const dropdown = event ? event.target.closest('.more-actions-dropdown') : null;
         if (dropdown) {
             dropdown.classList.remove('show');
         }
@@ -1861,6 +1935,7 @@ window.openStartFrom = async function(link) {
         
         const firstCommaIndex = mapContent.indexOf(',');
         if (firstCommaIndex === -1) {
+            alert('Invalid map format');
             return;
         }
         
@@ -1880,6 +1955,7 @@ window.openStartFrom = async function(link) {
         }).filter(n => n !== null);
         
         if (notes.length === 0) {
+            alert('No notes found in map');
             return;
         }
         
@@ -1897,9 +1973,11 @@ window.openStartFrom = async function(link) {
         
         initStartFromSlider();
         document.getElementById('startFromModal').classList.add('show');
-    } catch (error) {}
+    } catch (error) {
+        console.error('Start from error:', error);
+        alert('Failed to load map: ' + error.message);
+    }
 };
-
 function initStartFromSlider() {
     if (!currentStartFromMap) return;
     
@@ -1907,93 +1985,139 @@ function initStartFromSlider() {
     const startTimeInput = document.getElementById('startTimeInput');
     const mapLengthDisplay = document.getElementById('mapLengthDisplay');
     const startTimeTrack = document.getElementById('startTimeTrack');
+    const sliderContainer = document.querySelector('#startFromModal .dual-range-slider');
     
-    if (!startTimeThumb || !startTimeInput || !mapLengthDisplay || !startTimeTrack) return;
+    if (!startTimeThumb || !startTimeInput || !mapLengthDisplay || !startTimeTrack || !sliderContainer) return;
     
     let currentStartTime = currentStartFromMap.minTime;
+    let isDragging = false;
     
     mapLengthDisplay.value = formatDuration(currentStartFromMap.duration);
     startTimeInput.value = formatDuration(0);
     
-    let isDragging = false;
-    
     function updateSlider() {
         const percent = ((currentStartTime - currentStartFromMap.minTime) / currentStartFromMap.duration) * 100;
-        startTimeThumb.style.left = percent + '%';
-        startTimeTrack.style.left = '0%';
-        startTimeTrack.style.width = percent + '%';
-        startTimeInput.value = formatDuration(currentStartTime - currentStartFromMap.minTime);
+        const thumb = document.getElementById('startTimeThumb');
+        const track = document.getElementById('startTimeTrack');
+        const input = document.getElementById('startTimeInput');
+        
+        if (thumb) thumb.style.left = percent + '%';
+        if (track) track.style.width = percent + '%';
+        if (input) input.value = formatDuration(currentStartTime - currentStartFromMap.minTime);
     }
     
-    function handleMouseDown(e) {
+    function handleStart(e) {
         e.preventDefault();
         isDragging = true;
-        startTimeThumb.classList.add('active');
-        document.addEventListener('mousemove', handleMouseMove);
-        document.addEventListener('mouseup', handleMouseUp);
+        const thumb = document.getElementById('startTimeThumb');
+        if (thumb) thumb.classList.add('active');
+        document.body.style.userSelect = 'none';
     }
     
-    function handleMouseMove(e) {
+    function handleMove(e) {
         if (!isDragging) return;
         e.preventDefault();
         
-        const slider = startTimeThumb.parentElement;
-        const rect = slider.getBoundingClientRect();
-        const percent = Math.max(0, Math.min(100, ((e.clientX - rect.left) / rect.width) * 100));
+        const container = document.querySelector('#startFromModal .dual-range-slider');
+        if (!container) {
+            handleEnd();
+            return;
+        }
+        
+        const rect = container.getBoundingClientRect();
+        const clientX = getEventPosition(e);
+        const percent = Math.max(0, Math.min(100, ((clientX - rect.left) / rect.width) * 100));
         currentStartTime = currentStartFromMap.minTime + (percent / 100) * currentStartFromMap.duration;
         
         updateSlider();
     }
     
-    function handleMouseUp() {
-        if (isDragging) {
-            startTimeThumb.classList.remove('active');
-            isDragging = false;
-            document.removeEventListener('mousemove', handleMouseMove);
-            document.removeEventListener('mouseup', handleMouseUp);
-        }
+    function handleEnd(e) {
+        if (!isDragging) return;
+        if (e) e.preventDefault();
+        
+        isDragging = false;
+        const thumb = document.getElementById('startTimeThumb');
+        if (thumb) thumb.classList.remove('active');
+        document.body.style.userSelect = '';
+        
+        document.removeEventListener('mousemove', handleMove);
+        document.removeEventListener('mouseup', handleEnd);
+        document.removeEventListener('touchmove', handleMove);
+        document.removeEventListener('touchend', handleEnd);
+        document.removeEventListener('touchcancel', handleEnd);
     }
     
-    startTimeThumb.removeEventListener('mousedown', startTimeThumb._mouseDownHandler);
-    startTimeThumb._mouseDownHandler = handleMouseDown;
-    startTimeThumb.addEventListener('mousedown', handleMouseDown);
+    const newThumb = startTimeThumb.cloneNode(true);
+    startTimeThumb.parentNode.replaceChild(newThumb, startTimeThumb);
+    const thumb = document.getElementById('startTimeThumb');
+    
+    thumb.addEventListener('mousedown', (e) => {
+        handleStart(e);
+        document.addEventListener('mousemove', handleMove);
+        document.addEventListener('mouseup', handleEnd);
+    });
+    
+    thumb.addEventListener('touchstart', (e) => {
+        handleStart(e);
+        document.addEventListener('touchmove', handleMove, { passive: false });
+        document.addEventListener('touchend', handleEnd);
+        document.addEventListener('touchcancel', handleEnd);
+    }, { passive: false });
+    
+    sliderContainer.addEventListener('click', (e) => {
+        if (e.target.closest('.slider-thumb')) return;
+        
+        const rect = sliderContainer.getBoundingClientRect();
+        const clientX = e.clientX;
+        const percent = Math.max(0, Math.min(100, ((clientX - rect.left) / rect.width) * 100));
+        currentStartTime = currentStartFromMap.minTime + (percent / 100) * currentStartFromMap.duration;
+        
+        updateSlider();
+    });
     
     const applyBtn = document.getElementById('applyStartFromBtn');
     if (applyBtn) {
-        applyBtn.onclick = async function() {
+        const newApplyBtn = applyBtn.cloneNode(true);
+        applyBtn.parentNode.replaceChild(newApplyBtn, applyBtn);
+        
+        document.getElementById('applyStartFromBtn').addEventListener('click', async function() {
             const filteredNotes = currentStartFromMap.notes.filter(note => note.ms >= currentStartTime);
             
             if (filteredNotes.length === 0) {
+                alert('No notes remaining at this start time');
                 return;
             }
             
             const notesString = filteredNotes.map(n => n.raw).join(',');
             const modifiedMap = currentStartFromMap.mapId + ',' + notesString;
             
-            const card = document.querySelector('.map-card');
-            const favoriteBtn = card ? card.querySelector('.favorite-btn') : null;
-            let mapData = { mapName: 'Unknown', artist: 'Unknown', mapper: 'Unknown' };
-            
-            if (favoriteBtn) {
-                try {
-                    mapData = JSON.parse(favoriteBtn.getAttribute('data-map').replace(/&quot;/g, '"').replace(/&#39;/g, "'"));
-                } catch (e) {}
-            }
-            
             try {
                 await navigator.clipboard.writeText(modifiedMap);
                 
-                if (window.errorReporter && window.errorReporter.reportMapCopy) {
-                    window.errorReporter.reportMapCopy(mapData.mapName, mapData.artist, mapData.mapper, 'start-from');
+                const popup = document.getElementById('popup');
+                if (popup) {
+                    popup.textContent = 'Modified map copied to clipboard!';
+                    popup.style.display = 'block';
+                    setTimeout(() => {
+                        popup.style.display = 'none';
+                    }, 2000);
                 }
                 
                 closeModal('startFromModal');
-            } catch (error) {}
-        };
+                
+                if (window.errorReporter && window.errorReporter.reportMapCopy) {
+                    window.errorReporter.reportMapCopy('Unknown', 'Unknown', 'Unknown', 'start-from');
+                }
+            } catch (error) {
+                alert('Failed to copy to clipboard');
+            }
+        });
     }
     
     updateSlider();
 }
+
 
 function createMapCard(m) {
     const card = document.createElement('div');
@@ -2121,6 +2245,16 @@ window.copyMapLink = async function(link, button) {
     
     try {
         await navigator.clipboard.writeText(link);
+        
+        const popup = document.getElementById('popup');
+        if (popup) {
+            popup.textContent = 'Map link copied to clipboard!';
+            popup.style.display = 'block';
+            setTimeout(() => {
+                popup.style.display = 'none';
+            }, 2000);
+        }
+        
         button.textContent = 'Copied!';
         button.classList.add('copied');
         
@@ -2154,10 +2288,30 @@ window.copyRawData = async function(link) {
         const rawContent = await response.text();
         await navigator.clipboard.writeText(rawContent);
         
+        const popup = document.getElementById('popup');
+        if (popup) {
+            popup.textContent = 'Raw map data copied to clipboard!';
+            popup.style.display = 'block';
+            setTimeout(() => {
+                popup.style.display = 'none';
+            }, 2000);
+        }
+        
+        if (dropdown) dropdown.classList.remove('show');
+        
         if (window.errorReporter && window.errorReporter.reportMapCopy) {
             window.errorReporter.reportMapCopy(mapData.mapName, mapData.artist, mapData.mapper, 'raw');
         }
-    } catch (error) {}
+    } catch (error) {
+        const popup = document.getElementById('popup');
+        if (popup) {
+            popup.textContent = 'Failed to copy raw data!';
+            popup.style.display = 'block';
+            setTimeout(() => {
+                popup.style.display = 'none';
+            }, 2000);
+        }
+    }
 };
 
 window.toggleMoreActions = function(button) {
@@ -2392,7 +2546,9 @@ function getMapCopies(mapName, artist, mapper) {
         
         if (mapperData.displayName && mapperData.displayName.toLowerCase() === mapper.toLowerCase()) {
             if (mapperData.maps) {
-                for (const map of mapperData.maps) {
+                const mapsArray = Object.values(mapperData.maps);
+                
+                for (const map of mapsArray) {
                     if (map.name === mapName) {
                         return map.copies || 0;
                     }
