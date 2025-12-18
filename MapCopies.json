@@ -1549,12 +1549,12 @@
   },
   "faworee": {
     "displayName": "faworee",
-    "totalCopies": 1390,
+    "totalCopies": 1389,
     "maps": [
       {
         "id": "faworeeBrrrr2526eeyuh!",
         "name": "eeyuh!",
-        "copies": 315,
+        "copies": 314,
         "notes": 2526,
         "artist": "HR",
         "difficulty": "Brrrr"
@@ -2747,13 +2747,15 @@
   },
   "Senternal": {
     "displayName": "Senternal",
-    "totalCopies": 156,
+    "totalCopies": 157,
     "maps": [
       {
         "id": "SenternalTasukete2091Eeyuh!",
         "name": "Eeyuh!",
-        "copies": 156,
-        "notes": 2091
+        "copies": 157,
+        "notes": 2091,
+        "artist": "hr",
+        "difficulty": "Tasukete"
       }
     ]
   },
