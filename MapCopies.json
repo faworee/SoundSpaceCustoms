@@ -1611,7 +1611,7 @@
   },
   "xazthenpc": {
     "displayName": "xazthenpc",
-    "totalCopies": 446,
+    "totalCopies": 447,
     "maps": [
       {
         "id": "xazthenpcBrrrr7175BadAccess",
@@ -1628,7 +1628,7 @@
       {
         "id": "xazthenpcBrrrr1077LoveSick!ft.Isabel",
         "name": "LoveSick! ft. Isabel",
-        "copies": 94,
+        "copies": 95,
         "notes": 1077,
         "artist": "KunarU x Kitsune",
         "difficulty": "Brrrr"
@@ -4468,12 +4468,12 @@
   },
   "TUPPICUNOTUFFMAPPER": {
     "displayName": "TUPPICUNOTUFFMAPPER",
-    "totalCopies": 3,
+    "totalCopies": 2,
     "maps": [
       {
         "id": "tuppicunotuffmapperbrrrr2862toxic",
         "name": "toxic",
-        "copies": 3,
+        "copies": 2,
         "notes": 2862,
         "artist": "d3r & 6arelyhuman & Pröz",
         "difficulty": "Brrrr"
