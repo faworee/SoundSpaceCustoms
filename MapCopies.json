@@ -895,7 +895,7 @@
   },
   "Xilp": {
     "displayName": "Xilp",
-    "totalCopies": 2221,
+    "totalCopies": 2222,
     "maps": [
       {
         "id": "XilpBrrrr3215Bloom",
@@ -978,7 +978,7 @@
       {
         "id": "XilpBrrrr1678Karma",
         "name": "Karma",
-        "copies": 55,
+        "copies": 56,
         "notes": 1678,
         "artist": "Sacuna",
         "difficulty": "Brrrr"
