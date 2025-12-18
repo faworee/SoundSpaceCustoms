@@ -1835,7 +1835,7 @@
   },
   "Kappa": {
     "displayName": "Kappa",
-    "totalCopies": 502,
+    "totalCopies": 503,
     "maps": [
       {
         "id": "KappaBrrrr2234cyborgworkout",
@@ -1848,8 +1848,10 @@
       {
         "id": "KappaBrrrr1789behindmasks",
         "name": "behind masks",
-        "copies": 122,
-        "notes": 1789
+        "copies": 123,
+        "notes": 1789,
+        "artist": "APM Music",
+        "difficulty": "Brrrr"
       },
       {
         "id": "KappaBrrrr3401plexus",
