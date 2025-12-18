@@ -1,7 +1,7 @@
 {
   "SnivyTrueForm": {
     "displayName": "SnivyTrueForm",
-    "totalCopies": 1339,
+    "totalCopies": 1338,
     "maps": [
       {
         "id": "SnivyTrueFormEasy1382MoreThanFriends",
@@ -228,7 +228,7 @@
       {
         "id": "SnivyTrueFormBrrrr1297Cthulu",
         "name": "Cthulu",
-        "copies": 90,
+        "copies": 89,
         "notes": 1297,
         "artist": "Astra",
         "difficulty": "Brrrr"
@@ -315,7 +315,7 @@
   },
   "Taco": {
     "displayName": "Taco",
-    "totalCopies": 3192,
+    "totalCopies": 3191,
     "maps": [
       {
         "id": "TacoMedium354toxic",
@@ -366,7 +366,7 @@
       {
         "id": "TacoTasukete3590noescape",
         "name": "no escape",
-        "copies": 760,
+        "copies": 759,
         "notes": 3590,
         "artist": "d3r & m1v & asteria",
         "difficulty": "Tasukete"
@@ -1549,12 +1549,12 @@
   },
   "faworee": {
     "displayName": "faworee",
-    "totalCopies": 1389,
+    "totalCopies": 1390,
     "maps": [
       {
         "id": "faworeeBrrrr2526eeyuh!",
         "name": "eeyuh!",
-        "copies": 314,
+        "copies": 315,
         "notes": 2526,
         "artist": "HR",
         "difficulty": "Brrrr"
