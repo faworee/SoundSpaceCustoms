@@ -2795,7 +2795,7 @@
   },
   "FpXHarborYT": {
     "displayName": "FpXHarborYT",
-    "totalCopies": 156,
+    "totalCopies": 155,
     "maps": [
       {
         "id": "FpXHarborYTLogic1513Control",
@@ -2818,7 +2818,7 @@
       {
         "id": "FpXHarborYTBrrrr1859ProtostarNewHorizons",
         "name": "Protostar New Horizons",
-        "copies": 5,
+        "copies": 4,
         "notes": 1859,
         "artist": "Monstercat",
         "difficulty": "Brrrr"
@@ -2849,12 +2849,12 @@
   },
   "reticentmemory": {
     "displayName": "reticentmemory",
-    "totalCopies": 17,
+    "totalCopies": 18,
     "maps": [
       {
         "id": "reticentmemoryTasukete3469FINALSTAND",
         "name": "FINAL STAND",
-        "copies": 17,
+        "copies": 18,
         "notes": 3469,
         "artist": "Underscore",
         "difficulty": "Tasukete"
