@@ -1,7 +1,7 @@
 {
   "SnivyTrueForm": {
     "displayName": "SnivyTrueForm",
-    "totalCopies": 1336,
+    "totalCopies": 1337,
     "maps": [
       {
         "id": "SnivyTrueFormEasy1382MoreThanFriends",
@@ -228,8 +228,10 @@
       {
         "id": "SnivyTrueFormBrrrr1297Cthulu",
         "name": "Cthulu",
-        "copies": 87,
-        "notes": 1297
+        "copies": 88,
+        "notes": 1297,
+        "artist": "Astra",
+        "difficulty": "Brrrr"
       },
       {
         "id": "SnivyTrueFormHard702Color",
