@@ -2019,15 +2019,13 @@
   },
   "ciem": {
     "displayName": "ciem",
-    "totalCopies": 380,
+    "totalCopies": 379,
     "maps": [
       {
         "id": "ciemBrrrr2822freewings",
         "name": "free wings",
-        "copies": 100,
-        "notes": 2822,
-        "artist": "APM Music",
-        "difficulty": "Brrrr"
+        "copies": 99,
+        "notes": 2822
       },
       {
         "id": "ciemBrrrr695JobApplicationPhonk",
@@ -2797,7 +2795,7 @@
   },
   "FpXHarborYT": {
     "displayName": "FpXHarborYT",
-    "totalCopies": 155,
+    "totalCopies": 156,
     "maps": [
       {
         "id": "FpXHarborYTLogic1513Control",
@@ -2828,7 +2826,7 @@
       {
         "id": "fpxharborytbrrrr2425thinkingaboutyou",
         "name": "Thinking About You",
-        "copies": 9,
+        "copies": 10,
         "notes": 2425,
         "artist": "Monstercat",
         "difficulty": "Brrrr"
