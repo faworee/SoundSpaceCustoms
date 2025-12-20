@@ -2565,7 +2565,7 @@ function loadChangelog() {
     
     container.innerHTML = '<p style="text-align: center; color: #666;">Loading changelog...</p>';
     
-    fetch('Changelog.json?v=' + Date.now())
+    fetch('https://faworee.com/soundspacecustoms/Changelog.json')
         .then(response => {
             if (!response.ok) throw new Error('Failed to load changelog');
             return response.json();
