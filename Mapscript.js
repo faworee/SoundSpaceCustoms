@@ -2454,7 +2454,8 @@ async function loadMapData() {
         await loadMapCopies();
         
         const timestamp = Date.now();
-        const response = await fetch(`https://faworee.com/soundspacecustoms/Mapdata.json`);
+        const url = 'Mapdata.json';
+        const response = await fetch(`https://faworee.com/soundspacecustoms/${url}`);       
         if (!response.ok) throw new Error('Failed to load map data');
         
         const mapData = await response.json();
