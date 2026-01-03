@@ -1108,8 +1108,8 @@
   ],
   [
     "https://raw.githubusercontent.com/SheaNya/FinalizedSSMaps/main/Lexay%20-%20BossRush",
+    "Bossrush!",
     "Lexay",
-    "BossRush",
     "SheaNya",
     "Brrrr",
     [
@@ -1122,8 +1122,8 @@
   ],
   [
     "https://raw.githubusercontent.com/Demikuu/post-audio-update-maps/main/BOSSRUSH!!!!!",
-    "Bossrush!",
     "Lexay",
+    "BossRush",
     "Demisnya",
     "Brrrr",
     [
@@ -5199,7 +5199,7 @@
       "Spins",
       "Slides"
     ],
-    true,
+    false,
     11.17,
     "cutstream funk spirals so original!",
     "764445982221795328"
@@ -5216,7 +5216,7 @@
       "Spins",
       "Vibros"
     ],
-    true,
+    false,
     8.05,
     "No Info Provided",
     "203558805011693613"
@@ -5230,7 +5230,7 @@
     [
       "Streams"
     ],
-    true,
+    false,
     11.1,
     "No Info Provided",
     "1096628295967187004"
@@ -5246,7 +5246,7 @@
       "Unconventional",
       "Bursts"
     ],
-    true,
+    false,
     6.84,
     "No Info Provided",
     "1096628295967187004"
@@ -5262,7 +5262,7 @@
       "Bursts",
       "Slides"
     ],
-    true,
+    false,
     11.29,
     "No Info Provided",
     "1096628295967187004"
@@ -5278,7 +5278,7 @@
       "Bursts",
       "Slides"
     ],
-    true,
+    false,
     8.37,
     "No Info Provided",
     "1096628295967187004"
@@ -5294,7 +5294,7 @@
       "Unconventional",
       "Bursts"
     ],
-    true,
+    false,
     12.63,
     "No Info Provided",
     "1096628295967187004"
@@ -5311,7 +5311,7 @@
       "Bursts",
       "Slides"
     ],
-    true,
+    false,
     8.64,
     "No Info Provided",
     "1096628295967187004"
@@ -5328,7 +5328,7 @@
       "Bursts",
       "Walls"
     ],
-    true,
+    false,
     5.51,
     "No Info Provided",
     "574561731301343232"
@@ -5345,7 +5345,7 @@
       "Streams",
       "Bursts"
     ],
-    true,
+    false,
     5.7,
     "No Info Provided",
     "574561731301343232"
@@ -5360,7 +5360,7 @@
       "Jumps",
       "Spins"
     ],
-    true,
+    false,
     7.34,
     "No Info Provided",
     "358712291845472256"
@@ -5376,7 +5376,7 @@
       "Spins",
       "Bursts"
     ],
-    true,
+    false,
     6.48,
     "No Info Provided",
     "574561731301343232"
@@ -5393,7 +5393,7 @@
       "Stacks",
       "Slides"
     ],
-    true,
+    false,
     5.12,
     "No Info Provided",
     "1180388835142672455"
@@ -5409,7 +5409,7 @@
       "Slides",
       "Spins"
     ],
-    true,
+    false,
     5.7,
     "No Info Provided",
     "780033604620779500"
@@ -5433,7 +5433,7 @@
       "Stacks",
       "Spins"
     ],
-    true,
+    false,
     2.25,
     "Check your maps",
     "701888431667544255"
@@ -5450,7 +5450,7 @@
       "Walls",
       "Unconventional"
     ],
-    true,
+    false,
     10.06,
     "No Info Provided",
     "1096628295967187004"
@@ -5470,7 +5470,7 @@
       "Spins",
       "Slides"
     ],
-    true,
+    false,
     10.24,
     "grahhh",
     "1089323752996753559"
@@ -5487,7 +5487,7 @@
       "Jumps",
       "Stacks"
     ],
-    true,
+    false,
     5.65,
     "No Info Provided",
     "574561731301343232"
@@ -5504,7 +5504,7 @@
       "Stacks",
       "Slides"
     ],
-    true,
+    false,
     4.85,
     "No Info Provided",
     "574561731301343232"
@@ -5519,7 +5519,7 @@
       "Streams",
       "Jumps"
     ],
-    true,
+    false,
     8.66,
     "awesome tuff 15 minute map!",
     "1449901571264745557"
@@ -5537,7 +5537,7 @@
       "Stacks",
       "Spins"
     ],
-    true,
+    false,
     7.36,
     "No Info Provided",
     "1449901571264745557"
@@ -5551,7 +5551,7 @@
     [
       "Streams"
     ],
-    true,
+    false,
     8.35,
     "No Info Provided",
     "1089323752996753559"
@@ -5568,7 +5568,7 @@
       "Quantum",
       "Slides"
     ],
-    true,
+    false,
     8.63,
     "No Info Provided",
     "1089323752996753559"
@@ -5587,7 +5587,7 @@
       "Stacks",
       "Spins"
     ],
-    true,
+    false,
     9.96,
     "No Info Provided",
     "1089323752996753559"
@@ -5604,7 +5604,7 @@
       "Jumps",
       "Streams"
     ],
-    true,
+    false,
     7.61,
     "No Info Provided",
     "1089323752996753559"
@@ -5620,7 +5620,7 @@
       "Jumps",
       "Quantum"
     ],
-    true,
+    false,
     8.04,
     "No Info Provided",
     "1089323752996753559"
@@ -5637,7 +5637,7 @@
       "Spins",
       "Slides"
     ],
-    true,
+    false,
     8.54,
     "No Info Provided",
     "1089323752996753559"
@@ -5651,7 +5651,7 @@
     [
       "Unconventional"
     ],
-    true,
+    false,
     4.35,
     "No Info Provided",
     "1089323752996753559"
@@ -5670,7 +5670,7 @@
       "Jumps",
       "Slides"
     ],
-    true,
+    false,
     4.76,
     "No Info Provided",
     "574561731301343232"
@@ -5690,7 +5690,7 @@
       "Slides",
       "Stacks"
     ],
-    true,
+    false,
     8.39,
     "No Info Provided",
     "1089323752996753559"
@@ -5704,7 +5704,7 @@
     [
       "Streams"
     ],
-    true,
+    false,
     6.05,
     "No Info Provided",
     "1112195457108680825"
@@ -5718,7 +5718,7 @@
     [
       "Quantum"
     ],
-    true,
+    false,
     7.69,
     "No Info Provided",
     "1112195457108680825"
@@ -5732,7 +5732,7 @@
     [
       "Streams"
     ],
-    true,
+    false,
     6.96,
     "No Info Provided",
     "1112195457108680825"
@@ -5746,7 +5746,7 @@
     [
       "Streams"
     ],
-    true,
+    false,
     7.87,
     "No Info Provided",
     "1112195457108680825"
@@ -5761,9 +5761,223 @@
       "Streams",
       "Unconventional"
     ],
-    true,
+    false,
     6.05,
     "first map ever idk wtf im doing gng",
     "1158580054570324018"
-  ]
+  ], 
+[
+  "https://raw.githubusercontent.com/htorez/sscustoms/refs/heads/main/expedite.txt",
+  "expedite",
+  "red",
+  "zeroth",
+  "Tasukete",
+  [
+    "Jumps",
+    "Quantum",
+    "Spins",
+    "Slides"
+  ],
+  true,
+  10.15,
+  "No Info Provided",
+  "665347128989712386"
+],
+[
+  "https://raw.githubusercontent.com/FpXHarborYT123/Sound-Space-Maps/refs/heads/main/Found%20a%20reason%20BRRR",
+  "Found a Reason",
+  "Monstercat",
+  "FpXHarborYT",
+  "Brrrr",
+  [
+    "Streams",
+    "Walls",
+    "Jumps",
+    "Spins",
+    "Stacks"
+  ],
+  true,
+  7.88,
+  "No Info Provided",
+  "574561731301343232"
+],
+[
+  "https://raw.githubusercontent.com/SpicaOA/SSMaps2/refs/heads/main/Oxygen%20C",
+  "Oxygen C",
+  "Sinisa Cmrecak",
+  "Spica",
+  "Brrrr",
+  [
+    "Slides",
+    "Spins",
+    "Jumps",
+    "Unconventional"
+  ],
+  true,
+  5.38,
+  "No Info Provided",
+  "780033604620779541"
+],
+[
+  "https://raw.githubusercontent.com/FpXHarborYT123/Sound-Space-Maps/refs/heads/main/KawaiiKittyKore%20Intense%20BRRR",
+  "Intense",
+  "KawaiiKittyKore",
+  "FpXHarborYT",
+  "Brrrr",
+  [
+    "Quantum",
+    "Stacks",
+    "Jumps",
+    "Slides"
+  ],
+  true,
+  5.48,
+  "No Info Provided",
+  "574561731301343232"
+],
+[
+  "https://raw.githubusercontent.com/goobertown67/soundspizzle-maps/refs/heads/main/KawaiiKittyKore%20-psyKore%20Delirium",
+  "psyKore Delirium",
+  "KawaiiKittyKore",
+  "reticentmemory & zeroth",
+  "Tasukete",
+  [
+    "Streams",
+    "Tech",
+    "Jumps",
+    "Quantum",
+    "Bursts",
+    "Stacks",
+    "Spins",
+    "Slides"
+  ],
+  true,
+  10.13,
+  "reticentmemory: 0:00-1:37\nzeroth: 1:38-3:06",
+  "1089323752996753559"
+],
+[
+  "https://raw.githubusercontent.com/HeavenlyMatter/Get-Real/refs/heads/main/GET%20REAL%20-%20Completed.txt",
+  "Get Real",
+  "-Underscore- ",
+  "Immortal",
+  "Brrrr",
+  [
+    "Quantum",
+    "Jumps",
+    "Streams",
+    "Stacks"
+  ],
+  true,
+  8.60,
+  ":D",
+  "1112195457108680825"
+],
+[
+  "https://raw.githubusercontent.com/HeavenlyMatter/Hypnotized---Complete/refs/heads/main/Hypnotized.txt",
+  "Hypnotized",
+  "-Clippsly-",
+  "Immortal",
+  "Brrrr",
+  [
+    "Quantum",
+    "Streams"
+  ],
+  true,
+  8.35,
+  "No Info Provided",
+  "1112195457108680825"
+],
+[
+  "https://raw.githubusercontent.com/HeavenlyMatter/-Daniel-Immortal---Forte/refs/heads/main/Forte%20-%20Completed%20%5BImmortal%20%26%20Daniel%5D.txt",
+  "Forte",
+  "Diremotive",
+  "Immortal & Daniel",
+  "Brrrr",
+  [
+    "Quantum",
+    "Jumps"
+  ],
+  true,
+  7.32,
+  "Immortal: 0,00 - 1:14 Daniel 1:14 - 2:07",
+  "1112195457108680825"
+],
+[
+  "https://raw.githubusercontent.com/Demikuu/post-audio-update-maps/refs/heads/main/Galaxyless%20DarkStar",
+  "Darkstar",
+  "Galaxyless",
+  "Demisnya",
+  "Brrrr",
+  [
+    "Jumps"
+  ],
+  true,
+  7.48,
+  "No Info Provided",
+  "0"
+],
+[
+  "https://raw.githubusercontent.com/Demikuu/post-audio-update-maps/refs/heads/main/tera%20io",
+  "Tera I/O",
+  "Camellia",
+  "Demisnya",
+  "Brrrr",
+  [
+    "Jumps"
+  ],
+  true,
+  8.20,
+  "No Info Provided",
+  "0"
+],
+[
+  "https://raw.githubusercontent.com/HeavenlyMatter/Whay-/refs/heads/main/Whay!.txt",
+  "Whay!",
+  "-Clippsly-",
+  "Immortal",
+  "Brrrr",
+  [
+    "Quantum",
+    "Timing"
+  ],
+  true,
+  8.38,
+  "I could've done better but oh well :)",
+  "1112195457108680825"
+],
+[
+  "https://raw.githubusercontent.com/FpXHarborYT123/Sound-Space-Maps/refs/heads/main/Expedition%20BRRR",
+  "Expedition",
+  "Monstercat",
+  "FpXHarborYT",
+  "Brrrr",
+  [
+    "Walls",
+    "Jumps",
+    "Stacks",
+    "Spins",
+    "Slides"
+  ],
+  true,
+  5.60,
+  "No Info Provided",
+  "574561731301343232"
+],
+[
+  "https://raw.githubusercontent.com/HeavenlyMatter/Never-Let-Go-/refs/heads/main/Never%20(Let%20Go).txt",
+  "Never (Let Go)",
+  "-Underscore-",
+  "Immortal",
+  "Brrrr",
+  [
+    "Quantum",
+    "Jumps",
+    "Streams"
+  ],
+  true,
+  8.49,
+  "No Info Provided",
+  "1112195457108680825"
+]
 ]
