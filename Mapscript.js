@@ -2454,11 +2454,18 @@ async function loadMapData() {
         await loadMapCopies();
         
         const timestamp = Date.now();
-        const url = 'Mapdata.json';
-        const response = await fetch(`https://faworee.com/soundspacecustoms/${url}`);       
-        if (!response.ok) throw new Error('Failed to load map data');
+        let mapData;
         
-        const mapData = await response.json();
+        try {
+            const response = await fetch(`Mapdata.json?v=${timestamp}`);
+            if (!response.ok) throw new Error('JSON failed');
+            mapData = await response.json();
+        } catch (jsonError) {
+            console.log('JSON failed, trying PHP fallback...');
+            const response = await fetch(`getMapData.php?v=${timestamp}`);
+            if (!response.ok) throw new Error('Both JSON and PHP failed');
+            mapData = await response.json();
+        }
         
         const mapPromises = mapData.map(async (mapArray) => {
             if (!Array.isArray(mapArray) || mapArray.length < 7) return null;
@@ -2528,13 +2535,21 @@ async function loadMapData() {
         }
     }
 }
+
 async function loadMapCopies() {
     try {
         const timestamp = Date.now();
-        const response = await fetch('https://faworee.com/soundspacecustoms/MapCopies.json');
-        if (!response.ok) throw new Error('Failed to load map copies data');
         
-        mapCopiesData = await response.json();
+        try {
+            const response = await fetch(`MapCopies.json?v=${timestamp}`);
+            if (!response.ok) throw new Error('JSON failed');
+            mapCopiesData = await response.json();
+        } catch (jsonError) {
+            console.log('MapCopies JSON failed, trying PHP fallback...');
+            const response = await fetch(`getMapCopies.php?v=${timestamp}`);
+            if (!response.ok) throw new Error('Both JSON and PHP failed');
+            mapCopiesData = await response.json();
+        }
     } catch (error) {
         console.warn('Could not load map copies data:', error);
         mapCopiesData = {};
@@ -2566,7 +2581,7 @@ function loadChangelog() {
     
     container.innerHTML = '<p style="text-align: center; color: #666;">Loading changelog...</p>';
     
-    fetch('https://faworee.com/soundspacecustoms/Changelog.json')
+    fetch('Changelog.json?v=' + Date.now())
         .then(response => {
             if (!response.ok) throw new Error('Failed to load changelog');
             return response.json();
