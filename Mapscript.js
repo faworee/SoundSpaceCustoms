@@ -2541,12 +2541,12 @@ async function loadMapCopies() {
         const timestamp = Date.now();
         
         try {
-            const response = await fetch(`MapCopies.json?v=${timestamp}`);
+            const response = await fetch(`https://faworee.com/soundspacecustoms/MapCopies.json?v=${timestamp}`);       
             if (!response.ok) throw new Error('JSON failed');
             mapCopiesData = await response.json();
         } catch (jsonError) {
             console.log('MapCopies JSON failed, trying PHP fallback...');
-            const response = await fetch(`getMapCopies.php?v=${timestamp}`);
+            const response = await fetch(`https://faworee.com/soundspacecustoms/getMapCopies.php?v=${timestamp}`);
             if (!response.ok) throw new Error('Both JSON and PHP failed');
             mapCopiesData = await response.json();
         }
