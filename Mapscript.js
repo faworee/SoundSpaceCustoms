@@ -2457,12 +2457,12 @@ async function loadMapData() {
         let mapData;
         
         try {
-            const response = await fetch(`Mapdata.json?v=${timestamp}`);
+            const response = await fetch(`https://faworee.com/soundspacecustoms/Mapdata.json?v=${timestamp}`);  
             if (!response.ok) throw new Error('JSON failed');
             mapData = await response.json();
         } catch (jsonError) {
             console.log('JSON failed, trying PHP fallback...');
-            const response = await fetch(`getMapData.php?v=${timestamp}`);
+            const response = await fetch(`https://faworee.com/soundspacecustoms/getMapData.php?v=${timestamp}`); 
             if (!response.ok) throw new Error('Both JSON and PHP failed');
             mapData = await response.json();
         }
