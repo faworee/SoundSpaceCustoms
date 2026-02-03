@@ -1955,6 +1955,7 @@ async function loadMapData() {
         initializeMapperLookup();
         const timestamp = Date.now();
         let mapData;
+        
         try {
             const response = await fetch(`https://faworee.com/soundspacecustoms/Mapdata.json?v=${timestamp}`);
             if (!response.ok) throw new Error('JSON failed');
@@ -1964,7 +1965,14 @@ async function loadMapData() {
             if (!response.ok) throw new Error('Both JSON and PHP failed');
             mapData = await response.json();
         }
-       
+        
+        const mapPromises = mapData.map(async (mapItem) => {
+            const enhancedMapObj = {
+                ...mapItem,
+                noteCount: null,
+                duration: null,
+                copies: getMapCopies(mapItem.id, mapItem.mapper)
+            };
             
             try {
                 const rawLink = enhancedMapObj.link.replace('github.com', 'raw.githubusercontent.com').replace('/blob/', '/');
