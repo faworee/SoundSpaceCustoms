@@ -1,184 +1,165 @@
 <!DOCTYPE html>
-
 <html lang="en">
 <head>
-    <meta charset='UTF-8'> 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" >    
-    <link rel="icon" type="image/png" href="https://i.imgur.com/h9ZS3fW.png"> 
-    <TITLE>sound space maps</TITLE> 
-    <meta property="og:title" content="sound space maps">
-    <meta property="og:description" content="copy custom maps instantly, many filters for patterns and difficulties. options like start from or copy raw data included."> 
-    <meta property="og:image" content="https://i.imgur.com/h9ZS3fW.png">
-    <meta property="og:type" content='website'> 
-    <meta name="theme-color" content="#4facfe">
-    <meta name="twitter:card" content="summary">
-    <meta name="twitter:title" content="sound space maps">
-    <meta name="twitter:description" content="copy custom maps instantly. many filters for patterns and difficulties. options like start from or copy raw data included.">
-    <meta name="twitter:image" content="https://i.imgur.com/h9ZS3fW.png">
-        <link rel="Stylesheet" href="mapstyles.css" > 
-    <audio id="buttonSound" src="button.mp3"></audio>
-
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" type="image/png" href="https://i.imgur.com/h9ZS3fW.png">
+<title>sound space maps</title>
+<meta property="og:title" content="sound space maps">
+<meta property="og:description" content="copy custom maps instantly, many filters for patterns and difficulties. options like start from or copy raw data included.">
+<meta property="og:image" content="https://i.imgur.com/h9ZS3fW.png">
+<meta property="og:type" content="website">
+<meta name="theme-color" content="#4facfe">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="sound space maps">
+<meta name="twitter:description" content="copy custom maps instantly. many filters for patterns and difficulties. options like start from or copy raw data included.">
+<meta name="twitter:image" content="https://i.imgur.com/h9ZS3fW.png">
+<link rel="stylesheet" href="mapstyles.css">
+<link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Roboto&family=Open+Sans&family=Lato&family=Montserrat&family=Poppins&family=Comic+Sans+MS&family=Courier+New&display=swap" rel="stylesheet">
+<audio id="buttonSound" src="button.mp3"></audio>
 </head>
 <body>
 
- <div class="header-container">
-        <div class="logo">sound space maps</div>
-                                            <div class="header-actions">
-            <button class="menu-toggle" 
-            id="menuToggle">menu</button>
-                    <div class="dropdown-menu" id="headerMenu">
-                <a href="https://discord.gg/872M5HPbYx" class="dropdown-item" 
-                target="_blank" rel="noopener">join our discord</a>
-                        <div class="dropdown-item" id="randomMapBtn">random map</div>
-                <a href="/SubmitMaps" class="dropdown-item">submit map</a>
-                <a class="dropdown-item" href="AudioIDs">audio ids</a> 
-            <div class="dropdown-item" id="addMapMenuBtn" style="display: none;">add map (admin)</div>
-                <div id="updateLogBtn" class="dropdown-item">update log</div>
-                <div class="dropdown-item" id="qualityToggle">low quality mode</div>
-                <div class="dropdown-item" 
-                id="discordAuthBtn">login with discord</div>
-                <div class="dropdown-item font-selector-container">
-                    <div class="custom-font-selector">
-                        <div id="fontDropdownHeader" class="font-dropdown-header">
-                                <span id="selectedFontName">Roboto</span>
-                                <span class="dropdown-arrow">▼</span>
-                        </div>
-                                
-                        <div class="font-options-list" id="fontOptionsList">
-                            <div class="font-option selected" data-font="'Roboto', sans-serif">Roboto</div>
-                            <div data-font="'Indie Flower', cursive" class="font-option">Indie Flower</div>
-                            <div class="font-option" data-font="'Open Sans', sans-serif">Open Sans</div>
-                            <div class="font-option" data-font="'Lato', sans-serif">Lato</div>
-                            <div class="font-option" data-font="'Montserrat', sans-serif">Montserrat</div>
-                            <div class="font-option" data-font="'Poppins', sans-serif">Poppins</div>
-                            <div class="font-option" data-font="'Segoe UI', Arial, sans-serif">Segoe UI</div>
-                            <div data-font="'Comic Sans MS', cursive" class="font-option">Comic Sans</div>
-                            <div class="font-option" data-font="'Courier New', monospace">Courier New</div>
-                            <div class="font-option" data-font="'Georgia', serif">Georgia</div>
-                            <div class="font-option" data-font="'Arial', sans-serif">Arial</div>
-                            <div class="font-option" data-font="custom">Custom Font URL...</div>
-                        </div>
+<div class="header-container">
+    <div class="logo">sound space maps</div>
+    <div class="header-actions">
+        <button class="menu-toggle" id="menuToggle">menu</button>
+        <div class="dropdown-menu" id="headerMenu">
+            <a href="https://discord.gg/872M5HPbYx" class="dropdown-item" target="_blank" rel="noopener">join our community discord</a>
+            <div class="dropdown-item" id="randomMapBtn">random map</div>
+            <a href="/SubmitMaps" class="dropdown-item">submit map</a>
+            <div class="dropdown-item" id="updateLogBtn">update log</div>
+            <div class="dropdown-item" id="qualityToggle">low quality mode</div>
+            <div class="dropdown-item" id="discordAuthBtn">login with discord</div>
+            <div class="dropdown-item font-selector-container">
+                <div class="custom-font-selector">
+                    <div class="font-dropdown-header" id="fontDropdownHeader">
+                        <span id="selectedFontName">Roboto</span>
+                        <span class="dropdown-arrow">▼</span>
                     </div>
-                            
-                    <div id="customFontInputs" class="custom-font-inputs">
-                            <div class="font-upload-tabs">
-                                <button class="font-tab active" data-tab="url">Font URL</button>
-                                <button data-tab="upload" class="font-tab">Upload Font</button>
-                            </div>
-                                
-                            <div class="font-tab-content active" id="urlTab">
-                                <input type="text" class="custom-font-input" 
-                                id="customFontUrl" placeholder="Paste Google Font URL here...">
-                                <input type="text" id="customFontName" class="custom-font-input"
-                                placeholder="Font name (e.g. 'Pacifico')">
-                                <button class="apply-font-btn" id="applyCustomFont">Apply Custom Font</button>
-                            </div>
-                                
-                            <div class="font-tab-content" id="uploadTab">
-                                <label for="fontFileUpload" class="font-upload-label">
-                                        <span id="uploadLabelText">Choose Font File (TTF, OTF, WOFF, WOFF2)</span>
-                                        <input type="file" id="fontFileUpload" accept=".ttf,.otf,.woff,.woff2" 
-                                        style="display: none;">
-                                </label>
-                                <input type="text" class="custom-font-input" id="uploadedFontName" placeholder="Font family name (required)">
-                                <button class="apply-font-btn" id="applyUploadedFont">Apply Uploaded Font</button>
-                            </div>
+                    <div class="font-options-list" id="fontOptionsList">
+                        <div class="font-option selected" data-font="'Roboto', sans-serif">Roboto</div>
+                        <div class="font-option" data-font="'Indie Flower', cursive">Indie Flower</div>
+                        <div class="font-option" data-font="'Open Sans', sans-serif">Open Sans</div>
+                        <div class="font-option" data-font="'Lato', sans-serif">Lato</div>
+                        <div class="font-option" data-font="'Montserrat', sans-serif">Montserrat</div>
+                        <div class="font-option" data-font="'Poppins', sans-serif">Poppins</div>
+                        <div class="font-option" data-font="'Segoe UI', Arial, sans-serif">Segoe UI</div>
+                        <div class="font-option" data-font="'Comic Sans MS', cursive">Comic Sans</div>
+                        <div class="font-option" data-font="'Courier New', monospace">Courier New</div>
+                        <div class="font-option" data-font="'Georgia', serif">Georgia</div>
+                        <div class="font-option" data-font="'Arial', sans-serif">Arial</div>
+                        <div class="font-option" data-font="custom">Custom Font URL...</div>
                     </div>
                 </div>
-                        
-                <div class="tracking-toggle-container">
-                        <span class="tracking-toggle-label">map copy tracking</span> 
-                    <div class="toggle-switch active" id="trackingToggle">
-                        <div class="toggle-slider"></div>
-                    </div>
+                <div class="custom-font-inputs" id="customFontInputs">
+                    <input type="text" class="custom-font-input" id="customFontUrl" placeholder="Paste Google Font URL here...">
+                    <input type="text" class="custom-font-input" id="customFontName" placeholder="Font name (e.g. 'Pacifico')">
+                    <button class="apply-font-btn" id="applyCustomFont">Apply Custom Font</button>
+                </div>
+            </div>
+            <div class="tracking-toggle-container">
+                <span class="tracking-toggle-label">map copy tracking</span>
+                <div class="toggle-switch active" id="trackingToggle">
+                    <div class="toggle-slider"></div>
                 </div>
             </div>
         </div>
     </div>
+</div>
 
-            <div class="search-container">
-            <div class="search-wrapper">
-                <input type="text" class="search-input" id="searchInput" placeholder="search maps..."> 
-                    <div class="custom-dropdown">
-                        <div class="dropdown-header" id="searchTypeHeader">
-                            <span id="searchTypeText">all</span>
-                            <span class="dropdown-arrow">▼</span>
-                        </div>
-                            <div class="dropdown-options" id="searchTypeOptions">
-                            <div class="dropdown-option selected" data-value="all">all</div>
-                            <div class="dropdown-option" data-value="mapname">map name</div>
-                            <div data-value="artist" class="dropdown-option">artist</div> 
-                            <div class="dropdown-option" data-value="mapper">mapper</div>
-                            <div class="dropdown-option" data-value="link">GitHub link</div>
-                        </div>
-                    </div>
+<div class="search-container">
+    <div class="search-wrapper">
+        <input type="text" class="search-input" id="searchInput" placeholder="search maps...">
+        <div class="custom-dropdown">
+            <div class="dropdown-header" id="searchTypeHeader">
+                <span id="searchTypeText">all</span>
+                <span class="dropdown-arrow">▼</span>
             </div>
-        
-            <div class="filter-bar">
-                <button class="filter-btn" id="difficultyFilterBtn">difficulty</button>
-                <button id="patternsFilterBtn" class="filter-btn">patterns</button>
-                <button class="filter-btn" id="rangeFilterBtn">range filters</button> 
-                <button class="filter-btn" id="otherFilterBtn">other filters</button>
+            <div class="dropdown-options" id="searchTypeOptions">
+                <div class="dropdown-option selected" data-value="all">all</div>
+                <div class="dropdown-option" data-value="mapname">map name</div>
+                <div class="dropdown-option" data-value="artist">artist</div>
+                <div class="dropdown-option" data-value="mapper">mapper</div>
+                <div class="dropdown-option" data-value="link">GitHub link</div>
             </div>
+        </div>
+    </div>
+
+    <div class="filter-bar">
+        <button class="filter-btn" id="difficultyFilterBtn">difficulty</button>
+        <button class="filter-btn" id="patternsFilterBtn">patterns</button>
+        <button class="filter-btn" id="rangeFilterBtn">range filters</button>
+        <button class="filter-btn" id="otherFilterBtn">other filters</button>
+    </div>
 </div>
 
 <div class="active-filters" id="activeFilters">
-        <span class="active-filters-label">active filters:</span>
-        <span id="activeFiltersContent" style="color: rgba(255, 255, 255, 0.5); font-size: 0.85em;">none</span>
+    <span class="active-filters-label">active filters:</span>
+    <span id="activeFiltersContent" style="color: rgba(255, 255, 255, 0.5); font-size: 0.85em;">none</span>
 </div>
 
-<div class="sort-controls" style="max-width: 1800px; margin: 0 auto 30px; display: flex; gap: 12px; align-items: center; flex-wrap: wrap;">
-        <span class="sort-label">sort by:</span>
-        <div class="custom-dropdown">
-            <div class="dropdown-header" id="primarySortHeader">
-                    <span id="primarySortText">difficulty: easy to hard</span>
-                    <span class="dropdown-arrow">▼</span>
-            </div>
-            <div id="primarySortOptions" class="dropdown-options">
-                <div class="dropdown-option selected" data-value="difficulty-asc">difficulty: easy to hard</div>
-                <div class="dropdown-option" data-value="difficulty-desc">difficulty: hard to easy</div>
-                <div class="dropdown-option" data-value="star-asc">star rating: low to high</div>
-                <div class="dropdown-option" data-value="star-desc">star rating: high to low</div>
-                <div class="dropdown-option" data-value="popularity-desc">popularity: high to low</div>
-<div class="dropdown-option" data-value="popularity-asc">popularity: low to high</div>
-            </div>
+<div class="sort-controls-wrapper" id="sortControlsWrapper">
+    <span class="sort-label">sort by:</span>
+    <div class="custom-dropdown" id="primarySortDropdown">
+        <div class="dropdown-header" id="primarySortHeader">
+            <span id="primarySortText">difficulty: easy → hard</span>
+            <span class="dropdown-arrow">▼</span>
         </div>
-        
-        <span class="sort-label">then by:</span>
-        <div class="custom-dropdown">
-            <div class="dropdown-header" id="secondarySortHeader">
-                <span id="secondarySortText">none</span>
-                <span class="dropdown-arrow">▼</span>
-            </div>
-            <div class="dropdown-options" 
-            id="secondarySortOptions">
-                <div class="dropdown-option selected" data-value="none">none</div>
-                <div class="dropdown-option" data-value="star-desc">star rating: high to low</div>
-                <div class="dropdown-option" data-value="star-asc">star rating: low to high</div>
-                <div class="dropdown-option" data-value="difficulty-asc">difficulty: easy to hard</div>
-                <div class="dropdown-option" data-value="difficulty-desc">difficulty: hard to easy</div>
-                <div class="dropdown-option" data-value="popularity-desc">popularity: high to low</div>
-<div class="dropdown-option" data-value="popularity-asc">popularity: low to high</div>
-            </div>
+        <div class="dropdown-options" id="primarySortOptions">
+            <div class="dropdown-option-group-label">difficulty</div>
+            <div class="dropdown-option selected" data-value="difficulty-asc">difficulty: easy → hard</div>
+            <div class="dropdown-option" data-value="difficulty-desc">difficulty: hard → easy</div>
+            <div class="dropdown-option-group-label">name</div>
+            <div class="dropdown-option" data-value="name-asc">name: A → Z</div>
+            <div class="dropdown-option" data-value="name-desc">name: Z → A</div>
+            <div class="dropdown-option-group-label">star rating</div>
+            <div class="dropdown-option" data-value="star-desc">star rating: high → low</div>
+            <div class="dropdown-option" data-value="star-asc">star rating: low → high</div>
+            <div class="dropdown-option-group-label">popularity</div>
+            <div class="dropdown-option" data-value="popularity-desc">popularity: most → least</div>
+            <div class="dropdown-option" data-value="popularity-asc">popularity: least → most</div>
         </div>
+    </div>
+
+    <span class="sort-label">then by:</span>
+    <div class="custom-dropdown" id="secondarySortDropdown">
+        <div class="dropdown-header" id="secondarySortHeader">
+            <span id="secondarySortText">name: A → Z</span>
+            <span class="dropdown-arrow">▼</span>
+        </div>
+        <div class="dropdown-options" id="secondarySortOptions">
+            <div class="dropdown-option" data-value="none">none</div>
+            <div class="dropdown-option-group-label">name</div>
+            <div class="dropdown-option selected" data-value="name-asc">name: A → Z</div>
+            <div class="dropdown-option" data-value="name-desc">name: Z → A</div>
+            <div class="dropdown-option-group-label">star rating</div>
+            <div class="dropdown-option" data-value="star-desc">star rating: high → low</div>
+            <div class="dropdown-option" data-value="star-asc">star rating: low → high</div>
+            <div class="dropdown-option-group-label">popularity</div>
+            <div class="dropdown-option" data-value="popularity-desc">popularity: most → least</div>
+            <div class="dropdown-option" data-value="popularity-asc">popularity: least → most</div>
+            <div class="dropdown-option-group-label">difficulty</div>
+            <div class="dropdown-option" data-value="difficulty-asc">difficulty: easy → hard</div>
+            <div class="dropdown-option" data-value="difficulty-desc">difficulty: hard → easy</div>
+        </div>
+    </div>
 </div>
 
 <div class="loading-spinner" id="loadingSpinner"></div>
 <div class="map-grid" id="mapGrid"></div>
 
-    <div class="load-more-container">
-        <button class="load-more-btn" id="loadMoreBtn">load more maps</button> 
+<div class="load-more-container">
+    <button class="load-more-btn" id="loadMoreBtn">load more maps</button>
 </div>
 
 <div class="popup" id="popup"></div>
 
-<div id="cookieConsent" class="cookie-consent">
+<div class="cookie-consent" id="cookieConsent">
     <div class="cookie-content">
         <div class="cookie-text">
-            <h3>we use cookies</h3> 
-            <p>we use cookies and similar technologies to enhance your experience and save your preferences like favorites or fonts. by continuing to use this site, you accept our use of cookies. 
-            <a href="https://faworee.com/PrivacyPolicy" target="_blank" 
-            rel="noopener">learn more in our privacy policy</a>.</p> 
+            <h3>we use cookies</h3>
+            <p>we use cookies and similar technologies to enhance your experiance and save your preferences like favorites or fonts. by continuing to use this site, you accept our use of cookies. <a href="https://faworee.com/PrivacyPolicy" target="_blank" rel="noopener">learn more in our privacy policy</a>.</p>
         </div>
         <div class="cookie-actions">
             <button class="cookie-btn cookie-decline" id="cookieDecline">decline</button>
@@ -189,139 +170,139 @@
 
 <div class="modal" id="difficultyModal">
     <div class="modal-content">
-            <div class="modal-header">
-                <h2 class="modal-title">difficulty filter</h2>
-                <button class="close-btn" onclick="closeModal('difficultyModal')">x</button>
+        <div class="modal-header">
+            <h2 class="modal-title">difficulty filter</h2>
+            <button class="close-btn" onclick="closeModal('difficultyModal')">x</button>
+        </div>
+        <div class="filter-section">
+            <div class="filter-options" id="difficultyOptions">
+                <button class="filter-option" data-difficulty="Easy">easy</button>
+                <button class="filter-option" data-difficulty="Medium">medium</button>
+                <button class="filter-option" data-difficulty="Hard">hard</button>
+                <button class="filter-option" data-difficulty="Logic">logic</button>
+                <button class="filter-option" data-difficulty="Brrrr">brrrr</button>
+                <button class="filter-option" data-difficulty="Tasukete">tasukete</button>
             </div>
-            <div class="filter-section">
-                <div id="difficultyOptions" class="filter-options">
-                    <button class="filter-option" data-difficulty="Easy">easy</button>
-                    <button class="filter-option" data-difficulty="Medium">medium</button>
-                    <button class="filter-option" data-difficulty="Hard">hard</button>
-                    <button class="filter-option" data-difficulty="Logic">logic</button>
-                    <button class="filter-option" data-difficulty="Brrrr">brrrr</button>
-                    <button class="filter-option" data-difficulty="Tasukete">tasukete</button>
-                </div>
-            </div>
+        </div>
     </div>
 </div>
 
 <div class="modal" id="patternsModal">
     <div class="modal-content">
-            <div class="modal-header">
-                <h2 class="modal-title">pattern filter</h2>
-                <button class="close-btn" onclick="closeModal('patternsModal')">x</button>
+        <div class="modal-header">
+            <h2 class="modal-title">pattern filter</h2>
+            <button class="close-btn" onclick="closeModal('patternsModal')">x</button>
+        </div>
+        <div class="filter-section">
+            <div class="filter-options" id="patternOptions">
+                <button class="filter-option" data-pattern="Streams">streams</button>
+                <button class="filter-option" data-pattern="Walls">walls</button>
+                <button class="filter-option" data-pattern="Tech">tech</button>
+                <button class="filter-option" data-pattern="Jumps">jumps</button>
+                <button class="filter-option" data-pattern="Quantum">quantum</button>
+                <button class="filter-option" data-pattern="Unconventional">unconventional</button>
+                <button class="filter-option" data-pattern="Bursts">bursts</button>
+                <button class="filter-option" data-pattern="Timing">timing</button>
+                <button class="filter-option" data-pattern="Stacks">stacks</button>
+                <button class="filter-option" data-pattern="Spins">spins</button>
+                <button class="filter-option" data-pattern="Slides">slides</button>
+                <button class="filter-option" data-pattern="Vibros">vibros</button>
             </div>
-            <div class="filter-section">
-                <div class="filter-options" id="patternOptions">
-                    <button class="filter-option" data-pattern="Streams">streams</button>
-                    <button class="filter-option" data-pattern="Walls">walls</button>
-                    <button data-pattern="Tech" class="filter-option">tech</button>
-                    <button class="filter-option" data-pattern="Jumps">jumps</button>
-                    <button class="filter-option" data-pattern="Quantum">quantum</button>
-                    <button class="filter-option" data-pattern="Unconventional">unconventional</button>
-                    <button class="filter-option" data-pattern="Bursts">bursts</button>
-                    <button class="filter-option" data-pattern="Timing">timing</button>
-                    <button data-pattern="Stacks" class="filter-option">stacks</button>
-                    <button class="filter-option" data-pattern="Spins">spins</button>
-                    <button class="filter-option" data-pattern="Slides">slides</button>
-                    <button class="filter-option" data-pattern="Vibros">vibros</button>
-                </div>
-            </div>
+        </div>
     </div>
 </div>
 
 <div class="modal" id="rangeModal">
     <div class="modal-content">
-            <div class="modal-header">
-                <h2 class="modal-title">range filters</h2>
-                <button class="close-btn" onclick="closeModal('rangeModal')">x</button>
-            </div>
-            <div class="filter-section">
-                <h3>duration</h3>
-                <div class="range-slider">
-                    <div class="slider-inputs">
-                        <input type="text" class="slider-input" id="durationMin" placeholder="0:00">
-                        <input type="text" class="slider-input" id="durationMax" placeholder="10:00">
-                    </div>
-                    <div class="dual-range-slider">
-                        <div class="slider-track" id="durationTrack"></div>
-                        <div class="slider-thumb" id="durationMinThumb"></div>
-                        <div id="durationMaxThumb" class="slider-thumb"></div>
-                    </div>
+        <div class="modal-header">
+            <h2 class="modal-title">range filters</h2>
+            <button class="close-btn" onclick="closeModal('rangeModal')">x</button>
+        </div>
+        <div class="filter-section">
+            <h3>duration</h3>
+            <div class="range-slider">
+                <div class="slider-inputs">
+                    <input type="text" class="slider-input" id="durationMin" placeholder="0:00">
+                    <input type="text" class="slider-input" id="durationMax" placeholder="10:00">
+                </div>
+                <div class="dual-range-slider">
+                    <div class="slider-track" id="durationTrack"></div>
+                    <div class="slider-thumb" id="durationMinThumb"></div>
+                    <div class="slider-thumb" id="durationMaxThumb"></div>
                 </div>
             </div>
-            <div class="filter-section">
-                <h3>note count</h3>
-                <div class="range-slider">
-                    <div class="slider-inputs">
-                        <input type="number" class="slider-input" id="notesMin" placeholder="0">
-                        <input type="number" class="slider-input" id="notesMax" placeholder="10000">
-                    </div>
-                    <div class="dual-range-slider">
-                        <div class="slider-track" id="notesTrack"></div>
-                        <div class="slider-thumb" id="notesMinThumb"></div>
-                        <div class="slider-thumb" id="notesMaxThumb"></div>
-                    </div>
+        </div>
+        <div class="filter-section">
+            <h3>note count</h3>
+            <div class="range-slider">
+                <div class="slider-inputs">
+                    <input type="number" class="slider-input" id="notesMin" placeholder="0">
+                    <input type="number" class="slider-input" id="notesMax" placeholder="10000">
+                </div>
+                <div class="dual-range-slider">
+                    <div class="slider-track" id="notesTrack"></div>
+                    <div class="slider-thumb" id="notesMinThumb"></div>
+                    <div class="slider-thumb" id="notesMaxThumb"></div>
                 </div>
             </div>
+        </div>
     </div>
 </div>
 
 <div class="modal" id="otherModal">
     <div class="modal-content">
-            <div class="modal-header">
-                <h2 class="modal-title">other filters</h2>
-                <button class="close-btn" onclick="closeModal('otherModal')">x</button>
+        <div class="modal-header">
+            <h2 class="modal-title">other filters</h2>
+            <button class="close-btn" onclick="closeModal('otherModal')">x</button>
+        </div>
+        <div class="filter-section">
+            <div class="filter-options">
+                <button class="filter-option" id="newMapsFilter">new maps only</button>
+                <button class="filter-option" id="favoritesFilter">favorites only</button>
             </div>
-            <div class="filter-section">
-                <div class="filter-options">
-                    <button class="filter-option" id="newMapsFilter">new maps only</button>
-                    <button class="filter-option" id="favoritesFilter">favorites only</button>
-                </div>
+        </div>
+        <div class="filter-section">
+            <h3>APM music</h3>
+            <div class="filter-options">
+                <button class="filter-option active" data-apm="all">all maps</button>
+                <button class="filter-option" data-apm="only">APM only</button>
+                <button class="filter-option" data-apm="none">no APM</button>
             </div>
-            <div class="filter-section">
-                <h3>APM music</h3>
-                <div class="filter-options">
-                    <button class="filter-option active" data-apm="all">all maps</button>
-                    <button class="filter-option" data-apm="only">APM only</button>
-                    <button class="filter-option" data-apm="none">no APM</button>
-                </div>
-            </div>
+        </div>
     </div>
 </div>
 
 <div class="modal" id="changelogModal">
     <div class="modal-content">
-            <div class="modal-header">
-                <h2 class="modal-title">update log</h2>
-                <button class="close-btn" onclick="closeModal('changelogModal')">x</button>
-            </div>
-            <div class="changelog-content" id="changelogContent">
-                <p style="text-align: center; color: #666;">loading changelog...</p>
-            </div>
+        <div class="modal-header">
+            <h2 class="modal-title">update log</h2>
+            <button class="close-btn" onclick="closeModal('changelogModal')">x</button>
+        </div>
+        <div class="changelog-content" id="changelogContent">
+            <p style="text-align: center; color: #666;">loading changelog...</p>
+        </div>
     </div>
 </div>
 
 <div class="modal secret-share-modal" id="secretShareModal">
     <div class="modal-content">
-            <div class="modal-header">
-                <h2 class="modal-title">secret found</h2>
-                <button class="close-btn" onclick="closeModal('secretShareModal')">x</button>
-            </div>
-            <div style="margin: 20px 0; text-align: center;">
-                <p style="font-size: 1.1em; margin-bottom: 15px;">would you like to share that you found the Nate10993 secret?</p>
-            </div>
-            <div class="secret-share-buttons">
-                <button class="secret-share-btn secret-share-yes" id="shareYesBtn">yes</button>
-                <button class="secret-share-btn secret-share-no" id="shareNoBtn">no</button>
-            </div>
-            <div class="username-input-container" id="usernameContainer" style="display: none;">
-                <p style="margin-bottom: 15px; text-align: center;">share your information:</p>
-                <input type="text" class="username-input" id="usernameInput" placeholder="your username required..." style="margin-bottom: 10px;">
-                <input type="text" class="username-input" id="additionalInfoInput" placeholder="additional info optional...">
-                <button class="username-submit-btn" id="usernameSubmitBtn">submit</button>
-            </div>
+        <div class="modal-header">
+            <h2 class="modal-title">secret found</h2>
+            <button class="close-btn" onclick="closeModal('secretShareModal')">x</button>
+        </div>
+        <div style="margin: 20px 0; text-align: center;">
+            <p style="font-size: 1.1em; margin-bottom: 15px;">would you like to share that you found the Nate10993 secret?</p>
+        </div>
+        <div class="secret-share-buttons">
+            <button class="secret-share-btn secret-share-yes" id="shareYesBtn">yes</button>
+            <button class="secret-share-btn secret-share-no" id="shareNoBtn">no</button>
+        </div>
+        <div class="username-input-container" id="usernameContainer" style="display: none;">
+            <p style="margin-bottom: 15px; text-align: center;">share your information:</p>
+            <input type="text" class="username-input" id="usernameInput" placeholder="your username required..." style="margin-bottom: 10px;">
+            <input type="text" class="username-input" id="additionalInfoInput" placeholder="additional info optional...">
+            <button class="username-submit-btn" id="usernameSubmitBtn">submit</button>
+        </div>
     </div>
 </div>
 
@@ -336,43 +317,39 @@
             <div class="range-slider">
                 <div class="slider-inputs">
                     <input type="text" class="slider-input" id="startTimeInput" placeholder="0:00" readonly>
-                    <input type="text" class="slider-input" 
-                        id="mapLengthDisplay" placeholder="0:00" readonly>
-                                        </div>
-                                    <div class="dual-range-slider">
-                        <div class="slider-track" id="startTimeTrack" style="left: 0%; width: 100%;"></div>
-                        <div class="slider-thumb" id="startTimeThumb"></div>
-                    </div>
+                    <input type="text" class="slider-input" id="mapLengthDisplay" placeholder="0:00" readonly>
                 </div>
-                <button class="start-from-apply" id="applyStartFromBtn">apply and copy modified map</button>
+                <div class="dual-range-slider">
+                    <div class="slider-track" id="startTimeTrack" style="left: 0%; width: 100%;"></div>
+                    <div class="slider-thumb" id="startTimeThumb"></div>
+                </div>
             </div>
+            <button class="start-from-apply" id="applyStartFromBtn">apply and copy modified map</button>
         </div>
+    </div>
 </div>
 
-            <div class="modal" id="editMapModal">
-        <div class="modal-content">
-                    <div class="modal-header">
-                <h2 class="modal-title">edit map</h2>
-                <button class="close-btn" onclick="closeModal('editMapModal')">x</button>
-                    </div>
-            <div class="filter-section">
-                <p style="margin-bottom: 15px; color: rgba(255, 255, 255, 0.8); font-size: 0.9em;">edit your map details below:</p>
-                <div class="username-input-container" style="display: block;">
-                    <input type="text" class="username-input" id="editMapName" placeholder="map name...">
-                    <input type="text" class="username-input" id="editArtist" placeholder="artist...">
-                    <input type="text" class="username-input" 
-                    id="editMapper" placeholder="mapper...">
-                    <input type="text" class="username-input" id="editGithubLink" placeholder="github raw link...">
-                    <input type="text" class="username-input" id="editInfo" placeholder="info (optional)...">
+<div class="modal" id="editMapModal">
+    <div class="modal-content">
+        <div class="modal-header">
+            <h2 class="modal-title">edit map</h2>
+            <button class="close-btn" onclick="closeModal('editMapModal')">x</button>
+        </div>
+        <div class="filter-section">
+            <p style="margin-bottom: 15px; color: rgba(255, 255, 255, 0.8); font-size: 0.9em;">edit your map details below:</p>
+            <div class="username-input-container" style="display: block;">
+                <input type="text" class="username-input" id="editMapName" placeholder="map name...">
+                <input type="text" class="username-input" id="editArtist" placeholder="artist...">
+                <input type="text" class="username-input" id="editMapper" placeholder="mapper...">
+                <input type="text" class="username-input" id="editGithubLink" placeholder="github raw link...">
+                <input type="text" class="username-input" id="editInfo" placeholder="info (optional)...">
+                <div id="editStarRatingContainer" style="display: none; margin-top: 10px;">
+                    <input type="number" class="username-input" id="editStarRating" placeholder="star rating (admin only)..." step="0.01" min="0" max="10" style="border: 2px solid #ffd700;">
+                    <p style="font-size: 0.8em; color: #ffd700; margin-top: 5px;">⭐ Admin only: Set star rating (0-10)</p>
                 </div>
-
-                <div id="editStarRatingContainer" style="display: none; margin-top: 15px;">
-                    <h3 style="font-size: 1em; margin-bottom: 12px; color: gold;">⭐ star rating (admin only)</h3>
-                    <input type="number" class="username-input" id="editStarRating" min="0" max="10" step="0.01" placeholder="0.00 - 10.00">
-                </div>
-
-                <div class="filter-section" style="margin-top: 20px;">
-                    <h3 style="font-size: 1em; margin-bottom: 12px;">difficulty</h3>
+            </div>
+            <div class="filter-section" style="margin-top: 20px;">
+                <h3 style="font-size: 1em; margin-bottom: 12px;">difficulty</h3>
                 <div class="filter-options" id="editDifficultyOptions">
                     <button class="filter-option" data-difficulty="Easy">easy</button>
                     <button class="filter-option" data-difficulty="Medium">medium</button>
@@ -399,63 +376,14 @@
                     <button class="filter-option" data-pattern="Vibros">vibros</button>
                 </div>
             </div>
-
-            <button class="username-submit-btn" id="saveMapEditsBtn" style="margin-top: 20px;">save changes</button>
-            <button id="deleteMapBtn" class="username-submit-btn" style="display: none; background: #ff4444; margin-top: 10px;">delete map (admin only)</button>
+            <div style="display: flex; gap: 10px; margin-top: 20px;">
+                <button class="username-submit-btn" id="saveMapEditsBtn" style="flex: 1;">save changes</button>
+                <button class="username-submit-btn" id="deleteMapBtn" style="flex: 1; background: linear-gradient(135deg, #ff6b6b, #ee5a6f); display: none;"> delete map</button>
+            </div>
         </div>
     </div>
 </div>
-<div class="modal" id="addMapModal">
-    <div class="modal-content">
-        <div class="modal-header">
-            <h2 class="modal-title">add new map (admin only)</h2>
-            <button class="close-btn" onclick="closeModal('addMapModal')">x</button>
-        </div>
-        <div class="filter-section">
-            <p style="margin-bottom: 15px; color: rgba(255, 255, 255, 0.8); font-size: 0.9em;">add a new map to the database:</p>
-            <div class="username-input-container" style="display: block;">
-                <input type="text" class="username-input" id="addMapName" placeholder="map name...">
-                <input type="text" class="username-input" id="addArtist" placeholder="artist...">
-                <input type="text" class="username-input" id="addMapper" placeholder="mapper...">
-                <input type="text" class="username-input" id="addGithubLink" placeholder="github raw link...">
-                <input type="text" class="username-input" id="addInfo" placeholder="info (optional)...">
-                <input type="number" class="username-input" id="addStarRating" min="0" max="10" step="0.01" placeholder="star rating (0-10)...">
-            </div>
 
-            <div class="filter-section" style="margin-top: 20px;">
-                <h3 style="font-size: 1em; margin-bottom: 12px;">difficulty</h3>
-                <div class="filter-options" id="addDifficultyOptions">
-                    <button class="filter-option" data-difficulty="Easy">easy</button>
-                    <button class="filter-option" data-difficulty="Medium">medium</button>
-                    <button class="filter-option" data-difficulty="Hard">hard</button>
-                    <button class="filter-option" data-difficulty="Logic">logic</button>
-                    <button class="filter-option" data-difficulty="Brrrr">brrrr</button>
-                    <button class="filter-option" data-difficulty="Tasukete">tasukete</button>
-                </div>
-            </div>
-
-            <div class="filter-section" style="margin-top: 20px;">
-                <h3 style="font-size: 1em; margin-bottom: 12px;">patterns</h3>
-                <div class="filter-options" id="addPatternOptions">
-                    <button class="filter-option" data-pattern="Streams">streams</button>
-                    <button class="filter-option" data-pattern="Walls">walls</button>
-                    <button class="filter-option" data-pattern="Tech">tech</button>
-                    <button class="filter-option" data-pattern="Jumps">jumps</button>
-                    <button class="filter-option" data-pattern="Quantum">quantum</button>
-                    <button class="filter-option" data-pattern="Unconventional">unconventional</button>
-                    <button class="filter-option" data-pattern="Bursts">bursts</button>
-                    <button class="filter-option" data-pattern="Timing">timing</button>
-                    <button class="filter-option" data-pattern="Stacks">stacks</button>
-                    <button class="filter-option" data-pattern="Spins">spins</button>
-                    <button class="filter-option" data-pattern="Slides">slides</button>
-                    <button class="filter-option" data-pattern="Vibros">vibros</button>
-                </div>
-            </div>
-
-            <button class="username-submit-btn" id="addMapBtn" style="margin-top: 20px;">add map</button>
-        </div>
-    </div>
-</div>
-<script src="Mapscript.js"    ></script> 
+<script src="FixMapScript.js"></script>
 </body>
 </html>
