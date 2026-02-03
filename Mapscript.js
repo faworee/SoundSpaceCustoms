@@ -2098,5 +2098,5 @@ function loadChangelog() {
 
 document.addEventListener('DOMContentLoaded', () => {
     checkCookieConsent();
-    loadMapData();
+    loadMapData(); 
 });
