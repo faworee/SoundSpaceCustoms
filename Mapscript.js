@@ -1956,29 +1956,15 @@ async function loadMapData() {
         const timestamp = Date.now();
         let mapData;
         try {
-            const response = await fetch(`Mapdata.json?v=${timestamp}`);
+            const response = await fetch(`https://faworee.com/soundspacecustoms/Mapdata.json?v=${timestamp}`);
             if (!response.ok) throw new Error('JSON failed');
             mapData = await response.json();
         } catch (jsonError) {
-            const response = await fetch(`getMapData.php?v=${timestamp}`);
+            const response = await fetch(`https://faworee.com/soundspacecustoms/getMapData.php?v=${timestamp}`);
             if (!response.ok) throw new Error('Both JSON and PHP failed');
             mapData = await response.json();
         }
-        
-        const mapPromises = mapData.map(async (mapObj) => {
-            if (!mapObj || !mapObj.link) return null;
-            
-           const enhancedMapObj = {
-    ...mapObj,
-    id: mapObj.id || null,  
-    duration: null,
-    noteCount: null,
-    copies: getMapCopies(mapObj.id, mapObj.mapper),  
-    isNew: mapObj.isNew || false,
-    starRating: mapObj.starRating ? parseFloat(mapObj.starRating) : null,
-    info: mapObj.info || null,
-    userId: mapObj.userId || null
-};
+       
             
             try {
                 const rawLink = enhancedMapObj.link.replace('github.com', 'raw.githubusercontent.com').replace('/blob/', '/');
@@ -2021,11 +2007,11 @@ async function loadMapCopies() {
     try {
         const timestamp = Date.now();
         try {
-            const response = await fetch(`MapCopies.json?v=${timestamp}`);
+            const response = await fetch(`https://faworee.com/soundspacecustoms/MapCopies.json?v=${timestamp}`);
             if (!response.ok) throw new Error('JSON failed');
             mapCopiesData = await response.json();
         } catch (jsonError) {
-            const response = await fetch(`getMapCopies.php?v=${timestamp}`);
+            const response = await fetch(`https://faworee.com/soundspacecustoms/getMapCopies.php?v=${timestamp}`);
             if (!response.ok) throw new Error('Both JSON and PHP failed');
             mapCopiesData = await response.json();
         }
@@ -2077,7 +2063,7 @@ function loadChangelog() {
     const container = document.getElementById('changelogContent');
     if (!container) return;
     container.innerHTML = '<p style="text-align: center; color: #666;">Loading changelog...</p>';
-    fetch('Changelog.json?v=' + Date.now())
+    fetch('https://faworee.com/soundspacecustoms/Changelog.json?v=' + Date.now())
         .then(response => {
             if (!response.ok) throw new Error('Failed to load changelog');
             return response.json();
