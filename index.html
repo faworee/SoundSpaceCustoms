@@ -14,21 +14,413 @@
 <meta name="twitter:title" content="sound space maps">
 <meta name="twitter:description" content="copy custom maps instantly. many filters for patterns and difficulties. options like start from or copy raw data included.">
 <meta name="twitter:image" content="https://i.imgur.com/h9ZS3fW.png">
-<link rel="stylesheet" href="mapstyles.css">
+<link rel="stylesheet" href="mapstyle.css">
 <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Roboto&family=Open+Sans&family=Lato&family=Montserrat&family=Poppins&family=Comic+Sans+MS&family=Courier+New&display=swap" rel="stylesheet">
 <audio id="buttonSound" src="button.mp3"></audio>
 </head>
 <body>
+<style>
+#tutorialOverlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(5, 5, 15, 0.92);
+    backdrop-filter: blur(16px);
+    z-index: 99999;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 20px;
+    overflow-y: auto;
+    animation: tutFadeIn 0.4s ease;
+}
 
+#tutorialOverlay.hidden {
+    display: none;
+}
+
+@keyframes tutFadeIn {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+.tut-box {
+    background: linear-gradient(145deg, rgba(18, 18, 32, 0.98), rgba(12, 12, 28, 0.98));
+    border: 1px solid rgba(79, 172, 254, 0.25);
+    border-radius: 28px;
+    padding: 28px 32px 24px;
+    max-width: 780px;
+    width: 100%;
+    margin: auto;
+    box-shadow: 0 0 0 1px rgba(79, 172, 254, 0.08), 0 30px 80px rgba(0, 0, 0, 0.6), 0 0 60px rgba(79, 172, 254, 0.08);
+    animation: tutSlideUp 0.45s cubic-bezier(0.22, 1, 0.36, 1);
+    position: relative;
+}
+
+.tut-box::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 3px;
+    background: linear-gradient(90deg, #4facfe, #f093fb, #4facfe);
+    background-size: 200% 100%;
+    animation: shimmer 3s linear infinite;
+    border-radius: 28px 28px 0 0;
+}
+
+@keyframes shimmer {
+    0%   { background-position: 200% 0; }
+    100% { background-position: -200% 0; }
+}
+
+@keyframes tutSlideUp {
+    from { opacity: 0; transform: translateY(30px) scale(0.97); }
+    to   { opacity: 1; transform: translateY(0) scale(1); }
+}
+
+.tut-steps {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 16px;
+}
+
+.tut-step-dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.15);
+    transition: all 0.3s ease;
+}
+
+.tut-step-dot.active {
+    background: linear-gradient(135deg, #4facfe, #f093fb);
+    width: 24px;
+    border-radius: 4px;
+    box-shadow: 0 0 8px rgba(79, 172, 254, 0.5);
+}
+
+.tut-step-dot.done {
+    background: rgba(79, 172, 254, 0.4);
+}
+
+.tut-step-label {
+    font-size: 0.75em;
+    color: rgba(255, 255, 255, 0.35);
+    margin-left: 6px;
+    font-family: 'Segoe UI', sans-serif;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+}
+
+.tut-title {
+    font-size: 1.4em;
+    font-weight: 700;
+    margin-bottom: 6px;
+    background: linear-gradient(90deg, #4facfe, #f093fb);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    line-height: 1.2;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.tut-subtitle {
+    font-size: 0.88em;
+    color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 16px;
+    line-height: 1.4;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.tut-images {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin-bottom: 18px;
+}
+
+.tut-img-wrap {
+    border-radius: 12px;
+    overflow: hidden;
+    border: 1px solid rgba(79, 172, 254, 0.2);
+    background: rgba(0, 0, 0, 0.3);
+    position: relative;
+    transition: border-color 0.2s;
+}
+
+.tut-img-wrap:hover {
+    border-color: rgba(79, 172, 254, 0.5);
+}
+
+.tut-img-label {
+    position: absolute;
+    top: 7px;
+    left: 7px;
+    background: linear-gradient(135deg, rgba(79, 172, 254, 0.85), rgba(240, 147, 251, 0.85));
+    color: white;
+    font-size: 0.68em;
+    font-weight: 700;
+    padding: 2px 8px;
+    border-radius: 5px;
+    backdrop-filter: blur(4px);
+    font-family: 'Segoe UI', sans-serif;
+    letter-spacing: 0.03em;
+    z-index: 1;
+}
+
+.tut-img-wrap img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.tut-desc {
+    font-size: 0.88em;
+    color: rgba(255, 255, 255, 0.75);
+    line-height: 1.6;
+    margin-bottom: 20px;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.tut-desc p {
+    margin: 0 0 8px 0;
+}
+
+.tut-desc p:last-child {
+    margin-bottom: 0;
+}
+
+.tut-desc strong {
+    color: #4facfe;
+    font-weight: 600;
+}
+
+.tut-desc ul {
+    margin: 6px 0 0 18px;
+    padding: 0;
+    line-height: 1.7;
+}
+
+.tut-desc .highlight {
+    display: inline-block;
+    background: rgba(79, 172, 254, 0.12);
+    border: 1px solid rgba(79, 172, 254, 0.25);
+    border-radius: 6px;
+    padding: 1px 7px;
+    color: #a8d8ff;
+    font-size: 0.95em;
+    font-family: 'Courier New', monospace;
+}
+
+.tut-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+}
+
+.tut-skip {
+    background: none;
+    border: none;
+    color: rgba(255, 255, 255, 0.28);
+    font-size: 0.85em;
+    cursor: pointer;
+    padding: 8px 0;
+    transition: color 0.2s;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.tut-skip:hover {
+    color: rgba(255, 255, 255, 0.55);
+}
+
+.tut-next {
+    background: linear-gradient(135deg, #4facfe, #f093fb);
+    color: white;
+    border: none;
+    border-radius: 14px;
+    padding: 11px 28px;
+    font-size: 0.92em;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.25s ease;
+    font-family: 'Segoe UI', sans-serif;
+    box-shadow: 0 4px 20px rgba(79, 172, 254, 0.3);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.tut-next:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 30px rgba(79, 172, 254, 0.45);
+}
+
+.tut-next:active {
+    transform: translateY(0);
+}
+
+.tut-next .arrow {
+    font-size: 1.1em;
+    transition: transform 0.2s;
+}
+
+.tut-next:hover .arrow {
+    transform: translateX(3px);
+}
+
+.tut-content.exit {
+    opacity: 0;
+    transform: translateX(-12px);
+    transition: opacity 0.2s ease, transform 0.2s ease;
+}
+
+.tut-content.enter {
+    animation: contentEnter 0.3s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+}
+
+@keyframes contentEnter {
+    from { opacity: 0; transform: translateX(12px); }
+    to   { opacity: 1; transform: translateX(0); }
+}
+
+@media (max-width: 520px) {
+    .tut-box { padding: 20px 18px 18px; border-radius: 20px; }
+    .tut-title { font-size: 1.2em; }
+    .tut-images { grid-template-columns: 1fr; }
+    .tut-next { padding: 10px 20px; }
+}
+</style>
+
+<div id="tutorialOverlay" class="hidden">
+    <div class="tut-box">
+        <div class="tut-steps">
+            <div class="tut-step-dot active" id="dot0"></div>
+            <div class="tut-step-dot" id="dot1"></div>
+            <span class="tut-step-label" id="stepLabel">step 1 of 2</span>
+        </div>
+        <div class="tut-content" id="tutContent"></div>
+        <div class="tut-footer">
+            <button class="tut-skip" id="tutSkip">skip tutorial</button>
+            <button class="tut-next" id="tutNext">
+                <span id="tutNextLabel">next</span>
+                <span class="arrow" id="tutArrow">→</span>
+            </button>
+        </div>
+    </div>
+</div>
+
+<script>
+(function () {
+    const STORAGE_KEY = 'ssMapsTutorialDone';
+
+    const steps = [
+        {
+            title: 'copying map data',
+            subtitle: 'here\'s how to grab a map and get it ready to play',
+            desc: `<p>to copy a map, press the <strong>copy link</strong> button on any card — this copies the github link straight to your clipboard.</p><p>need more options? click the <strong>⋮ button</strong> to open extra actions:</p><ul><li><strong>start from</strong> — drag the circle to choose exactly where in the map to begin, then hit <strong>apply and copy modified map</strong>.</li><li><strong>copy raw</strong> — copies the raw map data directly instead of the link.</li></ul>`,
+            images: [
+                { url: 'https://i.imgur.com/VAv49UV.png', label: 'copy link & more options' },
+                { url: 'https://i.imgur.com/4ysxjjg.png', label: 'start from slider' }
+            ]
+        },
+        {
+            title: 'playing the map in-game',
+            subtitle: 'now take what you copied into sound space',
+            desc: `<p>open sound space and look for the <strong class="highlight">{ }</strong> blue box — it\'s the custom map input button.</p><p>click it and a text field will appear saying <strong>"paste custom map data here"</strong>.</p><p>paste the <strong>link or raw map data</strong> you copied in the previous step, then confirm — and you\'re good to go!</p>`,
+            images: [
+                { url: 'https://i.imgur.com/Zd7LGkY.png', label: 'find the { } button' },
+                { url: 'https://i.imgur.com/RJHTqGu.png', label: 'paste your map data' }
+            ]
+        }
+    ];
+
+    let current = 0;
+
+    function isDone() {
+        try { return localStorage.getItem(STORAGE_KEY) === 'true'; } catch { return false; }
+    }
+
+    function markDone() {
+        try { localStorage.setItem(STORAGE_KEY, 'true'); } catch {}
+    }
+
+    function renderStep(idx, animate) {
+        const step = steps[idx];
+        const content = document.getElementById('tutContent');
+
+        if (animate) {
+            content.classList.add('exit');
+            setTimeout(() => {
+                content.classList.remove('exit');
+                fillContent(step, content);
+                content.classList.add('enter');
+                setTimeout(() => content.classList.remove('enter'), 350);
+                document.getElementById('tutorialOverlay').scrollTop = 0;
+            }, 200);
+        } else {
+            fillContent(step, content);
+        }
+
+        steps.forEach((_, i) => {
+            const dot = document.getElementById('dot' + i);
+            if (!dot) return;
+            dot.classList.toggle('active', i === idx);
+            dot.classList.toggle('done', i < idx);
+        });
+
+        document.getElementById('stepLabel').textContent = 'step ' + (idx + 1) + ' of ' + steps.length;
+        const isLast = idx === steps.length - 1;
+        document.getElementById('tutNextLabel').textContent = isLast ? 'done' : 'next';
+        document.getElementById('tutArrow').textContent = isLast ? '✓' : '→';
+    }
+
+    function fillContent(step, el) {
+        el.innerHTML = `
+            <div class="tut-title">${step.title}</div>
+            <div class="tut-subtitle">${step.subtitle}</div>
+            <div class="tut-images">${step.images.map(img => `<div class="tut-img-wrap"><span class="tut-img-label">${img.label}</span><img src="${img.url}" alt="${img.label}" loading="lazy"></div>`).join('')}</div>
+            <div class="tut-desc">${step.desc}</div>
+        `;
+    }
+
+    function closeTutorial() {
+        markDone();
+        const overlay = document.getElementById('tutorialOverlay');
+        overlay.style.opacity = '0';
+        overlay.style.transition = 'opacity 0.3s ease';
+        setTimeout(() => overlay.classList.add('hidden'), 300);
+    }
+
+    function init() {
+        if (isDone()) return;
+        renderStep(0, false);
+        document.getElementById('tutorialOverlay').classList.remove('hidden');
+        document.getElementById('tutNext').addEventListener('click', () => {
+            if (current < steps.length - 1) { current++; renderStep(current, true); } else { closeTutorial(); }
+        });
+        document.getElementById('tutSkip').addEventListener('click', closeTutorial);
+    }
+
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', init);
+    } else {
+        setTimeout(init, 300);
+    }
+})();
+
+</script>
 <div class="header-container">
     <div class="logo">sound space maps</div>
     <div class="header-actions">
+        <button class="header-btn" id="randomMapBtn">random map</button>
+        <a href="/SubmitMaps" class="header-btn">submit map</a>
+        <button class="header-btn" id="updateLogBtn">update log</button>
         <button class="menu-toggle" id="menuToggle">menu</button>
         <div class="dropdown-menu" id="headerMenu">
-            <a href="https://discord.gg/872M5HPbYx" class="dropdown-item" target="_blank" rel="noopener">join our community discord</a>
-            <div class="dropdown-item" id="randomMapBtn">random map</div>
-            <a href="/SubmitMaps" class="dropdown-item">submit map</a>
-            <div class="dropdown-item" id="updateLogBtn">update log</div>
+            <a href="https://discord.gg/872M5HPbYx" class="dropdown-item" target="_blank" rel="noopener">join my community discord</a>
+            <a href="https://discord.gg/soundspace" class="dropdown-item" target="_blank" rel="noopener">join the official sound space discord</a>
+            <div class="dropdown-item" id="infoBtn">info</div>
             <div class="dropdown-item" id="qualityToggle">low quality mode</div>
             <div class="dropdown-item" id="discordAuthBtn">login with discord</div>
             <div class="dropdown-item font-selector-container">
@@ -103,13 +495,13 @@
     <span class="sort-label">sort by:</span>
     <div class="custom-dropdown" id="primarySortDropdown">
         <div class="dropdown-header" id="primarySortHeader">
-            <span id="primarySortText">difficulty: easy → hard</span>
+            <span id="primarySortText">difficulty: easy → tasukete</span>
             <span class="dropdown-arrow">▼</span>
         </div>
         <div class="dropdown-options" id="primarySortOptions">
             <div class="dropdown-option-group-label">difficulty</div>
             <div class="dropdown-option selected" data-value="difficulty-asc">difficulty: easy → hard</div>
-            <div class="dropdown-option" data-value="difficulty-desc">difficulty: hard → easy</div>
+            <div class="dropdown-option" data-value="difficulty-desc">difficulty: tasukete → easy</div>
             <div class="dropdown-option-group-label">name</div>
             <div class="dropdown-option" data-value="name-asc">name: A → Z</div>
             <div class="dropdown-option" data-value="name-desc">name: Z → A</div>
@@ -284,6 +676,62 @@
     </div>
 </div>
 
+<div class="modal" id="infoModal">
+    <div class="modal-content">
+        <div class="modal-header">
+            <h2 class="modal-title">Info</h2>
+            <button class="close-btn" onclick="closeModal('infoModal')">x</button>
+        </div>
+        <div class="changelog-content">
+            <div class="changelog-entry">
+                <div class="changelog-version">Map Submissions & Approval</div>
+                <div class="changelog-changes">
+                    <li>When you submit a map, it must be approved before it becomes publicly available. Maps are reviewed by me (faworee) or by other trusted people who have access to the map submissions panel.</li>
+                    <li><strong>Q: How long does approval take?</strong><br>A: Approval time can vary. Most maps are reviewed within 24 hours, but if I'm busy, it may take up to one week.</li>
+                </div>
+            </div>
+            <div class="changelog-entry">
+                <div class="changelog-version">Data & Privacy</div>
+                <div class="changelog-changes">
+                    <li>I do not collect, store, sell, or share any personal data. This website is a passion project, fully designed, developed, and managed by me alone.</li>
+                </div>
+            </div>
+            <div class="changelog-entry">
+                <div class="changelog-version">Map Copy Tracking</div>
+                <div class="changelog-changes">
+                    <li>If you copy a map while map copy tracking is enabled, the popularity count of that map will increase by 1. Abusing this feature may result in an IP ban from the website.</li>
+                </div>
+            </div>
+            <div class="changelog-entry">
+                <div class="changelog-version">Login with Discord</div>
+                <div class="changelog-changes">
+                    <li>When you log in using Discord, the application only accesses basic public information such as:
+                        <ul style="margin-left: 20px; margin-top: 5px;">
+                            <li>User ID</li>
+                            <li>Username</li>
+                            <li>Avatar</li>
+                        </ul>
+                    </li>
+                    <li>Nothing else is accessed — no email, no server joins, and no additional permissions.</li>
+                    <li>Discord logins are saved so you don't have to log in repeatedly.</li>
+                </div>
+            </div>
+            <div class="changelog-entry">
+                <div class="changelog-version">Cookies</div>
+                <div class="changelog-changes">
+                    <li>Cookies are only used for:
+                        <ul style="margin-left: 20px; margin-top: 5px;">
+                            <li>Favoriting maps</li>
+                            <li>Loading fonts</li>
+                        </ul>
+                    </li>
+                    <li>If cookies are declined, these features will not work properly.</li>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
 <div class="modal secret-share-modal" id="secretShareModal">
     <div class="modal-content">
         <div class="modal-header">
@@ -384,6 +832,6 @@
     </div>
 </div>
 
-<script src="Mapscript.js"></script>
+<script src="MapScript.js"></script>
 </body>
 </html>
