@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -33,16 +34,8 @@
     overflow-y: auto;
     animation: tutFadeIn 0.4s ease;
 }
-
-#tutorialOverlay.hidden {
-    display: none;
-}
-
-@keyframes tutFadeIn {
-    from { opacity: 0; }
-    to   { opacity: 1; }
-}
-
+#tutorialOverlay.hidden { display: none; }
+@keyframes tutFadeIn { from { opacity: 0; } to { opacity: 1; } }
 .tut-box {
     background: linear-gradient(145deg, rgba(18, 18, 32, 0.98), rgba(12, 12, 28, 0.98));
     border: 1px solid rgba(79, 172, 254, 0.25);
@@ -55,7 +48,6 @@
     animation: tutSlideUp 0.45s cubic-bezier(0.22, 1, 0.36, 1);
     position: relative;
 }
-
 .tut-box::before {
     content: '';
     position: absolute;
@@ -66,230 +58,38 @@
     animation: shimmer 3s linear infinite;
     border-radius: 28px 28px 0 0;
 }
-
-@keyframes shimmer {
-    0%   { background-position: 200% 0; }
-    100% { background-position: -200% 0; }
-}
-
-@keyframes tutSlideUp {
-    from { opacity: 0; transform: translateY(30px) scale(0.97); }
-    to   { opacity: 1; transform: translateY(0) scale(1); }
-}
-
-.tut-steps {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    margin-bottom: 16px;
-}
-
-.tut-step-dot {
-    width: 8px;
-    height: 8px;
-    border-radius: 50%;
-    background: rgba(255, 255, 255, 0.15);
-    transition: all 0.3s ease;
-}
-
-.tut-step-dot.active {
-    background: linear-gradient(135deg, #4facfe, #f093fb);
-    width: 24px;
-    border-radius: 4px;
-    box-shadow: 0 0 8px rgba(79, 172, 254, 0.5);
-}
-
-.tut-step-dot.done {
-    background: rgba(79, 172, 254, 0.4);
-}
-
-.tut-step-label {
-    font-size: 0.75em;
-    color: rgba(255, 255, 255, 0.35);
-    margin-left: 6px;
-    font-family: 'Segoe UI', sans-serif;
-    letter-spacing: 0.04em;
-    text-transform: uppercase;
-}
-
-.tut-title {
-    font-size: 1.4em;
-    font-weight: 700;
-    margin-bottom: 6px;
-    background: linear-gradient(90deg, #4facfe, #f093fb);
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-    line-height: 1.2;
-    font-family: 'Segoe UI', sans-serif;
-}
-
-.tut-subtitle {
-    font-size: 0.88em;
-    color: rgba(255, 255, 255, 0.5);
-    margin-bottom: 16px;
-    line-height: 1.4;
-    font-family: 'Segoe UI', sans-serif;
-}
-
-.tut-images {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 10px;
-    margin-bottom: 18px;
-}
-
-.tut-img-wrap {
-    border-radius: 12px;
-    overflow: hidden;
-    border: 1px solid rgba(79, 172, 254, 0.2);
-    background: rgba(0, 0, 0, 0.3);
-    position: relative;
-    transition: border-color 0.2s;
-}
-
-.tut-img-wrap:hover {
-    border-color: rgba(79, 172, 254, 0.5);
-}
-
-.tut-img-label {
-    position: absolute;
-    top: 7px;
-    left: 7px;
-    background: linear-gradient(135deg, rgba(79, 172, 254, 0.85), rgba(240, 147, 251, 0.85));
-    color: white;
-    font-size: 0.68em;
-    font-weight: 700;
-    padding: 2px 8px;
-    border-radius: 5px;
-    backdrop-filter: blur(4px);
-    font-family: 'Segoe UI', sans-serif;
-    letter-spacing: 0.03em;
-    z-index: 1;
-}
-
-.tut-img-wrap img {
-    width: 100%;
-    height: auto;
-    display: block;
-}
-
-.tut-desc {
-    font-size: 0.88em;
-    color: rgba(255, 255, 255, 0.75);
-    line-height: 1.6;
-    margin-bottom: 20px;
-    font-family: 'Segoe UI', sans-serif;
-}
-
-.tut-desc p {
-    margin: 0 0 8px 0;
-}
-
-.tut-desc p:last-child {
-    margin-bottom: 0;
-}
-
-.tut-desc strong {
-    color: #4facfe;
-    font-weight: 600;
-}
-
-.tut-desc ul {
-    margin: 6px 0 0 18px;
-    padding: 0;
-    line-height: 1.7;
-}
-
-.tut-desc .highlight {
-    display: inline-block;
-    background: rgba(79, 172, 254, 0.12);
-    border: 1px solid rgba(79, 172, 254, 0.25);
-    border-radius: 6px;
-    padding: 1px 7px;
-    color: #a8d8ff;
-    font-size: 0.95em;
-    font-family: 'Courier New', monospace;
-}
-
-.tut-footer {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 12px;
-}
-
-.tut-skip {
-    background: none;
-    border: none;
-    color: rgba(255, 255, 255, 0.28);
-    font-size: 0.85em;
-    cursor: pointer;
-    padding: 8px 0;
-    transition: color 0.2s;
-    font-family: 'Segoe UI', sans-serif;
-}
-
-.tut-skip:hover {
-    color: rgba(255, 255, 255, 0.55);
-}
-
-.tut-next {
-    background: linear-gradient(135deg, #4facfe, #f093fb);
-    color: white;
-    border: none;
-    border-radius: 14px;
-    padding: 11px 28px;
-    font-size: 0.92em;
-    font-weight: 600;
-    cursor: pointer;
-    transition: all 0.25s ease;
-    font-family: 'Segoe UI', sans-serif;
-    box-shadow: 0 4px 20px rgba(79, 172, 254, 0.3);
-    display: flex;
-    align-items: center;
-    gap: 8px;
-}
-
-.tut-next:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 8px 30px rgba(79, 172, 254, 0.45);
-}
-
-.tut-next:active {
-    transform: translateY(0);
-}
-
-.tut-next .arrow {
-    font-size: 1.1em;
-    transition: transform 0.2s;
-}
-
-.tut-next:hover .arrow {
-    transform: translateX(3px);
-}
-
-.tut-content.exit {
-    opacity: 0;
-    transform: translateX(-12px);
-    transition: opacity 0.2s ease, transform 0.2s ease;
-}
-
-.tut-content.enter {
-    animation: contentEnter 0.3s cubic-bezier(0.22, 1, 0.36, 1) forwards;
-}
-
-@keyframes contentEnter {
-    from { opacity: 0; transform: translateX(12px); }
-    to   { opacity: 1; transform: translateX(0); }
-}
-
-@media (max-width: 520px) {
-    .tut-box { padding: 20px 18px 18px; border-radius: 20px; }
-    .tut-title { font-size: 1.2em; }
-    .tut-images { grid-template-columns: 1fr; }
-    .tut-next { padding: 10px 20px; }
-}
+@keyframes shimmer { 0% { background-position: 200% 0; } 100% { background-position: -200% 0; } }
+@keyframes tutSlideUp { from { opacity: 0; transform: translateY(30px) scale(0.97); } to { opacity: 1; transform: translateY(0) scale(1); } }
+.tut-steps { display: flex; align-items: center; gap: 8px; margin-bottom: 16px; }
+.tut-step-dot { width: 8px; height: 8px; border-radius: 50%; background: rgba(255, 255, 255, 0.15); transition: all 0.3s ease; }
+.tut-step-dot.active { background: linear-gradient(135deg, #4facfe, #f093fb); width: 24px; border-radius: 4px; box-shadow: 0 0 8px rgba(79, 172, 254, 0.5); }
+.tut-step-dot.done { background: rgba(79, 172, 254, 0.4); }
+.tut-step-label { font-size: 0.75em; color: rgba(255, 255, 255, 0.35); margin-left: 6px; font-family: 'Segoe UI', sans-serif; letter-spacing: 0.04em; text-transform: uppercase; }
+.tut-title { font-size: 1.4em; font-weight: 700; margin-bottom: 6px; background: linear-gradient(90deg, #4facfe, #f093fb); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; line-height: 1.2; font-family: 'Segoe UI', sans-serif; }
+.tut-subtitle { font-size: 0.88em; color: rgba(255, 255, 255, 0.5); margin-bottom: 16px; line-height: 1.4; font-family: 'Segoe UI', sans-serif; }
+.tut-images { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-bottom: 18px; }
+.tut-img-wrap { border-radius: 12px; overflow: hidden; border: 1px solid rgba(79, 172, 254, 0.2); background: rgba(0, 0, 0, 0.3); position: relative; transition: border-color 0.2s; }
+.tut-img-wrap:hover { border-color: rgba(79, 172, 254, 0.5); }
+.tut-img-label { position: absolute; top: 7px; left: 7px; background: linear-gradient(135deg, rgba(79, 172, 254, 0.85), rgba(240, 147, 251, 0.85)); color: white; font-size: 0.68em; font-weight: 700; padding: 2px 8px; border-radius: 5px; backdrop-filter: blur(4px); font-family: 'Segoe UI', sans-serif; letter-spacing: 0.03em; z-index: 1; }
+.tut-img-wrap img { width: 100%; height: auto; display: block; }
+.tut-desc { font-size: 0.88em; color: rgba(255, 255, 255, 0.75); line-height: 1.6; margin-bottom: 20px; font-family: 'Segoe UI', sans-serif; }
+.tut-desc p { margin: 0 0 8px 0; }
+.tut-desc p:last-child { margin-bottom: 0; }
+.tut-desc strong { color: #4facfe; font-weight: 600; }
+.tut-desc ul { margin: 6px 0 0 18px; padding: 0; line-height: 1.7; }
+.tut-desc .highlight { display: inline-block; background: rgba(79, 172, 254, 0.12); border: 1px solid rgba(79, 172, 254, 0.25); border-radius: 6px; padding: 1px 7px; color: #a8d8ff; font-size: 0.95em; font-family: 'Courier New', monospace; }
+.tut-footer { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
+.tut-skip { background: none; border: none; color: rgba(255, 255, 255, 0.28); font-size: 0.85em; cursor: pointer; padding: 8px 0; transition: color 0.2s; font-family: 'Segoe UI', sans-serif; }
+.tut-skip:hover { color: rgba(255, 255, 255, 0.55); }
+.tut-next { background: linear-gradient(135deg, #4facfe, #f093fb); color: white; border: none; border-radius: 14px; padding: 11px 28px; font-size: 0.92em; font-weight: 600; cursor: pointer; transition: all 0.25s ease; font-family: 'Segoe UI', sans-serif; box-shadow: 0 4px 20px rgba(79, 172, 254, 0.3); display: flex; align-items: center; gap: 8px; }
+.tut-next:hover { transform: translateY(-2px); box-shadow: 0 8px 30px rgba(79, 172, 254, 0.45); }
+.tut-next:active { transform: translateY(0); }
+.tut-next .arrow { font-size: 1.1em; transition: transform 0.2s; }
+.tut-next:hover .arrow { transform: translateX(3px); }
+.tut-content.exit { opacity: 0; transform: translateX(-12px); transition: opacity 0.2s ease, transform 0.2s ease; }
+.tut-content.enter { animation: contentEnter 0.3s cubic-bezier(0.22, 1, 0.36, 1) forwards; }
+@keyframes contentEnter { from { opacity: 0; transform: translateX(12px); } to { opacity: 1; transform: translateX(0); } }
+@media (max-width: 520px) { .tut-box { padding: 20px 18px 18px; border-radius: 20px; } .tut-title { font-size: 1.2em; } .tut-images { grid-template-columns: 1fr; } .tut-next { padding: 10px 20px; } }
 </style>
 
 <div id="tutorialOverlay" class="hidden">
@@ -313,7 +113,6 @@
 <script>
 (function () {
     const STORAGE_KEY = 'ssMapsTutorialDone';
-
     const steps = [
         {
             title: 'copying map data',
@@ -334,21 +133,12 @@
             ]
         }
     ];
-
     let current = 0;
-
-    function isDone() {
-        try { return localStorage.getItem(STORAGE_KEY) === 'true'; } catch { return false; }
-    }
-
-    function markDone() {
-        try { localStorage.setItem(STORAGE_KEY, 'true'); } catch {}
-    }
-
+    function isDone() { try { return localStorage.getItem(STORAGE_KEY) === 'true'; } catch { return false; } }
+    function markDone() { try { localStorage.setItem(STORAGE_KEY, 'true'); } catch {} }
     function renderStep(idx, animate) {
         const step = steps[idx];
         const content = document.getElementById('tutContent');
-
         if (animate) {
             content.classList.add('exit');
             setTimeout(() => {
@@ -358,32 +148,21 @@
                 setTimeout(() => content.classList.remove('enter'), 350);
                 document.getElementById('tutorialOverlay').scrollTop = 0;
             }, 200);
-        } else {
-            fillContent(step, content);
-        }
-
+        } else { fillContent(step, content); }
         steps.forEach((_, i) => {
             const dot = document.getElementById('dot' + i);
             if (!dot) return;
             dot.classList.toggle('active', i === idx);
             dot.classList.toggle('done', i < idx);
         });
-
         document.getElementById('stepLabel').textContent = 'step ' + (idx + 1) + ' of ' + steps.length;
         const isLast = idx === steps.length - 1;
         document.getElementById('tutNextLabel').textContent = isLast ? 'done' : 'next';
         document.getElementById('tutArrow').textContent = isLast ? '✓' : '→';
     }
-
     function fillContent(step, el) {
-        el.innerHTML = `
-            <div class="tut-title">${step.title}</div>
-            <div class="tut-subtitle">${step.subtitle}</div>
-            <div class="tut-images">${step.images.map(img => `<div class="tut-img-wrap"><span class="tut-img-label">${img.label}</span><img src="${img.url}" alt="${img.label}" loading="lazy"></div>`).join('')}</div>
-            <div class="tut-desc">${step.desc}</div>
-        `;
+        el.innerHTML = `<div class="tut-title">${step.title}</div><div class="tut-subtitle">${step.subtitle}</div><div class="tut-images">${step.images.map(img => `<div class="tut-img-wrap"><span class="tut-img-label">${img.label}</span><img src="${img.url}" alt="${img.label}" loading="lazy"></div>`).join('')}</div><div class="tut-desc">${step.desc}</div>`;
     }
-
     function closeTutorial() {
         markDone();
         const overlay = document.getElementById('tutorialOverlay');
@@ -391,7 +170,6 @@
         overlay.style.transition = 'opacity 0.3s ease';
         setTimeout(() => overlay.classList.add('hidden'), 300);
     }
-
     function init() {
         if (isDone()) return;
         renderStep(0, false);
@@ -401,15 +179,10 @@
         });
         document.getElementById('tutSkip').addEventListener('click', closeTutorial);
     }
-
-    if (document.readyState === 'loading') {
-        document.addEventListener('DOMContentLoaded', init);
-    } else {
-        setTimeout(init, 300);
-    }
+    if (document.readyState === 'loading') { document.addEventListener('DOMContentLoaded', init); } else { setTimeout(init, 300); }
 })();
-
 </script>
+
 <div class="header-container">
     <div class="logo">sound space maps</div>
     <div class="header-actions">
@@ -477,7 +250,6 @@
             </div>
         </div>
     </div>
-
     <div class="filter-bar">
         <button class="filter-btn" id="difficultyFilterBtn">difficulty</button>
         <button class="filter-btn" id="patternsFilterBtn">patterns</button>
@@ -513,7 +285,6 @@
             <div class="dropdown-option" data-value="popularity-asc">popularity: least → most</div>
         </div>
     </div>
-
     <span class="sort-label">then by:</span>
     <div class="custom-dropdown" id="secondarySortDropdown">
         <div class="dropdown-header" id="secondarySortHeader">
@@ -754,26 +525,17 @@
     </div>
 </div>
 
+<!-- FIXED: clean startFromModal with only mcEditor inside, no nesting, no old slider elements -->
 <div class="modal start-from-modal" id="startFromModal">
     <div class="modal-content">
         <div class="modal-header">
-            <h2 class="modal-title">start from</h2>
+            <h2 style="font-size:1.5em;display:flex;align-items:center;gap:8px;">
+                <img src="Note.png" alt="" style="width:20px;height:20px;flex-shrink:0;">
+                <span style="background:linear-gradient(90deg,#4facfe,#f093fb);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;">start from</span>
+            </h2>
             <button class="close-btn" onclick="closeModal('startFromModal')">x</button>
         </div>
-        <div class="filter-section">
-            <p style="margin-bottom: 15px; text-align: center; color: rgba(255, 255, 255, 0.8);">select the start time for this map:</p>
-            <div class="range-slider">
-                <div class="slider-inputs">
-                    <input type="text" class="slider-input" id="startTimeInput" placeholder="0:00" readonly>
-                    <input type="text" class="slider-input" id="mapLengthDisplay" placeholder="0:00" readonly>
-                </div>
-                <div class="dual-range-slider">
-                    <div class="slider-track" id="startTimeTrack" style="left: 0%; width: 100%;"></div>
-                    <div class="slider-thumb" id="startTimeThumb"></div>
-                </div>
-            </div>
-            <button class="start-from-apply" id="applyStartFromBtn">apply and copy modified map</button>
-        </div>
+        <div id="mcEditor"></div>
     </div>
 </div>
 
@@ -832,6 +594,6 @@
     </div>
 </div>
 
-<script src="MapScript.js"></script>
+<script src="Mapscriptyv12.js"></script>
 </body>
 </html>
