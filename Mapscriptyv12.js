@@ -189,7 +189,7 @@ function checkCookieStatus() {
             avatarImg.alt = 'Discord Avatar';
             avatarImg.style.cssText = 'width:24px;height:24px;border-radius:50%;margin-right:8px;vertical-align:middle;';
             if (userData.isAdmin) avatarImg.style.border = '2px solid gold';
-            const usernameText = userData.isAdmin ? `logout (${userData.username}) â­` : `logout (${userData.username})`;
+            const usernameText = userData.isAdmin ? `logout (${userData.username}) ⭐` : `logout (${userData.username})`;
             discordAuthBtn.innerHTML = '';
             discordAuthBtn.appendChild(avatarImg);
             discordAuthBtn.appendChild(document.createTextNode(usernameText));
@@ -277,7 +277,7 @@ function checkCookieStatus() {
                 const errorDetails = responseData.details || '';
                 throw new Error(errorDetails ? `${errorMsg}: ${errorDetails}` : errorMsg);
             }
-            alert('âœ… Map added successfully!');
+            alert('✅ Map added successfully!');
             closeModal('addMapModal');
             document.getElementById('addMapName').value = '';
             document.getElementById('addArtist').value = '';
@@ -289,7 +289,7 @@ function checkCookieStatus() {
             document.querySelectorAll('#addPatternOptions .filter-option').forEach(btn => btn.classList.remove('active'));
             setTimeout(() => { location.reload(); }, 500);
         } catch (error) {
-            alert(`âŒ Failed to add map:\n\n${error.message}`);
+            alert(`❌ Failed to add map:\n\n${error.message}`);
         } finally {
             addBtn.textContent = originalText;
             addBtn.disabled = false;
@@ -888,7 +888,7 @@ class FavoritesManager {
 const favoritesManager = new FavoritesManager();
 let isLowQualityMode = false;
 const difficultyOrder = ["Easy", "Medium", "Hard", "Logic", "Brrrr", "Tasukete"];
-const difficultyEmojis = { "Easy": "ðŸŸ©", "Medium": "ðŸŸ¨", "Hard": "ðŸŸ¥", "Logic": "ðŸŸª", "Brrrr": "â¬œ", "Tasukete": "ðŸŸ¦" };
+const difficultyEmojis = { "Easy": "🟩", "Medium": "🟨", "Hard": "🟥", "Logic": "🟪", "Brrrr": "⬜", "Tasukete": "🟦" };
 
 let currentSortMode = 'difficulty-asc';
 let secondarySortMode = 'name-asc';
@@ -1240,7 +1240,7 @@ function updateActiveFiltersDisplay() {
     if (apmFilter !== 'all') filters.push(`APM: ${apmFilter === 'only' ? 'Only APM' : 'No APM'}`);
     if (showNewMapsOnly) filters.push('New Maps Only');
     if (showFavoritesOnly) filters.push('Favorites Only');
-    content.textContent = filters.length > 0 ? filters.join(' â€¢ ') : 'None';
+    content.textContent = filters.length > 0 ? filters.join(' • ') : 'None';
 }
 
 let searchTimeout;
@@ -1510,12 +1510,12 @@ document.getElementById('saveMapEditsBtn')?.addEventListener('click', async func
             maps[mapIndex] = { ...maps[mapIndex], ...currentEditingMap };
         }
         
-        alert('âœ… Map updated successfully!');
+        alert('✅ Map updated successfully!');
         closeModal('editMapModal');
         setTimeout(() => { location.reload(); }, 500);
     } catch (error) {
         console.error('Save error:', error);
-        alert(`âŒ Failed to save changes:\n\n${error.message}`);
+        alert(`❌ Failed to save changes:\n\n${error.message}`);
     } finally {
         saveBtn.textContent = originalText;
         saveBtn.disabled = false;
@@ -1525,7 +1525,7 @@ document.getElementById('saveMapEditsBtn')?.addEventListener('click', async func
 document.getElementById('deleteMapBtn')?.addEventListener('click', async function() {
     if (!isAdmin()) { alert('Only admins can delete maps'); return; }
     if (!currentEditingMap) return;
-    if (!confirm(`âš ï¸ Are you sure you want to delete the map "${currentEditingMap.mapName}"?\n\nThis action CANNOT be undone!`)) return;
+    if (!confirm(`⚠️ Are you sure you want to delete the map "${currentEditingMap.mapName}"?\n\nThis action CANNOT be undone!`)) return;
     if (!confirm(`Final confirmation: Delete "${currentEditingMap.mapName}" by ${currentEditingMap.mapper}?`)) return;
     const user = window.getDiscordUser();
     if (!user || !user.isAdmin) { alert('Admin authentication required'); return; }
@@ -1543,11 +1543,11 @@ document.getElementById('deleteMapBtn')?.addEventListener('click', async functio
         if (!response.ok) throw new Error(result.error || 'Failed to delete map');
         const mapIndex = maps.findIndex(m => m.link === currentEditingMap.link);
         if (mapIndex !== -1) maps.splice(mapIndex, 1);
-        alert('âœ… Map deleted successfully!');
+        alert('✅ Map deleted successfully!');
         closeModal('editMapModal');
         setTimeout(() => { location.reload(); }, 500);
     } catch (error) {
-        alert(`âŒ Failed to delete map: ${error.message}`);
+        alert(`❌ Failed to delete map: ${error.message}`);
     } finally {
         deleteBtn.textContent = originalText;
         deleteBtn.disabled = false;
@@ -1611,9 +1611,9 @@ function createMapCard(m) {
 
     const isFavorite = favoritesManager.isFavorite(m);
     const mapDataJSON = JSON.stringify(m).replace(/"/g, '&quot;').replace(/'/g, '&#39;');
-    const difficultyEmoji = difficultyEmojis[m.difficulty] || 'â¬œ';
+    const difficultyEmoji = difficultyEmojis[m.difficulty] || '⬜';
     const difficultyName = m.difficulty || 'Unknown';
-    const starRating = m.starRating !== null && m.starRating !== undefined ? `â˜… ${parseFloat(m.starRating).toFixed(2)}` : 'â˜… N/A';
+    const starRating = m.starRating !== null && m.starRating !== undefined ? `★ ${parseFloat(m.starRating).toFixed(2)}` : '★ N/A';
 
     let statsHtml = '';
     if (!isLowQualityMode) {
@@ -1650,8 +1650,8 @@ function createMapCard(m) {
         <div class="card-header">
             <div class="star-rating">${starRating}</div>
             <button class="favorite-btn ${isFavorite ? 'favorited' : ''}" onclick="toggleFavorite(this, event)" data-map="${mapDataJSON}">
-                <span class="heart-outline">â™¡</span>
-                <span class="heart-filled">â™¥</span>
+                <span class="heart-outline">♡</span>
+                <span class="heart-filled">♥</span>
             </button>
         </div>
         <div class="card-content">
@@ -1667,7 +1667,7 @@ function createMapCard(m) {
         </div>
         <div class="card-footer">
             <button class="action-btn" onclick="copyMapLink('${m.link.replace(/'/g, "\\'")}', this)">Copy Link</button>
-            <button class="more-btn" onclick="toggleMoreActions(this)">â‹®
+            <button class="more-btn" onclick="toggleMoreActions(this)">⋮
                 <div class="more-actions-dropdown">                    
                     <div class="dropdown-action" onclick="openStartFrom('${m.link.replace(/'/g, "\\'")}', event)">Start From</div>
                     <div class="dropdown-action" onclick="copyRawData('${m.link.replace(/'/g, "\\'")}')">Copy Raw</div>
