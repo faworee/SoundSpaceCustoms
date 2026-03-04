@@ -189,7 +189,7 @@ function checkCookieStatus() {
             avatarImg.alt = 'Discord Avatar';
             avatarImg.style.cssText = 'width:24px;height:24px;border-radius:50%;margin-right:8px;vertical-align:middle;';
             if (userData.isAdmin) avatarImg.style.border = '2px solid gold';
-            const usernameText = userData.isAdmin ? `logout (${userData.username}) ⭐` : `logout (${userData.username})`;
+            const usernameText = userData.isAdmin ? `logout (${userData.username}) â­` : `logout (${userData.username})`;
             discordAuthBtn.innerHTML = '';
             discordAuthBtn.appendChild(avatarImg);
             discordAuthBtn.appendChild(document.createTextNode(usernameText));
@@ -277,7 +277,7 @@ function checkCookieStatus() {
                 const errorDetails = responseData.details || '';
                 throw new Error(errorDetails ? `${errorMsg}: ${errorDetails}` : errorMsg);
             }
-            alert('✅ Map added successfully!');
+            alert('âœ… Map added successfully!');
             closeModal('addMapModal');
             document.getElementById('addMapName').value = '';
             document.getElementById('addArtist').value = '';
@@ -289,7 +289,7 @@ function checkCookieStatus() {
             document.querySelectorAll('#addPatternOptions .filter-option').forEach(btn => btn.classList.remove('active'));
             setTimeout(() => { location.reload(); }, 500);
         } catch (error) {
-            alert(`❌ Failed to add map:\n\n${error.message}`);
+            alert(`âŒ Failed to add map:\n\n${error.message}`);
         } finally {
             addBtn.textContent = originalText;
             addBtn.disabled = false;
@@ -888,7 +888,7 @@ class FavoritesManager {
 const favoritesManager = new FavoritesManager();
 let isLowQualityMode = false;
 const difficultyOrder = ["Easy", "Medium", "Hard", "Logic", "Brrrr", "Tasukete"];
-const difficultyEmojis = { "Easy": "🟩", "Medium": "🟨", "Hard": "🟥", "Logic": "🟪", "Brrrr": "⬜", "Tasukete": "🟦" };
+const difficultyEmojis = { "Easy": "ðŸŸ©", "Medium": "ðŸŸ¨", "Hard": "ðŸŸ¥", "Logic": "ðŸŸª", "Brrrr": "â¬œ", "Tasukete": "ðŸŸ¦" };
 
 let currentSortMode = 'difficulty-asc';
 let secondarySortMode = 'name-asc';
@@ -995,9 +995,17 @@ if (updateLogBtn) {
     updateLogBtn.addEventListener('click', () => {
         document.getElementById('changelogModal').classList.add('show');
         loadChangelog();
+        headerMenu.classList.remove('show');
     });
 }
 
+const infoBtn = document.getElementById('infoBtn');
+if (infoBtn) {
+    infoBtn.addEventListener('click', () => {
+        document.getElementById('infoModal').classList.add('show');
+        headerMenu.classList.remove('show');
+    });
+}
 document.querySelectorAll('.modal').forEach(modal => {
     modal.addEventListener('click', (e) => {
         if (e.target === modal) modal.classList.remove('show');
@@ -1084,9 +1092,9 @@ if (randomMapBtn) {
             return;
         }
         const randomMap = filteredMaps[Math.floor(Math.random() * filteredMaps.length)];
-
-         copyToClipboard(randomMap.link, 'Random map copied!', randomMap, 'link');
+        copyToClipboard(randomMap.link, 'Random map copied!', randomMap, 'link');
         if (popup) { popup.textContent = `Random map: ${randomMap.mapName} - copied!`; popup.style.display = 'block'; setTimeout(() => { popup.style.display = 'none'; }, 2000); }
+        headerMenu.classList.remove('show');
     });
 }
 
@@ -1232,7 +1240,7 @@ function updateActiveFiltersDisplay() {
     if (apmFilter !== 'all') filters.push(`APM: ${apmFilter === 'only' ? 'Only APM' : 'No APM'}`);
     if (showNewMapsOnly) filters.push('New Maps Only');
     if (showFavoritesOnly) filters.push('Favorites Only');
-    content.textContent = filters.length > 0 ? filters.join(' • ') : 'None';
+    content.textContent = filters.length > 0 ? filters.join(' â€¢ ') : 'None';
 }
 
 let searchTimeout;
@@ -1502,12 +1510,12 @@ document.getElementById('saveMapEditsBtn')?.addEventListener('click', async func
             maps[mapIndex] = { ...maps[mapIndex], ...currentEditingMap };
         }
         
-        alert('✅ Map updated successfully!');
+        alert('âœ… Map updated successfully!');
         closeModal('editMapModal');
         setTimeout(() => { location.reload(); }, 500);
     } catch (error) {
         console.error('Save error:', error);
-        alert(`❌ Failed to save changes:\n\n${error.message}`);
+        alert(`âŒ Failed to save changes:\n\n${error.message}`);
     } finally {
         saveBtn.textContent = originalText;
         saveBtn.disabled = false;
@@ -1517,7 +1525,7 @@ document.getElementById('saveMapEditsBtn')?.addEventListener('click', async func
 document.getElementById('deleteMapBtn')?.addEventListener('click', async function() {
     if (!isAdmin()) { alert('Only admins can delete maps'); return; }
     if (!currentEditingMap) return;
-    if (!confirm(`⚠️ Are you sure you want to delete the map "${currentEditingMap.mapName}"?\n\nThis action CANNOT be undone!`)) return;
+    if (!confirm(`âš ï¸ Are you sure you want to delete the map "${currentEditingMap.mapName}"?\n\nThis action CANNOT be undone!`)) return;
     if (!confirm(`Final confirmation: Delete "${currentEditingMap.mapName}" by ${currentEditingMap.mapper}?`)) return;
     const user = window.getDiscordUser();
     if (!user || !user.isAdmin) { alert('Admin authentication required'); return; }
@@ -1535,138 +1543,18 @@ document.getElementById('deleteMapBtn')?.addEventListener('click', async functio
         if (!response.ok) throw new Error(result.error || 'Failed to delete map');
         const mapIndex = maps.findIndex(m => m.link === currentEditingMap.link);
         if (mapIndex !== -1) maps.splice(mapIndex, 1);
-        alert('✅ Map deleted successfully!');
+        alert('âœ… Map deleted successfully!');
         closeModal('editMapModal');
         setTimeout(() => { location.reload(); }, 500);
     } catch (error) {
-        alert(`❌ Failed to delete map: ${error.message}`);
+        alert(`âŒ Failed to delete map: ${error.message}`);
     } finally {
         deleteBtn.textContent = originalText;
         deleteBtn.disabled = false;
     }
 });
 
-window.openStartFrom = async function(link, event) {
-    try {
-        if (event) { event.stopPropagation(); event.preventDefault(); }
-        const dropdown = event ? event.target.closest('.more-actions-dropdown') : null;
-        if (dropdown) dropdown.classList.remove('show');
-        const rawLink = link.replace('github.com', 'raw.githubusercontent.com').replace('/blob/', '/');
-        const response = await fetch(rawLink);
-        if (!response.ok) throw new Error('Failed to fetch map');
-        const mapContent = await response.text();
-        const firstCommaIndex = mapContent.indexOf(',');
-        if (firstCommaIndex === -1) { alert('Invalid map format'); return; }
-        const mapId = mapContent.substring(0, firstCommaIndex);
-        const notesData = mapContent.substring(firstCommaIndex + 1);
-        const notes = notesData.split(',').map(note => {
-            const parts = note.split('|');
-            if (parts.length >= 3) return { x: parts[0], y: parts[1], ms: parseFloat(parts[2]) || 0, raw: note };
-            return null;
-        }).filter(n => n !== null);
-        if (notes.length === 0) { alert('No notes found in map'); return; }
-        const minTime = Math.min(...notes.map(n => n.ms));
-        const maxTime = Math.max(...notes.map(n => n.ms));
-        currentStartFromMap = { mapId, notes, minTime, maxTime, duration: maxTime - minTime };
-        initStartFromSlider();
-        document.getElementById('startFromModal').classList.add('show');
-    } catch (error) {
-        alert('Failed to load map: ' + error.message);
-    }
-};
 
-function initStartFromSlider() {
-    if (!currentStartFromMap) return;
-    const startTimeThumb = document.getElementById('startTimeThumb');
-    const startTimeInput = document.getElementById('startTimeInput');
-    const mapLengthDisplay = document.getElementById('mapLengthDisplay');
-    const startTimeTrack = document.getElementById('startTimeTrack');
-    const sliderContainer = document.querySelector('#startFromModal .dual-range-slider');
-    if (!startTimeThumb || !startTimeInput || !mapLengthDisplay || !startTimeTrack || !sliderContainer) return;
-    let currentStartTime = currentStartFromMap.minTime;
-    let isDragging = false;
-    mapLengthDisplay.value = formatDuration(currentStartFromMap.duration);
-    startTimeInput.value = formatDuration(0);
-
-    function updateSlider() {
-        const percent = ((currentStartTime - currentStartFromMap.minTime) / currentStartFromMap.duration) * 100;
-        const thumb = document.getElementById('startTimeThumb');
-        const track = document.getElementById('startTimeTrack');
-        const input = document.getElementById('startTimeInput');
-        if (thumb) thumb.style.left = percent + '%';
-        if (track) track.style.width = percent + '%';
-        if (input) input.value = formatDuration(currentStartTime - currentStartFromMap.minTime);
-    }
-
-    function handleStart(e) {
-        e.preventDefault();
-        isDragging = true;
-        const thumb = document.getElementById('startTimeThumb');
-        if (thumb) thumb.classList.add('active');
-        document.body.style.userSelect = 'none';
-    }
-
-    function handleMove(e) {
-        if (!isDragging) return;
-        e.preventDefault();
-        const container = document.querySelector('#startFromModal .dual-range-slider');
-        if (!container) { handleEnd(); return; }
-        const rect = container.getBoundingClientRect();
-        const clientX = getEventPosition(e);
-        const percent = Math.max(0, Math.min(100, ((clientX - rect.left) / rect.width) * 100));
-        currentStartTime = currentStartFromMap.minTime + (percent / 100) * currentStartFromMap.duration;
-        updateSlider();
-    }
-
-    function handleEnd(e) {
-        if (!isDragging) return;
-        if (e) e.preventDefault();
-        isDragging = false;
-        const thumb = document.getElementById('startTimeThumb');
-        if (thumb) thumb.classList.remove('active');
-        document.body.style.userSelect = '';
-        document.removeEventListener('mousemove', handleMove);
-        document.removeEventListener('mouseup', handleEnd);
-        document.removeEventListener('touchmove', handleMove);
-        document.removeEventListener('touchend', handleEnd);
-        document.removeEventListener('touchcancel', handleEnd);
-    }
-
-    const newThumb = startTimeThumb.cloneNode(true);
-    startTimeThumb.parentNode.replaceChild(newThumb, startTimeThumb);
-    const thumb = document.getElementById('startTimeThumb');
-    thumb.addEventListener('mousedown', (e) => { handleStart(e); document.addEventListener('mousemove', handleMove); document.addEventListener('mouseup', handleEnd); });
-    thumb.addEventListener('touchstart', (e) => { handleStart(e); document.addEventListener('touchmove', handleMove, { passive: false }); document.addEventListener('touchend', handleEnd); document.addEventListener('touchcancel', handleEnd); }, { passive: false });
-
-    sliderContainer.addEventListener('click', (e) => {
-        if (e.target.closest('.slider-thumb')) return;
-        const rect = sliderContainer.getBoundingClientRect();
-        const percent = Math.max(0, Math.min(100, ((e.clientX - rect.left) / rect.width) * 100));
-        currentStartTime = currentStartFromMap.minTime + (percent / 100) * currentStartFromMap.duration;
-        updateSlider();
-    });
-
-    const applyBtn = document.getElementById('applyStartFromBtn');
-    if (applyBtn) {
-        const newApplyBtn = applyBtn.cloneNode(true);
-        applyBtn.parentNode.replaceChild(newApplyBtn, applyBtn);
-        document.getElementById('applyStartFromBtn').addEventListener('click', async function() {
-            const filteredNotes = currentStartFromMap.notes.filter(note => note.ms >= currentStartTime);
-            if (filteredNotes.length === 0) { alert('No notes remaining at this start time'); return; }
-            const modifiedMap = currentStartFromMap.mapId + ',' + filteredNotes.map(n => n.raw).join(',');
-            try {
-                await navigator.clipboard.writeText(modifiedMap);
-                if (popup) { popup.textContent = 'Modified map copied to clipboard!'; popup.style.display = 'block'; setTimeout(() => { popup.style.display = 'none'; }, 2000); }
-                closeModal('startFromModal');
-                if (window.errorReporter && window.errorReporter.reportMapCopy) window.errorReporter.reportMapCopy('Unknown', 'Unknown', 'Unknown', 'start-from');
-            } catch (error) {
-                alert('Failed to copy to clipboard');
-            }
-        });
-    }
-
-    updateSlider();
-}
 
 function compareByName(a, b) {
     const nameComp = a.mapName.toLowerCase().localeCompare(b.mapName.toLowerCase());
@@ -1723,9 +1611,9 @@ function createMapCard(m) {
 
     const isFavorite = favoritesManager.isFavorite(m);
     const mapDataJSON = JSON.stringify(m).replace(/"/g, '&quot;').replace(/'/g, '&#39;');
-    const difficultyEmoji = difficultyEmojis[m.difficulty] || '⬜';
+    const difficultyEmoji = difficultyEmojis[m.difficulty] || 'â¬œ';
     const difficultyName = m.difficulty || 'Unknown';
-    const starRating = m.starRating !== null && m.starRating !== undefined ? `★ ${parseFloat(m.starRating).toFixed(2)}` : '★ N/A';
+    const starRating = m.starRating !== null && m.starRating !== undefined ? `â˜… ${parseFloat(m.starRating).toFixed(2)}` : 'â˜… N/A';
 
     let statsHtml = '';
     if (!isLowQualityMode) {
@@ -1762,8 +1650,8 @@ function createMapCard(m) {
         <div class="card-header">
             <div class="star-rating">${starRating}</div>
             <button class="favorite-btn ${isFavorite ? 'favorited' : ''}" onclick="toggleFavorite(this, event)" data-map="${mapDataJSON}">
-                <span class="heart-outline">♡</span>
-                <span class="heart-filled">♥</span>
+                <span class="heart-outline">â™¡</span>
+                <span class="heart-filled">â™¥</span>
             </button>
         </div>
         <div class="card-content">
@@ -1779,10 +1667,11 @@ function createMapCard(m) {
         </div>
         <div class="card-footer">
             <button class="action-btn" onclick="copyMapLink('${m.link.replace(/'/g, "\\'")}', this)">Copy Link</button>
-            <button class="more-btn" onclick="toggleMoreActions(this)">⋮
-                <div class="more-actions-dropdown">
-                    <div class="dropdown-action" onclick="openStartFrom('${m.link.replace(/'/g, "\\'")}')">Start From</div>
+            <button class="more-btn" onclick="toggleMoreActions(this)">â‹®
+                <div class="more-actions-dropdown">                    
+                    <div class="dropdown-action" onclick="openStartFrom('${m.link.replace(/'/g, "\\'")}', event)">Start From</div>
                     <div class="dropdown-action" onclick="copyRawData('${m.link.replace(/'/g, "\\'")}')">Copy Raw</div>
+
                     ${editButtonHtml}
                 </div>
             </button>
@@ -1917,21 +1806,25 @@ function filterAndRenderMaps() {
             matchesDuration && matchesNotes && matchesNewFilter && matchesFavoritesFilter;
     });
 
-    filteredMaps.sort((a, b) => {
-        const aFav = favoritesManager.isFavorite(a);
-        const bFav = favoritesManager.isFavorite(b);
-        if (aFav !== bFav) return aFav ? -1 : 1;
+   filteredMaps.sort((a, b) => {
+    const aFav = favoritesManager.isFavorite(a);
+    const bFav = favoritesManager.isFavorite(b);
+    if (aFav !== bFav) return aFav ? -1 : 1;
 
-        const primaryResult = applySortComparison(a, b, currentSortMode);
-        if (primaryResult !== 0) return primaryResult;
+    const primaryResult = applySortComparison(a, b, currentSortMode);
+    if (primaryResult !== 0) return primaryResult;
 
-        if (secondarySortMode && secondarySortMode !== 'none') {
-            const secondaryResult = applySortComparison(a, b, secondarySortMode);
-            if (secondaryResult !== 0) return secondaryResult;
-        }
+    const aNew = a.isNew || false;
+    const bNew = b.isNew || false;
+    if (aNew !== bNew) return aNew ? -1 : 1;
 
-        return compareByName(a, b);
-    });
+    if (secondarySortMode && secondarySortMode !== 'none') {
+        const secondaryResult = applySortComparison(a, b, secondarySortMode);
+        if (secondaryResult !== 0) return secondaryResult;
+    }
+
+    return compareByName(a, b);
+});
 
     updateActiveFiltersDisplay();
     renderMaps();
@@ -1955,24 +1848,30 @@ async function loadMapData() {
         initializeMapperLookup();
         const timestamp = Date.now();
         let mapData;
-        
         try {
-            const response = await fetch(`https://faworee.com/soundspacecustoms/Mapdata.json?v=${timestamp}`);
+            const response = await fetch(`Mapdata.json?v=${timestamp}`);
             if (!response.ok) throw new Error('JSON failed');
             mapData = await response.json();
         } catch (jsonError) {
-            const response = await fetch(`https://faworee.com/soundspacecustoms/getMapData.php?v=${timestamp}`);
+            const response = await fetch(`getMapData.php?v=${timestamp}`);
             if (!response.ok) throw new Error('Both JSON and PHP failed');
             mapData = await response.json();
         }
         
-        const mapPromises = mapData.map(async (mapItem) => {
-            const enhancedMapObj = {
-                ...mapItem,
-                noteCount: null,
-                duration: null,
-                copies: getMapCopies(mapItem.id, mapItem.mapper)
-            };
+        const mapPromises = mapData.map(async (mapObj) => {
+            if (!mapObj || !mapObj.link) return null;
+            
+           const enhancedMapObj = {
+    ...mapObj,
+    id: mapObj.id || null,  
+    duration: null,
+    noteCount: null,
+    copies: getMapCopies(mapObj.id, mapObj.mapper),  
+    isNew: mapObj.isNew || false,
+    starRating: mapObj.starRating ? parseFloat(mapObj.starRating) : null,
+    info: mapObj.info || null,
+    userId: mapObj.userId || null
+};
             
             try {
                 const rawLink = enhancedMapObj.link.replace('github.com', 'raw.githubusercontent.com').replace('/blob/', '/');
@@ -2015,11 +1914,11 @@ async function loadMapCopies() {
     try {
         const timestamp = Date.now();
         try {
-            const response = await fetch(`https://faworee.com/soundspacecustoms/MapCopies.json?v=${timestamp}`);
+            const response = await fetch(`MapCopies.json?v=${timestamp}`);
             if (!response.ok) throw new Error('JSON failed');
             mapCopiesData = await response.json();
         } catch (jsonError) {
-            const response = await fetch(`https://faworee.com/soundspacecustoms/getMapCopies.php?v=${timestamp}`);
+            const response = await fetch(`getMapCopies.php?v=${timestamp}`);
             if (!response.ok) throw new Error('Both JSON and PHP failed');
             mapCopiesData = await response.json();
         }
@@ -2071,7 +1970,7 @@ function loadChangelog() {
     const container = document.getElementById('changelogContent');
     if (!container) return;
     container.innerHTML = '<p style="text-align: center; color: #666;">Loading changelog...</p>';
-    fetch('https://faworee.com/soundspacecustoms/Changelog.json?v=' + Date.now())
+    fetch('Changelog.json?v=' + Date.now())
         .then(response => {
             if (!response.ok) throw new Error('Failed to load changelog');
             return response.json();
@@ -2092,5 +1991,330 @@ function loadChangelog() {
 
 document.addEventListener('DOMContentLoaded', () => {
     checkCookieConsent();
-    loadMapData(); 
+    loadMapData();
 });
+
+(function () {
+    let mc = { mapId:'', notes:[], minMs:0, maxMs:0, dur:0, mode:'sf', sMs:0, eMs:0, dragging:null };
+
+    function fmt(ms) {
+        if (!isFinite(ms) || ms < 0) return '0:00';
+        const s = Math.floor(ms / 1000);
+        return Math.floor(s / 60) + ':' + String(s % 60).padStart(2, '0');
+    }
+
+    function parseDuration(str) {
+        if (!str) return null;
+        str = str.trim();
+        const parts = str.split(':');
+        if (parts.length === 2) {
+            const mins = parseInt(parts[0], 10);
+            const secs = parseFloat(parts[1]);
+            if (isNaN(mins) || isNaN(secs)) return null;
+            return (mins * 60 + secs) * 1000;
+        }
+        const secs = parseFloat(str);
+        if (isNaN(secs)) return null;
+        return secs * 1000;
+    }
+
+    function parseRaw(text) {
+        text = text.trim();
+        const comma = text.indexOf(',');
+        if (comma === -1) return null;
+        const mapId = text.substring(0, comma);
+        const notes = text.substring(comma + 1).split(',').map(n => {
+            const p = n.split('|');
+            if (p.length < 3) return null;
+            const ms = parseFloat(p[2]);
+            return isFinite(ms) ? { x: p[0], y: p[1], ms, raw: n } : null;
+        }).filter(Boolean);
+        return notes.length ? { mapId, notes } : null;
+    }
+
+    window.openStartFrom = window.openMapCutterForCard = async function (link, event) {
+        if (event) { event.stopPropagation(); event.preventDefault(); }
+        const dropdown = event && event.target.closest('.more-actions-dropdown');
+        if (dropdown) dropdown.classList.remove('show');
+
+        mc = { mapId:'', notes:[], minMs:0, maxMs:0, dur:0, mode:'sf', sMs:0, eMs:0, dragging:null };
+        const ed = document.getElementById('mcEditor');
+        if (ed) { ed.style.display = ''; ed.innerHTML = '<p style="text-align:center;padding:30px;color:rgba(255,255,255,0.4);">loading...</p>'; }
+        document.getElementById('startFromModal').classList.add('show');
+
+        try {
+            const rawLink = link.replace('github.com', 'raw.githubusercontent.com').replace('/blob/', '/');
+            const res = await fetch(rawLink);
+            if (!res.ok) throw new Error('fetch failed');
+            const text = await res.text();
+            const parsed = parseRaw(text);
+            if (!parsed) throw new Error('invalid map');
+            parsed.notes.sort((a, b) => a.ms - b.ms);
+            mc.mapId = parsed.mapId;
+            mc.notes = parsed.notes;
+            mc.minMs = parsed.notes[0].ms;
+            mc.maxMs = parsed.notes[parsed.notes.length - 1].ms;
+            mc.dur   = mc.maxMs - mc.minMs;
+            mc.sMs   = mc.minMs;
+            mc.eMs   = mc.maxMs;
+            buildEditor();
+        } catch (e) {
+            if (ed) ed.innerHTML = '<p style="text-align:center;padding:30px;color:#ff6b6b;">failed to load map data</p>';
+        }
+    };
+
+    function buildEditor() {
+        const ed = document.getElementById('mcEditor');
+        if (!ed) return;
+        ed.innerHTML = `
+            <div class="mc-stats-row" id="mcStatsRow">
+                <div class="mc-stat"><strong>notes:</strong> ${mc.notes.length.toLocaleString()}</div>
+                <div class="mc-stat"><strong>duration:</strong> ${fmt(mc.dur)}</div>
+            </div>
+            <div class="mc-tabs">
+                <button class="mc-tab active" onclick="mcSetMode('sf',this)">start from</button>
+                <button class="mc-tab" onclick="mcSetMode('ea',this)">end at</button>
+                <button class="mc-tab" onclick="mcSetMode('sl',this)">slice range</button>
+            </div>
+            <div class="mc-canvas-wrap">
+                <canvas id="mcCanvas"></canvas>
+                <div class="mc-cut-line mc-cut-s" id="mcCutS" style="left:0%"></div>
+                <div class="mc-cut-line mc-cut-e" id="mcCutE" style="left:100%;display:none;"></div>
+            </div>
+            <div class="filter-section" style="padding-top:0;margin-bottom:8px;">
+                <div class="range-slider" style="margin-top:4px;">
+                    <div class="slider-inputs">
+                        <input type="text" class="slider-input" id="mcTimeS" placeholder="0:00">
+                        <input type="text" class="slider-input" id="mcTimeE" placeholder="end" style="display:none;">
+                        <input type="text" class="slider-input" id="mcTimeDur" placeholder="kept" readonly>
+                    </div>
+                    <div class="dual-range-slider" id="mcSliderWrap" style="padding:0;margin:10px 0;">
+                        <div style="position:absolute;left:0;right:0;top:50%;transform:translateY(-50%);height:6px;background:rgba(255,255,255,0.15);border-radius:3px;pointer-events:none;"></div>
+                        <div class="slider-track" id="mcTrack" style="top:50%;transform:translateY(-50%);height:6px;"></div>
+                        <div class="slider-thumb" id="mcThumbS" style="left:0%;"></div>
+                        <div class="slider-thumb" id="mcThumbE" style="left:100%;display:none;"></div>
+                    </div>
+                </div>
+            </div>
+            <p style="font-size:0.82em;color:rgba(255,255,255,0.4);margin-bottom:12px;text-align:center;">
+                keeping <span id="mcNoteCount" style="color:#4facfe;font-weight:600;">${mc.notes.length.toLocaleString()}</span> notes
+            </p>
+            <button class="start-from-apply" onclick="mcApply()">apply and copy modified map</button>`;
+
+        attachSliderDrag();
+
+        const tS = document.getElementById('mcTimeS');
+        const tE = document.getElementById('mcTimeE');
+        if (tS) {
+            tS.addEventListener('change', () => {
+                const ms = parseDuration(tS.value);
+                if (ms !== null) {
+                    mc.sMs = Math.max(mc.minMs, Math.min(mc.minMs + ms, mc.mode === 'sl' ? mc.eMs - 500 : mc.maxMs));
+                    mcUpdateSlider();
+                    mcDrawCanvas();
+                }
+            });
+        }
+        if (tE) {
+            tE.addEventListener('change', () => {
+                const ms = parseDuration(tE.value);
+                if (ms !== null) {
+                    mc.eMs = Math.max(mc.sMs + 500, Math.min(mc.minMs + ms, mc.maxMs));
+                    mcUpdateSlider();
+                    mcDrawCanvas();
+                }
+            });
+        }
+
+        mcUpdateSlider();
+        mcDrawCanvas();
+    }
+
+    window.mcSetMode = function (mode, btn) {
+        mc.mode = mode;
+        mc.sMs = mc.minMs;
+        mc.eMs = mc.maxMs;
+        document.querySelectorAll('.mc-tab').forEach(t => t.classList.remove('active'));
+        if (btn) btn.classList.add('active');
+        const show2 = mode === 'sl';
+        const tE = document.getElementById('mcTimeE');
+        const thumbE = document.getElementById('mcThumbE');
+        const cutE = document.getElementById('mcCutE');
+        if (tE) tE.style.display = show2 ? '' : 'none';
+        if (thumbE) thumbE.style.display = show2 ? '' : 'none';
+        if (cutE) cutE.style.display = show2 ? '' : 'none';
+        mcUpdateSlider();
+        mcDrawCanvas();
+        mcUpdateCount();
+    };
+
+    window.mcApply = async function () {
+        let kept;
+        if (mc.mode === 'sf')      kept = mc.notes.filter(n => n.ms >= mc.sMs);
+        else if (mc.mode === 'ea') kept = mc.notes.filter(n => n.ms <= mc.sMs);
+        else                        kept = mc.notes.filter(n => n.ms >= mc.sMs && n.ms <= mc.eMs);
+        if (!kept.length) return;
+        const result = mc.mapId + ',' + kept.map(n => n.raw).join(',');
+        try {
+            await navigator.clipboard.writeText(result);
+            const popup = document.getElementById('popup');
+            if (popup) { popup.textContent = 'Modified map copied!'; popup.style.display = 'block'; setTimeout(() => popup.style.display = 'none', 2000); }
+            closeModal('startFromModal');
+            if (window.errorReporter) window.errorReporter.reportMapCopy('Unknown','Unknown','Unknown','start-from');
+        } catch(e) {}
+    };
+
+    function mcUpdateCount() {
+        if (!mc.notes.length) return;
+        let kept;
+        if (mc.mode === 'sf')      kept = mc.notes.filter(n => n.ms >= mc.sMs).length;
+        else if (mc.mode === 'ea') kept = mc.notes.filter(n => n.ms <= mc.sMs).length;
+        else                        kept = mc.notes.filter(n => n.ms >= mc.sMs && n.ms <= mc.eMs).length;
+        const el = document.getElementById('mcNoteCount');
+        if (el) el.textContent = kept.toLocaleString();
+    }
+
+    function mcDrawCanvas() {
+        const canvas = document.getElementById('mcCanvas');
+        if (!canvas || !mc.notes.length || !mc.dur) return;
+        const W = canvas.offsetWidth || 480, H = canvas.offsetHeight || 52;
+        canvas.width = W; canvas.height = H;
+        const ctx = canvas.getContext('2d');
+        ctx.clearRect(0, 0, W, H);
+        const BUCKETS = 80, counts = new Array(BUCKETS).fill(0);
+        mc.notes.forEach(n => {
+            const b = Math.min(BUCKETS - 1, Math.floor(((n.ms - mc.minMs) / mc.dur) * BUCKETS));
+            counts[b]++;
+        });
+        const maxC = Math.max(...counts) || 1;
+        const bW = W / BUCKETS;
+        for (let i = 0; i < BUCKETS; i++) {
+            const h = Math.max(2, (counts[i] / maxC) * H);
+            const p = i / BUCKETS;
+            const sPct = (mc.sMs - mc.minMs) / mc.dur;
+            const ePct = (mc.eMs - mc.minMs) / mc.dur;
+            let isKept;
+            if (mc.mode === 'sf')       isKept = p >= sPct;
+            else if (mc.mode === 'ea')  isKept = p <= sPct;
+            else                         isKept = p >= sPct && p <= ePct;
+            ctx.fillStyle = isKept ? 'rgba(79,172,254,0.75)' : 'rgba(255,255,255,0.1)';
+            ctx.fillRect(i * bW, H - h, bW - 1, h);
+        }
+    }
+
+    function pct(ms) { return mc.dur > 0 ? ((ms - mc.minMs) / mc.dur) * 100 : 0; }
+
+    function mcUpdateSlider() {
+        const thumbS = document.getElementById('mcThumbS');
+        const thumbE = document.getElementById('mcThumbE');
+        const track  = document.getElementById('mcTrack');
+        const cutS   = document.getElementById('mcCutS');
+        const cutE   = document.getElementById('mcCutE');
+        const tS     = document.getElementById('mcTimeS');
+        const tE     = document.getElementById('mcTimeE');
+        const tDur   = document.getElementById('mcTimeDur');
+        const ps = pct(mc.sMs), pe = pct(mc.eMs);
+
+        if (thumbS) thumbS.style.left = ps + '%';
+        if (cutS)   cutS.style.left   = ps + '%';
+
+        if (mc.mode === 'sf') {
+            if (track) { track.style.left = '0%'; track.style.width = ps + '%'; }
+            if (tS)   tS.value   = fmt(mc.sMs - mc.minMs);
+            if (tDur) tDur.value = fmt(mc.maxMs - mc.sMs);
+        } else if (mc.mode === 'ea') {
+            if (track) { track.style.left = ps + '%'; track.style.width = (100 - ps) + '%'; }
+            if (tS)   tS.value   = fmt(mc.sMs - mc.minMs);
+            if (tDur) tDur.value = fmt(mc.sMs - mc.minMs);
+        } else {
+            if (thumbE) thumbE.style.left = pe + '%';
+            if (cutE)   cutE.style.left   = pe + '%';
+            if (track)  { track.style.left = ps + '%'; track.style.width = (pe - ps) + '%'; }
+            if (tS)   tS.value   = fmt(mc.sMs - mc.minMs);
+            if (tE)   tE.value   = fmt(mc.eMs - mc.minMs);
+            if (tDur) tDur.value = fmt(mc.eMs - mc.sMs);
+        }
+        mcUpdateCount();
+    }
+
+    function attachSliderDrag() {
+        const wrap = document.getElementById('mcSliderWrap');
+        if (!wrap) return;
+
+        function getMs(e) {
+            const rect = wrap.getBoundingClientRect();
+            const cx = e.touches ? e.touches[0].clientX : e.clientX;
+            const ratio = Math.max(0, Math.min(1, (cx - rect.left) / rect.width));
+            return mc.minMs + ratio * mc.dur;
+        }
+
+        function onMove(e) {
+            if (!mc.dragging) return;
+            e.preventDefault();
+            const ms = getMs(e);
+            if (mc.dragging === 's') {
+                mc.sMs = Math.max(mc.minMs, Math.min(ms, mc.mode === 'sl' ? mc.eMs - 500 : mc.maxMs));
+            } else {
+                mc.eMs = Math.max(mc.sMs + 500, Math.min(ms, mc.maxMs));
+            }
+            mcUpdateSlider();
+            mcDrawCanvas();
+        }
+
+        function onEnd() {
+            mc.dragging = null;
+            document.removeEventListener('mousemove', onMove);
+            document.removeEventListener('mouseup', onEnd);
+            document.removeEventListener('touchmove', onMove);
+            document.removeEventListener('touchend', onEnd);
+        }
+
+        function startDrag(which, e) {
+            e.preventDefault();
+            e.stopPropagation();
+            mc.dragging = which;
+            document.addEventListener('mousemove', onMove);
+            document.addEventListener('mouseup', onEnd);
+            document.addEventListener('touchmove', onMove, { passive: false });
+            document.addEventListener('touchend', onEnd);
+        }
+
+        const thumbS = document.getElementById('mcThumbS');
+        const thumbE = document.getElementById('mcThumbE');
+        if (thumbS) {
+            thumbS.addEventListener('mousedown', e => startDrag('s', e));
+            thumbS.addEventListener('touchstart', e => startDrag('s', e), { passive: false });
+        }
+        if (thumbE) {
+            thumbE.addEventListener('mousedown', e => startDrag('e', e));
+            thumbE.addEventListener('touchstart', e => startDrag('e', e), { passive: false });
+        }
+
+        wrap.addEventListener('mousedown', e => {
+            if (e.target.closest('.slider-thumb')) return;
+            const ms = getMs(e);
+            if (mc.mode === 'sl') {
+                if (Math.abs(ms - mc.sMs) <= Math.abs(ms - mc.eMs)) {
+                    mc.sMs = Math.max(mc.minMs, Math.min(ms, mc.eMs - 500));
+                    startDrag('s', e);
+                } else {
+                    mc.eMs = Math.max(mc.sMs + 500, Math.min(ms, mc.maxMs));
+                    startDrag('e', e);
+                }
+            } else {
+                mc.sMs = Math.max(mc.minMs, Math.min(ms, mc.maxMs));
+                startDrag('s', e);
+            }
+            mcUpdateSlider();
+            mcDrawCanvas();
+        });
+    }
+
+    const observer = new MutationObserver(() => {
+        if (document.getElementById('startFromModal')?.classList.contains('show')) {
+            setTimeout(mcDrawCanvas, 50);
+        }
+    });
+    const modalEl = document.getElementById('startFromModal');
+    if (modalEl) observer.observe(modalEl, { attributes: true, attributeFilter: ['class'] });
+})();
