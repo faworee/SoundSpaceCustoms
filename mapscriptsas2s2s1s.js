@@ -78,7 +78,7 @@ function checkCookieStatus() {
 
 (function() {
     const DISCORD_CONFIG = {
-        clientId: '1438990095767306330',
+        clientId: '1489374950220370012',
         redirectUri: 'https://faworee.com/soundspacecustoms/',
         scope: 'identify'
     };
@@ -576,7 +576,7 @@ function handleSecondarySort(value) {
 })();
 
 (function() {
-    const WORKER_URL = 'https://logs-faworeee.faworeee.workers.dev/';
+    const WORKER_URL = 'https://faworee.com/api/logs.php';
     let userFingerprint = null;
     let trackingEnabled = true;
 
@@ -665,7 +665,7 @@ function handleSecondarySort(value) {
 
 (function() {
     const GITHUB_IMAGES_BASE = 'https://raw.githubusercontent.com/faworee/Secret/main/Nate/';
-    const WORKER_URL = 'https://logs-faworeee.faworeee.workers.dev/';
+    const WORKER_URL = 'https://faworee.com/api/logs.php';
     let IMAGE_FILES = [];
     let confettiActive = false;
     let imagesFetched = false;
@@ -1334,6 +1334,101 @@ window.toggleFavorite = function(button, event) {
     if (showFavoritesOnly) filterAndRenderMaps();
 };
 
+
+window.toggleVote = async function(button, voteType, event) {
+    event.stopPropagation();
+
+    const user = window.getDiscordUser ? window.getDiscordUser() : null;
+    if (!user) {
+        const popup = document.getElementById('popup');
+        if (popup) {
+            popup.textContent = 'You must be logged in with Discord to vote!';
+            popup.style.display = 'block';
+            setTimeout(() => { popup.style.display = 'none'; }, 2500);
+        }
+        return;
+    }
+
+    const card = button.closest('.map-card');
+    const mapId = button.dataset.mapId;
+    if (!mapId) return;
+
+    const likeBtn    = card.querySelector('.ld-btn-full[data-vote="like"]');
+const dislikeBtn = card.querySelector('.ld-btn-full[data-vote="dislike"]');
+if (!likeBtn || !dislikeBtn) return;
+const likeCount    = likeBtn.querySelector('.ld-count');
+const dislikeCount = dislikeBtn.querySelector('.ld-count');
+
+    const wasLiked    = likeBtn.classList.contains('liked');
+    const wasDisliked = dislikeBtn.classList.contains('disliked');
+    const removingVote = (voteType === 'like' && wasLiked) || (voteType === 'dislike' && wasDisliked);
+
+    likeBtn.classList.remove('liked');
+    dislikeBtn.classList.remove('disliked');
+
+    let likeDelta    = wasLiked    ? -1 : 0;
+    let dislikeDelta = wasDisliked ? -1 : 0;
+
+    if (!removingVote) {
+        if (voteType === 'like')    { likeBtn.classList.add('liked');       likeDelta    += 1; }
+        if (voteType === 'dislike') { dislikeBtn.classList.add('disliked'); dislikeDelta += 1; }
+    }
+ 
+    const oldLikes    = parseInt(likeCount.textContent, 10);
+    const oldDislikes = parseInt(dislikeCount.textContent, 10);
+    animateCount(likeCount,    oldLikes,    Math.max(0, oldLikes    + likeDelta));
+    animateCount(dislikeCount, oldDislikes, Math.max(0, oldDislikes + dislikeDelta));
+
+    likeBtn.disabled    = true;
+    dislikeBtn.disabled = true;
+
+    try {
+        const response = await fetch(MAP_API_URL, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({
+                action: 'voteMap',
+                userId: user.id,
+                mapId,
+                voteType: removingVote ? 'remove' : voteType
+            })
+        });
+
+        if (!response.ok) throw new Error('Vote failed');
+
+        const data = await response.json();
+
+        likeCount.textContent    = data.likes    ?? likeCount.textContent;
+        dislikeCount.textContent = data.dislikes ?? dislikeCount.textContent;
+
+        if (!mapVotesData[mapId]) mapVotesData[mapId] = { likes: 0, dislikes: 0, likedBy: [], dislikedBy: [] };
+        mapVotesData[mapId].likes    = parseInt(likeCount.textContent, 10);
+        mapVotesData[mapId].dislikes = parseInt(dislikeCount.textContent, 10);
+
+        const v = mapVotesData[mapId];
+        v.likedBy    = (v.likedBy    || []).filter(id => id !== user.id);
+        v.dislikedBy = (v.dislikedBy || []).filter(id => id !== user.id);
+        if (!removingVote) {
+            if (voteType === 'like')    v.likedBy.push(user.id);
+            if (voteType === 'dislike') v.dislikedBy.push(user.id);
+        }
+    } catch {
+        likeBtn.classList.toggle('liked',       wasLiked);
+        dislikeBtn.classList.toggle('disliked', wasDisliked);
+        likeCount.textContent    = parseInt(likeCount.textContent, 10)    - likeDelta;
+        dislikeCount.textContent = parseInt(dislikeCount.textContent, 10) - dislikeDelta;
+        const popup = document.getElementById('popup');
+        if (popup) {
+            popup.textContent = 'Failed to save vote. Please try again.';
+            popup.style.display = 'block';
+            setTimeout(() => { popup.style.display = 'none'; }, 2000);
+        }
+    } finally {
+        likeBtn.disabled    = false;
+        dislikeBtn.disabled = false;
+    }
+};
+
 let currentEditingMap = null;
 const MAP_API_URL = 'https://mapstats.faworeee.workers.dev';
 
@@ -1615,7 +1710,7 @@ function createMapCard(m) {
     const difficultyName = m.difficulty || 'Unknown';
     const starRating = m.starRating !== null && m.starRating !== undefined ? `★ ${parseFloat(m.starRating).toFixed(2)}` : '★ N/A';
 
-    let statsHtml = '';
+   let statsHtml = '';
     if (!isLowQualityMode) {
         const durationText = (m.duration !== undefined && m.duration !== null) ? formatDuration(m.duration) : '--:--';
         const noteCountText = (m.noteCount !== undefined && m.noteCount !== null) ? m.noteCount.toLocaleString() : '----';
@@ -1626,84 +1721,92 @@ function createMapCard(m) {
 
     let patternsHtml = '';
     if (m.patterns && m.patterns.length > 0) {
-        patternsHtml = `<div class="patterns-display"><strong>Patterns:</strong><span>${m.patterns.map(p => p === "No Data" ? "No Pattern Data" : p).join(', ')}</span></div>`;
+        patternsHtml = `<div class="patterns-display"><strong><img src="https://i.imgur.com/faaeFbM.png" style="width:25px;height:25px;object-fit:contain;vertical-align:middle;margin-right:4px;">Patterns:</strong><span>${m.patterns.map(p => p === "No Data" ? "No Pattern Data" : p).join(', ')}</span></div>`;
     } else {
-        patternsHtml = `<div class="patterns-display"><strong>Patterns:</strong><span style="color: #888;">None</span></div>`;
+        patternsHtml = `<div class="patterns-display"><strong><img src="https://i.imgur.com/faaeFbM.png" style="width:25px;height:25px;object-fit:contain;vertical-align:middle;margin-right:4px;">Patterns:</strong><span style="color: #888;">None</span></div>`;
     }
 
     let infoHtml = '';
     if (m.info && m.info.trim() !== '') {
-        infoHtml = `<div class="info-display"><strong>Info:</strong><span>${m.info}</span></div>`;
+        infoHtml = `<div class="info-display"><strong><img src="https://i.imgur.com/K5VaXgr.png" style="width:25px;height:25px;object-fit:contain;vertical-align:middle;margin-right:4px;">Info:</strong><span>${m.info}</span></div>`;
     } else {
-        infoHtml = `<div class="info-display"><strong>Info:</strong><span style="color: #888;">No Info Provided</span></div>`;
+        infoHtml = `<div class="info-display"><strong><img src="https://i.imgur.com/K5VaXgr.png" style="width:25px;height:25px;object-fit:contain;vertical-align:middle;margin-right:4px;">Info:</strong><span style="color: #888;">No Info Provided</span></div>`;
     }
 
     const copies = m.copies || 0;
-    const popularityHtml = `<div class="popularity-display"><strong>Popularity:</strong><span>${copies.toLocaleString()} ${copies === 1 ? 'copy' : 'copies'}</span></div>`;
-
+    const popularityHtml = `<div class="popularity-display"><strong><img src="https://i.imgur.com/5lGIrvS.png" style="width:25px;height:25px;object-fit:contain;vertical-align:middle;margin-right:4px;">Popularity:</strong><span>${copies.toLocaleString()} ${copies === 1 ? 'copy' : 'copies'}</span></div>`;
     const user = window.getDiscordUser ? window.getDiscordUser() : null;
     const canEdit = user && (user.id === m.discordId || user.isAdmin === true);
     const editButtonHtml = canEdit ? `<div class="dropdown-action" onclick="openEditMap(this, event)">Edit Map</div>` : '';
 
-    card.innerHTML = `
-        ${newTagHtml}
-        <div class="card-header">
-            <div class="star-rating">${starRating}</div>
-            <button class="favorite-btn ${isFavorite ? 'favorited' : ''}" onclick="toggleFavorite(this, event)" data-map="${mapDataJSON}">
-                <span class="heart-outline">♡</span>
-                <span class="heart-filled">♥</span>
-            </button>
+   card.innerHTML = `
+    ${newTagHtml}
+    <div class="card-header">
+        <div class="star-rating">${starRating}</div>
+        <button class="favorite-btn ${isFavorite ? 'favorited' : ''}" onclick="toggleFavorite(this, event)" data-map="${mapDataJSON}">
+            <span class="heart-outline"><img src="https://i.imgur.com/NStQ4hz.png" style="width:30px;height:30px;object-fit:contain;display:block;"></span>
+            <span class="heart-filled"><img src="https://i.imgur.com/0ZvpNZD.png" style="width:30px;height:30px;object-fit:contain;display:block;"></span>
+        </button>
+    </div>
+    <div class="card-content">
+        <div class="map-title"><a href="${m.link}" target="_blank" rel="noopener">${m.mapName}</a></div>
+        <div class="artist-name">${m.artist}</div>
+        <div class="map-info">
+            <div class="info-item">Mapper: ${m.mapper} - Difficulty: <span class="difficulty-emoji">${difficultyEmoji}<span class="difficulty-tooltip">${difficultyName}</span></span></div>
+            ${statsHtml}
         </div>
-        <div class="card-content">
-            <div class="map-title"><a href="${m.link}" target="_blank" rel="noopener">${m.mapName}</a></div>
-            <div class="artist-name">${m.artist}</div>
-            <div class="map-info">
-                <div class="info-item">Mapper: ${m.mapper} - Difficulty: <span class="difficulty-emoji">${difficultyEmoji}<span class="difficulty-tooltip">${difficultyName}</span></span></div>
-                ${statsHtml}
+        ${patternsHtml}
+        ${infoHtml}
+        ${popularityHtml}
+        ${(() => {
+            const voteData = m.id ? getMapVotes(m.id) : { likes: 0, dislikes: 0, likedBy: [], dislikedBy: [] };
+            const user = window.getDiscordUser ? window.getDiscordUser() : null;
+            const isLiked    = user && (voteData.likedBy    || []).includes(user.id);
+            const isDisliked = user && (voteData.dislikedBy || []).includes(user.id);
+            return `<div class="like-dislike-bar-full">
+                <button class="ld-btn-full ${isLiked ? 'liked' : ''}" data-vote="like" data-map-id="${m.id || ''}" onclick="toggleVote(this,'like',event)">
+                    <img src="https://i.imgur.com/AiIfdPV.png" alt="like">
+                    <span class="ld-count">${voteData.likes || 0}</span>
+                </button>
+                <div class="ld-divider-full"></div>
+                <button class="ld-btn-full ${isDisliked ? 'disliked' : ''}" data-vote="dislike" data-map-id="${m.id || ''}" onclick="toggleVote(this,'dislike',event)">
+                    <img src="https://i.imgur.com/AiIfdPV.png" style="transform:rotate(180deg);" alt="dislike">
+                    <span class="ld-count">${voteData.dislikes || 0}</span>
+                </button>
+            </div>`;
+        })()}
+    </div>
+    <div class="card-footer">
+        <button class="action-btn" onclick="copyMapLink('${m.link.replace(/'/g, "\\'")}', this)"><img src="https://i.imgur.com/BYt3MpP.png" style="width:25px;height:25px;object-fit:contain;vertical-align:middle;margin-right:5px;">Copy Link</button>
+        <button class="more-btn" onclick="toggleMoreActions(this)" style="display:flex;align-items:center;justify-content:center;"><img src="https://i.imgur.com/ePbrOpD.png" style="width:32px;height:32px;object-fit:contain;transform:scaleY(-1);">
+            <div class="more-actions-dropdown">
+                <div class="dropdown-action" onclick="openStartFrom('${m.link.replace(/'/g, "\\'")}', event)">Start From</div>
+                <div class="dropdown-action" onclick="copyRawData('${m.link.replace(/'/g, "\\'")}')">Copy Raw</div>
+                ${editButtonHtml}
             </div>
-            ${patternsHtml}
-            ${infoHtml}
-            ${popularityHtml}
-        </div>
-        <div class="card-footer">
-            <button class="action-btn" onclick="copyMapLink('${m.link.replace(/'/g, "\\'")}', this)">Copy Link</button>
-            <button class="more-btn" onclick="toggleMoreActions(this)">⋮
-                <div class="more-actions-dropdown">                    
-                    <div class="dropdown-action" onclick="openStartFrom('${m.link.replace(/'/g, "\\'")}', event)">Start From</div>
-                    <div class="dropdown-action" onclick="copyRawData('${m.link.replace(/'/g, "\\'")}')">Copy Raw</div>
-
-                    ${editButtonHtml}
-                </div>
-            </button>
-        </div>
-    `;
+        </button>
+    </div>
+`;
     return card;
 }
 
-document.addEventListener('mousemove', function(e) {
-    const hoveredEmoji = e.target.closest('.difficulty-emoji');
-    if (hoveredEmoji) {
-        const tooltip = hoveredEmoji.querySelector('.difficulty-tooltip');
-        if (tooltip) {
-            tooltip.style.left = (e.clientX + 10) + 'px';
-            tooltip.style.top = (e.clientY - 40) + 'px';
-        }
-    }
-});
 
 window.copyMapLink = async function(link, button) {
     const card = button.closest('.map-card');
     const favoriteBtn = card.querySelector('.favorite-btn');
-    let mapData = { mapName: 'Unknown', artist: 'Unknown', mapper: 'Unknown', id: null };  // <-- ADD id
+    let mapData = { mapName: 'Unknown', artist: 'Unknown', mapper: 'Unknown', id: null };
     if (favoriteBtn) {
         try { mapData = JSON.parse(favoriteBtn.getAttribute('data-map').replace(/&quot;/g, '"').replace(/&#39;/g, "'")); } catch (e) {}
     }
     try {
         await navigator.clipboard.writeText(link);
         if (popup) { popup.textContent = 'Map link copied to clipboard!'; popup.style.display = 'block'; setTimeout(() => { popup.style.display = 'none'; }, 2000); }
-        button.textContent = 'Copied!';
+        button.innerHTML = '<img src="https://i.imgur.com/BYt3MpP.png" style="width:25px;height:25px;object-fit:contain;vertical-align:middle;margin-right:5px;">Copied!';
         button.classList.add('copied');
-        setTimeout(() => { button.textContent = 'Copy Link'; button.classList.remove('copied'); }, 1000);
+        setTimeout(() => { 
+            button.innerHTML = '<img src="https://i.imgur.com/BYt3MpP.png" style="width:25px;height:25px;object-fit:contain;vertical-align:middle;margin-right:5px;">Copy Link'; 
+            button.classList.remove('copied'); 
+        }, 1000);
         if (window.errorReporter && window.errorReporter.reportMapCopy) {
             await window.errorReporter.reportMapCopy(
                 mapData.mapName, 
@@ -1721,7 +1824,7 @@ window.copyRawData = async function(link) {
         const dropdown = event.target.closest('.more-actions-dropdown');
         const card = dropdown.closest('.map-card');
         const favoriteBtn = card.querySelector('.favorite-btn');
-        let mapData = { mapName: 'Unknown', artist: 'Unknown', mapper: 'Unknown', id: null };  // <-- ADD id
+        let mapData = { mapName: 'Unknown', artist: 'Unknown', mapper: 'Unknown', id: null }; 
         if (favoriteBtn) {
             try { mapData = JSON.parse(favoriteBtn.getAttribute('data-map').replace(/&quot;/g, '"').replace(/&#39;/g, "'")); } catch (e) {}
         }
@@ -1841,15 +1944,41 @@ function renderMaps() {
     if (loadingSpinner) loadingSpinner.style.display = 'none';
 }
 
+const STATS_CACHE_KEY = 'soundSpaceMapStats';
+const STATS_CACHE_TTL = 3 * 24 * 60 * 60 * 1000; // math 
+
+function loadStatsCache() {
+    try {
+        const raw = localStorage.getItem(STATS_CACHE_KEY);
+        if (!raw) return {};
+        const { timestamp, stats } = JSON.parse(raw);
+        if (Date.now() - timestamp > STATS_CACHE_TTL) {
+            localStorage.removeItem(STATS_CACHE_KEY);
+            return {};
+        }
+        return stats;
+    } catch (e) { return {}; }
+}
+
+function saveStatsCache(stats) {
+    try {
+        localStorage.setItem(STATS_CACHE_KEY, JSON.stringify({
+            timestamp: Date.now(),
+            stats
+        }));
+    } catch (e) {}
+}
+
 async function loadMapData() {
     try {
         if (loadingSpinner) loadingSpinner.style.display = 'block';
         await loadMapCopies();
+        await loadMapVotes(); 
         initializeMapperLookup();
         const timestamp = Date.now();
         let mapData;
         try {
-            const response = await fetch(`https://faworee.com/soundspacecustoms/Mapdata.json?v=${timestamp}`);
+            const response = await fetch(`Mapdata.json?v=${timestamp}`);
             if (!response.ok) throw new Error('JSON failed');
             mapData = await response.json();
         } catch (jsonError) {
@@ -1857,52 +1986,66 @@ async function loadMapData() {
             if (!response.ok) throw new Error('Both JSON and PHP failed');
             mapData = await response.json();
         }
-        
+
+        const statsCache = loadStatsCache();
+        const updatedCache = { ...statsCache };
+
         const mapPromises = mapData.map(async (mapObj) => {
             if (!mapObj || !mapObj.link) return null;
-            
-           const enhancedMapObj = {
-    ...mapObj,
-    id: mapObj.id || null,  
-    duration: null,
-    noteCount: null,
-    copies: getMapCopies(mapObj.id, mapObj.mapper),  
-    isNew: mapObj.isNew || false,
-    starRating: mapObj.starRating ? parseFloat(mapObj.starRating) : null,
-    info: mapObj.info || null,
-    userId: mapObj.userId || null
-};
-            
+
+            const enhancedMapObj = {
+                ...mapObj,
+                id: mapObj.id || null,
+                duration: null,
+                noteCount: null,
+                copies: getMapCopies(mapObj.id, mapObj.mapper),
+                isNew: mapObj.isNew || false,
+                starRating: mapObj.starRating ? parseFloat(mapObj.starRating) : null,
+                info: mapObj.info || null,
+                userId: mapObj.userId || null
+            };
+
+            if (statsCache[mapObj.link]) {
+                enhancedMapObj.noteCount = statsCache[mapObj.link].noteCount;
+                enhancedMapObj.duration  = statsCache[mapObj.link].duration;
+                return enhancedMapObj;
+            }
+
             try {
-                const rawLink = enhancedMapObj.link.replace('github.com', 'raw.githubusercontent.com').replace('/blob/', '/');
+                const rawLink = enhancedMapObj.link
+                    .replace('github.com', 'raw.githubusercontent.com')
+                    .replace('/blob/', '/');
                 const mapResponse = await fetch(rawLink);
                 if (mapResponse.ok) {
                     const mapContent = await mapResponse.text();
                     const firstCommaIndex = mapContent.indexOf(',');
                     if (firstCommaIndex !== -1) {
-                        const notesData = mapContent.substring(firstCommaIndex + 1);
-                        const noteArray = notesData.split(',');
+                        const noteArray = mapContent.substring(firstCommaIndex + 1).split(',');
                         enhancedMapObj.noteCount = noteArray.length;
                         if (noteArray.length > 0) {
                             try {
-                                const firstNoteParts = noteArray[0].split('|');
-                                const startTime = parseFloat(firstNoteParts[2]) || 0;
-                                const lastNoteParts = noteArray[noteArray.length - 1].split('|');
-                                const endTime = parseFloat(lastNoteParts[2]) || 0;
+                                const startTime = parseFloat(noteArray[0].split('|')[2]) || 0;
+                                const endTime   = parseFloat(noteArray[noteArray.length - 1].split('|')[2]) || 0;
                                 enhancedMapObj.duration = Math.max(0, endTime - startTime);
                             } catch (e) {}
                         }
                     }
                 }
+                updatedCache[mapObj.link] = {
+                    noteCount: enhancedMapObj.noteCount,
+                    duration:  enhancedMapObj.duration
+                };
             } catch (err) {}
-            
+
             return enhancedMapObj;
         });
-        
+
         maps = (await Promise.all(mapPromises)).filter(map => map !== null);
+        saveStatsCache(updatedCache);
         restoreSearchAndSort();
         initRangeSliders();
         filterAndRenderMaps();
+        startVotePolling();
     } catch (error) {
         if (loadingSpinner) loadingSpinner.style.display = 'none';
         if (mapGrid) {
@@ -1910,11 +2053,12 @@ async function loadMapData() {
         }
     }
 }
+
 async function loadMapCopies() {
     try {
         const timestamp = Date.now();
         try {
-            const response = await fetch(`https://faworee.com/soundspacecustoms/MapCopies.json?v=${timestamp}`);
+            const response = await fetch(`MapCopies.json?v=${timestamp}`);
             if (!response.ok) throw new Error('JSON failed');
             mapCopiesData = await response.json();
         } catch (jsonError) {
@@ -1964,6 +2108,91 @@ function getMapCopies(mapId, mapper) {
 
 function getMapCopiesRobust(mapId, mapper) {
     return getMapCopies(mapId, mapper);
+}
+let mapVotesData = {};
+
+async function loadMapVotes() {
+    try {
+        const cached = localStorage.getItem('mapVotesCache');
+        const cachedTime = localStorage.getItem('mapVotesCacheTime');
+        if (cached && cachedTime && (Date.now() - parseInt(cachedTime)) < 1800000) {
+            mapVotesData = JSON.parse(cached);
+            return;
+        }
+        const response = await fetch(MAP_API_URL, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ action: 'getVotes' })
+        });
+        if (response.ok) {
+            const data = await response.json();
+            mapVotesData = data.votes || {};
+            localStorage.setItem('mapVotesCache', JSON.stringify(mapVotesData));
+            localStorage.setItem('mapVotesCacheTime', Date.now().toString());
+        }
+    } catch (e) {
+        mapVotesData = {};
+    }
+}
+
+async function refreshVotesSilently() {
+    try {
+        const response = await fetch(MAP_API_URL, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ action: 'getVotes' })
+        });
+        if (!response.ok) return;
+        const data = await response.json();
+        const newVotes = data.votes || {};
+        const user = window.getDiscordUser ? window.getDiscordUser() : null;
+
+        Object.keys(newVotes).forEach(mapId => {
+            const oldData = mapVotesData[mapId] || { likes: 0, dislikes: 0 };
+            const newData = newVotes[mapId];
+
+            if (oldData.likes !== newData.likes || oldData.dislikes !== newData.dislikes) {
+                document.querySelectorAll(`.ld-btn-full[data-map-id="${mapId}"]`).forEach(btn => {
+                    const voteType = btn.dataset.vote;
+                    const countEl = btn.querySelector('.ld-count');
+                    if (!countEl) return;
+
+                    const oldCount = voteType === 'like' ? oldData.likes : oldData.dislikes;
+                    const newCount = voteType === 'like' ? newData.likes : newData.dislikes;
+
+                    if (oldCount !== newCount) {
+                        animateCount(countEl, oldCount, newCount);
+                    }
+
+                    if (user) {
+                        const isLiked    = (newData.likedBy    || []).includes(user.id);
+                        const isDisliked = (newData.dislikedBy || []).includes(user.id);
+                        if (voteType === 'like')    btn.classList.toggle('liked',    isLiked);
+                        if (voteType === 'dislike') btn.classList.toggle('disliked', isDisliked);
+                    }
+                });
+            }
+        });
+
+        mapVotesData = newVotes;
+    } catch (e) {}
+}
+
+function animateCount(el, from, to) {
+    if (from === to) return;
+    el.classList.remove('count-bump-up', 'count-bump-down');
+    void el.offsetWidth;
+    el.textContent = to;
+    el.classList.add(to > from ? 'count-bump-up' : 'count-bump-down');
+    setTimeout(() => el.classList.remove('count-bump-up', 'count-bump-down'), 400);
+}
+
+function startVotePolling() {
+    setInterval(refreshVotesSilently, 30000);
+}
+function getMapVotes(mapId) {
+    if (!mapId || !mapVotesData[mapId]) return { likes: 0, dislikes: 0, likedBy: [], dislikedBy: [] };
+    return mapVotesData[mapId];
 }
 
 function loadChangelog() {
