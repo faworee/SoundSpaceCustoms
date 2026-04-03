@@ -629,26 +629,26 @@ function handleSecondarySort(value) {
     }
 
     async function reportMapCopy(mapName, artist, mapper, copyType = 'link', mapId = null) {
-    if (!trackingEnabled) return { success: true, tracking: false };
-    try {
-        const response = await fetch(WORKER_URL, {
-            method: 'POST',
-            headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify({ 
-                type: 'map-copy', 
-                mapName, 
-                artist, 
-                mapper, 
-                mapId,        
-                copyType, 
-                fingerprint: userFingerprint 
-            })
-        });
-        return await response.json();
-    } catch (error) {
-        return { success: false };
+        if (!trackingEnabled) return { success: true, tracking: false };
+        try {
+            const response = await fetch(WORKER_URL, {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({
+                    type: 'map-copy',
+                    mapName,
+                    artist,
+                    mapper,
+                    mapId,
+                    copyType,
+                    fingerprint: userFingerprint
+                })
+            });
+            return await response.json();
+        } catch (error) {
+            return { success: false };
+        }
     }
-}
 
     window.errorReporter = {
         reportMapCopy,
@@ -1311,11 +1311,11 @@ async function copyToClipboard(text, message, map, copyType) {
         await navigator.clipboard.writeText(text);
         if (window.errorReporter && window.errorReporter.reportMapCopy && map) {
             window.errorReporter.reportMapCopy(
-                map.mapName, 
-                map.artist, 
-                map.mapper, 
+                map.mapName,
+                map.artist,
+                map.mapper,
                 copyType,
-                map.id || null  
+                map.id || null
             );
         }
     } catch (error) {}
@@ -1333,7 +1333,6 @@ window.toggleFavorite = function(button, event) {
     if (popup) { popup.textContent = isFav ? 'Added to favorites!' : 'Removed from favorites!'; popup.style.display = 'block'; setTimeout(() => { popup.style.display = 'none'; }, 1500); }
     if (showFavoritesOnly) filterAndRenderMaps();
 };
-
 
 window.toggleVote = async function(button, voteType, event) {
     event.stopPropagation();
@@ -1354,10 +1353,10 @@ window.toggleVote = async function(button, voteType, event) {
     if (!mapId) return;
 
     const likeBtn    = card.querySelector('.ld-btn-full[data-vote="like"]');
-const dislikeBtn = card.querySelector('.ld-btn-full[data-vote="dislike"]');
-if (!likeBtn || !dislikeBtn) return;
-const likeCount    = likeBtn.querySelector('.ld-count');
-const dislikeCount = dislikeBtn.querySelector('.ld-count');
+    const dislikeBtn = card.querySelector('.ld-btn-full[data-vote="dislike"]');
+    if (!likeBtn || !dislikeBtn) return;
+    const likeCount    = likeBtn.querySelector('.ld-count');
+    const dislikeCount = dislikeBtn.querySelector('.ld-count');
 
     const wasLiked    = likeBtn.classList.contains('liked');
     const wasDisliked = dislikeBtn.classList.contains('disliked');
@@ -1373,7 +1372,7 @@ const dislikeCount = dislikeBtn.querySelector('.ld-count');
         if (voteType === 'like')    { likeBtn.classList.add('liked');       likeDelta    += 1; }
         if (voteType === 'dislike') { dislikeBtn.classList.add('disliked'); dislikeDelta += 1; }
     }
- 
+
     const oldLikes    = parseInt(likeCount.textContent, 10);
     const oldDislikes = parseInt(dislikeCount.textContent, 10);
     animateCount(likeCount,    oldLikes,    Math.max(0, oldLikes    + likeDelta));
@@ -1498,41 +1497,41 @@ document.getElementById('saveMapEditsBtn')?.addEventListener('click', async func
     const user = window.getDiscordUser();
     if (!user) { alert('Please login with Discord to edit maps'); return; }
     if (user.id !== currentEditingMap.discordId && !isAdmin()) { alert('You can only edit your own maps'); return; }
-    
+
     const newMapName = document.getElementById('editMapName').value.trim();
     const newArtist = document.getElementById('editArtist').value.trim();
     const newMapper = document.getElementById('editMapper').value.trim();
     const newGithubLink = document.getElementById('editGithubLink').value.trim();
     const newInfo = document.getElementById('editInfo').value.trim();
-    
-    if (!newMapName || !newArtist || !newMapper || !newGithubLink) { 
-        alert('Please fill in all required fields (Map Name, Artist, Mapper, GitHub Link)'); 
-        return; 
+
+    if (!newMapName || !newArtist || !newMapper || !newGithubLink) {
+        alert('Please fill in all required fields (Map Name, Artist, Mapper, GitHub Link)');
+        return;
     }
-    
+
     if (!newGithubLink.startsWith('http')) {
         alert('GitHub link must be a valid URL starting with http');
         return;
     }
-    
+
     const selectedDifficulty = document.querySelector('#editDifficultyOptions .filter-option.active')?.dataset.difficulty;
     if (!selectedDifficulty) { alert('Please select a difficulty'); return; }
-    
+
     const selectedPatternsEdit = Array.from(document.querySelectorAll('#editPatternOptions .filter-option.active')).map(btn => btn.dataset.pattern);
-    
-    const originalMapFromList = maps.find(m => 
-        m.mapName === currentEditingMap.mapName && 
-        m.artist === currentEditingMap.artist && 
+
+    const originalMapFromList = maps.find(m =>
+        m.mapName === currentEditingMap.mapName &&
+        m.artist === currentEditingMap.artist &&
         m.mapper === currentEditingMap.mapper
     );
-    
+
     const originalLink = originalMapFromList ? originalMapFromList.link : currentEditingMap.link;
-    
+
     if (!originalLink || originalLink.length < 10 || !originalLink.startsWith('http')) {
         alert('Error: Cannot determine original map link. The map data may be corrupted.');
         return;
     }
-    
+
     currentEditingMap.mapName = newMapName;
     currentEditingMap.artist = newArtist;
     currentEditingMap.mapper = newMapper;
@@ -1540,12 +1539,12 @@ document.getElementById('saveMapEditsBtn')?.addEventListener('click', async func
     currentEditingMap.info = newInfo;
     currentEditingMap.difficulty = selectedDifficulty;
     currentEditingMap.patterns = selectedPatternsEdit.length > 0 ? selectedPatternsEdit : ["No Data"];
-    
+
     const saveBtn = document.getElementById('saveMapEditsBtn');
     const originalText = saveBtn.textContent;
     saveBtn.textContent = 'Saving...';
     saveBtn.disabled = true;
-    
+
     try {
         let action = 'editMap';
         if (isAdmin()) {
@@ -1555,35 +1554,28 @@ document.getElementById('saveMapEditsBtn')?.addEventListener('click', async func
                 const currentRating = currentEditingMap.starRating;
                 if (newStarRating !== '' && newStarRating !== String(currentRating)) {
                     const ratingValue = parseFloat(newStarRating);
-                    if (isNaN(ratingValue) || ratingValue < 0 || ratingValue > 10) { 
-                        alert('Star rating must be between 0 and 10'); 
-                        throw new Error('Invalid star rating'); 
+                    if (isNaN(ratingValue) || ratingValue < 0 || ratingValue > 10) {
+                        alert('Star rating must be between 0 and 10');
+                        throw new Error('Invalid star rating');
                     }
                     currentEditingMap.starRating = ratingValue;
                     action = 'updateStarRating';
                 }
             }
         }
-        
-        console.log('Sending edit request:', {
-            action,
-            originalLink,
-            newLink: newGithubLink,
-            mapName: newMapName
-        });
-        
+
         const response = await fetch(MAP_API_URL, {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify({ 
-                action, 
-                userId: user.id, 
-                isAdmin: user.isAdmin || false, 
+            body: JSON.stringify({
+                action,
+                userId: user.id,
+                isAdmin: user.isAdmin || false,
                 originalLink: originalLink,
                 mapData: currentEditingMap
             })
         });
-        
+
         let responseData;
         const contentType = response.headers.get('content-type');
         if (contentType && contentType.includes('application/json')) {
@@ -1593,18 +1585,18 @@ document.getElementById('saveMapEditsBtn')?.addEventListener('click', async func
             console.error('Non-JSON response:', textResponse);
             throw new Error('Server returned non-JSON response');
         }
-        
+
         if (!response.ok) {
             const errorMsg = responseData.error || 'Unknown error';
             const errorDetails = responseData.details || '';
             throw new Error(errorDetails ? `${errorMsg}: ${errorDetails}` : errorMsg);
         }
-        
+
         const mapIndex = maps.findIndex(m => m.link === originalLink);
         if (mapIndex !== -1) {
             maps[mapIndex] = { ...maps[mapIndex], ...currentEditingMap };
         }
-        
+
         alert('✅ Map updated successfully!');
         closeModal('editMapModal');
         setTimeout(() => { location.reload(); }, 500);
@@ -1648,8 +1640,6 @@ document.getElementById('deleteMapBtn')?.addEventListener('click', async functio
         deleteBtn.disabled = false;
     }
 });
-
-
 
 function compareByName(a, b) {
     const nameComp = a.mapName.toLowerCase().localeCompare(b.mapName.toLowerCase());
@@ -1710,7 +1700,7 @@ function createMapCard(m) {
     const difficultyName = m.difficulty || 'Unknown';
     const starRating = m.starRating !== null && m.starRating !== undefined ? `★ ${parseFloat(m.starRating).toFixed(2)}` : '★ N/A';
 
-   let statsHtml = '';
+    let statsHtml = '';
     if (!isLowQualityMode) {
         const durationText = (m.duration !== undefined && m.duration !== null) ? formatDuration(m.duration) : '--:--';
         const noteCountText = (m.noteCount !== undefined && m.noteCount !== null) ? m.noteCount.toLocaleString() : '----';
@@ -1739,7 +1729,7 @@ function createMapCard(m) {
     const canEdit = user && (user.id === m.discordId || user.isAdmin === true);
     const editButtonHtml = canEdit ? `<div class="dropdown-action" onclick="openEditMap(this, event)">Edit Map</div>` : '';
 
-   card.innerHTML = `
+    card.innerHTML = `
     ${newTagHtml}
     <div class="card-header">
         <div class="star-rating">${starRating}</div>
@@ -1790,7 +1780,6 @@ function createMapCard(m) {
     return card;
 }
 
-
 window.copyMapLink = async function(link, button) {
     const card = button.closest('.map-card');
     const favoriteBtn = card.querySelector('.favorite-btn');
@@ -1803,17 +1792,17 @@ window.copyMapLink = async function(link, button) {
         if (popup) { popup.textContent = 'Map link copied to clipboard!'; popup.style.display = 'block'; setTimeout(() => { popup.style.display = 'none'; }, 2000); }
         button.innerHTML = '<img src="https://i.imgur.com/BYt3MpP.png" style="width:25px;height:25px;object-fit:contain;vertical-align:middle;margin-right:5px;">Copied!';
         button.classList.add('copied');
-        setTimeout(() => { 
-            button.innerHTML = '<img src="https://i.imgur.com/BYt3MpP.png" style="width:25px;height:25px;object-fit:contain;vertical-align:middle;margin-right:5px;">Copy Link'; 
-            button.classList.remove('copied'); 
+        setTimeout(() => {
+            button.innerHTML = '<img src="https://i.imgur.com/BYt3MpP.png" style="width:25px;height:25px;object-fit:contain;vertical-align:middle;margin-right:5px;">Copy Link';
+            button.classList.remove('copied');
         }, 1000);
         if (window.errorReporter && window.errorReporter.reportMapCopy) {
             await window.errorReporter.reportMapCopy(
-                mapData.mapName, 
-                mapData.artist, 
-                mapData.mapper, 
+                mapData.mapName,
+                mapData.artist,
+                mapData.mapper,
                 'link',
-                mapData.id || null  
+                mapData.id || null
             );
         }
     } catch (err) {}
@@ -1824,7 +1813,7 @@ window.copyRawData = async function(link) {
         const dropdown = event.target.closest('.more-actions-dropdown');
         const card = dropdown.closest('.map-card');
         const favoriteBtn = card.querySelector('.favorite-btn');
-        let mapData = { mapName: 'Unknown', artist: 'Unknown', mapper: 'Unknown', id: null }; 
+        let mapData = { mapName: 'Unknown', artist: 'Unknown', mapper: 'Unknown', id: null };
         if (favoriteBtn) {
             try { mapData = JSON.parse(favoriteBtn.getAttribute('data-map').replace(/&quot;/g, '"').replace(/&#39;/g, "'")); } catch (e) {}
         }
@@ -1837,11 +1826,11 @@ window.copyRawData = async function(link) {
         if (dropdown) dropdown.classList.remove('show');
         if (window.errorReporter && window.errorReporter.reportMapCopy) {
             window.errorReporter.reportMapCopy(
-                mapData.mapName, 
-                mapData.artist, 
-                mapData.mapper, 
+                mapData.mapName,
+                mapData.artist,
+                mapData.mapper,
                 'raw',
-                mapData.id || null  
+                mapData.id || null
             );
         }
     } catch (error) {
@@ -1909,25 +1898,25 @@ function filterAndRenderMaps() {
             matchesDuration && matchesNotes && matchesNewFilter && matchesFavoritesFilter;
     });
 
-   filteredMaps.sort((a, b) => {
-    const aFav = favoritesManager.isFavorite(a);
-    const bFav = favoritesManager.isFavorite(b);
-    if (aFav !== bFav) return aFav ? -1 : 1;
+    filteredMaps.sort((a, b) => {
+        const aFav = favoritesManager.isFavorite(a);
+        const bFav = favoritesManager.isFavorite(b);
+        if (aFav !== bFav) return aFav ? -1 : 1;
 
-    const primaryResult = applySortComparison(a, b, currentSortMode);
-    if (primaryResult !== 0) return primaryResult;
+        const primaryResult = applySortComparison(a, b, currentSortMode);
+        if (primaryResult !== 0) return primaryResult;
 
-    const aNew = a.isNew || false;
-    const bNew = b.isNew || false;
-    if (aNew !== bNew) return aNew ? -1 : 1;
+        const aNew = a.isNew || false;
+        const bNew = b.isNew || false;
+        if (aNew !== bNew) return aNew ? -1 : 1;
 
-    if (secondarySortMode && secondarySortMode !== 'none') {
-        const secondaryResult = applySortComparison(a, b, secondarySortMode);
-        if (secondaryResult !== 0) return secondaryResult;
-    }
+        if (secondarySortMode && secondarySortMode !== 'none') {
+            const secondaryResult = applySortComparison(a, b, secondarySortMode);
+            if (secondaryResult !== 0) return secondaryResult;
+        }
 
-    return compareByName(a, b);
-});
+        return compareByName(a, b);
+    });
 
     updateActiveFiltersDisplay();
     renderMaps();
@@ -1945,7 +1934,7 @@ function renderMaps() {
 }
 
 const STATS_CACHE_KEY = 'soundSpaceMapStats';
-const STATS_CACHE_TTL = 3 * 24 * 60 * 60 * 1000; // math 
+const STATS_CACHE_TTL = 3 * 24 * 60 * 60 * 1000;
 
 function loadStatsCache() {
     try {
@@ -1973,16 +1962,16 @@ async function loadMapData() {
     try {
         if (loadingSpinner) loadingSpinner.style.display = 'block';
         await loadMapCopies();
-        await loadMapVotes(); 
+        await loadMapVotes();
         initializeMapperLookup();
         const timestamp = Date.now();
         let mapData;
         try {
-            const response = await fetch(`Mapdata.json?v=${timestamp}`);
+            const response = await fetch(`https://faworee.com/soundspacecustoms/Mapdata.json?v=${timestamp}`);
             if (!response.ok) throw new Error('JSON failed');
             mapData = await response.json();
         } catch (jsonError) {
-            const response = await fetch(`getMapData.php?v=${timestamp}`);
+            const response = await fetch(`https://faworee.com/soundspacecustoms/getMapData.php?v=${timestamp}`);
             if (!response.ok) throw new Error('Both JSON and PHP failed');
             mapData = await response.json();
         }
@@ -2058,11 +2047,11 @@ async function loadMapCopies() {
     try {
         const timestamp = Date.now();
         try {
-            const response = await fetch(`MapCopies.json?v=${timestamp}`);
+            const response = await fetch(`https://faworee.com/soundspacecustoms/MapCopies.json?v=${timestamp}`);
             if (!response.ok) throw new Error('JSON failed');
             mapCopiesData = await response.json();
         } catch (jsonError) {
-            const response = await fetch(`getMapCopies.php?v=${timestamp}`);
+            const response = await fetch(`https://faworee.com/soundspacecustoms/getMapCopies.php?v=${timestamp}`);
             if (!response.ok) throw new Error('Both JSON and PHP failed');
             mapCopiesData = await response.json();
         }
@@ -2071,18 +2060,17 @@ async function loadMapCopies() {
     }
 }
 
-
 let normalizedMapperLookup = {};
 
 function initializeMapperLookup() {
     normalizedMapperLookup = {};
-    
+
     if (!mapCopiesData) {
         return;
     }
-    
+
     const entries = Object.entries(mapCopiesData);
-    
+
     for (const [mapperKey, data] of entries) {
         const normalized = mapperKey.toLowerCase().trim();
         normalizedMapperLookup[normalized] = mapperKey;
@@ -2102,13 +2090,14 @@ function getMapCopies(mapId, mapper) {
             }
         }
     }
-    
+
     return 0;
 }
 
 function getMapCopiesRobust(mapId, mapper) {
     return getMapCopies(mapId, mapper);
 }
+
 let mapVotesData = {};
 
 async function loadMapVotes() {
@@ -2188,8 +2177,9 @@ function animateCount(el, from, to) {
 }
 
 function startVotePolling() {
-    setInterval(refreshVotesSilently, 30000);
+    setInterval(refreshVotesSilently, 900000);
 }
+
 function getMapVotes(mapId) {
     if (!mapId || !mapVotesData[mapId]) return { likes: 0, dislikes: 0, likedBy: [], dislikedBy: [] };
     return mapVotesData[mapId];
@@ -2199,7 +2189,7 @@ function loadChangelog() {
     const container = document.getElementById('changelogContent');
     if (!container) return;
     container.innerHTML = '<p style="text-align: center; color: #666;">Loading changelog...</p>';
-    fetch('Changelog.json?v=' + Date.now())
+    fetch('https://faworee.com/soundspacecustoms/Changelog.json?v=' + Date.now())
         .then(response => {
             if (!response.ok) throw new Error('Failed to load changelog');
             return response.json();
