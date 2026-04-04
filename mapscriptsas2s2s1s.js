@@ -2102,23 +2102,10 @@ let mapVotesData = {};
 
 async function loadMapVotes() {
     try {
-        const cached = localStorage.getItem('mapVotesCache');
-        const cachedTime = localStorage.getItem('mapVotesCacheTime');
-        if (cached && cachedTime && (Date.now() - parseInt(cachedTime)) < 1800000) {
-            mapVotesData = JSON.parse(cached);
-            return;
-        }
-        const response = await fetch(MAP_API_URL, {
-            method: 'POST',
-            headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify({ action: 'getVotes' })
-        });
-        if (response.ok) {
-            const data = await response.json();
-            mapVotesData = data.votes || {};
-            localStorage.setItem('mapVotesCache', JSON.stringify(mapVotesData));
-            localStorage.setItem('mapVotesCacheTime', Date.now().toString());
-        }
+        const timestamp = Date.now();
+        const response = await fetch(`https://faworee.com/soundspacecustoms/votes.json?v=${timestamp}`);
+        if (!response.ok) throw new Error('Failed to load votes');
+        mapVotesData = await response.json();
     } catch (e) {
         mapVotesData = {};
     }
