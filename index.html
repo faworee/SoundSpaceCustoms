@@ -5,7 +5,11 @@
   
   const favValue = favCookie ? favCookie.split('=').slice(1).join('=') : '';
   
-  window.location.replace(
-    'https://faworee.com/soundspacecustoms/?favorites=' + encodeURIComponent(favValue)
-  );
+  if (favValue) {
+    window.location.replace(
+      'https://faworee.com/soundspacecustoms/?favorites=' + favValue
+    );
+  } else {
+    window.location.replace('https://faworee.com/soundspacecustoms/');
+  }
 </script>
